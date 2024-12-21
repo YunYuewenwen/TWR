@@ -17,8 +17,8 @@ ServerEvents.tags("item", (event) => {
 		"green",
 		"red"
 	]
-	colors.forEach((clr) => {
-		event.add("minecraft:shulker_box", `minecraft:${ clr }_shulker_box`)
+	colors.forEach((color) => {
+		event.add("minecraft:shulker_box", `minecraft:${ color }_shulker_box`)
 	})
 	event.add("itemfilters:check_nbt", "tetra:modular_double")
 	event.add("forge:plates/bronze", "steampowered:bronze_sheet")
@@ -149,7 +149,7 @@ ServerEvents.tags("item", (event) => {
 		"stone_age:mammoth_meat"
 	])
 	event.remove("forge:ingots", [
-			"create:andesite_alloy"
+		"create:andesite_alloy"
 	])
 
 	event.remove("create:create_ingots", [
