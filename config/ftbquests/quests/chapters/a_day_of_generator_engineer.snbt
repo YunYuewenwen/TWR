@@ -30,6 +30,11 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					id: "41827AFC0F571BC0"
+					insight: 5
+					type: "frostedheart:insight"
+				}
 			]
 			shape: "gear"
 			size: 2.5d
@@ -70,11 +75,18 @@
 			hide_until_deps_visible: false
 			icon: "frostedheart:generator_t2"
 			id: "2D570AD59FE2D6E1"
-			rewards: [{
-				id: "1C35AD7A07B1610A"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "1C35AD7A07B1610A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "07D417C93C3D00CC"
+					insight: 5
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			size: 2.5d
 			subtitle: "{quest.twr.2D570AD59FE2D6E1.subtitle}"
@@ -126,6 +138,11 @@
 			]
 			icon: "frostedheart:radiator"
 			id: "4BBE69E2E2A4276F"
+			rewards: [{
+				id: "63A4C8DC356C0F1A"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "{quest.twr.4BBE69E2E2A4276F.subtitle}"
@@ -154,6 +171,11 @@
 				"{quest.twr.58912971B356779C.description.3}"
 			]
 			id: "58912971B356779C"
+			rewards: [{
+				id: "62B8271359C3FDE1"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			size: 1.5d
 			subtitle: "{quest.twr.58912971B356779C.subtitle}"
 			tasks: [{
@@ -172,6 +194,11 @@
 				"{quest.twr.2E54EBA4E016412C.description.3}"
 			]
 			id: "2E54EBA4E016412C"
+			rewards: [{
+				id: "7331498AED067AE9"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			size: 1.5d
 			subtitle: "{quest.twr.2E54EBA4E016412C.subtitle}"
 			tasks: [{
@@ -192,6 +219,11 @@
 			dependencies: ["2D570AD59FE2D6E1"]
 			description: ["{quest.twr.3EF706F5A31CDDD6.description.1}"]
 			id: "3EF706F5A31CDDD6"
+			rewards: [{
+				id: "695309ADA29BE041"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			size: 1.5d
 			subtitle: "{quest.twr.3EF706F5A31CDDD6.subtitle}"
 			tasks: [{
@@ -315,11 +347,18 @@
 				"{quest.twr.7627D80D3091F54C.description.17}"
 			]
 			id: "7627D80D3091F54C"
-			rewards: [{
-				id: "10BFAA3DDA2E2F5D"
-				item: "minecraft:sugar_cane"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "10BFAA3DDA2E2F5D"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "774901744483705F"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			size: 1.5d
 			subtitle: "{quest.twr.7627D80D3091F54C.subtitle}"
 			tasks: [{
@@ -364,6 +403,11 @@
 				"{quest.twr.047F11A29F16A270.description.3}"
 			]
 			id: "047F11A29F16A270"
+			rewards: [{
+				id: "532E02BFFF370581"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			size: 1.5d
 			subtitle: "{quest.twr.047F11A29F16A270.subtitle}"
 			tasks: [{
@@ -378,6 +422,11 @@
 			dependencies: ["58912971B356779C"]
 			description: ["{quest.twr.0BDD1D411E09DB4A.description.1}"]
 			id: "0BDD1D411E09DB4A"
+			rewards: [{
+				id: "51D5B14D0A10D8B7"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			size: 1.5d
 			subtitle: "{quest.twr.0BDD1D411E09DB4A.subtitle}"
 			tasks: [{
@@ -413,6 +462,11 @@
 			dependencies: ["3EF706F5A31CDDD6"]
 			description: ["{quest.twr.39E837A6FC653395.description.1}"]
 			id: "39E837A6FC653395"
+			rewards: [{
+				id: "4BDB2A08CFF3545C"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			size: 1.5d
 			subtitle: "{quest.twr.39E837A6FC653395.subtitle}"
 			tasks: [{

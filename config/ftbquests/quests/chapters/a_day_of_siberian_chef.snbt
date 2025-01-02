@@ -102,17 +102,24 @@
 			]
 			hide_until_deps_visible: false
 			id: "7AA152F9B5AF6677"
-			rewards: [{
-				id: "5F864E78576B3F95"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "crockpot:book"
+			rewards: [
+				{
+					id: "5F864E78576B3F95"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "crockpot:book"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "10FFFC40E146E2E1"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "rsquare"
 			subtitle: "{quest.twr.7AA152F9B5AF6677.subtitle}"
 			tasks: [{
@@ -127,6 +134,11 @@
 			dependencies: ["69D939596ED4C0AF"]
 			description: ["{quest.twr.6D01046E549A087E.description.1}"]
 			id: "6D01046E549A087E"
+			rewards: [{
+				id: "75B62C2BB6660780"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "rsquare"
 			subtitle: "{quest.twr.6D01046E549A087E.subtitle}"
 			tasks: [{
@@ -195,6 +207,11 @@
 			dependencies: ["69D939596ED4C0AF"]
 			description: ["{quest.twr.4E2FF1AFA626A42B.description.1}"]
 			id: "4E2FF1AFA626A42B"
+			rewards: [{
+				id: "5C850DE70FC70A2B"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "rsquare"
 			subtitle: "{quest.twr.4E2FF1AFA626A42B.subtitle}"
 			tasks: [{
@@ -208,11 +225,18 @@
 		{
 			hide_until_deps_visible: false
 			id: "5CCD8F05D7402D4B"
-			rewards: [{
-				id: "38C05C8DDC01E185"
-				item: "caupona:vegetable_soup_aspic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "38C05C8DDC01E185"
+					item: "caupona:vegetable_soup_aspic"
+					type: "item"
+				}
+				{
+					id: "7B4E726DBEAA8423"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			subtitle: "{quest.twr.5CCD8F05D7402D4B.subtitle}"
 			tasks: [{
 				id: "1D51F8E3BB119A14"
@@ -246,6 +270,11 @@
 			]
 			hide_until_deps_visible: false
 			id: "0CA87739C86BB0C6"
+			rewards: [{
+				id: "209908756C87B917"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.0CA87739C86BB0C6.subtitle}"
 			tasks: [{
 				id: "3890274B4A2DD114"
@@ -325,6 +354,11 @@
 			description: ["{quest.twr.0B7A7EF07D539FC5.description.1}"]
 			hide_until_deps_visible: false
 			id: "0B7A7EF07D539FC5"
+			rewards: [{
+				id: "5158E6736651F732"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.0B7A7EF07D539FC5.subtitle}"
 			tasks: [{
 				id: "7240809FBC34F830"
@@ -341,6 +375,11 @@
 			]
 			hide_until_deps_visible: false
 			id: "64B11670694B854C"
+			rewards: [{
+				id: "23304C4540F19132"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.64B11670694B854C.subtitle}"
 			tasks: [{
 				id: "1B12095312E36420"
@@ -354,6 +393,11 @@
 			description: ["{quest.twr.529E18F00974DC2D.description.1}"]
 			hide_until_deps_visible: false
 			id: "529E18F00974DC2D"
+			rewards: [{
+				id: "35FC765982958275"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.529E18F00974DC2D.subtitle}"
 			tasks: [{
 				id: "1E62175F01B70310"
@@ -399,11 +443,18 @@
 			dependencies: ["5845439CF721309F"]
 			description: ["{quest.twr.7E9108130096673E.description.1}"]
 			id: "7E9108130096673E"
-			rewards: [{
-				id: "622459A6275FFC66"
-				item: "frostedheart:dried_vegetables"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "622459A6275FFC66"
+					item: "frostedheart:dried_vegetables"
+					type: "item"
+				}
+				{
+					id: "74B31D15EE471DF9"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			subtitle: "{quest.twr.7E9108130096673E.subtitle}"
 			tasks: [{
 				id: "3BC620D32AE2B1A0"
@@ -442,6 +493,11 @@
 			description: ["{quest.twr.2292AB368EF121C2.description.1}"]
 			icon: "minecraft:brown_mushroom"
 			id: "2292AB368EF121C2"
+			rewards: [{
+				id: "69AB5F1F4765E636"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [
 				{
 					count: 8L
@@ -476,6 +532,11 @@
 				"{quest.twr.432F702802327860.description.3}"
 			]
 			id: "432F702802327860"
+			rewards: [{
+				id: "7660C2DD225AEE28"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.432F702802327860.subtitle}"
 			tasks: [{
 				id: "4D5CC18CB0A34A9A"

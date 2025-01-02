@@ -6,15 +6,6 @@
 		{
 			item: {
 				Count: 1
-				id: "frostedheart:makeshift_spear"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
 				id: "frostedheart:makeshift_axe"
 				tag: {
 					Damage: 0

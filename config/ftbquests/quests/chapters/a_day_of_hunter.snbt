@@ -29,6 +29,11 @@
 					item: "stone_age:raw_hide"
 					type: "item"
 				}
+				{
+					id: "54FCFBD5974D94F5"
+					insight: 1
+					type: "frostedheart:insight"
+				}
 			]
 			subtitle: "{quest.twr.60C1118A879D4548.subtitle}"
 			tasks: [{
@@ -63,6 +68,11 @@
 					item: "stone_age:raw_hide"
 					type: "item"
 				}
+				{
+					id: "1BE8DC90FEE66C48"
+					insight: 1
+					type: "frostedheart:insight"
+				}
 			]
 			subtitle: "{quest.twr.7491448A8055DBE6.subtitle}"
 			tasks: [{
@@ -79,6 +89,11 @@
 			description: ["{quest.twr.25F5289EF9A76559.description.0}"]
 			hide_until_deps_visible: false
 			id: "25F5289EF9A76559"
+			rewards: [{
+				id: "333782242D66E7D6"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.25F5289EF9A76559.subtitle}"
 			tasks: [{
 				id: "6186DEAFF4D38610"
@@ -94,6 +109,11 @@
 			hide_until_deps_visible: false
 			icon: "minecraft:porkchop"
 			id: "7AC1F59A495B58AE"
+			rewards: [{
+				id: "4FBC111B9348D4B4"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.7AC1F59A495B58AE.subtitle}"
 			tasks: [{
 				entity: "minecraft:pig"
@@ -113,6 +133,11 @@
 			]
 			hide_until_deps_visible: false
 			id: "7A2CCE64AEE955EC"
+			rewards: [{
+				id: "4A4310A2004D0604"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.7A2CCE64AEE955EC.subtitle}"
 			tasks: [{
 				count: 64L
@@ -129,6 +154,11 @@
 			description: ["{quest.twr.4CC2FB4B9CE2367B.description.0}"]
 			hide_until_deps_visible: false
 			id: "4CC2FB4B9CE2367B"
+			rewards: [{
+				id: "0B2E7C2A49C27D01"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.4CC2FB4B9CE2367B.subtitle}"
 			tasks: [{
 				id: "08563B09C9C8534B"
@@ -143,6 +173,11 @@
 			description: ["{quest.twr.2B0D00CB09B96703.description.1}"]
 			hide_until_deps_visible: false
 			id: "2B0D00CB09B96703"
+			rewards: [{
+				id: "5EE94D429D8BE889"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.2B0D00CB09B96703.subtitle}"
 			tasks: [{
 				id: "7B3171D6519196C5"
@@ -193,6 +228,11 @@
 			hide_until_deps_visible: false
 			id: "718403EB34A5B46F"
 			optional: true
+			rewards: [{
+				id: "0B75E2520754723F"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.718403EB34A5B46F.subtitle}"
 			tasks: [{
 				id: "1D8EA544D790D174"
@@ -210,11 +250,19 @@
 			]
 			id: "443AD02B85632386"
 			optional: true
-			rewards: [{
-				id: "5BCFBE4EFFD32289"
-				table_id: 389061185286350382L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BCFBE4EFFD32289"
+					table_id: 389061185286350382L
+					type: "choice"
+				}
+				{
+					id: "31F20848F7037C26"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			subtitle: "{quest.twr.443AD02B85632386.subtitle}"
 			tasks: [{
 				count: 4L
@@ -233,6 +281,11 @@
 			]
 			id: "2406D98489C938B8"
 			optional: true
+			rewards: [{
+				id: "1DC89C550DBB9F3F"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.2406D98489C938B8.subtitle}"
 			tasks: [{
 				id: "6898C42559ADDF9E"
@@ -260,17 +313,24 @@
 			]
 			id: "42AF456D165CBF75"
 			optional: true
-			rewards: [{
-				id: "6F6F11EE99B02A40"
-				item: {
-					Count: 1
-					id: "minecraft:bow"
-					tag: {
-						Damage: 150
+			rewards: [
+				{
+					id: "6F6F11EE99B02A40"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 150
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1E9E709EEEFA035C"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			subtitle: "{quest.twr.42AF456D165CBF75.subtitle}"
 			tasks: [{
 				count: 4L
@@ -285,6 +345,11 @@
 			dependencies: ["42AF456D165CBF75"]
 			id: "4DD7D3E4613000E4"
 			optional: true
+			rewards: [{
+				id: "715D9EF6B1DC5915"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.4DD7D3E4613000E4.subtitle}"
 			tasks: [{
 				id: "07753AF4C71657C6"
@@ -309,17 +374,24 @@
 			icon: "stone_age:fishing_net"
 			id: "506C01A9BE167F7F"
 			optional: true
-			rewards: [{
-				id: "2FAF12DDAE7E3B53"
-				item: {
-					Count: 1
-					id: "stone_age:grass_mesh"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "2FAF12DDAE7E3B53"
+					item: {
+						Count: 1
+						id: "stone_age:grass_mesh"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "570EE552403B9719"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			subtitle: "{quest.twr.506C01A9BE167F7F.subtitle}"
 			tasks: [
 				{
@@ -353,6 +425,11 @@
 			]
 			id: "5DD231E4178E830D"
 			optional: true
+			rewards: [{
+				id: "575A94D67F3E862C"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.5DD231E4178E830D.subtitle}"
 			tasks: [{
 				id: "3AE56D40A163154B"

@@ -32,7 +32,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.6667AA13CA3DAC9B.title}"
-			x: -3.5d
+			x: -9.5d
 			y: 0.0d
 		}
 		{
@@ -56,8 +56,8 @@
 				title: "{quest.twr.1F615C38B1A015E5.0758A45D51C54F20.title}"
 				type: "checkmark"
 			}]
-			title: "{quest.twr.1F615C38B1A015E5.title}"
-			x: -3.5d
+			title: "Find Recipes"
+			x: -9.5d
 			y: 3.0d
 		}
 		{
@@ -824,7 +824,8 @@
 				title: "{quest.twr.660F95E6765CD77A.71D0A569C8AC4690.title}"
 				type: "checkmark"
 			}]
-			x: -3.5d
+			title: "Need Help?"
+			x: -9.5d
 			y: 1.5d
 		}
 		{
@@ -1495,6 +1496,35 @@
 			title: "Weird Snow"
 			x: 13.0d
 			y: 4.0d
+		}
+		{
+			description: [
+				"Under various scenarios, you may unlock quests with &bInsight Reward&r."
+				""
+				"&bInsight&r is an important resource, much like your Experience Bar, but it is team-based, and do not reset when you die. "
+				""
+				"&bInsight Level&r progresses as you accumulate your &bInsight Point&r, much like your experience Level. "
+				""
+				"Every new Research needs a new &bInsight Level&r to unlock."
+				""
+				"Keep the discovery spirit: You always earn Insight when you &bDiscover&r or &eCreate.&r"
+			]
+			icon: {
+				Count: 1
+				id: "frostedheart:quill_and_ink"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7F486B43F356A348"
+			shape: "hexagon"
+			tasks: [{
+				id: "5A41DB2E76C56FB9"
+				title: "Insight"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{chapter.twr.0C07C58470EE031C.subtitle.0}"]
