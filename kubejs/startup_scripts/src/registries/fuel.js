@@ -1,9 +1,5 @@
 StartupEvents.registry("item", (event) => {
 	let fuel_procs = [
-		"anthracite_dust",
-		"bituminous_coal_dust",
-		"subbituminous_coal_dust",
-		"lignite_dust",
 		"coal_dust",
 		"charcoal_dust",
 		"limed_coal",
@@ -21,10 +17,6 @@ StartupEvents.registry("item", (event) => {
 		"straw_briquette"
 	]
 	let fuel_vals = {
-		"anthracite_dust": 2600,
-		"bituminous_coal_dust": 2000,
-		"subbituminous_coal_dust": 1300,
-		"lignite_dust": 1100,
 		"coal_dust": 1300,
 		"charcoal_dust": 1100,
 		"limed_coal": 0,
@@ -45,10 +37,8 @@ StartupEvents.registry("item", (event) => {
 		let fv = fuel_vals[item]
 		if (fv === 0) {
 			event.create(item)
-				.texture(`kubejs:item/${item}`)
 		} else {
 			event.create(item)
-				.texture(`kubejs:item/${item}`)
 				.burnTime(fv)
 		}
 	})

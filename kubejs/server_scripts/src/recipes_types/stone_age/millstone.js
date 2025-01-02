@@ -14,14 +14,4 @@ ServerEvents.recipes((event) => {
             .secondChance(secondC)
             .activateCount(activate)
     })
-    /*
-    recipesnf.forEach((recipe) => {
-        event.custom({
-            "type": "stone_age:millstone",
-            "ingredient": recipe.ingredients.toJson(),
-            "activateCount": recipe.activateCount,
-            "result": recipe.result.toResultJson()
-        })
-    })
-    */
 })
