@@ -2,7 +2,6 @@ PlayerEvents.loggedIn((event) => {
 	let { player, server } = event
 
 	global.debugUserName.forEach((debugUser) => {
-		// 留言(一个无聊到真的不能再无聊的东西)
 		let playerInfo = Component.translate("text.kubejs.player").getString()
 		let modPackVersion = Component.translate("text.kubejs.version").getString()
 		player.paint({

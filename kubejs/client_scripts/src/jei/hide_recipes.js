@@ -3,7 +3,6 @@ JEIEvents.removeRecipes((event) => {
     //console.log('Valid Keys: ' + Object.keys(event));
     // event.remove('minecraft:blast_furnace', {});
 
-    let recipesToHide = []
     recipesToHide.forEach((recipe) => {
         recipe.recipes_by_id.forEach((id) => {
             if (recipe.category === 'minecraft:crafting') {

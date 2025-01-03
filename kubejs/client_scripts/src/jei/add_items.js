@@ -1,6 +1,5 @@
 JEIEvents.addItems((event) => {
-    let items = [];
-
+    let items = []
     items.forEach((item) => {
         event.add(item)
     })
