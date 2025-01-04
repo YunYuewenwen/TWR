@@ -44,6 +44,11 @@
 			dependency_requirement: "one_completed"
 			description: ["{quest.twr.0CDAFF3E5A013056.description.1}"]
 			id: "0CDAFF3E5A013056"
+			rewards: [{
+				id: "4D5EA0527B701685"
+				insight: 3
+				type: "frostedheart:insight"
+			}]
 			shape: "rsquare"
 			subtitle: "{quest.twr.0CDAFF3E5A013056.subtitle}"
 			tasks: [{
@@ -123,6 +128,11 @@
 			dependency_requirement: "one_completed"
 			description: ["{quest.twr.6356C6E09463F6AE.description.1}"]
 			id: "6356C6E09463F6AE"
+			rewards: [{
+				id: "4FE634EFDC066662"
+				insight: 3
+				type: "frostedheart:insight"
+			}]
 			shape: "rsquare"
 			subtitle: "{quest.twr.6356C6E09463F6AE.subtitle}"
 			tasks: [{
@@ -189,6 +199,11 @@
 			dependencies: ["770CD4281B427FDC"]
 			description: ["{quest.twr.1405F759FF532C22.description.1}"]
 			id: "1405F759FF532C22"
+			rewards: [{
+				id: "52B3BD770C902064"
+				insight: 3
+				type: "frostedheart:insight"
+			}]
 			shape: "rsquare"
 			subtitle: "{quest.twr.1405F759FF532C22.subtitle}"
 			tasks: [{

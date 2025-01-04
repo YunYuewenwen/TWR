@@ -22,6 +22,11 @@
 		}
 		{
 			id: "153299DC4DED93E7"
+			rewards: [{
+				id: "7963A78F04FAB001"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "7811251CF28F8FD2"
 				item: {
@@ -39,6 +44,11 @@
 		}
 		{
 			id: "05BEC339A8B4D726"
+			rewards: [{
+				id: "4E0C679F7CCB91C1"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "3C5B742BAC3798EA"
 				item: {

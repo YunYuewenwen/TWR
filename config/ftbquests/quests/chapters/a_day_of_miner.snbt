@@ -27,15 +27,15 @@
 			icon: "minecraft:grass_block"
 			id: "181378ABF5CCD166"
 			shape: "gear"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "{quest.twr.181378ABF5CCD166.subtitle}"
 			tasks: [{
 				id: "224D71FECAB88F1D"
 				type: "checkmark"
 			}]
 			title: "{quest.twr.181378ABF5CCD166.title}"
-			x: -6.6d
-			y: 0.0d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -45,6 +45,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "7D2807571451631F"
+			rewards: [{
+				id: "7C8C1AF292B85763"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "3DD88F3B703D29A6"
 				item: "frostedheart:raw_tin"
@@ -61,6 +66,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "40254682DFE145B8"
+			rewards: [{
+				id: "12F48311AFC7F8DA"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "2EB0C8C2F9ADED2A"
 				item: "frostedheart:raw_nickel"
@@ -77,6 +87,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "31ED006279866288"
+			rewards: [{
+				id: "3E0590960864DE63"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "47655DAC7245BF43"
 				item: "frostedheart:raw_pyrite"
@@ -93,6 +108,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "72D5B725766622F4"
+			rewards: [{
+				id: "27030ADD203390C0"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "35E8A9A70C19C434"
 				item: "minecraft:redstone"
@@ -109,12 +129,17 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "0ED9C71E91687BFA"
+			rewards: [{
+				id: "5C8CC24869E84BEC"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "221421E9BAA85D61"
 				item: "frostedheart:bauxite"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -2.0d
 			y: 8.5d
 		}
 		{
@@ -126,6 +151,11 @@
 			hide_text_until_complete: true
 			icon: "minecraft:coal"
 			id: "6F39341180466270"
+			rewards: [{
+				id: "4689A2C22B453326"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "722406E18437795B"
 				item: "minecraft:coal"
@@ -142,6 +172,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "5907E1263E6D81E2"
+			rewards: [{
+				id: "1EDFE4DAFCC5C707"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "322C517CA36D00A6"
 				item: "frostedheart:raw_lead"
@@ -158,6 +193,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "3840FFD53990ECA2"
+			rewards: [{
+				id: "2357E05D78B812EE"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "02ABB3A735D30777"
 				item: "minecraft:raw_gold"
@@ -174,6 +214,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "6C49B6777A13CC02"
+			rewards: [{
+				id: "411E43C332A941E7"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "214642829287011A"
 				item: "frostedheart:raw_silver"
@@ -190,6 +235,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "2A8533418E3A8B06"
+			rewards: [{
+				id: "5D81C6A0F24F4865"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "31295D7F00BCA85A"
@@ -207,6 +257,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "1120D6251E9B42C4"
+			rewards: [{
+				id: "4C729C15E8105757"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "1F71D0CFB0584489"
 				item: "frostedheart:raw_magnesite"
@@ -225,8 +280,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.707E5C06843421A7.title}"
-			x: -6.5d
-			y: 2.5d
+			x: -8.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -236,6 +291,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "4D1B960E67D023C4"
+			rewards: [{
+				id: "2067B13A8D088036"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "62EA52A8EA9DAD8E"
 				item: "minecraft:raw_iron"
@@ -252,6 +312,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "122E83F324DB80B7"
+			rewards: [{
+				id: "137E035CB3D987CA"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "52DE6D41702EFF05"
 				item: "frostedheart:raw_halite"
@@ -265,6 +330,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "73242CFC1E655F2D"
+			rewards: [{
+				id: "7A05793499FA03C3"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "29005A15A2EBDBEE"
 				item: "frostedheart:kaolin"
@@ -275,6 +345,11 @@
 		}
 		{
 			id: "61D23CC76588F126"
+			rewards: [{
+				id: "6525509241DCCF0F"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "0FB75F0F243E74F4"
 				item: "minecraft:raw_copper"
@@ -285,6 +360,11 @@
 		}
 		{
 			id: "5EAB0DA77FA7EB00"
+			rewards: [{
+				id: "7EAFCD462EBD7DB4"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "332381177E924AAE"
 				item: "frostedheart:raw_sylvite"
@@ -295,6 +375,11 @@
 		}
 		{
 			id: "3B7A00F478CA4039"
+			rewards: [{
+				id: "3172BA7378B7C235"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "1158E98A7F40337E"
 				item: "frostedheart:peat"
@@ -305,16 +390,26 @@
 		}
 		{
 			id: "4132A35DF97BFE3F"
+			rewards: [{
+				id: "47ED3A18B80B5B4F"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "0FE5E49EB779C202"
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -5.0d
 			y: 8.5d
 		}
 		{
 			id: "7BF6873FAD829A65"
+			rewards: [{
+				id: "3A9F7FDE2F255E81"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "13DD95F030FFCEF8"
 				item: "frostedheart:biomass"
@@ -324,38 +419,284 @@
 			y: 7.0d
 		}
 		{
-			id: "54A870ACF2679DBA"
+			id: "6D73A601A0C80710"
+			rewards: [{
+				id: "7765C43B82E2EE0C"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
-				id: "19F959F4ED22E0B3"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "frostedheart:condensed_balls"
-					}
-				}
-				title: "Any #frostedheart:condensed_balls"
+				id: "53CF7469A29D10C8"
+				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
-			id: "34C6825C2D8F0DDE"
+			id: "40CC4FC3A3E118FF"
+			rewards: [{
+				id: "3A779CA886F67F17"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
-				id: "32BCD286751C4108"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "frostedheart:slurry"
-					}
-				}
-				title: "Any #frostedheart:slurry"
+				id: "7E933EB77435D1A7"
+				item: "frostedheart:iron_slurry"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			id: "27A497B8C8EA65ED"
+			rewards: [{
+				id: "739848FC588A5121"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "11BA07C6B68A0F34"
+				item: "frostedheart:copper_slurry"
+				type: "item"
+			}]
+			x: -10.0d
 			y: 2.5d
+		}
+		{
+			id: "3D80C4B0814677A3"
+			rewards: [{
+				id: "732B3A2430DDB93A"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "5E31361191BA5896"
+				item: "frostedheart:gold_slurry"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			id: "0D7BF05F8A004310"
+			rewards: [{
+				id: "23E7F87DBD16FD40"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "05D854F4A6BBABA2"
+				item: "frostedheart:zinc_slurry"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			id: "3673FB93D1A0FC7F"
+			rewards: [{
+				id: "343F55F76FC5D898"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "7936571CA6D1C444"
+				item: "frostedheart:silver_slurry"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			id: "6B5315E4F0EA59FC"
+			rewards: [{
+				id: "2CF50C4B91C0FCD7"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "5EFA46FBFCDF40AF"
+				item: "frostedheart:tin_slurry"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			id: "2F4A54F72735CE5A"
+			rewards: [{
+				id: "13DF5A85685F489B"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "648916A057793346"
+				item: "frostedheart:pyrite_slurry"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			id: "68B9D5AB2ABE0A3F"
+			rewards: [{
+				id: "3D0F7D79CDEF4112"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "3592199C3F92416E"
+				item: "frostedheart:nickel_slurry"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			id: "3A6C83E807796561"
+			rewards: [{
+				id: "7763A08D2FEC311D"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "7AD5D05A3A58F96D"
+				item: "frostedheart:lead_slurry"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 13.0d
+		}
+		{
+			id: "1CF26B79A48F33A6"
+			tasks: [{
+				id: "662C810758753912"
+				item: "frostedheart:condensed_ball_iron_ore"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			id: "299D896A113645DB"
+			rewards: [{
+				id: "7E86442602F8CFE4"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "293754CD7B4442A7"
+				item: "frostedheart:condensed_ball_copper_ore"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			id: "1452804F104D4182"
+			rewards: [{
+				id: "15F72BC49DBF53D3"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "19CD1D2237B9CB5B"
+				item: "frostedheart:condensed_ball_gold_ore"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			id: "2F660AEBD45CD3BF"
+			rewards: [{
+				id: "4C6807C622798D3A"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "38B5D9E228A14925"
+				item: "frostedheart:condensed_ball_zinc_ore"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.5d
+		}
+		{
+			id: "12431BE5A80F92FB"
+			rewards: [{
+				id: "5B91A5EAD7172F30"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "7DA962225F888816"
+				item: "frostedheart:condensed_ball_silver_ore"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			id: "1581A68FA1A70DDA"
+			rewards: [{
+				id: "1FF9CBEF21953589"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "34EE79D3A00DB7AE"
+				item: "frostedheart:condensed_ball_tin_ore"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.5d
+		}
+		{
+			id: "7B4407BE8B97EA38"
+			rewards: [{
+				id: "5D250975A79C0C5F"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "5994E3C2D6246564"
+				item: "frostedheart:condensed_ball_pyrite_ore"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.0d
+		}
+		{
+			id: "36B4FA7375441B7C"
+			rewards: [{
+				id: "59BF4F590F1E5DAB"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "4D175A6D07C5E859"
+				item: "frostedheart:condensed_ball_nickel_ore"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 11.5d
+		}
+		{
+			id: "547115E38A3455B8"
+			rewards: [{
+				id: "72F303D017495F3B"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "5B0D0197EE46420E"
+				item: "frostedheart:condensed_ball_lead_ore"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 13.0d
 		}
 	]
 	subtitle: ["{chapter.twr.683664CACFD52C99.subtitle.0}"]

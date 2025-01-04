@@ -1299,6 +1299,7 @@
 				"The Workbench is central to tool making. In particular, you can craft a spear."
 			]
 			id: "5493DF2D38C0B27C"
+			optional: true
 			subtitle: "Unlocks &bA Day of Craftsman&r and &bA Day of Hunter"
 			tasks: [
 				{

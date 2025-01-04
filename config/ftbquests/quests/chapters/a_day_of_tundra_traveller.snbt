@@ -15,18 +15,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["47F9EC8C18040D6D"]
-			id: "46F7B5797EF8294E"
-			tasks: [{
-				id: "13AFFA2B0E8F2FAD"
-				title: "Rediscover the World"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			id: "58037578505CB417"
+			rewards: [{
+				id: "780DCB8AEDA8E00D"
+				insight: 2
+				type: "frostedheart:insight"
+			}]
 			subtitle: "A Difficult Journey"
 			tasks: [{
 				biome: "terralith:glacial_chasm"
@@ -41,6 +35,11 @@
 		{
 			icon: "minecraft:mud"
 			id: "2A4064FDA5B753D6"
+			rewards: [{
+				id: "3C7EFBD18C81B1C1"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				biome: "terralith:ice_marsh"
 				id: "25942AC76A1CD6CC"
@@ -52,6 +51,11 @@
 		{
 			icon: "minecraft:ice"
 			id: "07757983BEAD22E2"
+			rewards: [{
+				id: "794587B0723FEB3D"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				biome: "minecraft:deep_frozen_ocean"
 				id: "55FA6302B5F20F2F"
@@ -63,6 +67,11 @@
 		{
 			icon: "minecraft:blackstone"
 			id: "2246C8C7B6F953D7"
+			rewards: [{
+				id: "77CD7346CBC3833E"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				biome: "#terralith:volcanic"
 				id: "474E699BA92ED024"
