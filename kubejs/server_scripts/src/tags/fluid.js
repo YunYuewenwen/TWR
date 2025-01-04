@@ -13,4 +13,5 @@ ServerEvents.tags("fluid", (event) => {
 	event.add("forge:acid/hydrochloric", "frostedheart:hydrochloric_acid")
 	event.add("the_winter_rescue:ferrous_chloride", "frostedheart:ferrous_chloride")
 	event.add("the_winter_rescue:zinc_sulfate", "frostedheart:zinc_sulfate")
+	event.add("caupona:stews", "minecraft:water")
 })
