@@ -2347,7 +2347,6 @@
                             "type": "minecraft:biome",
                             "biome_is": [
                               "minecraft:ice_spikes",
-
                               "terralith:icy_spires"
                             ]
                           },
@@ -2405,7 +2404,7 @@
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "minecraft:grass_block",
+                                  "Name": "frostedheart:dirt_permafrost",
                                   "Properties": {
                                     "snowy": "false"
                                   }
@@ -2477,7 +2476,7 @@
               "if_true": {
                 "type": "minecraft:stone_depth",
                 "add_surface_depth": true,
-                "offset": 0,
+                "offset": 1,
                 "secondary_depth_range": 0,
                 "surface_type": "floor"
               },
@@ -2652,7 +2651,7 @@
                             "__comment__": "Highland dirt placement",
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:dirt"
+                              "Name": "frostedheart:dirt_permafrost"
                             }
                           }
                         ]
@@ -3114,10 +3113,26 @@
                       }
                     },
                     {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:stone_depth",
+                        "add_surface_depth": true,
+                        "offset": 0,
+                        "secondary_depth_range": 0,
+                        "surface_type": "floor"
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:snow_block"
+                        }
+                      }
+                    },
+                    {
                       "__comment__": "Default dirt layer placement",
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:dirt"
+                        "Name": "frostedheart:coarse_dirt_permafrost"
                       }
                     }
                   ]
