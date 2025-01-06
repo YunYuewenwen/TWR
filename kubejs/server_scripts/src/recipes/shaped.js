@@ -870,18 +870,18 @@ ServerEvents.recipes((event) => {
                 C: "#frostedheart:garbage"
             }
         ],
-        [
-            "frostedheart:makeshift_spear",
-            [
-                "CB",
-                "A "
-            ],
-            {
-                A: "#forge:rods/wooden",
-                B: "#forge:string",
-                C: "#frostedheart:garbage"
-            }
-        ],
+        // [
+        //     "frostedheart:makeshift_spear",
+        //     [
+        //         "CB",
+        //         "A "
+        //     ],
+        //     {
+        //         A: "#forge:rods/wooden",
+        //         B: "#forge:string",
+        //         C: "#frostedheart:garbage"
+        //     }
+        // ],
         [
             "frostedheart:makeshift_knife",
             [
