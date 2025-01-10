@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let { create } = event.recipes
+    let {create} = event.recipes
 
     create.sequenced_assembly([
         Item.of("immersiveengineering:capacitor_lv")

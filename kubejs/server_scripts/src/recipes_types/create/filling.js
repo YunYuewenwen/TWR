@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let { create } = event.recipes
+    let {create} = event.recipes
     let recipes = [
         {
             output: ["minecraft:leather"],
@@ -8,6 +8,6 @@ ServerEvents.recipes((event) => {
     ]
     recipes.forEach((recipe, index) => {
         create.filling(recipe.output, recipe.input)
-            .id(`the_winter_rescue:create/filling/${ index }`)
+            .id(`the_winter_rescue:create/filling/${index}`)
     })
 })

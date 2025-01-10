@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let { create } = event.recipes
+    let {create} = event.recipes
 
     let recipes = [
         {
@@ -180,12 +180,12 @@ ServerEvents.recipes((event) => {
 
     ]
     recipes.forEach((recipe, index) => {
-        create.crushing(recipe.output, recipe.input)    
-            .id(`the_winter_rescue:create/crushing/${ index }`)
+        create.crushing(recipe.output, recipe.input)
+            .id(`the_winter_rescue:create/crushing/${index}`)
     })
 
-    event.remove({ id: "create:crushing/raw_copper" })
-    event.remove({ id: "create:crushing/raw_gold" })
-    event.remove({ id: "create:crushing/raw_iron" })
-    event.remove({ id: "create:crushing/raw_zinc" })
+    event.remove({id: "create:crushing/raw_copper"})
+    event.remove({id: "create:crushing/raw_gold"})
+    event.remove({id: "create:crushing/raw_iron"})
+    event.remove({id: "create:crushing/raw_zinc"})
 })

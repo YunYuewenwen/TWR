@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let { stone_age } = event.recipes
+    let {stone_age} = event.recipes
 
     let recipes = [
         ["2x frostedheart:bauxite_dust", "frostedheart:crushed_raw_bauxite", "frostedheart:bauxite_dust", 0.4, 2],

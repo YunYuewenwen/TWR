@@ -3,7 +3,7 @@
  */
 
 ServerEvents.recipes((event) => {
-    let { kubejs } = event.recipes
+    let {kubejs} = event.recipes
 
     let changeShapedRecipes = [
         [
@@ -69,7 +69,7 @@ ServerEvents.recipes((event) => {
         ],
         [
             [
-                "immersiveengineering:blueprint", { blueprint: "molds" }
+                "immersiveengineering:blueprint", {blueprint: "molds"}
             ],
             [
                 "A A",
@@ -648,14 +648,14 @@ ServerEvents.recipes((event) => {
         }
 
         // Remove old recipes
-        event.remove({ output: output, type: "minecraft:crafting_shaped" })
+        event.remove({output: output, type: "minecraft:crafting_shaped"})
 
         // 添加新配方
         kubejs.shaped(
             output,
             pattern,
             keys
-        ).id(`the_winter_rescue:minecraft/crafting_shaped/change/${ index }`)
+        ).id(`the_winter_rescue:minecraft/crafting_shaped/change/${index}`)
     })
 
     let addShapedRecipes = [
@@ -2134,6 +2134,6 @@ ServerEvents.recipes((event) => {
             output,
             pattern,
             keys
-        ).id(`the_winter_rescue:minecraft/crafting_shaped/new/${ index }`)
+        ).id(`the_winter_rescue:minecraft/crafting_shaped/new/${index}`)
     })
 })

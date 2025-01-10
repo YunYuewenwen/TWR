@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let { frostedheart } = event.recipes
+    let {frostedheart} = event.recipes
 
     frostedheart.inspire("kubejs:damaged_gpu", 1000)
     frostedheart.inspire("kubejs:damaged_circuit_board", 600)

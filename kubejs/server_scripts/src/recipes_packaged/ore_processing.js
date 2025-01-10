@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let { immersiveengineering, create, minecraft } = event.recipes
+    let {immersiveengineering, create, minecraft} = event.recipes
 
     // let ores = [
     //     "frostedheart:raw_pyrite",

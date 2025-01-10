@@ -1,27 +1,27 @@
 //priority: 1005
 
-function IEIngredient (input) {
+function IEIngredient(input) {
     let inp = Ingredient.of(input)
-    return { base_ingredient: inp.withCount(1).toJson(), count: inp.getCount() }
+    return {base_ingredient: inp.withCount(1).toJson(), count: inp.getCount()}
 }
 
-function FluidTag (tag, amount) {
-    return { "tag": tag, "amount": amount }
+function FluidTag(tag, amount) {
+    return {"tag": tag, "amount": amount}
 }
 
-function shapedRecipe (result, pattern, key, id) {
-    return { result: result, pattern: pattern, key: key, id: id }
+function shapedRecipe(result, pattern, key, id) {
+    return {result: result, pattern: pattern, key: key, id: id}
 }
 
-function tree_stumpRecipe (result, ingredients, tool, chop, amount) {
-    return { result: result, ingredients: ingredients, tool: tool, chop: chop, amount: amount }
+function tree_stumpRecipe(result, ingredients, tool, chop, amount) {
+    return {result: result, ingredients: ingredients, tool: tool, chop: chop, amount: amount}
 }
 
-function campfireRecipe (result, ingredients, time) {
-    return { result: result, ingredients: ingredients, time: time }
+function campfireRecipe(result, ingredients, time) {
+    return {result: result, ingredients: ingredients, time: time}
 }
 
-function millstoneRecipe (result, ingredients, secondResult, secondChance, activateCount) {
+function millstoneRecipe(result, ingredients, secondResult, secondChance, activateCount) {
     return {
         result: result,
         ingredients: ingredients,
@@ -31,15 +31,15 @@ function millstoneRecipe (result, ingredients, secondResult, secondChance, activ
     }
 }
 
-function shapelessRecipe (result, ingredients, id) {
-    return { result: result, ingredients: ingredients, id: id }
+function shapelessRecipe(result, ingredients, id) {
+    return {result: result, ingredients: ingredients, id: id}
 }
 
-function shapelessRecipeGroup (result, ingredients, id, group) {
-    return { result: result, ingredients: ingredients, id: id, group: group }
+function shapelessRecipeGroup(result, ingredients, id, group) {
+    return {result: result, ingredients: ingredients, id: id, group: group}
 }
 
-function inspireRecipe (input, result) {
+function inspireRecipe(input, result) {
     return {
         type: "frostedheart:inspire",
         item: Item.of(input).toJson(),
@@ -47,7 +47,7 @@ function inspireRecipe (input, result) {
     }
 }
 
-function incubateItemRecipe (input, catalyst, use_catalyst, result, time, water) {
+function incubateItemRecipe(input, catalyst, use_catalyst, result, time, water) {
     return {
         type: "frostedheart:incubate",
         input: IEIngredient(input),
@@ -59,7 +59,7 @@ function incubateItemRecipe (input, catalyst, use_catalyst, result, time, water)
     }
 }
 
-function incubateFluidRecipe (input, catalyst, use_catalyst, result, resultfluid, time, water) {
+function incubateFluidRecipe(input, catalyst, use_catalyst, result, resultfluid, time, water) {
     return {
         type: "frostedheart:incubate",
         input: IEIngredient(input),
@@ -72,7 +72,7 @@ function incubateFluidRecipe (input, catalyst, use_catalyst, result, resultfluid
     }
 }
 
-function incubateRecipe (input, catalyst, use_catalyst, result, resultfluid, time, water) {
+function incubateRecipe(input, catalyst, use_catalyst, result, resultfluid, time, water) {
     return {
         type: "frostedheart:incubate",
         input: IEIngredient(input),
@@ -85,7 +85,7 @@ function incubateRecipe (input, catalyst, use_catalyst, result, resultfluid, tim
     }
 }
 
-function carkilnRecipe (inputs, output, time, energy, start_cost) {
+function carkilnRecipe(inputs, output, time, energy, start_cost) {
     let ings = []
     inputs.forEach((key) => {
         ings.push(IEIngredient(key))
@@ -104,7 +104,7 @@ function carkilnRecipe (inputs, output, time, energy, start_cost) {
     }
 }
 
-function rotarykilnRecipe (input, output, time, energy) {
+function rotarykilnRecipe(input, output, time, energy) {
     return {
         "type": "immersiveindustry:rotary_kiln",
         "input": IEIngredient(input),
@@ -114,7 +114,7 @@ function rotarykilnRecipe (input, output, time, energy) {
     }
 }
 
-function rotarykilnRecipe2 (input, output, time, energy, byproduct, chance) {
+function rotarykilnRecipe2(input, output, time, energy, byproduct, chance) {
     return {
         "type": "immersiveindustry:rotary_kiln",
         "input": IEIngredient(input),
@@ -126,7 +126,7 @@ function rotarykilnRecipe2 (input, output, time, energy, byproduct, chance) {
     }
 }
 
-function rotarykilnRecipe3 (input, output, output_fluid, time, energy, byproduct, chance) {
+function rotarykilnRecipe3(input, output, output_fluid, time, energy, byproduct, chance) {
     return {
         "type": "immersiveindustry:rotary_kiln",
         "input": IEIngredient(input),
@@ -139,15 +139,15 @@ function rotarykilnRecipe3 (input, output, output_fluid, time, energy, byproduct
     }
 }
 
-function unificationBlacklistEntry (material, type) {
+function unificationBlacklistEntry(material, type) {
     return {
         material: material,
         type: type
     }
 }
 
-function entryIsBlacklisted (material, type) {
-    for (let i = 0; i < unificationBlacklist.length; i ++) {
+function entryIsBlacklisted(material, type) {
+    for (let i = 0; i < unificationBlacklist.length; i++) {
         if (unificationBlacklist[i].material === material && unificationBlacklist[i].type === type) {
             return true
         }
@@ -155,25 +155,25 @@ function entryIsBlacklisted (material, type) {
     return false
 }
 
-function tagIsEmpty (tag) {
+function tagIsEmpty(tag) {
     return getPreferredItemInTag(Ingredient.of(tag)).id === air
 }
 
-function getPreferredItemInTag (tag) {
+function getPreferredItemInTag(tag) {
     return utils
         .listOf(tag.stacks)
         .toArray()
-        .sort(({ mod: a }, { mod: b }) => compareIndices(a, b, tag))[0] || Item.of(air)
+        .sort(({mod: a}, {mod: b}) => compareIndices(a, b, tag))[0] || Item.of(air)
 }
 
-function compareIndices (a, b, tag) {
+function compareIndices(a, b, tag) {
     if (a === b) {
         return 0
     } // iff a == b, they"ll be found at the same position in modPriorities
 
     for (let mod of modPriorities) {
         if (mod === a) {
-            return - 1
+            return -1
         } // if a comes before b, then idx(a) < idx(b), so -1
         if (mod === b) {
             return 1
@@ -184,11 +184,11 @@ function compareIndices (a, b, tag) {
     return 0
 }
 
-function wrapArray (array) {
+function wrapArray(array) {
     return utils.listOf(array).toArray()
 }
 
-function getStrippedLogFrom (logBlock) {
+function getStrippedLogFrom(logBlock) {
     let result = air
     buildWoodVariants.find((wood) => {
         if (wood.logBlock === logBlock) {

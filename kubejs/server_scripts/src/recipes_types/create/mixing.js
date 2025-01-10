@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let { create } = event.recipes
+    let {create} = event.recipes
     let recipes = [
         {
             output: ["3x frostedheart:fire_clay_ball"],
@@ -139,11 +139,11 @@ ServerEvents.recipes((event) => {
     ]
     recipes.forEach((recipe, index) => {
         create.mixing(recipe.output, recipe.input)
-            .id(`the_winter_rescue:create/mixing/none/${ index }`)
+            .id(`the_winter_rescue:create/mixing/none/${index}`)
     })
     heated.forEach((recipe, index) => {
         create.mixing(recipe.output, recipe.input)
-            .id(`the_winter_rescue:create/mixing/heated/${ index }`)
+            .id(`the_winter_rescue:create/mixing/heated/${index}`)
             .heated()
     })
 })

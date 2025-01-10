@@ -1,1 +1,2 @@
-ServerEvents.tags("entity_type", (event) => {})
+ServerEvents.tags("entity_type", (event) => {
+})

@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let { create } = event.recipes
+    let {create} = event.recipes
     let recipes = [
         {
             output: ["minecraft:quartz", Item.of("minecraft:quartz").withChance(0.5)],
