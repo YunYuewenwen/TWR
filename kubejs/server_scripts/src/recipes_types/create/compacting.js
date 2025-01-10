@@ -54,6 +54,10 @@ ServerEvents.recipes((event) => {
         {
             output: "kubejs:wet_straw_briquette",
             input: ["8x charcoal_pit:straw"]
+        },
+        {
+            output:["3x frostedheart:packed_snow"],
+            input: ["2x minecraft:snowball", "2x minecraft:snow_block"]
         }
     ]
     let heated = [
