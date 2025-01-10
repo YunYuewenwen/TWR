@@ -51,16 +51,6 @@ ServerEvents.recipes((event) => {
 		"minecraft:mushroom_stew",
 		"create:tree_fertilizer"
 	]
-	let recipeID = [
-		"minecraft:bucket",
-		"stone_age:backpack",
-		"minecraft:white_wool_from_string",
-		"immersiveengineering:crafting/nugget_copper_to_copper_ingot",
-		"minecraft:campfire",
-	]
-	recipeID.forEach((Item) => {
-		event.remove({ id: Item })
-	})
 
 	/*let Pot = [
 		"potato_souffle",
@@ -194,6 +184,17 @@ ServerEvents.recipes((event) => {
 	]
 	disabledItems.forEach((disabledItem) => {
 		event.remove({ output: disabledItem })
+	})
+
+	let recipeID = [
+		"minecraft:bucket",
+		"stone_age:backpack",
+		"minecraft:white_wool_from_string",
+		"immersiveengineering:crafting/nugget_copper_to_copper_ingot",
+		"minecraft:campfire"
+	]
+	recipeID.forEach((Item) => {
+		event.remove({ id: Item })
 	})
 
 	let removeOnly = [

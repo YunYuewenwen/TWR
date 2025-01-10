@@ -1,23 +1,23 @@
 ServerEvents.recipes((event) => {
 	let { create, kubejs } = event.recipes
 
-// Define metal tags
+	// Define metal tags
 	let tags = {
 		ingots: "#forge:ingots",
 		blocks: "#forge:storage_blocks",
 		nuggets: "#forge:nuggets"
 	}
 
-// Iterate through the tags and generate recipes
+	// Iterate through the tags and generate recipes
 	Object.keys(tags).forEach((key) => {
 		let itemIds = Ingredient.of(tags[key]).getItemIds()
 
 		if (!itemIds || itemIds.length === 0) {
 			console.error(`No items found for tag: ${ tags[key] }`)
-			return
+			return 0
 		}
 
-		itemIds.forEach((itemId) => {
+		itemIds.forEach((itemId, index) => {
 			if (key === "blocks") {
 				// Metal block => 9 ingots
 				let ingotId = itemId.replace("block", "ingot")
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
 	})
 
 	function createCompactingRecipe (sheet, ingot) {
-		create.compacting(sheet, ingot)
+		create.compacting(sheet, ingot);
 	}
 
 	let metals = [

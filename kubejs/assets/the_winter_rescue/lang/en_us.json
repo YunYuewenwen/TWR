@@ -9,6 +9,11 @@
     "info.jei.the_winter_rescue.power_glitch": "This contraption is potential to infinite power glitch.",
     "info.jei.the_winter_rescue.later_tech": "This item will be unlocked in later tech. Please wait for update. ",
 
+    "generator.the_winter_rescue.snowy_taiga": "TWR - Snowy Taiga",
+    "generator.the_winter_rescue.vanilla": "TWR - Vanilla",
+    "generator.the_winter_rescue.icelayers": "TWR - Icelayers",
+    "generator.the_winter_rescue.terralith_overworld": "TWR - Terralith",
+
     "tooltip.the_winter_rescue.replaced_recipe": "Related recipes can be replaced through other means",
     "tooltip.the_winter_rescue.snowy_vine": "Obtained via cutting leaves with a flint knife",
     "tooltip.the_winter_rescue.flint_knife": "Get vines when used to cut leaves",
@@ -18,10 +23,5 @@
     "tooltip.the_winter_rescue.activated_carbon": "Obtained via using a charcoal on a steam charger",
     "tooltip.the_winter_rescue.campfire": "Press Q to throw fuel on it and light it via an ignition tool!",
     "tooltip.the_winter_rescue.lining": "Gives a warming effect after crafting it with any equipment (shapeless)",
-
-    "generator.the_winter_rescue.snowy_taiga": "TWR - Snowy Taiga",
-    "generator.the_winter_rescue.vanilla": "TWR - Vanilla",
-    "generator.the_winter_rescue.icelayers": "TWR - Icelayers",
-    "generator.the_winter_rescue.terralith_overworld": "TWR - Terralith"
-    
+    "tooltip.the_winter_rescue.blaze_burner": "The acquisition method will be displayed after the study is completed"
 }

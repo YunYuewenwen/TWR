@@ -17,8 +17,8 @@ ServerEvents.tags("item", (event) => {
 		"green",
 		"red"
 	]
-	colors.forEach((color) => {
-		event.add("minecraft:shulker_box", `minecraft:${ color }_shulker_box`)
+	colors.forEach((clr) => {
+		event.add("minecraft:shulker_box", `minecraft:${ clr }_shulker_box`)
 	})
 	event.add("itemfilters:check_nbt", "tetra:modular_double")
 	event.add("forge:plates/bronze", "steampowered:bronze_sheet")
@@ -45,6 +45,8 @@ ServerEvents.tags("item", (event) => {
 	event.add("caupona:meats", "frostedheart:chocolate")
 	event.add("caupona:eggs", "crockpot:cooked_egg")
 	event.add("forge:string", "stone_age:grass_lead")
+
+	event.add("caupona:container", "#frostedheart:thermos")
 
 	event.add("the_winter_rescue:flour", [
 		"stone_age:flour",
@@ -91,7 +93,6 @@ ServerEvents.tags("item", (event) => {
 		"kubejs:wet_straw_briquette",
 		"kubejs:straw_briquette"
 	])
-	event.add("caupona:container", "#frostedheart:thermos")
 	event.add("caupona:cereals/baked", [
 		"frostedheart:military_rations",
 		"frostedheart:rye_bread"
@@ -148,18 +149,19 @@ ServerEvents.tags("item", (event) => {
 		"stone_age:rhino_meat",
 		"stone_age:mammoth_meat"
 	])
+	event.add("caupona:aspics", [
+		"minecraft:snowball",
+		"minecraft:snow_block"
+	])
 	event.remove("forge:ingots", [
 		"create:andesite_alloy"
 	])
-
 	event.remove("create:create_ingots", [
 		"create:andesite_alloy"
 	])
-
 	event.remove("forge:storage_blocks", [
 		"create:andesite_alloy_block"
 	])
-
 	event.remove("forge:storage_blocks/andesite_alloy", [
 		"create:andesite_alloy_block"
 	])
