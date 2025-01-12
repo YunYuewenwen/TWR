@@ -1,5 +1,5 @@
 PlayerEvents.loggedIn((event) => {
-	let { player, server } = event
+	let { player } = event
 
 	global.debugUserName.forEach((debugUser) => {
 		let playerInfo = Component.translate("text.kubejs.player").getString()
