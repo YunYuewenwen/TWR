@@ -10,6 +10,6 @@ onEvent('recipes', (event) => {
         // 熔炉 (一并处理火焰燃烧)
         event.smelting(unfrozen_things[i_unfreeze], frozen_things[i_unfreeze])
         // 高炉
-        event.blasting(unfrozen_things[i_unfreeze], frozen_things[i_unfreeze])
+        // event.blasting(unfrozen_things[i_unfreeze], frozen_things[i_unfreeze])
     }
 });
