@@ -74,20 +74,38 @@ Join the [Official Discord Chat](https://discord.gg/BWn6E94) and request the rol
 TeamMoeg has developed and will maintain this Modpack for Free, but maintaining the servers cost money. Consider Sponsoring us at [Patreon](https://www.patreon.com/TeamMoeg) or [Aifadian (China)](https://afdian.com/a/teammoeg)
 Support us to let us create more! And find your name on our website and also a special role in our Discord. 
 
-## Contributors 
+## Contributors
 
-The Core Mod for The Winter Rescue Modpack.
+(In the order of first joining, not contribution size. 按加入时间，而非贡献大小排序。)
 
- (In the order of first joining, not contribution size)
+Development Team 开发团队 (www.teammoeg.com):
+- Progamming 编程: YueSha, khjxiaogu, duck_egg, dashuaibia, goumo_g, yuqijun, Qi-Month
+- Art 美术: Lyuuke, gomou_g, Dsanilin
+- Building 建筑: Fu_Yang, OEIIO, Lanshan
+- Design 设计: YueSha, duck_egg, dashuaibia, khjxiaogu, Lyuuke, alphaGem, JackyWangMislantiaJnirvana
+- Writing 写作: YueSha, Lanshan
+- Quality Assurance 质量保证: asdfghjkl, shidi
+- Operation 运营: Evan, YueSha, khjxiaogu
 
-Development Team:
-- Developer: YueSha, duck_egg, dashuaibia, khjxiaogu
-- Art: Lyuuke, gomou_g, Fu_Yang, OEIIO(03110), Dsanilin
-- Design: alphaGem, Jacky_Wang, asdfghjkl
-- QA: shidi
-- Operation: Evan
+Localization 本地化:
+- Chinese: TeamMoeg
+- English: TeamMoeg, Jerzerak, AGmouse, sayyidyofa, alyashour, collin-marando
+- Russian: Whitealbum0, EvilToasterDBU
 
-Contributors:
-LetterN, collin-marando, sayyidyofa, Whitealbum0, alyashour, AGmouse, Jerzerak,
-nekocrane, Huaji_Qinmi, Heitao, ceary741, Gugusb, Winged-Hussars,
-IBlessus, GuardianWorld(Mixxs), Keisari, ewoudjie, ZXCZST
+Contributors 贡献者:
+- Programming 编程: LetterN, Huaji_Qinmi, ceary741, Gugusb, Winged-Hussars, ewoudje, IBlessus, KilaBash
+- Art 美术: Heitao
+- Building 建筑: nekocrane, GuardianWorld, Keisari
+- Writing 写作: ZXCZST, xxy
+
+Special Thanks 特别感谢:
+- alcatraz (github.com/alcatrazEscapee) for Primal Winter inspiration.
+- OpenGameArt (opengameart.org) for sound effects.
+- Matthew Pablo (www.matthewpablo.com) for music.
+- DALL-E (openai.com) for the opening CG art.
+- The TeamMoeg Community (www.teammoeg.com) for support and feedback.
+- The NeoForge Team for the modding platform.
+- The Mojang Team for the game itself.
+
+Supporters 赞助者:
+See our official website.
