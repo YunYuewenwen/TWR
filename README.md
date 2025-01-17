@@ -15,30 +15,27 @@
 	<a href="https://afdian.com/a/teammoeg"><img src="https://img.shields.io/badge/爱发电-赞助我们-blueviolet.svg?style=flat-square" alt="Patreon"></a><br>
 </h4>
 
-<h2 align="center">Use your hands and wisdom to ignite the last hope of mankind.</h2>
+## Foreword
 
-The Winter Rescue is a tech, survival, exploration, quest and lore driven pack that features Immersive Engineering, Create, Project Rankine, and our own mods: Steam Powered, Immersive Industry, Thermopolium/Caupona, and our core mod Frosted Heart to bridge everything together. 
+- In the mid-21st century, a sudden extreme cold wave plunged the Earth into a long winter, burying human civilization deep under layers of snow.
+- Twenty years after the disaster, you, who grew up in the spaceport "Columbiat", discovered a mysterious message in the clouds that seemed to be from your blood relatives who disappeared years ago.
+- Despite everyone's objections, you decide to return to Earth to uncover the truth about your blood relatives' departure twenty years ago.
+- Beneath the snow-covered landscape, you know there is a voice calling you.
+- But you are also aware that embarking on this journey is not just about saving someone but about finding the answer to this winter's arrival and restoring life to the world.
+- As you set foot in the harsh winter, navigating the remaining major forces, you will initiate humanity's final rescue plan.
+- This is an unprecedented rescue, and the mysteries will gradually unfold...
 
-<h3 align="center">You will be able to:</h3>
+## Introduction
 
-<h4 align="center">Experience a realistic yet life-threatening temperature system seen nowhere</h4>
+The Winter Rescue is a Minecraft-based mod integration pack, with core gameplay elements including realistic survival, technological construction, exploration and adventure, and town management. In the game, the mid-21st century cold wave event plunged the Earth into a prolonged winter, and the remaining human joint government established the last safe haven on a space station. As the player, you play the role of an explorer from the space station, who decides to return to Earth after receiving a mysterious message seemingly from long-lost blood relatives. You will find your footing in the harsh winter, explore the remaining major forces, and gradually uncover the secret of the world's loss of vitality during your journey.
 
-<h4 align="center">Find over 30 types of rock layers and ore veins under the snow land</h4>
+In a harsh, beautiful, mysterious, and realistic winter world, adapting to the changing climate and maintaining body temperature is your primary survival task. Once you find your footing, you will start from scratch, regaining knowledge through exploration and research, and using your hands to build an industrial base centered around steam thermal energy. When everything is ready, you can invite exiled refugees to join you in building a self-sufficient town. Meanwhile, you will advance the main storyline, navigating the remaining forces in the harsh winter, adventuring to the deepest parts of the world to restore vitality and uncover the truth.
 
-<h4 align="center">Discover extinct ancient animals like mammoth and sabor-tooth tigers</h4>
-
-<h4 align="center">Build from Flint Tools to Steam Flywheels to Industrial Multiblocks</h4>
-
-<h4 align="center">Build your own type of Steampunk base with hundreds types of bricks, planks, and metal</h4>
-
-<h4 align="center">And, Defend yourself from the Winter with a Generator Tower</h4>
-
-<h3 align="center">At last, if you can survive, try to find the Answer.</h3>
+The core mechanism of The Winter Rescue is temperature: this includes natural temperatures, i.e., the cold climate, and the human response to it, i.e., heat. For player survival, the mechanism is reflected in the realistic simulation of body temperature; for technological construction, it is reflected in the production and utilization of high-temperature steam thermal energy; for exploration and adventure, it is reflected in surviving organisms in low temperatures, various shelters built for warmth, and heat-based weapon systems; and town management is self-explanatory – players must ensure the warmth and food supply of each resident and provide suitable temperatures and thermal energy for town buildings.
 
 ## Download Latest
 
 - [CurseForge Project](https://curseforge.com/minecraft/modpacks/the-winter-rescue)
-- [MCBBS release page](https://www.mcbbs.net/thread-1227167-1-1.html)
 - [MCMOD release page](https://www.mcmod.cn/modpack/273.html)
 
 ## Join Community
@@ -46,7 +43,6 @@ The Winter Rescue is a tech, survival, exploration, quest and lore driven pack t
 - [Official Wiki (Chinese Version)](https://wiki.teammoeg.com/)
 - [Official Wiki (English Version)](https://wiki.teammoeg.com/index.php?title=The_Winter_Rescue)
 - [Official Discord Chat](https://discord.gg/BWn6E94)
-- QQ Group Chat Number: 830331279
 - [TeamMoeg Forum](https://forum.teammoeg.com/)
 
 ## Official Servers
