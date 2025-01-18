@@ -1,9 +1,21 @@
 PlayerEvents.loggedIn((event) => {
 	let { player } = event
 
+	// Read the last line of the client.properties file
+	let getVersionArray = FilesJS.readLastLines("kubejs/config/client.properties", 1)
+
+	// Take the last line of string from the array
+	let getVersion = getVersionArray[0]
+
+	// Use a regular expression to match and intercept the version number
+	let versionMatch = getVersion.match(/\d+\.\d+\.\d+-\d{8}-Build\d+/i)
+
 	global.debugUserName.forEach((debugUser) => {
-		let playerInfo = Component.translate("text.kubejs.player").getString()
-		let modPackVersion = Component.translate("text.kubejs.version").getString()
+		let playerInfo = Component.translate("text.kubejs.player").black().getString()
+
+		// Check if versionMatch is not null before accessing versionMatch[0]
+		let modpackVersion = versionMatch ? Component.translate("text.kubejs.version", [versionMatch[0]]).black().getString() : "Version not found"
+
 		player.paint({
 			playerTip: {
 				type: "text",
@@ -20,12 +32,12 @@ PlayerEvents.loggedIn((event) => {
 				x: 10,
 				y: "$screenH - 30",
 				alignX: "left",
-				text: modPackVersion,
+				text: modpackVersion,
 				scale: 0.7
 			}
 		})
 		if (player.username === debugUser) {
-			let devInfo = Component.translate("text.kubejs.dev").getString()
+			let devInfo = Component.translate("text.kubejs.dev").black().getString()
 			player.paint({
 				devTip: {
 					type: "text",

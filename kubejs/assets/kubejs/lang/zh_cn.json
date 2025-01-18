@@ -154,5 +154,5 @@
     "message.kubejs.debug.getHardness": "这个方块的硬度是: %s",
     "text.kubejs.dev": "开发中画面, 实际内容请以正式版为准",
     "text.kubejs.player": "测试中版本, 不代表最终品质",
-    "text.kubejs.version": "整合包版本: 0.6.0-Alpha-Build16"
+    "text.kubejs.version": "整合包版本: %s"
 }
