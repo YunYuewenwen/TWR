@@ -207,6 +207,5 @@
     "message.kubejs.debug.getItemId": "Print the id under the tag to logs/kubejs/server.log",
     "message.kubejs.debug.getHardness": "The hardness of this block is: %s",
     "text.kubejs.dev": "Dev only. See Release.",
-    "text.kubejs.player": "Test, not final.",
-    "text.kubejs.version": "Pack version: %s"
+    "text.kubejs.player": "Test, not final."
 }
