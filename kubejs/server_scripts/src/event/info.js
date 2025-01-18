@@ -14,16 +14,6 @@ PlayerEvents.loggedIn((event) => {
 				scale: 0.7
 			}
 		})
-		player.paint({
-			versionTip: {
-				type: "text",
-				x: 10,
-				y: "$screenH - 30",
-				alignX: "left",
-				text: global.version,
-				scale: 0.7
-			}
-		})
 		if (player.username === debugUser) {
 			let devInfo = Component.translate("text.kubejs.dev").getString()
 			player.paint({
