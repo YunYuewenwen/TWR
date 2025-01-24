@@ -24,31 +24,33 @@ PlayerEvents.chat((event) => {
 	let { player, message, server } = event
 
 	for (let i = 0; i < global.debugUserName.length; i ++) {
-		// Input -ki to remove all dropped items
-		if (message.trim().equalsIgnoreCase("-ki") && player.username === global.debugUserName[i]) {
-			server.runCommandSilent("kill @e[type=item]")
-			server.runCommandSilent("tellraw @a 'Dropped items have been cleared'")
-			event.cancel()
-		}
+		if(player.username === global.debugUserName[i]){
+			// Input -ki to remove all dropped items
+			if (message.trim().equalsIgnoreCase("-ki")) {
+				server.runCommandSilent("kill @e[type=item]")
+				server.runCommandSilent("tellraw @a 'Dropped items have been cleared'")
+				event.cancel()
+			}
 
-		// Input -kf to gain [Night Vision, Strength, Resistance] buffs
-		if (message.trim().equalsIgnoreCase("-kf") && player.username === global.debugUserName[i]) {
-			player.runCommandSilent("effect give @s minecraft:night_vision infinite 255 true")
-			player.runCommandSilent("effect give @s minecraft:strength infinite 255 true")
-			player.runCommandSilent("effect give @s minecraft:resistance infinite 255 true")
-			event.cancel()
-		}
+			// Input -kf to gain [Night Vision, Strength, Resistance] buffs
+			if (message.trim().equalsIgnoreCase("-kf")) {
+				player.runCommandSilent("effect give @s minecraft:night_vision infinite 255 true")
+				player.runCommandSilent("effect give @s minecraft:strength infinite 255 true")
+				player.runCommandSilent("effect give @s minecraft:resistance infinite 255 true")
+				event.cancel()
+			}
 
-		// Input -efc to clear all buffs from self
-		if (message.trim().equalsIgnoreCase("-efc") && player.username === global.debugUserName[i]) {
-			player.runCommandSilent("effect clear")
-			event.cancel()
-		}
+			// Input -efc to clear all buffs from self
+			if (message.trim().equalsIgnoreCase("-efc")) {
+				player.runCommandSilent("effect clear")
+				event.cancel()
+			}
 
-		// Input -kla to clear all entities except players
-		if (message.trim().equalsIgnoreCase("-kla") && player.username === global.debugUserName[i]) {
-			server.runCommandSilent("kill @e[type=!player]")
-			event.cancel()
+			// Input -kla to clear all entities except players
+			if (message.trim().equalsIgnoreCase("-kla")) {
+				server.runCommandSilent("kill @e[type=!player]")
+				event.cancel()
+			}
 		}
 	}
 })

@@ -1,4 +1,4 @@
-PlayerEvents.loggedIn((event) => {
+ClientEvents.loggedIn((event) => {
 	let { player } = event
 
 	global.debugUserName.forEach((debugUser) => {

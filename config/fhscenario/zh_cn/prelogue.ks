@@ -5,6 +5,7 @@
 @stopbgm
 头好疼，这是，哪里？我怎么会在这里？[l][er]
 这里是...飞船船舱，我是...[delay t=20]我是...[l][er]
+@jump l=*cla
 @bgm n="frostedheart:the_fall_of_arcana"
 *tesst
 @fullScreenDialog show=1
