@@ -1,18 +1,12 @@
 Ponder.tags((event) => {
-	// genny
-	event.createTag("the_winter_rescue:generator", "frostedheart:generator", "", "")
-	// ore processing
-	event.createTag("the_winter_rescue:bloomery", "charcoal_pit:main_bloomery", "", "")
-	event.createTag("the_winter_rescue:crucible", "immersiveindustry:crucible", "", "")
-	// power
-	event.createTag("the_winter_rescue:steam_turbine", "immersiveindustry:steam_turbine", "", "")
-	// misc
-	event.createTag("the_winter_rescue:beehive_oven_pit", "frostedheart:beehive_oven_pit", "", "")
-	event.createTag("the_winter_rescue:charcoal_pit", "minecraft:charcoal", "", "")
-	// creosote funnel
-	event.createTag("the_winter_rescue:creosote_funnel", "charcoal_pit:sandy_collector", "", "")
-	// steam powered
-	event.createTag("steampowered:ponder", "steampowered:cast_iron_steam_engine", "", "", [
+	// Immersive Industry
+	event.createTag("immersiveindustry:ponder", "immersiveindustry:crucible", "Immersive Industry", "Ponder Index")
+	// Charcoal Pit
+	event.createTag("charcoal_pit:ponder", "minecraft:charcoal", "Charcoal Pit", "Ponder Index")
+	// Frosted Heart
+	event.createTag("frostedheart:ponder", "frostedheart:energy_core", "Frosted Heart", "Ponder Index")
+	// Steam Powered
+	event.createTag("steampowered:ponder", "steampowered:cast_iron_steam_engine", "Steam Powered", "Ponder Index", [
 		"steampowered:bronze_boiler",
 		"steampowered:bronze_burner",
 		"steampowered:bronze_steam_engine",
