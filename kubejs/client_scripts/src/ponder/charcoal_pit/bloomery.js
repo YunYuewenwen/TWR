@@ -32,7 +32,7 @@ Ponder.registry((event) => {
 
 			scene.addKeyframe()
 			scene.overlay.showText(50)
-				.text("Right-Click to push air in using the Bellow")
+				.text("R-Click to push air in using the Bellow")
 				.pointAt([3, 2, 1])
 			scene.idle(30)
 			scene.showControls(20, [3, 2, 1], "right")
@@ -72,7 +72,7 @@ Ponder.registry((event) => {
 			//
 			scene.overlay.showText(50)
 				.colored(PonderPalette.GREEN)
-				.text("To start processing, use Shift + Right-Click with the first ore in hand (not blocks)")
+				.text("To start processing, use Shift + R-Click with the first ore in hand (not blocks)")
 				.pointAt([2, 3, 2])
 			scene.idle(50)
 			scene.showControls(20, [2, 3, 2], "down")
@@ -82,7 +82,7 @@ Ponder.registry((event) => {
 			scene.addKeyframe()
 			scene.overlay.showText(40)
 				.colored(PonderPalette.GREEN)
-				.text("After the initial placement, Right-Click the pile with the ore and charcoal")
+				.text("After the initial placement, R-Click the pile with the ore and charcoal")
 				.pointAt([2, 3, 2])
 			scene.idle(50)
 

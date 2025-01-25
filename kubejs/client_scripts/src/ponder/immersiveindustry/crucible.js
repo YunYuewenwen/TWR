@@ -3,7 +3,6 @@ Ponder.registry((event) => {
 		.tag("immersiveindustry:ponder")
 		// Build
 		.scene("assembly", "", "kubejs:steel_mill_crucible", (scene) => {
-			// scene.scaleSceneView(0.7)
 			scene.showBasePlate()
 			scene.idle(10)
 
@@ -24,13 +23,13 @@ Ponder.registry((event) => {
 			// text
 			scene.overlay.showOutline("blue", {}, [2.5, 2.5, 1], 40)
 			scene.overlay.showText(40)
-				.text("Right-Click to assemble")
+				.text("R-Click to assemble")
 				.pointAt([2.5, 2.5, 1])
 			scene.idle(40)
 			scene.showControls(40, [2, 2, 1], "right")
 				.withItem("immersiveengineering:hammer")
 			scene.world.moveSection(scene.world.showIndependentSectionImmediately([1, 6, 1, 3, 10, 3]), [0, - 5, 0], 0)
-			scene.world.replaceBlocks([1, 1, 1, 3, 4, 3], "minecraft:air", false)
+			scene.world.replaceBlocks([1, 1, 1, 3, 4, 3], "minecraft:air", true)
 			scene.idle(40)
 			scene.addKeyframe()
 
@@ -44,7 +43,7 @@ Ponder.registry((event) => {
 			scene.idle(60)
 		})
 
-		// Use
+		// Usage
 		.scene("basic_usage", "", "kubejs:steel_mill_crucible_usage", (scene) => {
 			scene.showBasePlate()
 			scene.idle(10)
@@ -104,7 +103,7 @@ Ponder.registry((event) => {
 			scene.world.showSection([5, 3, 4, 4, 4, 3], Direction.WEST)
 			scene.overlay.showText(40)
 				.text("Products can be extracted from sides of the crucible part")
-				.pointAt([4, 4, 3])
+				.pointAt([4.5, 4.5, 3.5])
 			scene.idle(20)
 			scene.world.createItemOnBelt([4, 3, 3], Direction.UP, "frostedheart:steel_ingot");
 			scene.idle(40)
