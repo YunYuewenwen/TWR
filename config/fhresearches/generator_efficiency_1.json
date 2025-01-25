@@ -2,7 +2,7 @@
   "name": "@",
   "icon": {
     "type": "combined",
-    "base": "frostedheart:generator",
+    "base": "frostedheart:generator_t1",
     "small": {
       "type": "internal",
       "name": "plus"

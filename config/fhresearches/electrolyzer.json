@@ -1,35 +1,32 @@
 {
-  "icon": "immersiveengineering:dust_aluminum",
-  "category": "frostedheart:production",
-  "parents": [
-    "crucible",
-    "assembly_line"
-  ],
+  "showAltDesc": true,
+  "points": 6000,
+  "insight": 1,
   "clues": [
     {
       "type": "game",
-      "value": 0.45,
       "id": "d594ab74bcd5477d",
       "required": true,
+      "value": 0.45,
       "level": 1
     },
     {
       "type": "game",
-      "value": 0.25,
       "id": "dc66f68d04244263",
+      "value": 0.25,
       "level": 1
     },
     {
       "type": "item",
-      "value": 0.25,
       "id": "dcf22d464ba34c83",
+      "value": 0.25,
+      "consume": true,
       "item": {
         "count": 32,
         "base_ingredient": {
           "item": "minecraft:gold_ingot"
         }
-      },
-      "consume": true
+      }
     }
   ],
   "ingredients": [
@@ -40,16 +37,22 @@
       "tag": "forge:ingots/silver"
     },
     {
-      "tag": "forge:salt"
+      "tag": "forge:dusts/sodium_chloride"
     }
   ],
   "effects": [
     {
       "type": "recipe",
-      "id": "3f1dfd24a4324bae",
-      "item": "immersiveindustry:electrolyzer"
+      "item": {
+        "item": "immersiveindustry:electrolyzer"
+      },
+      "id": "3f1dfd24a4324bae"
     }
   ],
-  "points": 6000,
-  "showAltDesc": true
+  "icon": "immersiveengineering:dust_aluminum",
+  "category": "frostedheart:production",
+  "parents": [
+    "crucible",
+    "assembly_line"
+  ]
 }

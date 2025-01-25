@@ -1,49 +1,41 @@
 {
-  "icon": {
-    "type": "item",
-    "item": {
-      "id": "frostedheart:rubbing_tool",
-      "nbt": "{Damage:0}"
-    }
-  },
-  "category": "frostedheart:ars",
-  "parents": [
-    "mechanical_calculator"
-  ],
+  "showAltDesc": true,
+  "points": 4000,
+  "insight": 1,
   "clues": [
     {
       "type": "game",
-      "value": 0.25,
       "id": "e1b4f383d5e345ea",
       "required": true,
+      "value": 0.25,
       "level": 1
     },
     {
       "type": "item",
-      "value": 0.25,
       "id": "c5d4328814d0411c",
       "required": true,
+      "value": 0.25,
       "item": {
         "item": "frostedheart:mechanical_calculator"
       }
     },
     {
       "type": "game",
-      "value": 0.25,
       "id": "dccec6b8dfba4031",
+      "value": 0.25,
       "level": 1
     },
     {
       "type": "item",
-      "value": 0.2,
       "id": "c63eed3e6f43436b",
+      "value": 0.2,
+      "consume": true,
       "item": {
         "count": 40,
         "base_ingredient": {
           "tag": "forge:coal_coke"
         }
-      },
-      "consume": true
+      }
     }
   ],
   "ingredients": [
@@ -72,28 +64,9 @@
       }
     }
   ],
-  "effects": [
-    {
-      "type": "recipe",
-      "id": "aaa0b83225764405",
-      "item": "frostedheart:rubbing_tool"
-    },
-    {
-      "type": "item",
-      "id": "180bd6b689cb4911",
-      "rewards": [
-        {
-          "id": "frostedheart:rubbing_tool",
-          "nbt": "{Damage:0}"
-        }
-      ]
-    },
-    {
-      "type": "recipe",
-      "id": "8fcad1495d7c409b",
-      "item": "frostedheart:rubbing_pad"
-    }
-  ],
-  "points": 4000,
-  "showAltDesc": true
+  "icon": "frostedheart:rubbing_tool",
+  "category": "frostedheart:ars",
+  "parents": [
+    "mechanical_calculator"
+  ]
 }

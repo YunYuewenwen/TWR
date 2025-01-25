@@ -1,36 +1,50 @@
 {
-  "showAltDesc": true,
-  "points": 1000,
-  "effects": [
+  "icon": "minecraft:iron_ingot",
+  "category": "frostedheart:production",
+  "clues": [
     {
-      "type": "recipe",
+      "type": "game",
+      "value": 0.5,
+      "id": "9a1f4df2a1f44142",
+      "required": true,
+      "level": 0
+    },
+    {
+      "type": "item",
+      "hint": "@",
+      "value": 0.25,
+      "id": "6fea538c5b184ec7",
       "item": {
-        "item": "charcoal_pit:main_bloomery"
-      },
-      "id": "c520be3259914225"
+        "count": 4,
+        "base_ingredient": {
+          "item": "charcoal_pit:sandy_brick_item"
+        }
+      }
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "1aeb1af04bf144eb",
+      "item": {
+        "item": "charcoal_pit:bellows"
+      }
     }
   ],
   "ingredients": [
     {
       "item": "minecraft:charcoal"
     },
-    [
-      {
-        "item": "minecraft:raw_iron"
-      },
-      {
-        "item": "charcoal_pit:bloom_cool"
-      },
-      {
-        "item": "frostedheart:raw_pyrite"
-      },
-      {
-        "item": "charcoal_pit:bloom_fail"
-      },
-      {
-        "item": "frostedheart:rusted_iron_ingot"
-      }
-    ]
+    {
+      "tag": "the_winter_rescue:bloom_iron"
+    }
   ],
-  "category": "frostedheart:production"
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "c520be3259914225",
+      "item": "charcoal_pit:main_bloomery"
+    }
+  ],
+  "points": 1000,
+  "showAltDesc": true
 }

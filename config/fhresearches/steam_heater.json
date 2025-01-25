@@ -1,21 +1,19 @@
 {
-  "icon": "frostedheart:heat_radiator",
-  "category": "frostedheart:rescue",
-  "parents": [
-    "generator_T2"
-  ],
+  "showAltDesc": true,
+  "points": 3000,
+  "insight": 1,
   "clues": [
     {
       "type": "game",
-      "value": 0.5,
       "id": "ae5d7e4c7d9245c1",
       "required": true,
+      "value": 0.5,
       "level": 1
     },
     {
       "type": "game",
-      "value": 0.25,
       "id": "5e81ea5ba49a4c55",
+      "value": 0.25,
       "level": 1
     }
   ],
@@ -42,11 +40,14 @@
   "effects": [
     {
       "type": "multiblock",
-      "icon": "frostedheart:heat_radiator",
+      "icon": "frostedheart:radiator",
       "id": "6931e12b7a594fea",
       "multiblock": "frostedheart:multiblocks/heat_radiator"
     }
   ],
-  "points": 3000,
-  "showAltDesc": true
+  "icon": "frostedheart:radiator",
+  "category": "frostedheart:rescue",
+  "parents": [
+    "generator_T2"
+  ]
 }
