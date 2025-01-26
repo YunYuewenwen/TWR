@@ -1,5 +1,9 @@
 *start
 @delay t=10
+# Init Cookies
+@getCookie k="preloguePlayed"
+@requestCookie
+
 # Init languauge
 @call s=langinit
 # Trigger Definition start
