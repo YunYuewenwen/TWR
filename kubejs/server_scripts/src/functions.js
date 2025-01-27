@@ -1,7 +1,7 @@
 //priority: 1005
 
 function IEIngredient(input) {
-    let inp = Ingredient.of(input)
+    let inp = Item.of(input)
     return {base_ingredient: inp.withCount(1).toJson(), count: inp.getCount()}
 }
 

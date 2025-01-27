@@ -2,6 +2,18 @@
 @actTitle t="Crashed in the frozen planet" st="Finish dialog"
 @showTitle t="Chapter 1 Act 1" st="Crashed in the frozen planet"
 @delay t=60
+
+@if exp="client.preloguePlayed"
+Do you want to skip the prelogue?[r]
+[link l=*intitle][&eSkip&r][endlink][r]
+[link l=*beginprelogue][&eDon't Skip&r][endlink]
+@wa
+@endif
+
+*beginprelogue
+@er
+@setCookie k="preloguePlayed" exp="1"
+@sendCookie
 @stopbgm
 Ouch, Ouch, where am I? What am I doing? [l][er]
 This is ... shuttle cabin. I am ...[delay t=20]I am ...[l][er]
@@ -144,6 +156,7 @@ A miracle that was my fantasy — that was their narrative. Thus I embark on a l
 @freeLayer n=layer1
 @showLayer t=40 trans=fadeout
 *intitle
+@fullScreenDialog show=1
 @delay t=40
 @startLayer
 @FillRect n=bg clr=0xFF000000 z=-999

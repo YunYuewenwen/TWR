@@ -1,39 +1,31 @@
 {
-  "icon": {
-    "type": "item",
-    "item": {
-      "id": "frostedheart:advanced_thermos",
-      "nbt": "{Damage:0}"
-    }
-  },
-  "category": "frostedheart:living",
-  "parents": [
-    "electrolyzer"
-  ],
+  "showAltDesc": true,
+  "points": 4000,
+  "insight": 1,
   "clues": [
     {
       "type": "game",
-      "value": 0.4,
       "id": "587048a44a004a5d",
+      "value": 0.4,
       "level": 1
     },
     {
       "type": "game",
-      "value": 0.4,
       "id": "61de1d3709fa4a80",
+      "value": 0.4,
       "level": 1
     },
     {
       "type": "item",
-      "value": 0.15,
       "id": "5cdfa597760f4ed2",
+      "value": 0.15,
+      "consume": true,
       "item": {
         "count": 10,
         "base_ingredient": {
           "tag": "forge:plates/aluminum"
         }
-      },
-      "consume": true
+      }
     }
   ],
   "ingredients": [
@@ -44,7 +36,7 @@
       "tag": "forge:plates/steel"
     },
     {
-      "item": "frostedheart:invar_sheet"
+      "tag": "forge:plates/invar"
     },
     {
       "tag": "forge:plates/copper"
@@ -56,10 +48,23 @@
   "effects": [
     {
       "type": "recipe",
-      "id": "2859cb96ccf842e2",
-      "item": "frostedheart:advanced_thermos"
+      "item": {
+        "item": "frostedheart:advanced_thermos"
+      },
+      "id": "2859cb96ccf842e2"
     }
   ],
-  "points": 4000,
-  "showAltDesc": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:white_advanced_thermos",
+      "tag": {
+        "Damage": 0
+      }
+    }
+  },
+  "category": "frostedheart:living",
+  "parents": [
+    "electrolyzer"
+  ]
 }

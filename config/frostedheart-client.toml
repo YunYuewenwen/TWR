@@ -54,7 +54,7 @@
 	#Enables the waypoints rendering. 
 	enableWaypoint = true
 	#Enables the tips rendering. 
-	renderTips = false
+	renderTips = true
 
 [Scenario]
 	#Enables the scenario act hud rendering. 

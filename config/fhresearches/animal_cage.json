@@ -1,37 +1,41 @@
 {
-  "icon": "supplementaries:cage",
-  "category": "frostedheart:ars",
-  "parents": [
-    "crucible"
-  ],
+  "showAltDesc": true,
+  "points": 4000,
+  "insight": 1,
   "clues": [
     {
-      "type": "kill",
-      "value": 0.25,
-      "id": "aa0b5f53776f467c",
-      "always": false,
-      "entity": "stone_age:mouflon"
-    },
-    {
       "type": "game",
-      "value": 0.5,
       "id": "8ddb982329754dfb",
       "required": true,
+      "value": 0.5,
       "level": 1
     },
     {
       "type": "kill",
+      "id": "5543b5168f0844d1",
+      "required": false,
       "value": 0.25,
-      "id": "97a6c0da64144a5e",
       "always": false,
-      "entity": "stone_age:mammoth"
+      "desc": "@entity.stone_age.mouflon",
+      "entity": "stone_age:mouflon"
     },
     {
       "type": "kill",
+      "id": "9c8fd05a77c64aae",
+      "required": false,
       "value": 0.25,
-      "id": "2aca0c7f71f14c28",
       "always": false,
+      "desc": "@entity.stone_age.auroch",
       "entity": "stone_age:auroch"
+    },
+    {
+      "type": "kill",
+      "id": "6857748b9fe24e1f",
+      "required": false,
+      "value": 0.25,
+      "always": false,
+      "desc": "@entity.stone_age.fowl",
+      "entity": "stone_age:fowl"
     }
   ],
   "ingredients": [
@@ -74,17 +78,25 @@
   "effects": [
     {
       "type": "recipe",
-      "id": "5acc6356a60b4822",
-      "item": "supplementaries:cage"
+      "item": {
+        "item": "supplementaries:cage"
+      },
+      "id": "5acc6356a60b4822"
     },
     {
       "type": "item",
       "id": "88694e96eb3240b9",
       "rewards": [
-        "supplementaries:cage"
+        {
+          "id": "supplementaries:cage",
+          "Count": 1
+        }
       ]
     }
   ],
-  "points": 4000,
-  "showAltDesc": true
+  "icon": "supplementaries:cage",
+  "category": "frostedheart:ars",
+  "parents": [
+    "crucible"
+  ]
 }

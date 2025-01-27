@@ -2,6 +2,18 @@
 @actTitle t="霜星迫降" st="完成剧情"
 @showTitle t="第一章 第一节" st="霜星迫降"
 @delay t=60
+
+@if exp="client.preloguePlayed"
+是否跳过序章？[r]
+[link l=*intitle][&e跳过&r][endlink][r]
+[link l=*beginprelogue][&e观看&r][endlink]
+@wa
+@endif
+
+*beginprelogue
+@er
+@setCookie k="preloguePlayed" exp="1"
+@sendCookie
 @stopbgm
 头好疼，这是，哪里？我怎么会在这里？[l][er]
 这里是...飞船船舱，我是...[delay t=20]我是...[l][er]
