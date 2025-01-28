@@ -43,7 +43,6 @@ Ponder.registry((event) => {
 
 			// Bloomery extraupgrade scene
 			scene.addKeyframe()
-			// let pos2 = util.grid().at(1, 2, 1)
 			scene.overlay.showOutline("green", {}, [1, 2, 1], 50)
 			scene.overlay.showText(50)
 				.colored(PonderPalette.GREEN)

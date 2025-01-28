@@ -1,5 +1,5 @@
 Ponder.registry((event) => {
-	event.create(["immersiveengineering:graphite_electrode", "kubejs:shaped_bounded_graphite", "kubejs:rough_graphite_electrode", "kubejs:bounded_graphite"])
+	event.create(["immersiveengineering:manual", "immersiveengineering:graphite_electrode", "kubejs:shaped_bounded_graphite", "kubejs:rough_graphite_electrode", "kubejs:bounded_graphite"])
 		.tag("immersiveindustry:ponder")
 		.scene("industrial_electrolyzer", "Industrial Electrolyzer", "kubejs:industrial_electrolyzer", (scene) => {
 			scene.showBasePlate()

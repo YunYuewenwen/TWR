@@ -102,18 +102,19 @@ ServerEvents.recipes((event) => {
             F: "create:shaft"
         }),
         shapedRecipe("create:blaze_burner", [
-            "EC CE",
-            "EBDBE",
-            "EBBBE",
-            "AAAAA"
+	        "AC CA",
+	        "ABDBA",
+	        "ACCCA",
+	        "EFGFE"
         ], {
-            A: "frostedheart:cast_iron_sheet",
+            A: "#forge:plates/cast_iron",
             B: "#forge:plates/constantan",
             C: "#forge:plates/bronze",
             D: "minecraft:lava_bucket",
-            E: "#forge:ingots/cast_iron"
+            E: "#forge:ingots/cast_iron",
+	        F: "#forge:ingots/iron",
+	        G: "#forge:stone"
         }),
-        /*
         shapedRecipe("immersiveindustry:electrolyzer", [
             "FFEFF",
             "ABCBA",
@@ -127,8 +128,7 @@ ServerEvents.recipes((event) => {
             D: "immersiveengineering:wirecoil_copper",
             E: "immersiveengineering:circuit_board",
             F: "#forge:ingots/steel"
-        }),
-        */
+        })
     ]
     recipes.forEach((recipe) => {
         event.remove({output: recipe.result, type: "create:mechanical_crafting"});

@@ -1,5 +1,5 @@
 Ponder.registry((event) => {
-	event.create("immersiveengineering:generator")
+	event.create(["immersiveengineering:manual", "immersiveengineering:generator"])
 		.tag("immersiveindustry:ponder")
 		.scene("steam_turbine", "Steam Turbine", "kubejs:steam_turbine", (scene) => {
 			scene.showBasePlate()
