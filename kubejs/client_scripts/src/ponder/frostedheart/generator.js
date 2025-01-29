@@ -1,6 +1,6 @@
 Ponder.registry((event) => {
 	// Tier 1
-	event.create(["frostedheart:generator", "frostedheart:generator_core_t1", "frostedheart:generator_amplifier_r1", "frostedheart:generator_brick"])
+	event.create(["immersiveengineering:manual", "frostedheart:generator", "frostedheart:generator_core_t1", "frostedheart:generator_amplifier_r1", "frostedheart:generator_brick"])
 		.tag("frostedheart:ponder")
 		.scene("basic_usage", "", "kubejs:generator_t1", (scene) => {
 			scene.showBasePlate()
@@ -34,7 +34,7 @@ Ponder.registry((event) => {
 		})
 
 	// Tier 2
-	event.create(["frostedheart:generator_t2", "frostedheart:invar_block"])
+	event.create(["immersiveengineering:manual", "frostedheart:generator_t2", "frostedheart:invar_block"])
 		.tag("frostedheart:ponder")
 		.scene("basic_usage", "", "kubejs:generator_t2", (scene) => {
 			scene.scaleSceneView(0.5)
