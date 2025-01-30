@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let {create} = event.recipes
+    let { create } = event.recipes
 
     let recipes = [
         shapedRecipe("steampowered:alternator", [
@@ -102,19 +102,18 @@ ServerEvents.recipes((event) => {
             F: "create:shaft"
         }),
         shapedRecipe("create:blaze_burner", [
-	        "AC CA",
-	        "ABDBA",
-	        "ACCCA",
-	        "EFGFE"
+            "EC CE",
+            "EBDBE",
+            "EBBBE",
+            "AAAAA"
         ], {
-            A: "#forge:plates/cast_iron",
+            A: "frostedheart:cast_iron_sheet",
             B: "#forge:plates/constantan",
             C: "#forge:plates/bronze",
             D: "minecraft:lava_bucket",
-            E: "#forge:ingots/cast_iron",
-	        F: "#forge:ingots/iron",
-	        G: "#forge:stone"
+            E: "#forge:ingots/cast_iron"
         }),
+        /*
         shapedRecipe("immersiveindustry:electrolyzer", [
             "FFEFF",
             "ABCBA",
@@ -128,10 +127,11 @@ ServerEvents.recipes((event) => {
             D: "immersiveengineering:wirecoil_copper",
             E: "immersiveengineering:circuit_board",
             F: "#forge:ingots/steel"
-        })
+        }),
+        */
     ]
     recipes.forEach((recipe) => {
-        event.remove({output: recipe.result, type: "create:mechanical_crafting"});
+        event.remove({ output: recipe.result, type: "create:mechanical_crafting" });
         create.mechanical_crafting(recipe)
     })
 
@@ -149,7 +149,7 @@ ServerEvents.recipes((event) => {
         })
     ]
     workbench_recipes.forEach((recipe) => {
-        event.remove({output: recipe.result, type: "minecraft:crafting_shaped"});
+        event.remove({ output: recipe.result, type: "minecraft:crafting_shaped" });
         create.mechanical_crafting(recipe)
     })
 })
