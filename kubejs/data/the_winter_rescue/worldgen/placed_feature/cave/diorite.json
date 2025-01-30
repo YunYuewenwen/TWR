@@ -5,18 +5,15 @@
       "radius": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 4,
-          "max_inclusive": 8
+          "min_inclusive": 5,
+          "max_inclusive": 12
         }
       },
       "state": {
-        "Name": "minecraft:tuff"
+        "Name": "minecraft:diorite"
       },
       "target": {
-        "Name": "minecraft:deepslate",
-        "Properties": {
-          "axis": "y"
-        }
+        "Name": "minecraft:stone"
       }
     }
   },
@@ -27,7 +24,7 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 256,
+            "data": 180,
             "weight": 100
           }
         ]
@@ -41,10 +38,10 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "above_bottom": 32
+          "above_bottom": 0
         },
         "max_inclusive": {
-          "absolute": 0
+          "absolute": 256
         }
       }
     },

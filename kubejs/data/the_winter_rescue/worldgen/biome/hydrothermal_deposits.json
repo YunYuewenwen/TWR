@@ -6,77 +6,80 @@
             "minecraft:canyon"
         ]
     },
-    "downfall": 0,
+    "downfall": 0.6,
     "effects": {
-        "fog_color": 0,
+        "fog_color": 14739967,
+        "grass_color": 13029527,
         "mood_sound": {
             "block_search_extent": 8,
             "offset": 2,
             "sound": "minecraft:ambient.cave",
             "tick_delay": 6000
         },
-        "particle": {
-            "options": {
-                "type": "minecraft:lava"
-            },
-            "probability": 0.0001
+        "music": {
+            "max_delay": 24000,
+            "min_delay": 12000,
+            "replace_current_music": false,
+            "sound": "minecraft:music.overworld.stony_peaks"
         },
-        "sky_color": 0,
-        "water_color": 1787600,
+        "sky_color": 7842047,
+        "water_color": 7856375,
         "water_fog_color": 329011
     },
     "features": [
         [
-            "terralith:cave/fuck_art_just_need_performance/basalt"
-        ],
-        [],
-        [
-            "minecraft:amethyst_geode"
+            "the_winter_rescue:cave/diorite"
         ],
         [
-            "minecraft:monster_room"
+            "minecraft:lake_lava_underground",
+            "minecraft:lake_lava_surface"
+        ],
+        [
+            "minecraft:amethyst_geode",
+            "the_winter_rescue:cave/hydrothermal_geode"
+        ],
+        [
+            "minecraft:monster_room",
+            "minecraft:monster_room_deep"
         ],
         [],
         [],
         [
+            "minecraft:ore_gravel",
+            "the_winter_rescue:cave/hydrothermal_nickel_ore",
+            "the_winter_rescue:cave/hydrothermal_pyrite_ore",
+            "the_winter_rescue:cave/hydrothermal_zinc_ore",
+            "the_winter_rescue:cave/hydrothermal_lake",
             "minecraft:ore_coal_upper",
             "minecraft:ore_coal_lower",
             "minecraft:ore_iron_upper",
             "minecraft:ore_iron_middle",
             "minecraft:ore_iron_small",
             "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
             "minecraft:ore_redstone",
             "minecraft:ore_redstone_lower",
             "minecraft:ore_diamond",
             "minecraft:ore_diamond_medium",
             "minecraft:ore_diamond_large",
+            "minecraft:ore_diamond_buried",
             "minecraft:ore_lapis",
             "minecraft:ore_lapis_buried",
-            "minecraft:ore_copper",
-            "minecraft:underwater_magma",
-            "minecraft:disk_sand",
-            "minecraft:disk_clay",
-            "minecraft:disk_gravel"
+            "minecraft:ore_copper"
         ],
         [
-            "terralith:cave/mantle/lava_drip",
-            "terralith:cave/mantle/magma_strip",
-            "terralith:cave/mantle/basalt_strip"
+            "terralith:cave/stone/andesite_boulders",
+            "the_winter_rescue:cave/calcite_strip"
         ],
         [
             "minecraft:spring_water",
             "minecraft:spring_lava"
         ],
         [
+            "terralith:cave/generic/noise_reducer",
+            "terralith:cave/generic/noise_reducer_small",
             "minecraft:glow_lichen",
-            "minecraft:patch_tall_grass_2",
-            "minecraft:trees_plains",
-            "minecraft:flower_plains",
-            "minecraft:patch_grass_plain",
-            "minecraft:brown_mushroom_normal",
-            "minecraft:red_mushroom_normal",
-            "minecraft:patch_sugar_cane",
-            "minecraft:patch_pumpkin"
+            "minecraft:underwater_magma"
         ],
         [
             "minecraft:freeze_top_layer"
@@ -121,6 +124,5 @@
         "water_ambient": [],
         "water_creature": []
     },
-    "surface_builder": "minecraft:stone",
-    "temperature": 2
+    "temperature": 0.24775
 }

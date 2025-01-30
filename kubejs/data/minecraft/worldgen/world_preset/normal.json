@@ -8,6 +8,36 @@
             "type": "minecraft:multi_noise",
             "biomes": [
               {
+                "biome": "the_winter_rescue:hydrothermal_deposits",
+                "parameters": {
+                  "continentalness": [
+                    0.3,
+                    0.6
+                  ],
+                  "depth": [
+                    0.15,
+                    0.6
+                  ],
+                  "erosion": [
+                    -0.5,
+                    0
+                  ],
+                  "humidity": [
+                    -1,
+                    1
+                  ],
+                  "offset": 0,
+                  "temperature": [
+                    -0.15,
+                    0.15
+                  ],
+                  "weirdness": [
+                    -1,
+                    1
+                  ]
+                }
+              },
+              {
                 "biome": "minecraft:deep_frozen_ocean",
                 "parameters": {
                   "continentalness": [
