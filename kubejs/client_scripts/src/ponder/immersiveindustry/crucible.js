@@ -1,8 +1,8 @@
 Ponder.registry((event) => {
-	event.create(["immersiveengineering:manual", "immersiveindustry:crucible", "immersiveindustry:burning_chamber", "frostedheart:high_refractory_bricks", "immersiveengineering:blastfurnace_preheater"])
+	event.create(["immersiveindustry:crucible", "immersiveindustry:burning_chamber", "frostedheart:high_refractory_bricks", "immersiveengineering:blastfurnace_preheater"])
 		.tag("immersiveindustry:ponder")
 		// Build
-		.scene("crucible", "Crucible", "kubejs:steel_mill_crucible", (scene) => {
+		.scene("assembly", "", "kubejs:steel_mill_crucible", (scene) => {
 			scene.showBasePlate()
 			scene.idle(10)
 
@@ -19,8 +19,9 @@ Ponder.registry((event) => {
 			scene.world.showSection([4, 4, 0, 0, 4, 4], Direction.DOWN)
 			scene.addKeyframe()
 			scene.idle(40)
-			scene.addKeyframe()
+
 			// text
+			scene.addKeyframe()
 			scene.overlay.showOutline("blue", {}, [2.5, 2.5, 1], 40)
 			scene.overlay.showText(40)
 				.text("R-Click to assemble")
@@ -44,7 +45,7 @@ Ponder.registry((event) => {
 		})
 
 		// Usage
-		.scene("basic_usage", "Usage", "kubejs:steel_mill_crucible_usage", (scene) => {
+		.scene("basic_usage", "", "kubejs:steel_mill_crucible_usage", (scene) => {
 			scene.showBasePlate()
 			scene.idle(10)
 

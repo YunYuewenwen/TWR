@@ -24,7 +24,7 @@ PlayerEvents.chat((event) => {
 	let { player, message, server } = event
 
 	for (let i = 0; i < global.debugUserName.length; i ++) {
-		if(player.username === global.debugUserName[i]){
+		if (player.username === global.debugUserName[i]) {
 			// Input -ki to remove all dropped items
 			if (message.trim().equalsIgnoreCase("-ki")) {
 				server.runCommandSilent("kill @e[type=item]")

@@ -1,5 +1,5 @@
 Ponder.registry((event) => {
-	event.create(["immersiveengineering:manual", "immersiveindustry:rotary_kiln_cylinder"])
+	event.create("immersiveindustry:rotary_kiln_cylinder")
 		.tag("immersiveindustry:ponder")
 		.scene("rotary_kiln", "Rotary Kiln", "kubejs:rotary_kiln", (scene) => {
 			scene.showBasePlate()

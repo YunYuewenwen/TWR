@@ -204,8 +204,8 @@
     "the_winter_rescue.ponder.generator_construction_t2.usage.text_1": "Input heat medium from bottom center",
     "the_winter_rescue.ponder.pottery_kiln.basic_usage.header": "",
     "the_winter_rescue.ponder.pottery_kiln.basic_usage.text_1": "Surrounding blocks can be ANY block, not just dirt.",
-    "message.kubejs.debug.getItemId": "Print the id under the tag to logs/kubejs/server.log",
+    "message.kubejs.debug.getItemId": "Print the id under the tag to \nlogs/kubejs/server.log",
     "message.kubejs.debug.getHardness": "The hardness of this block is: %s",
-    "text.kubejs.dev": "Dev only. See Release.",
-    "text.kubejs.player": "Test, not final."
+    "text.kubejs.dev": "§7Dev only. See Release.",
+    "text.kubejs.player": "§7Test, not final."
 }
