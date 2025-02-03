@@ -2,7 +2,7 @@ ClientEvents.loggedIn((event) => {
 	let { player } = event
 
 	global.debugUserName.forEach((debugUser) => {
-		let playerInfo = Text.of(Component.translate("text.kubejs.player")).getString()
+		let playerInfo = Component.translate("text.kubejs.player").getString()
 		player.paint({
 			playerTip: {
 				type: "text",
@@ -14,7 +14,7 @@ ClientEvents.loggedIn((event) => {
 			}
 		})
 		if (player.username === debugUser) {
-			let devInfo = Text.of(Component.translate("text.kubejs.dev")).getString()
+			let devInfo = Component.translate("text.kubejs.dev").getString()
 			player.paint({
 				devTip: {
 					type: "text",

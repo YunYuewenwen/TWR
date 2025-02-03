@@ -9,7 +9,7 @@ global.debugUserName = [
 ItemEvents.rightClicked((event) => {
 	let { item, player } = event
 
-	for (let i = 0; i < global.debugUserName.length; i ++) {
+	for (let i = 0; i < global.debugUserName.length; i++) {
 		// Obtain item ID with sneak + r-click
 		if (player.mainHandItem === item.id &&
 			player.crouching &&
@@ -23,7 +23,7 @@ ItemEvents.rightClicked((event) => {
 PlayerEvents.chat((event) => {
 	let { player, message, server } = event
 
-	for (let i = 0; i < global.debugUserName.length; i ++) {
+	for (let i = 0; i < global.debugUserName.length; i++) {
 		if (player.username === global.debugUserName[i]) {
 			// Input -ki to remove all dropped items
 			if (message.trim().equalsIgnoreCase("-ki")) {
@@ -64,9 +64,8 @@ PlayerEvents.loggedIn((event) => {
 	* Change the Tag inside Ingredient.of()
 	*/
 
-	for (let i = 0; i < global.debugUserName.length; i ++) {
+	for (let i = 0; i < global.debugUserName.length; i++) {
 		if (player.username === global.debugUserName[i]) {
-			server.tell(Component.translate("message.kubejs.debug.getItemId", [player.username]))
 			// Iterate over Tag
 			Ingredient.of("#minecraft:sand")
 				.getItemIds()
@@ -85,7 +84,7 @@ BlockEvents.rightClicked((event) => {
 	let pos = event.getBlock().getPos()
 	let blockHardness = blockState.getDestroySpeed(event.getLevel(), pos)
 
-	for (let i = 0; i < global.debugUserName.length; i ++) {
+	for (let i = 0; i < global.debugUserName.length; i++) {
 		if (event.hand !== "MAIN_HAND" &&
 			player.crouching &&
 			player.username === global.debugUserName[i]) {
