@@ -207,7 +207,7 @@
 	"message.kubejs.debug.getItemId": "Print the id under the tag to \nlogs/kubejs/server.log",
 	"message.kubejs.debug.getHardness": "The hardness of this block is: %s",
 	"message.kubejs.checkCheating": "§bIt seems you have added the %s§b mod?\n§bPerhaps enjoying the content of the modpack as intended would be a better choice?",
-	"message.kubejs.checkMultipleCheating": "§bIt seems you have added the following %s§b mods?\n§bPerhaps enjoying the content of the modpack as intended would be a better choice?",
+	"message.kubejs.checkMultipleCheating": "§bIt seems you have added the following mods: %s§b\n§bPerhaps enjoying the content of the modpack as intended would be a better choice?",
 	"text.kubejs.dev": "§0Dev only. See Release.",
 	"text.kubejs.player": "§0Test, not final."
 }

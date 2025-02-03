@@ -1,6 +1,11 @@
 PlayerEvents.loggedIn((event) => {
 	let { player } = event
 
+	// If the player has triggered the stage, return directly
+	if (player.stages.has("first_login")) {
+		return
+	}
+
 	let modGroup = [
 		"ftbultimine",
 		"oreexcavation",
@@ -15,10 +20,13 @@ PlayerEvents.loggedIn((event) => {
 		}
 	})
 
-	// If multiple mods are detected, use different i18n key
+	// If a mod is detected, send a message and set the player's stage
 	if (detectedMods.length > 0) {
 		let getMod = detectedMods.join(", ")
 		let messageKey = detectedMods.length > 1 ? "message.kubejs.checkMultipleCheating" : "message.kubejs.checkCheating"
 		player.tell(Component.translate(messageKey, [getMod]))
+
+		// Add a stage to the player to avoid triggering again
+		player.stages.add("first_login")
 	}
 })

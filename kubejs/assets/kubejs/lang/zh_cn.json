@@ -153,7 +153,7 @@
 	"message.kubejs.debug.getItemId": "Tag下的id以打印至\nlogs/kubejs/server.log",
 	"message.kubejs.debug.getHardness": "这个方块的硬度是: %s",
 	"message.kubejs.checkCheating": "§b你似乎添加了%s§b这个Mod?\n§b或许好好体验整合包内容才是更好的选择呢?",
-	"message.kubejs.checkMultipleCheating": "§b你似乎添加了%s§b这几个Mod?\n§b或许好好体验整合包内容才是更好的选择呢?",
+	"message.kubejs.checkMultipleCheating": "§b你似乎添加了以下Mod?\n%s§b\n§b或许好好体验整合包内容才是更好的选择呢?",
 	"text.kubejs.dev": "§0开发中画面, 实际内容请以正式版为准",
 	"text.kubejs.player": "§0测试中版本, 不代表最终品质"
 }
