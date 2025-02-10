@@ -23,23 +23,48 @@
 	quests: [
 		{
 			dependencies: ["05E9EE36BACD944D"]
+			description: ["使用Tetra的锤右键工作台即可将其改造成Tetra的加工台，开启模块化工具之路。"]
 			icon: "tetra:basic_workbench"
 			id: "11DD149796E14E81"
 			shape: "gear"
-			subtitle: "{quest.twr.11DD149796E14E81.subtitle}"
-			tasks: [{
-				id: "25611D8B807E18B0"
-				type: "checkmark"
-			}]
-			title: "Start of Modularization"
-			x: -2.5d
-			y: 1.5d
+			size: 2.0d
+			tasks: [
+				{
+					id: "4DF582149EB692A3"
+					item: {
+						Count: 1
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/stone"
+							"double/basic_hammer_right_material": "basic_hammer/stone"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "fd647bdd-5d12-43f3-af50-78bf3451bfeb"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "tetra:basic_workbench"
+					id: "4079B1DB88CB40EC"
+					observe_type: 0
+					timer: 0L
+					to_observe: "tetra:basic_workbench"
+					type: "observation"
+				}
+			]
+			title: "模块化开端"
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["11DD149796E14E81"]
 			description: [
-				"{quest.twr.0B94C2D4FAB6A54B.description.1}"
-				"{quest.twr.0B94C2D4FAB6A54B.description.2}"
+				"以金属镐作为基础，在加工台中改装任意部件改装出属于你自己的镐子."
+				"此外，镐、斧和锹均为双头工具，可以进行双头改装。"
 			]
 			id: "0B94C2D4FAB6A54B"
 			subtitle: "{quest.twr.0B94C2D4FAB6A54B.subtitle}"
@@ -58,12 +83,12 @@
 				type: "item"
 			}]
 			title: "{quest.twr.0B94C2D4FAB6A54B.title}"
-			x: -2.5d
-			y: 3.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["11DD149796E14E81"]
-			description: ["{quest.twr.06919E56E850B946.description.1}"]
+			description: ["全息球是Tetra材料的百科全书，可以从上面查看各种材料用作不同部件时的数据"]
 			hide_until_deps_visible: false
 			id: "06919E56E850B946"
 			subtitle: "{quest.twr.06919E56E850B946.subtitle}"
@@ -81,14 +106,14 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["11DD149796E14E81"]
 			description: [
-				"{quest.twr.34E4EC05F478BB1B.description.0}"
-				"{quest.twr.34E4EC05F478BB1B.description.1}"
+				"这颗星球上的宝石矿早已被开采殆尽，想要获取宝石，只能在深层矿洞中寻找&e晶洞玉石&r。"
+				"将晶洞玉石放在&e加工台上使用锤子敲开&r将有概率获得各类宝石，获得宝石的数量受锤子的时运等级影响。"
 			]
 			id: "34E4EC05F478BB1B"
 			subtitle: "{quest.twr.34E4EC05F478BB1B.subtitle}"
@@ -98,16 +123,16 @@
 				type: "item"
 			}]
 			title: "{quest.twr.34E4EC05F478BB1B.title}"
-			x: -4.0d
-			y: 1.5d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["11DD149796E14E81"]
 			description: [
-				"{quest.twr.6D7D911961F81187.description.1}"
-				"{quest.twr.6D7D911961F81187.description.2}"
-				"{quest.twr.6D7D911961F81187.description.3}"
-				"{quest.twr.6D7D911961F81187.description.4}"
+				"锤是Tetra的核心工具，想要使用更高等级的材料打造工具需要更高级的锤。"
+				"升级锤时需要使用另一把锤子来打造锤头，换言之，你需要有两把锤才可以进行对锤的升级。建议直接合成两把石锤（二级锤），然后将其中一把石锤的两头换为铁锤头（左右锤为相同材料时额外提升一级的锤子等级），即可获得三级锤。"
+				"同理，双头均为黑石的锤为四级锤。"
+				"想要打造更高级的锤子，需要前往深埋在地底的锻造遗迹。"
 			]
 			icon: {
 				Count: 1
@@ -130,13 +155,13 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.6D7D911961F81187.title}"
-			x: 0.5d
-			y: 1.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"1DF200F6772308C7"
-				"11DD149796E14E81"
+				"0B94C2D4FAB6A54B"
 			]
 			description: [
 				"{quest.twr.603CDF88D762FEA8.description.1}"
@@ -152,11 +177,18 @@
 			}
 			id: "603CDF88D762FEA8"
 			tasks: [{
-				id: "5D1BE9C3088BE400"
-				type: "checkmark"
+				id: "7DBD3F3CA279A1B6"
+				item: {
+					Count: 1
+					id: "frostedheart:copper_pro_pick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			title: "{quest.twr.603CDF88D762FEA8.title}"
-			x: -1.0d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
@@ -167,21 +199,20 @@
 			]
 			hide_until_deps_visible: false
 			id: "6F2C2CCC90E4C4F6"
-			subtitle: "{quest.twr.6F2C2CCC90E4C4F6.subtitle}"
+			subtitle: "在以加工台为中心的5x5方形区域内放置工具架"
 			tasks: [{
 				id: "142C0935AFCC6338"
 				item: "tetra:rack"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["11DD149796E14E81"]
 			description: [
-				"{quest.twr.762141CEF64385FC.description.1}"
-				"{quest.twr.762141CEF64385FC.description.2}"
-				"{quest.twr.762141CEF64385FC.description.3}"
+				"用绳子做成的腰带可以提供更多的快捷栏，也可以安装储物袋来提供储物空间。"
+				"最开始的腰带能安装的储物袋很少,等到获得羊毛后就可以扩大储物空间。"
 			]
 			id: "762141CEF64385FC"
 			tasks: [{
@@ -199,16 +230,16 @@
 				type: "item"
 			}]
 			title: "{quest.twr.762141CEF64385FC.title}"
-			x: -4.0d
-			y: 3.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["11DD149796E14E81"]
 			description: [
-				"{quest.twr.7DC424AE6C863411.description.1}"
-				"{quest.twr.7DC424AE6C863411.description.2}"
+				"工具在使用过程中会积攒打磨值，打磨值满了后会在右上角提示。"
+				"此时把工具放进加工台就可以选择部位和属性进行打磨，属性打磨至一定等级时会消耗完整度。"
+				"随着工具耐久的消耗，武器会变得稳固，每个主要部件最高可以稳固两次，每次稳固可以增加一点完整度。"
 			]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			icon: {
 				Count: 1
@@ -219,33 +250,47 @@
 			}
 			id: "7DC424AE6C863411"
 			shape: "hexagon"
+			size: 1.25d
 			tasks: [{
 				id: "186DB8CB34E6C717"
 				title: "{quest.twr.7DC424AE6C863411.186DB8CB34E6C717.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 3.0d
+			title: "打磨与稳固"
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["762141CEF64385FC"]
-			description: ["{quest.twr.469A40EB19ACE723.description.1}"]
+			description: ["在腰带上依次安装羊毛、皮革和铁锭可以提供更多完整度，可以安装更多储物袋或是其他部件。"]
 			id: "469A40EB19ACE723"
-			tasks: [{
-				id: "20BE12091228596E"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:wool"
+			tasks: [
+				{
+					id: "20BE12091228596E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wool"
+						}
 					}
+					title: "{quest.twr.469A40EB19ACE723.20BE12091228596E.title}"
+					type: "item"
 				}
-				title: "{quest.twr.469A40EB19ACE723.20BE12091228596E.title}"
-				type: "item"
-			}]
+				{
+					id: "10F331D5C5F05561"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "293367F07E744912"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			title: "{quest.twr.469A40EB19ACE723.title}"
-			x: -5.5d
-			y: 4.5d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["762141CEF64385FC"]
@@ -260,8 +305,217 @@
 				title: "{quest.twr.179C32EE245E4653.76C3B8A622BA2048.title}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 4.5d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11DD149796E14E81"]
+			description: ["青铜剑可进行武器的改造，为自己打造一把趁手的武器吧！"]
+			id: "213A65543DF1FCB8"
+			tasks: [{
+				id: "6042DBAB632CDD0F"
+				item: {
+					Count: 1
+					id: "frostedheart:bronze_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11DD149796E14E81"]
+			id: "3F44E4103EF48914"
+			tasks: [{
+				id: "2FF0D563A94B8A27"
+				item: {
+					Count: 1
+					id: "frostedheart:bronze_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11DD149796E14E81"]
+			description: ["使用丝绸、皮革、鳞甲等材料打造工具则需要切削工具，现阶段只需要青铜刀就足够使用了。"]
+			id: "45007D04E07C8647"
+			tasks: [{
+				id: "31D98A721CC9BF9B"
+				item: {
+					Count: 1
+					id: "frostedheart:bronze_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D7D911961F81187"]
+			description: ["在下雪的群系可以找到锻造遗迹，遗迹中的锻造锤可以用来打造更高级的黑曜石锤和下界合金锤。"]
+			id: "7C874B1F60354AB6"
+			tasks: [{
+				advancement: "tetra:spelunking/ancient_ruins"
+				criterion: ""
+				id: "29BAF04633DBBD67"
+				type: "advancement"
+			}]
+			title: "锻造遗迹"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C874B1F60354AB6"]
+			description: ["这就是可以打造更高级锤子的锻造锤。但是锻造锤初始等级只有五级，并且可能没有电量供给打造，需要为其安装热力单元和燃烧室才能激活七级的锻造锤。"]
+			icon: "tetra:forged_workbench"
+			id: "61C600A54B4B7C50"
+			tasks: [
+				{
+					icon: "tetra:forged_workbench"
+					id: "0971593D1BC68D78"
+					observe_type: 0
+					timer: 0L
+					title: "观察锻造加工台"
+					to_observe: "tetra:forged_workbench"
+					type: "observation"
+				}
+				{
+					icon: "tetra:hammer_base"
+					id: "4F722E754AA53556"
+					observe_type: 0
+					timer: 0L
+					title: "观察锻造锤"
+					to_observe: "tetra:hammer_head"
+					type: "observation"
+				}
+			]
+			title: "锻造锤"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61C600A54B4B7C50"]
+			description: [
+				"热力单元是锻造锤的电池，在锻造锤上安装热力单元可以为其提供电力。燃烧室可以提高锻造锤的等级每安装一个提升一级，两侧各可以安装一个。"
+				"六级锻造锤可以打造黑曜石锤，七级锻造锤可以打造下界合金锤。"
+			]
+			icon: {
+				Count: 1
+				id: "tetra:thermal_cell"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72C69A6803998E32"
+			tasks: [
+				{
+					id: "1270C487BB8A7A04"
+					item: {
+						Count: 1
+						id: "tetra:thermal_cell"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C53CE30D66EFA8F"
+					item: "tetra:combustion_chamber"
+					type: "item"
+				}
+			]
+			title: "电池与燃烧室"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11DD149796E14E81"]
+			description: [
+				"将工具放入加工台后可以在工具下方看到它的完整度，打磨会消耗完整度，一些部件或材料也可能会消耗更多的完整度。"
+				"工具的完整度由手柄提供，点击手柄-基础手柄再点击材料框左侧的按钮可查看不同材料打造的手柄提供的完整度信息（也包含打造手柄时的其他信息，需要全息球）。"
+			]
+			hide_until_deps_visible: false
+			icon: "tetra:forged_beam"
+			id: "45C051309242620B"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5391E434ECAA4F8E"
+				title: "{quest.twr.7DC424AE6C863411.186DB8CB34E6C717.title}"
+				type: "checkmark"
+			}]
+			title: "完整度"
+			x: -1.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["11DD149796E14E81"]
+			description: ["不同于原版只能在铁砧上修复工具，Tetra的模块化工具可以直接在加工台上使用打造工具的几种材料进行修复，相比之下修复成本更低。"]
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "13ADB3F08AD180B7"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5782E8ED7E9768F4"
+				title: "{quest.twr.7DC424AE6C863411.186DB8CB34E6C717.title}"
+				type: "checkmark"
+			}]
+			title: "工具的修复"
+			x: 1.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F44E4103EF48914"]
+			description: [
+				"探矿工具可以被修改以便于维修。"
+				"并且它能通过打磨来提升范围和准确率。"
+			]
+			id: "64FD16EB3C180B7D"
+			tasks: [
+				{
+					id: "3D06581FF95D7D9B"
+					item: {
+						Count: 1
+						id: "frostedheart:copper_core_spade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EC83CA624DF12F0"
+					item: {
+						Count: 1
+						id: "frostedheart:copper_geologists_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
 		}
 	]
 	subtitle: ["{chapter.twr.1E695E6D1F5B227A.subtitle}"]
