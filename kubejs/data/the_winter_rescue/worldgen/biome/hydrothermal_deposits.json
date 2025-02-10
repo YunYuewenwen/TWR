@@ -65,7 +65,8 @@
             "minecraft:ore_diamond_buried",
             "minecraft:ore_lapis",
             "minecraft:ore_lapis_buried",
-            "minecraft:ore_copper"
+            "minecraft:ore_copper",
+            "the_winter_rescue:cave/underwater_magma"
         ],
         [
             "terralith:cave/stone/andesite_boulders",
@@ -78,8 +79,7 @@
         [
             "terralith:cave/generic/noise_reducer",
             "terralith:cave/generic/noise_reducer_small",
-            "minecraft:glow_lichen",
-            "minecraft:underwater_magma"
+            "minecraft:glow_lichen"
         ],
         [
             "minecraft:freeze_top_layer"

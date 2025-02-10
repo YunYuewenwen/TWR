@@ -31,6 +31,97 @@
 
     "item.frostedheart.energy_core.tooltip.summary": "A core that glows.",
     "item.frostedheart.energy_core.tooltip.condition1": "When Used In Research",
-    "item.frostedheart.energy_core.tooltip.behaviour1": "Grants Generator."
+    "item.frostedheart.energy_core.tooltip.behaviour1": "Grants Generator.",
+
+    "item.frostedheart.damaged_electric_motor.tooltip.summary": "A damaged electric motor of a little robot.",
+    "item.frostedheart.damaged_electric_motor.tooltip.condition1": "When Used In Drawing Desk",
+    "item.frostedheart.damaged_electric_motor.tooltip.behaviour1": "Grants _Insight_.",
+
+    "item.frostedheart.damaged_circuit_board.tooltip.summary": "A damaged circuit board.",
+    "item.frostedheart.damaged_circuit_board.tooltip.condition1": "When Used In Drawing Desk",
+    "item.frostedheart.damaged_circuit_board.tooltip.behaviour1": "Grants _Insight_.",
+
+    "item.frostedheart.damaged_camera.tooltip.summary": "A damaged camera of a science journalist.",
+    "item.frostedheart.damaged_camera.tooltip.condition1": "When Used In Drawing Desk",
+    "item.frostedheart.damaged_camera.tooltip.behaviour1": "Grants _Insight_.",
+
+    "item.frostedheart.copper_pro_pick.tooltip.summary":"A specialized tool used for geological exploration and mineral discovery.",
+    "item.frostedheart.copper_pro_pick.tooltip.condition1": "Right-click On the Ground While Holding It With Your Main Hand.",
+    "item.frostedheart.copper_pro_pick.tooltip.behaviour1": "Exploring the general ore distribution in a certain area.",
+
+    "item.frostedheart.iron_pro_pick.tooltip.summary":"A specialized tool used for geological exploration and mineral discovery.",
+    "item.frostedheart.iron_pro_pick.tooltip.condition1": "Right-click On the Ground While Holding It With Your Main Hand.",
+    "item.frostedheart.iron_pro_pick.tooltip.behaviour1": "Exploring the general ore distribution in a certain area.",
+ 
+    "item.frostedheart.steel_pro_pick.tooltip.summary":"A specialized tool used for geological exploration and mineral discovery.",
+    "item.frostedheart.steel_pro_pick.tooltip.condition1": "Right-click On the Ground While Holding It With Your Main Hand.",
+    "item.frostedheart.steel_pro_pick.tooltip.behaviour1": "Exploring the general ore distribution in a certain area.",
+
+    "item.frostedheart.copper_core_spade.tooltip.summary":"A specialized tool used for geological exploration and mineral discovery.",
+    "item.frostedheart.copper_core_spade.tooltip.condition1": "Right-click On the Ground While Holding It With Your Main Hand.",
+    "item.frostedheart.copper_core_spade.tooltip.behaviour1": "Exploring the general ore distribution in a certain area.",
+
+    "item.frostedheart.iron_core_spade.tooltip.summary":"A specialized tool used for geological exploration and mineral discovery.",
+    "item.frostedheart.iron_core_spade.tooltip.condition1": "Right-click On the Ground While Holding It With Your Main Hand.",
+    "item.frostedheart.iron_core_spade.tooltip.behaviour1": "Exploring the general ore distribution in a certain area.",
+
+    "item.frostedheart.steel_core_spade.tooltip.summary":"A specialized tool used for geological exploration and mineral discovery.",
+    "item.frostedheart.steel_core_spade.tooltip.condition1": "Right-click On the Ground While Holding It With Your Main Hand.",
+    "item.frostedheart.steel_core_spade.tooltip.behaviour1": "Exploring the general ore distribution in a certain area.",
+
+    "item.frostedheart.copper_geologists_hammer.tooltip.summary":"A specialized tool used for geological exploration and mineral discovery.",
+    "item.frostedheart.copper_geologists_hammer.tooltip.condition1": "Right-click On the Ground While Holding It With Your Main Hand.",
+    "item.frostedheart.copper_geologists_hammer.tooltip.behaviour1": "Exploring the general ore distribution in a certain area.",
+
+    "item.frostedheart.iron_geologists_hammer.tooltip.summary":"A specialized tool used for geological exploration and mineral discovery.",
+    "item.frostedheart.iron_geologists_hammer.tooltip.condition1": "Right-click On the Ground While Holding It With Your Main Hand.",
+    "item.frostedheart.iron_geologists_hammer.tooltip.behaviour1": "Exploring the general ore distribution in a certain area.",
+
+    "item.frostedheart.steel_geologists_hammer.tooltip.summary":"A specialized tool used for geological exploration and mineral discovery.",
+    "item.frostedheart.steel_geologists_hammer.tooltip.condition1": "Right-click On the Ground While Holding It With Your Main Hand.",
+    "item.frostedheart.steel_geologists_hammer.tooltip.behaviour1": "Exploring the general ore distribution in a certain area.",
+
+    "item.frostedheart.temperature_probe.tooltip.summary": "A tool shows the temperature of the blocks around you.",
+    "item.frostedheart.temperature_probe.tooltip.condition1": "When Point To Certain Blocks",
+    "item.frostedheart.temperature_probe.tooltip.behaviour1": "Displays The Temperature Of The Block.",
+
+    "item.frostedheart.soil_thermometer.tooltip.summary": "A tool for measuring soil temperature.",
+    "item.frostedheart.soil_thermometer.tooltip.condition1": "When Point To Soil",
+    "item.frostedheart.soil_thermometer.tooltip.behaviour1": "Displays The Temperature Of Soil.",
+
+    "item.frostedheart.weather_radar.tooltip.summary": "A device that forecasts the weather for the next few days while you carry it with you.",
+    "item.frostedheart.weather_radar.tooltip.condition1": "When Carried With You",
+    "item.frostedheart.weather_radar.tooltip.behaviour1": "Forecasts The Weather For The Next Few Days.",
+
+    "item.frostedheart.weather_helmet.tooltip.summary": "A helmet that can forecast the weather in the next few days.",
+    "item.frostedheart.weather_helmet.tooltip.condition1": "When Wearing",
+    "item.frostedheart.weather_helmet.tooltip.behaviour1": "Forecasts The Weather For The Next Few Days.",
+
+    "item.frostedheart.quill_and_ink.tooltip.summary": "Necessary materials required to complete higher level researches.",
+
+    "item.frostedheart.leather_water_bag.tooltip.summary": "A container for water.",
+
+    "item.frostedheart.iron_bottle.tooltip.summary": "A container for water.",
+
+    "item.frostedheart.charcoal.tooltip.summary":"Necessary materials for basic researches.",
+
+    "item.frostedheart.coal_stick.tooltip.summary": "A stick of coal",
+    "item.frostedheart.coal_stick.tooltip.condition1": "When Crafted With Hand Stove.",
+    "item.frostedheart.coal_stick.tooltip.behaviour1": "Refills The Stove With Fuel.",
+
+    "item.frostedheart.charcoal_stick.tooltip.summary":"A stick of charcoal",
+    "item.frostedheart.charcoal_stick.tooltip.condition1": "When Crafted With Hand Stove.",
+    "item.frostedheart.charcoal_stick.tooltip.behaviour1": "Refills The Stove With Fuel.",
+
+    "item.frostedheart.straw_briquette_brown_mushroom.tooltip.summary":"A straw briquette suitable for growing mushrooms",
+    "item.frostedheart.straw_briquette_brown_mushroom.tooltip.condition1": "When Wearing It In The Curios Slot.",
+    "item.frostedheart.straw_briquette_brown_mushroom.tooltip.behaviour1": "Uses your body temperature to promote mushroom growth.",
+    "item.frostedheart.straw_briquette_brown_mushroom.tooltip.condition2": "When Your Temperature Is Low.",
+    "item.frostedheart.straw_briquette_brown_mushroom.tooltip.behaviour2": "It Will Fall Into Sleep.",
+
+    "item.frostedheart.straw_briquette_red_mushroom.tooltip.summary":"A straw briquette suitable for growing mushrooms",
+    "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition1": "When Wearing It In The Curios Slot.",
+    "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour1": "Uses your body temperature to promote mushroom growth.",
+    "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition2": "When Your Temperature Is Low.",
+    "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour2": "It Will Fall Into Sleep."
 }
-  
