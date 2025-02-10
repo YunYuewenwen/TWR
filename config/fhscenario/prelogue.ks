@@ -22,6 +22,10 @@ This is ... shuttle cabin. I am ...[delay t=20]I am ...[l][er]
 @bgm n="frostedheart:the_fall_of_arcana"
 @fullScreenDialog show=1
 @startLayer
+@FillRect n=bg clr=0xFFFFFF z=-999
+@showLayer t=20 trans=fadein
+@delay t=20
+@startLayer
 @FillRect n=bg clr=0xFFFFFFFF z=-999
 @TextLayer n=tl text="&0I am...&r" resize=72 x=916 y=540
 @showLayer t=20 trans=fadein
@@ -35,10 +39,15 @@ This is ... shuttle cabin. I am ...[delay t=20]I am ...[l][er]
 @delay t=20
 
 @startLayer
+@FillRect n=bg clr=0xFF000000 z=-999
 @ImageLayer n=layer1 s=twr_scenario:1.jpg
 @showLayer t=20 trans=fadein
 @delay t=20
 Since I could remember, the Earth is white. [l][delay t=40][er]
+@startLayer
+@freeLayer n=layer1
+@showLayer t=20 trans=fadeout
+@delay t=20
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:2.jpg
 @showLayer t=20 trans=fadeout
@@ -57,6 +66,10 @@ It became a paradise for the few, floating above the frozen hell underneath, whe
 @ImageLayer n=layer1 s=twr_scenario:4.jpg tw=1024 th=1024 uw=2048 uh=1170
 @showLayer t=40 trans=left
 Memory fades too. People, the New Generation, started to forget the Apocalypse that froze everything. The bill has passed[l] - no support is going to Earth people again.[l][er]
+@startLayer
+@freeLayer n=layer1
+@showLayer t=20 trans=fadeout
+@delay t=20
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:5.jpg tw=1024 th=1024 uw=2048 uh=1170
 @FillRect n=overlay1 clr=0xFF000000 w=694

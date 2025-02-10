@@ -24,11 +24,16 @@
 @fullScreenDialog show=1
 @startLayer
 @FillRect n=bg clr=0xFFFFFF z=-999
-@TextLayer n=tl text="&0我是…&r" resize=72 x=916 y=540 clr=0xFF000000
 @showLayer t=20 trans=fadein
-@speed v=0.6
 @delay t=20
 
+@startLayer
+@FillRect n=bg clr=0xFFFFFF z=-999
+@TextLayer n=tl text="&0我是…&r" resize=72 x=916 y=540 clr=0xFF000000
+@showLayer t=20 trans=fadein
+
+@delay t=20
+@speed v=0.6
 @startLayer
 @freeLayer n=tl
 @showLayer t=20 trans=fadein
@@ -36,10 +41,15 @@
 @delay t=20
 
 @startLayer
+@FillRect n=bg clr=0xFF000000 z=-999
 @ImageLayer n=layer1 s=twr_scenario:1.jpg
 @showLayer t=20 trans=fadein
 @delay t=20
 地球打我记事起就是一片雪白。[l][er]
+@startLayer
+@freeLayer n=layer1
+@showLayer t=20 trans=fadeout
+@delay t=20
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:2.jpg
 @showLayer t=20 trans=fadeout
@@ -58,6 +68,10 @@
 @ImageLayer n=layer1 s=twr_scenario:4.jpg tw=1024 th=1024 uw=2048 uh=1170
 @showLayer t=40 trans=left
 记忆也如残烛般熄灭。那场冻结一切的浩劫已在新世代的记忆中荡然无存。[l]于是法案通过得堪称自然：再不会向留在地上的人投送援助了。[l][er]
+@startLayer
+@freeLayer n=layer1
+@showLayer t=20 trans=fadeout
+@delay t=20
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:5.jpg tw=1024 th=1024 uw=2048 uh=1170
 @FillRect n=overlay1 clr=0xFF000000 w=694
@@ -173,9 +187,8 @@
 @freeLayer n=layer2
 @freeLayer n=tl
 @showLayer t=20 trans=fadeout
-@delay t=40
+@delay t=80
 @fullScreenDialog show=0
-@stopbgm
 @speed v=1
 *endcutsence
 @delay t=20
