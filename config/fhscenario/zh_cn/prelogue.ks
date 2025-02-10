@@ -14,6 +14,8 @@
 @er
 @setCookie k="preloguePlayed" exp="1"
 @sendCookie
+*begintext
+@mobEffect e="frostedheart:insulation" a=0 t=3600 hide=1
 @stopbgm
 头好疼，这是，哪里？我怎么会在这里？[l][er]
 这里是...飞船船舱，我是...[delay t=20]我是...[l][er]
@@ -157,7 +159,7 @@
 @freeLayer n=layer1
 @showLayer t=40 trans=fadeout
 @delay t=40
-*tesst2
+*intitle
 @fullScreenDialog show=1
 @startLayer
 @FillRect n=bg clr=0xFF000000 z=-999
@@ -197,6 +199,7 @@
 [NoWait]我：[EndNoWait]天气预报接通了，似乎3天后会有一次暴风雪，接下来我应该干嘛呢？@p
 [NoWait]IIA：[EndNoWait]建议：设法寻求救援。@p
 [NoWait]我：[EndNoWait]没人能够救我们了，我们只能自救了。@p
+*demotemperature
 @hudDialog show=1
 @startLayer
 @DrawLine name=l1 sx="@1024+(uiScale)*16;" sy="@1152-(uiScale)*83;" dx=1224 dy=700 w="@uiScale*2;" clr=0xffeeee00
@@ -220,7 +223,8 @@
 @er
 [NoWait]我：[EndNoWait]取下飞船的物资吧！[l]
 @call s=prelogue_rewards
-@p
+*rewardClaimed
+似乎里面还有一个一次性电池，应该足以维持5分钟的温暖。[p]
 @showTitle t="第一章 第一节" st="已完成"
 @actTitle t="" st=""
 查看任务书以继续后续剧情。@p

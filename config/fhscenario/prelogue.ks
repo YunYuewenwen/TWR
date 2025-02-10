@@ -14,6 +14,8 @@ Do you want to skip the prelogue?[r]
 @er
 @setCookie k="preloguePlayed" exp="1"
 @sendCookie
+@mobEffect e="frostedheart:insulation" a=0 t=3600 hide=1
+*begintext
 @stopbgm
 Ouch, Ouch, where am I? What am I doing? [l][er]
 This is ... shuttle cabin. I am ...[delay t=20]I am ...[l][er]
@@ -196,6 +198,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 [NoWait]Me :[EndNoWait]Weather forecast is now available, seems a snowstorm is coming in three days, what should we do? @p
 [NoWait]IIA :[EndNoWait]Suggest: seek for rescue.@p
 [NoWait]Me :[EndNoWait]No one could save us, we have to save ourselves@p
+*demotemperature
 @hudDialog show=1
 @startLayer
 @DrawLine name=l1 sx="@1024+(uiScale)*16;" sy="@1152-(uiScale)*83;" dx=1224 dy=700 w="@uiScale*2;" clr=0xffeeee00
@@ -219,7 +222,8 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @hudDialog show=0
 [NoWait]Me :[EndNoWait]Taking out supplies from ship. [l]
 @call s=prelogue_rewards
-@p
+*rewardClaimed
+Seems there is a single use battery inside, it should keep me warm for around 5 minutes[p]
 *en
 @showTitle t="Chapter 1 Act 1" st="Compelete"
 @actTitle t="" st=""
