@@ -14,7 +14,7 @@
 @endif
 # Act 2 Tutorial
 @if exp="1-chapter1act2"
-@waitQuestComplete s=chapter1_act2 q=4E2B2FEBD5031A2C
+@waitQuestComplete s=chapter1_act2_title q=4E2B2FEBD5031A2C
 @endif
 
 
