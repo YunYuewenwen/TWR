@@ -20,15 +20,7 @@
   "placement": [
     {
       "type": "minecraft:count",
-      "count": {
-        "type": "minecraft:weighted_list",
-        "distribution": [
-          {
-            "data": 180,
-            "weight": 100
-          }
-        ]
-      }
+      "count": 75
     },
     {
       "type": "minecraft:in_square"
@@ -41,7 +33,7 @@
           "above_bottom": 0
         },
         "max_inclusive": {
-          "absolute": 256
+          "absolute": 72
         }
       }
     },
