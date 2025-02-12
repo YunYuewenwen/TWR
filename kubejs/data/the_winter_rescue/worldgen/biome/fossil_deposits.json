@@ -71,8 +71,7 @@
         [
             "terralith:cave/generic/noise_reducer",
             "terralith:cave/generic/noise_reducer_small",
-            "minecraft:glow_lichen",
-            "the_winter_rescue:cave/fossil"
+            "minecraft:glow_lichen"
         ],
         [
             "minecraft:freeze_top_layer"
