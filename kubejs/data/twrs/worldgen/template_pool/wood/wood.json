@@ -1,11 +1,11 @@
 {
-	"name": "twrs:black_stone_cottages/black_stone_cottages",
+	"name": "twrs:wood/wood",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:black_stone_cottages/a_dilapidated_black_stone_cottage_1",
+				"location": "twrs:wood/wood_m_1",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -14,52 +14,70 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:black_stone_cottages/a_dilapidated_black_stone_cottage_2",
+				"location": "twrs:wood/wood_m_2",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
 			}
-		},		
-        {
+		},
+		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:black_stone_cottagess/a_dilapidated_black_stone_cottage_3",
+				"location": "twrs:wood/wood_s_1",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
 			}
-		},		
-        {
+		},
+		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:black_stone_cottages/a_dilapidated_black_stone_cottage_4",
+				"location": "twrs:wood/wood_s_2",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
 			}
-		},		
-        {
+		},
+		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:black_stone_cottages/black_stone_cottage_1",
+				"location": "twrs:wood/wood_abd_s_1",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
 			}
-		},		
-        {
+		},
+		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:black_stone_cottages/black_stone_cottage_2",
+				"location": "twrs:wood/wood_abd_s_2",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
 			}
-		},		
-        {
+		},
+		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:black_stone_cottages/black_stone_cottage_3",
+				"location": "twrs:wood/wood_abd_s_3",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:legacy_single_pool_element"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"location": "twrs:wood/wood_abd_s_4",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:legacy_single_pool_element"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"location": "twrs:wood/wood_abd_s_5",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
