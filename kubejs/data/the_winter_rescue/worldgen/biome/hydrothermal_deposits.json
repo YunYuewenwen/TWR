@@ -3,7 +3,7 @@
         "air": [
             "minecraft:cave",
             "minecraft:cave_extra_underground",
-            "minecraft:canyon"
+            "terralith:canyon"
         ]
     },
     "downfall": 0.6,
@@ -70,7 +70,8 @@
         ],
         [
             "terralith:cave/stone/andesite_boulders",
-            "the_winter_rescue:cave/calcite_strip"
+            "the_winter_rescue:cave/calcite_strip",
+            "the_winter_rescue:cave/hydrothermal_vines"
         ],
         [
             "minecraft:spring_water",

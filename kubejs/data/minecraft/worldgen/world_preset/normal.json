@@ -132,7 +132,7 @@
                 "parameters": {
                   "continentalness": [
                     0.1,
-                    0.5
+                    0.45
                   ],
                   "depth": [
                     -0.005,
@@ -146,14 +146,14 @@
                     -0.35,
                     0.3
                   ],
-                  "offset": 0,
+                  "offset": 0.00001,
                   "temperature": [
                     0.1,
                     0.45
                   ],
                   "weirdness": [
-                    -0.3,
-                    0.35
+                    -1,
+                    0.15
                   ]
                 }
               },
@@ -206,7 +206,7 @@
                     -0.5,
                     0.5
                   ],
-                  "offset": 0,
+                  "offset": 0.0001,
                   "temperature": [
                     0.15,
                     0.5
