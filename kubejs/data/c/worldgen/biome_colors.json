@@ -1,4 +1,10 @@
 {
+    "the_winter_rescue:hydrothermal_deposits": {
+        "r": 136,
+        "g": 136,
+        "b": 136,
+        "name": "Hydrothermal Dposits"
+    },
     "terralith:yellowstone": {
         "r": 136,
         "g": 136,

@@ -124,7 +124,7 @@
       "type": "minecraft:uniform",
       "value": {
         "min_inclusive": 2,
-        "max_inclusive": 5
+        "max_inclusive": 4
       }
     }
   }

@@ -23,5 +23,11 @@
     "tooltip.the_winter_rescue.activated_carbon": "Obtained via using a charcoal on a steam charger",
     "tooltip.the_winter_rescue.campfire": "Press Q to throw fuel on it and light it via an ignition tool!",
     "tooltip.the_winter_rescue.lining": "Gives a warming effect after crafting it with any equipment (shapeless)",
-    "tooltip.the_winter_rescue.blaze_burner": "The acquisition method will be displayed after the study is completed"
+    "tooltip.the_winter_rescue.blaze_burner": "The acquisition method will be displayed after the study is completed",
+
+    "biome.the_winter_rescue.hydrothermal_deposits": "Hydrothermal Deposits",
+    "biome.the_winter_rescue.magmatic_deposits": "Magmatic Deposits",
+    "biome.the_winter_rescue.fossil_deposits": "Fossil Deposits",
+    "biome.the_winter_rescue.brine_deposits": "Brine Deposits",
+    "biome.the_winter_rescue.frozen_forest": "Frozen Forest"
 }

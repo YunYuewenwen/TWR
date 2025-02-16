@@ -19,8 +19,9 @@ Ponder.registry((event) => {
 			scene.world.showSection([4, 4, 0, 0, 4, 4], Direction.DOWN)
 			scene.addKeyframe()
 			scene.idle(40)
-			scene.addKeyframe()
+
 			// text
+			scene.addKeyframe()
 			scene.overlay.showOutline("blue", {}, [2.5, 2.5, 1], 40)
 			scene.overlay.showText(40)
 				.text("R-Click to assemble")

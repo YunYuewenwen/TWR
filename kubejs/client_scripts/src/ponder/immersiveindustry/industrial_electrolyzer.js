@@ -48,7 +48,7 @@ Ponder.registry((event) => {
 			scene.showControls(20, [1, 2.5, 3], "right")
 				.withItem("immersiveengineering:hammer")
 			scene.idle(20)
-			scene.world.moveSection(scene.world.showIndependentSectionImmediately([5, 6, 2, 1, 4, 4]), [0, - 4, 0], 0)
+			scene.world.moveSection(scene.world.showIndependentSectionImmediately([5, 4, 2, 1, 7, 4]), [0, - 4, 0], 0)
 			scene.world.replaceBlocks([5, 1, 2, 1, 3, 4], "minecraft:air", true)
 			scene.idle(20)
 		})
