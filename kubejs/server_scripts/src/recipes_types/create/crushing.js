@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
                 Item.of("frostedheart:crushed_raw_nickel").withChance(0.25),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
-            input: "frostedheart:raw_nickel"
+            input: "immersiveengineering:raw_nickel"
         },
         // lead
         {
@@ -87,7 +87,7 @@ ServerEvents.recipes((event) => {
                 Item.of("frostedheart:crushed_raw_lead").withChance(0.25),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
-            input: "frostedheart:raw_lead"
+            input: "immersiveengineering:raw_lead"
         },
         // bauxite
         {
@@ -139,7 +139,7 @@ ServerEvents.recipes((event) => {
                 Item.of("frostedheart:crushed_raw_silver").withChance(0.25),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
-            input: "frostedheart:raw_silver"
+            input: "immersiveengineering:raw_silver"
         },
         // gold
         {
