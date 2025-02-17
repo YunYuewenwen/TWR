@@ -28,8 +28,8 @@
                   ],
                   "offset": 0,
                   "temperature": [
-                    -0.2,
-                    0.2
+                    0.05,
+                    0.45
                   ],
                   "weirdness": [
                     -0.78,
@@ -58,8 +58,8 @@
                   ],
                   "offset": 0,
                   "temperature": [
-                    0.2,
-                    0.4
+                    0.05,
+                    0.45
                   ],
                   "weirdness": [
                     -0.2,
@@ -188,7 +188,7 @@
                 }
               },
               {
-                "biome": "the_winter_rescue:frozen_forest",
+                "biome": "the_winter_rescue:destroyed_forest",
                 "parameters": {
                   "continentalness": [
                     0.1,
