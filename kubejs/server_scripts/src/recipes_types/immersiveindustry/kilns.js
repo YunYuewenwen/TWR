@@ -1,6 +1,6 @@
 ServerEvents.recipes((event) => {
 	function simpleCarkilnRecipe (input, output) {
-		return carkilnRecipe([input], [output], 600, 600)
+		return carkilnRecipe([input], [output], 600, 64)
 	}
 
 	function carkilnReplace (input, output) {
@@ -10,10 +10,10 @@ ServerEvents.recipes((event) => {
 	}
 
 	let kilnRecipes = [
-		carkilnRecipe(["4x frostedheart:fire_clay_ball", "2x frostedheart:magnesia_dust", "2x frostedheart:quicklime"], ["2x frostedheart:high_refractory_brick"], 600),
-		carkilnRecipe(["3x frostedheart:fire_clay_ball", "5x frostedheart:alumina_dust", "immersiveengineering:dust_hop_graphite"], ["3x immersiveindustry:refractory_kiln_brick"], 600),
-		rotarykilnRecipe("frostedheart:aluminium_hydroxide_dust", "frostedheart:alumina_dust"),
-		rotarykilnRecipe("frostedheart:crushed_raw_magnesite", "frostedheart:magnesia_dust"),
+		carkilnRecipe(["4x frostedheart:fire_clay_ball", "2x frostedheart:magnesia_dust", "2x frostedheart:quicklime"], ["2x frostedheart:high_refractory_brick"], 600, 32),
+		carkilnRecipe(["3x frostedheart:fire_clay_ball", "5x frostedheart:alumina_dust", "immersiveengineering:dust_hop_graphite"], ["3x immersiveindustry:refractory_kiln_brick"], 600, 32),
+		rotarykilnRecipe("frostedheart:aluminium_hydroxide_dust", "frostedheart:alumina_dust", 600, 32),
+		rotarykilnRecipe("frostedheart:crushed_raw_magnesite", "frostedheart:magnesia_dust", 600, 32),
 		carkilnReplace("kubejs:clay_bucket", "frostedheart:ceramic_bucket"),
 		carkilnReplace("charcoal_pit:clay_pot", "charcoal_pit:ceramic_pot"),
 		carkilnReplace("charcoal_pit:unfired_sandy_brick", "charcoal_pit:sandy_brick_item"),

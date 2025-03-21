@@ -3,10 +3,10 @@ new Schema("frostedheart:charger")
     .simpleKey("input", "inputItem")
     .simpleKey("cost", "doubleNumber", 100)
 
-new Schema("frostedheart:defrost_campfire")
+/*new Schema("frostedheart:defrost_campfire")
     .simpleKey("results", "outputItemArray")
     .simpleKey("ingredient", "inputItem")
-    .simpleKey("cookingtime", "doubleNumber", 100)
+    .simpleKey("cookingtime", "doubleNumber", 100)*/
 
 new Schema("frostedheart:generator")
     .simpleKey("result", "outputItem")

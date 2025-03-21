@@ -324,7 +324,7 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"frostedheart:rubbing_pad",
+			"frostedresearch:rubbing_pad",
 			[
 				"AAA",
 				"BBB",
@@ -716,16 +716,6 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		*/
-		[
-			"frostedheart:charcoal",
-			[
-				" A",
-				"A "
-			],
-			{
-				A: "minecraft:charcoal"
-			}
-		],
 		[
 			"frostedheart:invar_block",
 			[
@@ -1160,7 +1150,7 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"frostedheart:drawing_desk",
+			"frostedresearch:drawing_desk",
 			[
 				"BB ",
 				"CAB",
@@ -1474,7 +1464,12 @@ ServerEvents.recipes((event) => {
 			// Ordinary items, default without NBT
 			output = Item.of(output, quantity)
 		}
-
+		/*if (output==null)
+		{
+		console.log(keys)
+		console.log(pattern)
+		 console.log(output)
+		}*/
 		// Add new Recipes
 		kubejs.shaped(output, pattern, keys)
 			.id(`the_winter_rescue:minecraft/crafting_shaped/new/${ index }`)

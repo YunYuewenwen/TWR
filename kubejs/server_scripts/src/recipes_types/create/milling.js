@@ -17,14 +17,14 @@ ServerEvents.recipes((event) => {
             output: ["frostedheart:kaolin_dust", Item.of("frostedheart:kaolin_dust").withChance(0.5)],
             input: "frostedheart:kaolin"
         },
-        {
+        /*{
             output: ["frostedheart:cryolite_dust", Item.of("frostedheart:cryolite_dust").withChance(0.5)],
             input: "frostedheart:crushed_raw_fluorite"
-        },
-        {
+        },*/
+        /*{
             output: ["immersiveengineering:dust_sulfur", Item.of("immersiveengineering:dust_sulfur").withChance(0.5)],
             input: "immersiveengineering:sulfur_dust"
-        },
+        },*/
         {
             output: [Item.of("minecraft:quartz").withChance(0.4), Item.of("minecraft:quartz").withChance(0.3)],
             input: "minecraft:smooth_sandstone"

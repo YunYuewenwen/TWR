@@ -69,8 +69,15 @@ ServerEvents.recipes((event) => {
 		{ mod: "immersiveengineering", metal: "gold" }
 	]
 	metals.forEach((metal) => {
-		let sheet = `2x ${ metal.mod }:${ metal.metal }_sheet`
-		let ingot = `3x #forge:ingots/${ metal.metal }`
-		createCompactingRecipe(sheet, ingot)
+		let sheet = `${ metal.mod }:${ metal.metal }_sheet`
+		let ingot = `#forge:ingots/${ metal.metal }`
+/*		console.log(sheet)
+		console.log(ingot)
+		create.compacting(sheet, ingot);*/
+		event.custom({
+        		type: "create:compacting",
+        		ingredients: Ingredient.of(ingot,3),
+        		results: Item.of(sheet,2)
+        })
 	})
 })
