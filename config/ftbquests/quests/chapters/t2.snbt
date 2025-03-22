@@ -942,7 +942,7 @@
 				"{quest.twr.64BD0FE7784B0BEB.description.5}"
 			]
 			hide_dependency_lines: true
-			icon: "frostedheart:mechanical_calculator"
+			icon: "frostedresearch:mechanical_calculator"
 			id: "64BD0FE7784B0BEB"
 			shape: "gear"
 			size: 1.5d

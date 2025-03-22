@@ -3,13 +3,7 @@
 	default_quest_shape: ""
 	filename: "a_day_of_a_researcher"
 	group: "7668DAE31E3EF623"
-	icon: {
-		Count: 1
-		id: "frostedheart:quill_and_ink"
-		tag: {
-			Damage: 0
-		}
-	}
+	icon: "supplementaries:globe"
 	id: "45EA47492FF69D15"
 	order_index: 8
 	quest_links: [ ]
