@@ -1,5 +1,5 @@
 {
-  "icon": "frostedheart:mechanical_calculator",
+  "icon": "frostedresearch:mechanical_calculator",
   "category": "frostedheart:ars",
   "parents": [
     "mechanical_crafter",
@@ -73,20 +73,20 @@
     {
       "type": "recipe",
       "id": "e1369ba74eba4709",
-      "item": "frostedheart:mechanical_calculator"
+      "item": "frostedresearch:mechanical_calculator"
     },
     {
       "type": "use",
       "id": "9c370dbd24084a38",
       "blocks": [
-        "frostedheart:mechanical_calculator"
+        "frostedresearch:mechanical_calculator"
       ]
     },
     {
       "type": "item",
       "id": "5a433bcb281c4239",
       "rewards": [
-        "frostedheart:mechanical_calculator"
+        "frostedresearch:mechanical_calculator"
       ]
     }
   ],

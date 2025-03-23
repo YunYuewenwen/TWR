@@ -1,50 +1,67 @@
 {
-  "icon": "minecraft:iron_ingot",
-  "category": "frostedheart:production",
+  "showAltDesc": true,
+  "points": 1000,
+  "insight": 1,
   "clues": [
     {
       "type": "game",
-      "value": 0.5,
-      "id": "9a1f4df2a1f44142",
+      "id": "",
       "required": true,
+      "value": 0.5,
       "level": 0
     },
     {
       "type": "item",
-      "hint": "@",
+      "id": "",
       "value": 0.25,
-      "id": "6fea538c5b184ec7",
       "item": {
-        "count": 4,
         "base_ingredient": {
           "item": "charcoal_pit:sandy_brick_item"
-        }
+        },
+        "count": 4
       }
     },
     {
       "type": "item",
+      "id": "",
       "value": 0.25,
-      "id": "1aeb1af04bf144eb",
       "item": {
-        "item": "charcoal_pit:bellows"
+        "base_ingredient": {
+          "item": "charcoal_pit:bellows"
+        },
+        "count": 1
       }
     }
   ],
   "ingredients": [
     {
-      "item": "minecraft:charcoal"
+      "base_ingredient": {
+        "item": "minecraft:charcoal"
+      },
+      "count": 1
     },
     {
-      "tag": "the_winter_rescue:bloom_iron"
+      "base_ingredient": {
+        "tag": "the_winter_rescue:bloom_iron"
+      },
+      "count": 1
     }
   ],
   "effects": [
     {
       "type": "recipe",
-      "id": "c520be3259914225",
-      "item": "charcoal_pit:main_bloomery"
+      "item": {
+        "item": "charcoal_pit:main_bloomery"
+      },
+      "id": "c520be3259914225"
     }
   ],
-  "points": 1000,
-  "showAltDesc": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "minecraft:iron_ingot",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:production"
 }
