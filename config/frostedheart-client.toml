@@ -15,6 +15,13 @@
 	#Y Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used.  
 	#Range: -4096 ~ 4096
 	tempOrbOffsetY = 0
+	#Enables the waypoints rendering. 
+	enableWaypoint = true
+	#Enables the tips rendering. 
+	enableTip = true
+	#Radius of the Wheel Menu. 
+	#Range: > 60
+	wheelMenuRadius = 100
 
 ["Frozen Effects"]
 	#Enables the frozen overlay when player is freezing. 
@@ -27,6 +34,13 @@
 	enableBreathParticle = true
 	#Enables the frozen sound when player is freezing. 
 	enableFrozenSound = true
+	#The binding offset of the UBO for the infrared view shader.
+	#Partial shaders and mods may occupy the position as well.
+	#We will use default offset (7) for some known mods here. However, it is not guaranteed to be always compatible with all mods / shaders.
+	#In this case, player have to modify the config to specify the offset.
+	#No worries, from my experience, offset 7 is compatible with 99% mods / shaders.
+	#Range: > 0
+	infraredViewUBOOffset = 7
 
 [Weather]
 	#Enables weather rendering changes.
@@ -49,12 +63,9 @@
 	windSounds = true
 	#Changes the sky renderer to one which does not render sunrise or sunset effects during a snowstorm.
 	skyRenderChanges = true
-
-["Tips and Waypoints"]
-	#Enables the waypoints rendering. 
-	enableWaypoint = true
-	#Enables the tips rendering. 
-	renderTips = true
+	#How visually dense the snow weather effect is. Normally, vanilla sets this to 5 with fast graphics, and 10 with fancy graphics.
+	#Range: 1 ~ 15
+	blizzardDensity = 15
 
 [Scenario]
 	#Enables the scenario act hud rendering. 
@@ -67,17 +78,16 @@
 	#Base text appear speed, actual speed may change by scenario if necessary, speed 1 is 0.5 character per tick.
 	#Range: 1.0E-6 ~ 100000.0
 	textSpeed = 1.0
-	#Scenario 2d content rendering quality, internal resolution=2^(config value)*1024, 2d contents are rendered on cpu, higher quality may cause lag
+	#Scenario 2d content rendering quality, internal resolution=2^(config value)*1024, 2d contents are rendered on cpu, higher quality may cause slower rendering
 	#Range: 0 ~ 16
 	scenarioRenderQuality = 2
-	#Scenario rendering thread
+	#Scenario rendering thread, Scenario screen are pre-rendered in seperate pool to prevent lag
 	#Range: 1 ~ 16
 	scenarioRenderThread = 2
-	#The binding offset of the UBO for the infrared view shader.
-	#Partial shaders and mods may occupy the position as well.
-	#We will use default offset (7) for some known mods here. However, it is not guaranteed to be always compatible with all mods / shaders.
-	#In this case, player have to modify the config to specify the offset.
-	#No worries, from my experience, offset 7 is compatible with 99% mods / shaders.
-	#Range: > 0
-	infraredViewUBOOffset = 7
+
+[wheelmenu]
+	#Enabled selections
+	enabledSelections = ["wheel_menu_user:86fe0e965b7d409f", "tetra:holo", "ftb_quests:open_book", "frostedheart:health", "curios:open_gui", "frostedheart:clothing", "wheel_menu_user:d2e119ed85d64973", "wheel_menu_user:9991928dc3ef433d", "frostedheart:debug", "wheel_menu:edit"]
+	#Disabled selections
+	disabledSelections = ["wheel_menu_user:190412827034483e"]
 

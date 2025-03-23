@@ -10,7 +10,7 @@ ClientEvents.loggedIn((event) => {
 				y: "$screenH - 40",
 				alignX: "left",
 				text: playerInfo,
-				scale: 0.65
+				scale: 2
 			}
 		})
 		if (player.username === debugUser) {
@@ -22,7 +22,7 @@ ClientEvents.loggedIn((event) => {
 					y: "$screenH - 50",
 					alignX: "left",
 					text: devInfo,
-					scale: 0.65
+					scale: 2
 				}
 			})
 		}
@@ -35,7 +35,7 @@ ClientEvents.loggedIn((event) => {
 				y: "$screenH - 30",
 				alignX: "left",
 				text: global.version,
-				scale: 0.65
+				scale: 2
 			}
 		})
 	}
