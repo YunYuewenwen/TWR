@@ -16,7 +16,7 @@
       "required": true,
       "value": 0.25,
       "item": {
-        "item": "frostedheart:mechanical_calculator"
+        "item": "frostedresearch:mechanical_calculator"
       }
     },
     {

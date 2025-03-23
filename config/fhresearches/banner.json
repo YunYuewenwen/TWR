@@ -11,18 +11,8 @@
     },
     {
       "type": "multiblock",
-      "id": "5be326ef430442f3",
-      "multiblock": "immersivepetroleum:multiblocks/cokerunit"
-    },
-    {
-      "type": "multiblock",
       "id": "d4a45ad1a56541a3",
       "multiblock": "immersiveengineering:multiblocks/diesel_generator"
-    },
-    {
-      "type": "multiblock",
-      "id": "5b6ba3bfcd43ea",
-      "multiblock": "immersivepetroleum:multiblocks/distillationtower"
     },
     {
       "type": "multiblock",
@@ -31,18 +21,8 @@
     },
     {
       "type": "multiblock",
-      "id": "2f3961a8cf5b4e30",
-      "multiblock": "immersivepetroleum:multiblocks/hydrotreater"
-    },
-    {
-      "type": "multiblock",
       "id": "347c0f6c35e9450b",
       "multiblock": "immersiveengineering:multiblocks/lightning_rod"
-    },
-    {
-      "type": "multiblock",
-      "id": "8d664d0982fc446f",
-      "multiblock": "immersivepetroleum:multiblocks/pumpjack"
     },
     {
       "type": "multiblock",
