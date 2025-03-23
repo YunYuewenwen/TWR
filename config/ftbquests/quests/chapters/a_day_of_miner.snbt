@@ -73,7 +73,7 @@
 			}]
 			tasks: [{
 				id: "2EB0C8C2F9ADED2A"
-				item: "frostedheart:raw_nickel"
+				item: "immersiveengineering:raw_nickel"
 				type: "item"
 			}]
 			x: -3.5d
@@ -179,7 +179,7 @@
 			}]
 			tasks: [{
 				id: "322C517CA36D00A6"
-				item: "frostedheart:raw_lead"
+				item: "immersiveengineering:raw_lead"
 				type: "item"
 			}]
 			x: -2.0d
@@ -221,7 +221,7 @@
 			}]
 			tasks: [{
 				id: "214642829287011A"
-				item: "frostedheart:raw_silver"
+				item: "immersiveengineering:raw_silver"
 				type: "item"
 			}]
 			x: -0.5d
