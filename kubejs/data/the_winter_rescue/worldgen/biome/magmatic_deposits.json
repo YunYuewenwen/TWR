@@ -43,6 +43,9 @@
         [],
         [],
         [
+            "the_winter_rescue:cave/magmatic_copper_ore",
+            "the_winter_rescue:cave/magmatic_iron_ore",
+            "the_winter_rescue:cave/magmatic_tin_ore",
             "minecraft:ore_coal_upper",
             "minecraft:ore_coal_lower",
             "minecraft:ore_iron_upper",

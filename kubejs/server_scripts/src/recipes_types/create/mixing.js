@@ -98,7 +98,7 @@ ServerEvents.recipes((event) => {
     let heated = [
         {
             output: ["2x frostedheart:high_refractory_brick"],
-            input: ["4x frostedheart:fire_clay_ball", "2x frostedheart:magnesia_dust", "2x frostedheart:quicklime"]
+                input: ["4x frostedheart:fire_clay_ball", "2x frostedheart:magnesium_dust", "2x frostedheart:quicklime"]
         },
         {
             output: [Fluid.of("frostedheart:sulfuric_acid", 500)],

@@ -59,15 +59,15 @@ ServerEvents.recipes((event) => {
     // }
 
     // low-smelt point metals
-    minecraft.smelting("frostedheart:lead_ingot", "frostedheart:crushed_raw_lead")
+    minecraft.smelting("frostedheart:lead_ingot", "create:crushed_raw_lead")
     minecraft.smelting("frostedheart:tin_ingot", "frostedheart:crushed_raw_tin")
 
     let blastFurnaceRecipes = [
         ["minecraft:iron_ingot", "frostedheart:crushed_raw_pyrite", 300],
         ["minecraft:iron_ingot", "create:crushed_raw_iron", 300],
-        ["frostedheart:silver_ingot", "frostedheart:crushed_raw_silver", 150],
+        ["frostedheart:silver_ingot", "create:crushed_raw_silver", 150],
         ["minecraft:gold_ingot", "create:crushed_raw_gold", 150],
-        ["frostedheart:nickel_ingot", "frostedheart:crushed_raw_nickel", 300],
+        ["frostedheart:nickel_ingot", "create:crushed_raw_nickel", 300],
         ["frostedheart:nickel_ingot", "frostedheart:nickel_matte", 300],
         ["minecraft:copper_ingot", "frostedheart:copper_oxide_dust", 90],
         ["frostedheart:lead_ingot", "frostedheart:lead_oxide_dust", 80],

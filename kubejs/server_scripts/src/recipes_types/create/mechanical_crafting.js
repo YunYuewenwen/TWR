@@ -62,7 +62,7 @@ ServerEvents.recipes((event) => {
             E: "create:propeller",
             F: "create:shaft"
         }),
-        shapedRecipe("frostedheart:mechanical_calculator", [
+        shapedRecipe("frostedresearch:mechanical_calculator", [
             "GHHHG",
             "ABABA",
             "BDDDB",

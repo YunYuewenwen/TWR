@@ -405,7 +405,7 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "ages_api:fishing_net_meshes"
+							value: "stone_age:fishing_net_meshes"
 						}
 					}
 					title: "{quest.twr.506C01A9BE167F7F.69D366F12DFD2674.title}"

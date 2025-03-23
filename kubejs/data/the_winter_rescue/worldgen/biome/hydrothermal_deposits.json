@@ -3,7 +3,7 @@
         "air": [
             "minecraft:cave",
             "minecraft:cave_extra_underground",
-            "minecraft:canyon"
+            "terralith:canyon"
         ]
     },
     "downfall": 0.6,
@@ -32,7 +32,8 @@
         ],
         [
             "minecraft:lake_lava_underground",
-            "minecraft:lake_lava_surface"
+            "minecraft:lake_lava_surface",
+            "the_winter_rescue:cave/hydrothermal_lake"
         ],
         [
             "minecraft:amethyst_geode",
@@ -49,7 +50,6 @@
             "the_winter_rescue:cave/hydrothermal_nickel_ore",
             "the_winter_rescue:cave/hydrothermal_pyrite_ore",
             "the_winter_rescue:cave/hydrothermal_zinc_ore",
-            "the_winter_rescue:cave/hydrothermal_lake",
             "minecraft:ore_coal_upper",
             "minecraft:ore_coal_lower",
             "minecraft:ore_iron_upper",
@@ -70,7 +70,8 @@
         ],
         [
             "terralith:cave/stone/andesite_boulders",
-            "the_winter_rescue:cave/calcite_strip"
+            "the_winter_rescue:cave/calcite_strip",
+            "the_winter_rescue:cave/hydrothermal_vines"
         ],
         [
             "minecraft:spring_water",

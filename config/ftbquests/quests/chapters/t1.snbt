@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "t1"
 	group: "7823E178F7BCBCB0"
-	icon: "frostedheart:drawing_desk"
+	icon: "frostedresearch:drawing_desk"
 	id: "0F108F94F3A03203"
 	order_index: 1
 	quest_links: [ ]
@@ -991,7 +991,7 @@
 				"{quest.twr.6A22E2D62D4719BE.description.3}"
 			]
 			hide_until_deps_visible: false
-			icon: "frostedheart:drawing_desk"
+			icon: "frostedresearch:drawing_desk"
 			id: "6A22E2D62D4719BE"
 			rewards: [{
 				count: 4
@@ -1009,7 +1009,7 @@
 				}
 				{
 					id: "1D0325923AB6FD28"
-					item: "frostedheart:drawing_desk"
+					item: "frostedresearch:drawing_desk"
 					type: "item"
 				}
 			]
@@ -1103,7 +1103,7 @@
 			hide_until_deps_visible: false
 			icon: {
 				Count: 1
-				id: "frostedheart:charcoal"
+				id: "frostedresearch:charcoal"
 				tag: {
 					Damage: 0
 				}
@@ -1116,7 +1116,7 @@
 					id: "5A607BAFC8C0AABA"
 					item: {
 						Count: 1
-						id: "frostedheart:charcoal"
+						id: "frostedresearch:charcoal"
 						tag: {
 							Damage: 0
 						}

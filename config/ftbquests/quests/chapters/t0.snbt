@@ -195,8 +195,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["03A553EBD453466A"]
 			description: ["碍于条件简陋，我只能使用这种原始的工作台来合成物品，先将一块燧石安装在木棍上合成一把简易的燧石加工刀，然后往工作台上右键按照合成表放置好材料，最后使用加工刀便可完成物品合成。"]
 			hide_dependency_lines: false
+			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			icon: "stone_age:flint_workbench"
 			id: "3102993072F3C8B9"
@@ -314,22 +316,46 @@
 			tasks: [
 				{
 					id: "40247F135ED27933"
-					item: "frostedheart:hay_hat"
+					item: {
+						Count: 1
+						id: "frostedheart:hay_hat"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "4534C9BC963F1C50"
-					item: "frostedheart:hay_jacket"
+					item: {
+						Count: 1
+						id: "frostedheart:hay_jacket"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "36D2F43EB4ED8714"
-					item: "frostedheart:hay_pants"
+					item: {
+						Count: 1
+						id: "frostedheart:hay_pants"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "038ECB1D1693CE6C"
-					item: "frostedheart:hay_boots"
+					item: {
+						Count: 1
+						id: "frostedheart:hay_boots"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -490,6 +516,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["20E34B234337C28A"]
 			description: [
 				"{quest.twr.36960F1D7CDC8B30.description.1}"
 				"{quest.twr.36960F1D7CDC8B30.description.2}"
@@ -498,6 +525,7 @@
 				"{quest.twr.36960F1D7CDC8B30.description.5}"
 				"{quest.twr.36960F1D7CDC8B30.description.6}"
 			]
+			hide_dependency_lines: true
 			icon: "minecraft:campfire"
 			id: "36960F1D7CDC8B30"
 			shape: "hexagon"
@@ -906,7 +934,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["36960F1D7CDC8B30"]
+			dependencies: ["20E34B234337C28A"]
 			description: [
 				"{quest.twr.654627121432688E.description.1}"
 				"{quest.twr.654627121432688E.description.2}"
@@ -1432,13 +1460,7 @@
 				""
 				"Keep the discovery spirit: You always earn Insight when you &bDiscover&r or &eCreate.&r"
 			]
-			icon: {
-				Count: 1
-				id: "frostedheart:quill_and_ink"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "supplementaries:globe_sepia"
 			id: "7F486B43F356A348"
 			shape: "hexagon"
 			tasks: [{

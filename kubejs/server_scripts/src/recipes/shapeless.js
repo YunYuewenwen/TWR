@@ -55,8 +55,8 @@ ServerEvents.recipes((event) => {
 				"item": "frostedheart:straw_briquette_brown_mushroom", "nbt": { "Damage": 4800 }
 			}, ["kubejs:wet_straw_briquette", "minecraft:brown_mushroom"]
 		],
-		["frostedheart:quill_and_ink", 4, [["minecraft:feather", 3], "minecraft:glass_bottle", "frostedheart:generator_ash"]],
-		["frostedheart:rubbing_tool", 4, [["frostedheart:generator_ash", 2], "minecraft:paper", "frostedheart:rubbing_pad"]],
+		["frostedresearch:quill_and_ink", 4, [["minecraft:feather", 3], "minecraft:glass_bottle", "frostedheart:generator_ash"]],
+		["frostedresearch:rubbing_tool", 4, [["frostedheart:generator_ash", 2], "minecraft:paper", "frostedresearch:rubbing_pad"]],
 		["stone_age:grass_lead", [["charcoal_pit:straw", 3]]],
 		["frostedheart:packed_snow", [["minecraft:snowball", 2], ["minecraft:snow_block", 2]]],
 		["stone_age:leather_strip", 4, ["minecraft:leather"]]
@@ -93,7 +93,11 @@ ServerEvents.recipes((event) => {
 				throw new Error(`Invalid input format: ${ input }`)
 			}
 		})
-
+		/*if (output==null)
+		{
+		console.log(inputs)
+		 console.log(output)
+		}*/
 		// Register a shapeless crafting recipe using kubejs.shapeless method
 		kubejs.shapeless(
 			output,

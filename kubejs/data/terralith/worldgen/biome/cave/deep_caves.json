@@ -2,7 +2,6 @@
     "carvers": {
         "air": [
             "minecraft:cave",
-            "minecraft:cave_extra_underground",
             "minecraft:canyon"
         ]
     },
@@ -35,7 +34,6 @@
         [],
         [],
         [
-            "minecraft:ore_dirt",
             "minecraft:ore_gravel",
             "minecraft:ore_granite_upper",
             "minecraft:ore_granite_lower",

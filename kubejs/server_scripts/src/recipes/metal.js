@@ -48,29 +48,31 @@ ServerEvents.recipes((event) => {
 		})
 	})
 
-	function createCompactingRecipe (sheet, ingot) {
-		create.compacting(sheet, ingot);
-	}
-
 	let metals = [
 		{ mod: "steampowered", metal: "bronze" },
 		{ mod: "frostedheart", metal: "lead" },
 		{ mod: "frostedheart", metal: "cast_iron" },
 		{ mod: "frostedheart", metal: "invar" },
+		{ mod: "frostedheart", metal: "steel" },
 		{ mod: "create", metal: "copper" },
 		{ mod: "create", metal: "brass" },
 		{ mod: "create", metal: "iron" },
-		{ mod: "immersiveengineering", metal: "aluminum" },
-		{ mod: "immersiveengineering", metal: "lead" },
-		{ mod: "immersiveengineering", metal: "constantan" },
-		{ mod: "immersiveengineering", metal: "steel" },
-		{ mod: "immersiveengineering", metal: "electrum" },
-		{ mod: "immersiveengineering", metal: "silver" },
-		{ mod: "immersiveengineering", metal: "gold" }
+		{ mod: "frostedheart", metal: "aluminum" },
+		{ mod: "frostedheart", metal: "constantan" },
+		{ mod: "frostedheart", metal: "electrum" },
+		{ mod: "frostedheart", metal: "silver" },
+		{ mod: "create", metal: "gold" }
 	]
 	metals.forEach((metal) => {
-		let sheet = `2x ${ metal.mod }:${ metal.metal }_sheet`
-		let ingot = `3x #forge:ingots/${ metal.metal }`
-		createCompactingRecipe(sheet, ingot)
+		let sheet = `${ metal.mod }:${ metal.metal }_sheet`
+		let ingot = `#forge:ingots/${ metal.metal }`
+/*		console.log(sheet)
+		console.log(ingot)
+		create.compacting(sheet, ingot);*/
+		event.custom({
+        		type: "create:compacting",
+        		ingredients: Ingredient.of(ingot,3),
+        		results: Item.of(sheet,2)
+        })
 	})
 })

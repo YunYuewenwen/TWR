@@ -247,7 +247,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["29BC87594650152D"]
 			description: ["{quest.twr.32DB7CCD0A73D98F.description.1}"]
 			hide_until_deps_visible: false
 			id: "32DB7CCD0A73D98F"

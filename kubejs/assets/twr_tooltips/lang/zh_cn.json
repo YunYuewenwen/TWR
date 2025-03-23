@@ -1,37 +1,166 @@
 {
-    "item.frostedheart.hand_stove.tooltip.summary": "A _portable stove_ that can be used to _warm body_.",
-    "item.frostedheart.hand_stove.tooltip.condition1": "When Placed At Offhand",
-    "item.frostedheart.hand_stove.tooltip.behaviour1": "Provides _heat_ to the player.",
-    "item.frostedheart.hand_stove.tooltip.condition2": "When Crafted with Coal Stick or Charcoal Stick",
-    "item.frostedheart.hand_stove.tooltip.behaviour2": "Refills the stove with _fuel_.",
-  
-    "item.frostedheart.thermos.tooltip.summary": "A _thermos_ that can be used to _store hot fluid.",
-    "item.frostedheart.thermos.tooltip.condition1": "When Drank",
-    "item.frostedheart.thermos.tooltip.behaviour1": "Restores _heat_ to the player.",
-    "item.frostedheart.thermos.tooltip.condition2": "When Carrying Fluids",
-    "item.frostedheart.thermos.tooltip.behaviour2": "Insulates the fluid to keep it _hot_.",
-  
-    "item.frostedheart.rusted_metal.tooltip.summary": "Metal oxidized into its natural state.",
-    "item.frostedheart.rusted_metal.tooltip.condition1": "When Smelted",
-    "item.frostedheart.rusted_metal.tooltip.behaviour1": "Turns into its _original form_.",
-  
-    "item.frostedheart.snowshoes.tooltip.summary": "A pair of shoes for travelling on snow_.",
-    "item.frostedheart.snowshoes.tooltip.condition1": "When Worn While Walking on Powdered Snow",
-    "item.frostedheart.snowshoes.tooltip.behaviour1": "Prevents the wearer from _sinking_.",
-    "item.frostedheart.snowshoes.tooltip.condition2": "When Worn While Walking on Snow",
-    "item.frostedheart.snowshoes.tooltip.behaviour2": "Increases _movement speed_.",
-  
-    "item.frostedheart.ice_skates.tooltip.summary": "A pair of skates for travelling on ice.",
-    "item.frostedheart.ice_skates.tooltip.condition1": "When Worn While Walking on Ice",
-    "item.frostedheart.ice_skates.tooltip.behaviour1": "Increases _movement speed_.",
 
-    "item.kubejs.damaged_gpu.tooltip.summary": "A _damaged GPU_ used to mine cryptocurrency.",
-    "item.kubejs.damaged_gpu.tooltip.condition1": "When Used In Drawing Desk",
-    "item.kubejs.damaged_gpu.tooltip.behaviour1": "Grants _Insight_.",
+    "item.frostedheart.hand_stove.tooltip.summary": "一个轻便的手炉,可以温暖身体.",
+    "item.frostedheart.hand_stove.tooltip.condition1": "当放在副手时",
+    "item.frostedheart.hand_stove.tooltip.behaviour1": "为玩家提供_热量_ .",
+    "item.frostedheart.hand_stove.tooltip.condition2": "当与煤炭条/木炭条合成时",
+    "item.frostedheart.hand_stove.tooltip.behaviour2": "重新装满_燃料_.",
+
+    "item.frostedheart.thermos.tooltip.summary": "一个可以用来装_热水_的_水杯 _.",
+    "item.frostedheart.thermos.tooltip.condition1": "饮用时",
+    "item.frostedheart.thermos.tooltip.behaviour1": "恢复玩家的_体温_ .",
+    "item.frostedheart.thermos.tooltip.condition2": "当盛有液体时",
+    "item.frostedheart.thermos.tooltip.behaviour2": "保持瓶内液体 _温度_.",
+
+    "item.frostedheart.rusted_metal.tooltip.summary": "一个高度氧化的金属.",
+    "item.frostedheart.rusted_metal.tooltip.condition1": "当锻造后",
+    "item.frostedheart.rusted_metal.tooltip.behaviour1": "将其还原回原样_.",
+
+    "item.frostedheart.snowshoes.tooltip.summary": "一双用于快速通过雪地的鞋子_.",
+    "item.frostedheart.snowshoes.tooltip.condition1": "当穿着时在雪地上跑过",
+    "item.frostedheart.snowshoes.tooltip.behaviour1": "为穿着者提供类似溜冰的效果_.",
+    "item.frostedheart.snowshoes.tooltip.condition2": "当穿着时行走于雪上",
+    "item.frostedheart.snowshoes.tooltip.behaviour2": "提升移动速度_.",
+
+    "item.frostedheart.ice_skates.tooltip.summary": "一双用于快速通过冰面的靴子.",
+    "item.frostedheart.ice_skates.tooltip.condition1": "当穿着时通过冰面",
+    "item.frostedheart.ice_skates.tooltip.behaviour1": "提升移动速度_.",
+
+    "item.kubejs.damaged_gpu.tooltip.summary": "一个曾用于非法挖币工厂的、现在已经损坏的显卡",
+    "item.kubejs.damaged_gpu.tooltip.condition1": "当用于绘图台",
+    "item.kubejs.damaged_gpu.tooltip.behaviour1": "获得_灵感_.",
 
 
-    "item.frostedheart.energy_core.tooltip.summary": "A core that glows.",
-    "item.frostedheart.energy_core.tooltip.condition1": "When Used In Research",
-    "item.frostedheart.energy_core.tooltip.behaviour1": "Grants Generator."
+    "item.frostedheart.energy_core.tooltip.summary": "一个冒着热气的核心.",
+    "item.frostedheart.energy_core.tooltip.condition1": "当用于研究和科技",
+    "item.frostedheart.energy_core.tooltip.behaviour1": "获得研究选项.",
+
+
+    "item.frostedheart.coal_stick.tooltip.summary": "一块棒状的煤碳条.",
+    "item.frostedheart.coal_stick.tooltip.condition1": "当与手炉合成时.",
+    "item.frostedheart.coal_stick.tooltip.behaviour1": "重新装满手炉燃料.",
+
+
+    "item.frostedheart.charcoal_stick.tooltip.summary":"一块棒状木炭条",
+    "item.frostedheart.charcoal_stick.tooltip.condition1": "当与手炉合成时.",
+    "item.frostedheart.charcoal_stick.tooltip.behaviour1": "重新装满手炉燃料.",
+
+
+    "item.frostedheart.copper_pro_pick.tooltip.summary":"一把用于勘探地质和发现_矿石_的特制工具",
+    "item.frostedheart.copper_pro_pick.tooltip.condition1": "当主手手持并对地右键时.",
+    "item.frostedheart.copper_pro_pick.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+
+
+    "item.frostedheart.iron_pro_pick.tooltip.summary":"一把用于勘探地质和发现_矿石_的特制工具",
+    "item.frostedheart.iron_pro_pick.tooltip.condition1": "当主手手持并对地右键时.",
+    "item.frostedheart.iron_pro_pick.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+
+
+    "item.frostedheart.steel_pro_pick.tooltip.summary":"一把用于勘探地质和发现_矿石_的特制工具",
+    "item.frostedheart.steel_pro_pick.tooltip.condition1": "当主手手持并对地右键时.",
+    "item.frostedheart.steel_pro_pick.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+
+
+    "item.frostedheart.copper_core_spade.tooltip.summary":"一把用于勘探土质和发现_矿石_的特制工具",
+    "item.frostedheart.copper_core_spade.tooltip.condition1": "当主手手持并对地右键时.",
+    "item.frostedheart.copper_core_spade.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+
+
+    "item.frostedheart.iron_core_spade.tooltip.summary":"一把用于勘探土质和发现_矿石_的特制工具",
+    "item.frostedheart.iron_core_spade.tooltip.condition1": "当主手手持并对地右键时.",
+    "item.frostedheart.iron_core_spade.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+
+
+    "item.frostedheart.steel_core_spade.tooltip.summary":"一把用于勘探土质和发现_矿石_的特制工具",
+    "item.frostedheart.steel_core_spade.tooltip.condition1": "当主手手持并对地右键时.",
+    "item.frostedheart.steel_core_spade.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+
+
+    "item.frostedheart.copper_geologists_hammer.tooltip.summary":"一把用于勘探土质和发现_矿石_的特制锤",
+    "item.frostedheart.copper_geologists_hammer.tooltip.condition1": "当主手手持并对地右键时.",
+    "item.frostedheart.copper_geologists_hammer.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+
+
+    "item.frostedheart.iron_geologists_hammer.tooltip.summary":"一把用于勘探土质和发现_矿石_的特制锤",
+    "item.frostedheart.iron_geologists_hammer.tooltip.condition1": "当主手手持并对地右键时.",
+    "item.frostedheart.iron_geologists_hammer.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+
+
+    "item.frostedheart.steel_geologists_hammer.tooltip.summary":"一把用于勘探土质和发现_矿石_的特制锤",
+    "item.frostedheart.steel_geologists_hammer.tooltip.condition1": "当主手手持并对地右键时.",
+    "item.frostedheart.steel_geologists_hammer.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+
+
+    "item.frostedheart.damaged_electric_motor.tooltip.summary": "一个损坏的伺服电机.",
+    "item.frostedheart.damaged_electric_motor.tooltip.condition1": "当在绘图台中使用时",
+    "item.frostedheart.damaged_electric_motor.tooltip.behaviour1": "获得_灵感_.",
+
+
+    "item.frostedheart.damaged_circuit_board.tooltip.summary": "A damaged cireuit board.",
+    "item.frostedheart.damaged_circuit_board.tooltip.condition1": "当在绘图台中使用时",
+    "item.frostedheart.damaged_circuit_board.tooltip.behaviour1": "获得_灵感_.",
+
+
+    "item.frostedheart.damaged_camera.tooltip.summary": "一个破损的记者相机.",
+    "item.frostedheart.damaged_camera.tooltip.condition1": "当在绘图台中使用时",
+    "item.frostedheart.damaged_camera.tooltip.behaviour1": "获得_灵感_.",
+
+
+
+    "item.frostedheart.temperature_probe.tooltip.summary": "一个显示周遭温度的物品.",
+    "item.frostedheart.temperature_probe.tooltip.condition1": "当主手手持并对任意方块右键时",
+    "item.frostedheart.temperature_probe.tooltip.behaviour1": "显示方块的温度.",
+
+    "item.frostedheart.soil_thermometer.tooltip.summary": "一个用于测量土壤温度的物品.",
+    "item.frostedheart.soil_thermometer.tooltip.condition1": "当主手手持并对土方块右键时",
+    "item.frostedheart.soil_thermometer.tooltip.behaviour1": "显示土壤温度.",
+
+    "item.frostedheart.weather_radar.tooltip.summary": "一个当你随身携带时提供未来几天天气的雷达.",
+    "item.frostedheart.weather_radar.tooltip.condition1": "当你随身携带时",
+    "item.frostedheart.weather_radar.tooltip.behaviour1": "提供未来几天的天气预报.",
+
+    "item.frostedheart.weather_helmet.tooltip.summary": "一个搭载了气象雷达的头盔.",
+    "item.frostedheart.weather_helmet.tooltip.condition1": "当穿着时",
+    "item.frostedheart.weather_helmet.tooltip.behaviour1": "提供未来几天的天气预报.",
+
+    "item.frostedheart.quill_and_ink.tooltip.summary": "用于研究高水平科技的必要材料，科技进步的必需品.",
+
+    "item.frostedheart.leather_water_bag.tooltip.summary": "一个装水的容器.",
+
+    "item.frostedheart.iron_bottle.tooltip.summary": "一个装水的容器.",
+
+    "item.frostedheart.charcoal.tooltip.summary":"基础研究所必须的原料，科研的基石.",
+
+
+
+    "item.frostedheart.straw_briquette_brown_mushroom.tooltip.summary":"一个适于生长蘑菇的干草块.",
+    "item.frostedheart.straw_briquette_brown_mushroom.tooltip.condition1": "当装备于饰品栏时.",
+    "item.frostedheart.straw_briquette_brown_mushroom.tooltip.behaviour1": "依靠你的体温保证蘑菇的生长.",
+    "item.frostedheart.straw_briquette_brown_mushroom.tooltip.condition2": "当你体温偏低时.",
+    "item.frostedheart.straw_briquette_brown_mushroom.tooltip.behaviour2": "它将会进入休眠，停止生长.",
+
+    "item.frostedheart.straw_briquette_red_mushroom.tooltip.summary":"一个适于生长蘑菇的干草块.",
+    "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition1": "当装备于饰品栏时.",
+    "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour1": "依靠你的体温保证蘑菇的生长.",
+    "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition2": "当你体温偏低时.",
+    "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour2": "它将会进入休眠，停止生长.",
+
+
+
+
+    "item.frostedheart.drawing_desk.tooltip.summary":"用于进行科学研究的设备，包含从_研究论文_到材料试验的一切基础必需品.",
+    "item.frostedheart.drawing_desk.tooltip.condition1": "当你将其放置于温暖环境时",
+    "item.frostedheart.drawing_desk.tooltip.condition2": "在体感温暖右键打开并消耗灵感进行研究.",
+    "item.frostedheart.drawing_desk.tooltip.behaviour2": "记得多出去走走同时保护好自己保持灵感.",
+
+
+
+
+    "item.frostedheart.steam_core.tooltip.summary":"一个通入高压蒸汽以提供应力的小型蒸汽机.",
+    "item.frostedheart.steam_core.tooltip.condition1": "当通入高压蒸汽时.",
+    "item.frostedheart.steam_core.tooltip.behaviour1": "提供一定应力.",
+    "item.frostedheart.steam_core.tooltip.condition2": "当你气压不足时.",
+    "item.frostedheart.steam_core.tooltip.behaviour2": "将会停机.",
+
 }
   

@@ -5,7 +5,7 @@
 	group: "7823E178F7BCBCB0"
 	icon: {
 		Count: 1
-		id: "frostedheart:quill_and_ink"
+		id: "frostedresearch:quill_and_ink"
 		tag: {
 			Damage: 0
 		}
@@ -28,7 +28,7 @@
 				"{image:twr_quests:textures/quest/draw_desk.png width:387 height:198 align:1 fit:true}"
 			]
 			hide_until_deps_visible: false
-			icon: "frostedheart:drawing_desk"
+			icon: "frostedresearch:drawing_desk"
 			id: "391E30AD9CB7147F"
 			shape: "gear"
 			size: 1.2d
@@ -101,7 +101,7 @@
 			hide_until_deps_visible: false
 			icon: {
 				Count: 1
-				id: "frostedheart:quill_and_ink"
+				id: "frostedresearch:quill_and_ink"
 				tag: {
 					Damage: 0
 				}
@@ -114,7 +114,7 @@
 					id: "4CAE6A7D06E0828A"
 					item: {
 						Count: 1
-						id: "frostedheart:quill_and_ink"
+						id: "frostedresearch:quill_and_ink"
 						tag: {
 							Damage: 0
 						}
@@ -183,7 +183,7 @@
 				"{quest.twr.2148082183BBDF76.description.3}"
 			]
 			hide_until_deps_visible: false
-			icon: "frostedheart:mechanical_calculator"
+			icon: "frostedresearch:mechanical_calculator"
 			id: "2148082183BBDF76"
 			shape: "gear"
 			subtitle: "{quest.twr.2148082183BBDF76.subtitle}"
@@ -194,7 +194,7 @@
 				}
 				{
 					id: "5D187FDAD6ED625E"
-					item: "frostedheart:mechanical_calculator"
+					item: "frostedresearch:mechanical_calculator"
 					type: "item"
 				}
 			]
@@ -281,7 +281,7 @@
 				"{quest.twr.37B4F2A2F05B5332.description.4}"
 				"{quest.twr.37B4F2A2F05B5332.description.5}"
 			]
-			icon: "frostedheart:mechanical_calculator"
+			icon: "frostedresearch:mechanical_calculator"
 			id: "37B4F2A2F05B5332"
 			subtitle: "{quest.twr.37B4F2A2F05B5332.subtitle}"
 			tasks: [{
@@ -302,6 +302,13 @@
 				"{quest.twr.5D7B5ABC70D38636.description.5}"
 				"{quest.twr.5D7B5ABC70D38636.description.6}"
 			]
+			icon: {
+				Count: 1
+				id: "frostedresearch:rubbing_tool"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5D7B5ABC70D38636"
 			optional: true
 			subtitle: "{quest.twr.5D7B5ABC70D38636.subtitle}"
@@ -309,7 +316,7 @@
 				id: "0CE7434E21F44E0A"
 				item: {
 					Count: 1
-					id: "frostedheart:rubbing_tool"
+					id: "frostedresearch:rubbing_tool"
 					tag: {
 						Damage: 0
 					}
