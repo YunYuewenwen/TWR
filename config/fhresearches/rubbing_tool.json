@@ -64,7 +64,7 @@
       }
     }
   ],
-  "icon": "frostedheart:rubbing_tool",
+  "icon": "frostedresearch:rubbing_tool",
   "category": "frostedheart:ars",
   "parents": [
     "mechanical_calculator"

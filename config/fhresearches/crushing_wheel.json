@@ -1,5 +1,5 @@
 {
-  "icon": "frostedheart:crushed_raw_lead",
+  "icon": "create:crushed_raw_lead",
   "category": "frostedheart:production",
   "parents": [
     "mechanical_crafter",

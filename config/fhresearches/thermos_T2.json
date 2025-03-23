@@ -60,7 +60,8 @@
       "id": "frostedheart:white_advanced_thermos",
       "tag": {
         "Damage": 0
-      }
+      },
+	  "Count": 1
     }
   },
   "category": "frostedheart:living",

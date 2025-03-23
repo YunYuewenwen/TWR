@@ -3,7 +3,8 @@
     "type": "item",
     "item": {
       "id": "frostedheart:buff_coat",
-      "nbt": "{Damage:0}"
+      "nbt": "{Damage:0}",
+	  "Count": 1
     }
   },
   "category": "frostedheart:living",
