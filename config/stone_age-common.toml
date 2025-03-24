@@ -227,8 +227,8 @@
 [Config]
 	#If grass bed can sleep
 	sleep = false
-	"Lit torche" = false
+	litTorche = false
 	#If Drying rack need daytime
-	"need daytime" = false
-	"Make fire" = false
+	needDaytime = false
+	makeFire = false
 
