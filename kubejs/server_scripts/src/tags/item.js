@@ -39,7 +39,6 @@ ServerEvents.tags("item", (event) => {
 	// TODO: add their recipes separately, since they are not really ores.
 	event.add("forge:dusts/zinc", "frostedheart:zinc_dust")
 	event.add("kubejs:tetra_hammer", "tetra:modular_double")
-	event.add("forge:axes", "minecraft:iron_axe")
 	event.add("minecraft:shulker_box", "minecraft:shulker_box")
 	event.add("caupona:meats/meat", "frostedheart:military_rations")
 	event.add("caupona:meats", "frostedheart:chocolate")
