@@ -364,5 +364,5 @@
 		}
 	]
 	subtitle: ["{chapter.twr.0F92A786237ACCA8.subtitle}"]
-	title: "再次让电流贯穿人类社会。"
+	title: "{chapter.twr.0F92A786237ACCA8.title}"
 }
