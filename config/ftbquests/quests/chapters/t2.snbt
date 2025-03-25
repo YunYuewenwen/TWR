@@ -5,7 +5,7 @@
 	group: "7823E178F7BCBCB0"
 	icon: "steampowered:steel_flywheel"
 	id: "3A3B51CF7F606665"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

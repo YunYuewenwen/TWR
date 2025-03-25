@@ -2,9 +2,6 @@ ServerEvents.recipes((event) => {
     let {minecraft} = event.recipes
 
     let recipes = [
-        campfireRecipe(Item.of("frostedheart:wooden_cup_drink", "{Fluid:{FluidName:'frostedheart:purified_water,'Amount:250}}"), Item.of("frostedheart:wooden_cup_drink", '{Fluid:{FluidName:"minecraft:water",Amount:250}}'), 800),
-        campfireRecipe(Item.of("frostedheart:wooden_cup_drink", '{Fluid:{FluidName:"caupona:nail_soup",Amount:250}}'), Item.of("frostedheart:wooden_cup_drink", '{Fluid:{FluidName:"frostedheart:purified_water",Amount:250}}'), 600),
-        // campfireRecipe("minecraft:torch", "stone_age:unlit_torch", 200),
         campfireRecipe("kubejs:coal_briquette", "kubejs:wet_coal_briquette", 200),
         campfireRecipe("kubejs:coal_briquette", "kubejs:creosoted_coal_briquette", 100),
         campfireRecipe("kubejs:charcoal_briquette", "kubejs:creosoted_charcoal_briquette", 200),
