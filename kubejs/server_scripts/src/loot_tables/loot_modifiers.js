@@ -2,9 +2,9 @@ LootJS.modifiers((event) => {
 	// vines and sticks
 	event.addBlockLootModifier("#minecraft:leaves")
 		.matchMainHand("#minecraft:swords")
-		.randomChance(0.3)
+		.randomChance(0.5)
 		.addLoot("minecraft:vine")
-		.randomChance(0.3)
+		.randomChance(0.5)
 		.addLoot("minecraft:stick");
 	// ice chips
 	event.addBlockLootModifier("frostedheart:thin_ice").removeLoot("frostedheart:ice_chip");
@@ -30,11 +30,11 @@ LootJS.modifiers((event) => {
 		.addLoot("frostedheart:ice_chip x2")
 
 	event.addBlockLootModifier("frostedheart:dirty_snow")
-		.randomChance(0.3)
-		.addLoot("minecraft:flint")
 		.randomChance(0.7)
-		.addLoot("minecraft:stick")
+		.addLoot("minecraft:flint")
 		.randomChance(0.5)
+		.addLoot("minecraft:stick")
+		.randomChance(0.3)
 		.addLoot("minecraft:vine")
 		.randomChance(0.01)
 		.addLoot("frostedheart:iron_fence_remains")

@@ -829,7 +829,7 @@ ServerEvents.recipes((event) => {
 				" B "
 			],
 			{
-				A: "#forge:clay_balls",
+				A: "#forge:clay",
 				B: "#forge:plates/copper"
 			}
 		],
@@ -1332,7 +1332,7 @@ ServerEvents.recipes((event) => {
 				"CSC",
 				"CCC"
 			], {
-			C: "#forge:clay_balls",
+			C: "#forge:clay",
 			S: "#forge:rods/wooden"
 		}
 		],
