@@ -17,24 +17,22 @@ ServerEvents.recipes((event) => {
 			Ingredient.of('#forge:hammers'), 3, 2),
 		tree_stumpRecipe(Item.of('create:brass_sheet'), Item.of('create:brass_ingot'),
 			Ingredient.of('#forge:hammers'), 3, 2),
-/*		tree_stumpRecipe(Item.of('kubejs:flux'), Ingredient.of('#the_winter_rescue:flux_block'),
-			Ingredient.of('#forge:hammers'), 3),*/
+		tree_stumpRecipe(Item.of('3x frostedheart:flux'), Ingredient.of('#the_winter_rescue:flux_block'),
+			Ingredient.of('#forge:hammers'), 3,1),
 		tree_stumpRecipe(Item.of('frostedheart:crushed_raw_bauxite'), Item.of('frostedheart:bauxite'),
-			Ingredient.of('#forge:hammers'), 3,2),
-		tree_stumpRecipe(Item.of('3x frostedheart:flux'), Item.of('minecraft:calcite'),
-			Ingredient.of('#forge:hammers'), 3,2),
+			Ingredient.of('#forge:hammers'), 3,1),
 		tree_stumpRecipe(Item.of('3x frostedheart:kaolin'), Item.of('frostedheart:kaolin_block'),
-			Ingredient.of('#forge:hammers'), 3,2),
+			Ingredient.of('#forge:hammers'), 3,1),
 		tree_stumpRecipe(Item.of("2x kubejs:wet_coal_briquette"), Item.of("kubejs:wet_coal_dust"),
-			Ingredient.of('#forge:hammers'), 2,2),
+			Ingredient.of('#forge:hammers'), 2,1),
 		tree_stumpRecipe(Item.of('immersiveengineering:slab_treated_wood_horizontal', 2), Item.of('immersiveengineering:treated_wood_horizontal'),
-			Ingredient.of('#forge:axes'), 2,2),
+			Ingredient.of('#forge:axes'), 2,1),
 		tree_stumpRecipe(Item.of('immersiveengineering:slab_treated_wood_vertical', 2), Item.of('immersiveengineering:treated_wood_vertical'),
-			Ingredient.of('#forge:axes'), 2,2),
+			Ingredient.of('#forge:axes'), 2,1),
 		tree_stumpRecipe(Item.of('immersiveengineering:slab_treated_wood_packaged', 2), Item.of('immersiveengineering:treated_wood_packaged'),
-			Ingredient.of('#forge:axes'), 2,2),
+			Ingredient.of('#forge:axes'), 2,1),
 		tree_stumpRecipe(Item.of('kubejs:creosoted_sawdust_briquette'), Item.of('kubejs:creosoted_sawdust'),
-			Ingredient.of('#forge:hammers'), 2,2)
+			Ingredient.of('#forge:hammers'), 2,1)
 	]
 	let wood_recipes = []
 	//auto bulk wood recipes

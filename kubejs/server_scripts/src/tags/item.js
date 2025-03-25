@@ -44,6 +44,7 @@ ServerEvents.tags("item", (event) => {
 	event.add("caupona:meats", "frostedheart:chocolate")
 	event.add("caupona:eggs", "crockpot:cooked_egg")
 	event.add("forge:string", "stone_age:grass_lead")
+	event.add("the_winter_rescue:flux_block", "minecraft:pointed_dripstone")
 
 	event.add("caupona:container", "#frostedheart:thermos")
 

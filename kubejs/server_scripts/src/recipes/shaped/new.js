@@ -1175,6 +1175,16 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
+        	"frostedresearch:charcoal",
+        	[
+        		"A ",
+        		" A"
+        	],
+        	{
+        		A: "#forge:charcoal"
+        	}
+        	],
+		[
 			"comforts:sleeping_bag_brown",
 			[
 				"BBB",
