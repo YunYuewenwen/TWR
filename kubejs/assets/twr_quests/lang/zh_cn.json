@@ -188,7 +188,7 @@
 	"quest.twr.144F3D2FC5F7F034.description.3": "要使得它的工作效率最高，最好一次性提供尽量多的物品。",
 	"quest.twr.144F3D2FC5F7F034.subtitle": "高效窑炉",
 	"quest.twr.144F3D2FC5F7F034.title": "台式车窑",
-	"quest.twr.14D7D98FC5264B03.description.1": "我用两块燧石制作了一把简易的刀，虽然它的耐用性远不及预期，但有总比没有好。在这样的环境下，这已经是一种不错的工具了。",
+	"quest.twr.14D7D98FC5264B03.description.1": "我想我可以用尖锐的东西做一把简易的刀。有总比没有好。",
 	"quest.twr.14D7D98FC5264B03.subtitle": "切割树叶获得藤蔓",
 	"quest.twr.153299DC4DED93E7.7811251CF28F8FD2.title": "任意床",
 	"quest.twr.15B365E3F3EAFE79.description.1": "放置物品，配合其他机器处理配方。",
@@ -279,7 +279,7 @@
 	"quest.twr.1CD9EB4A39925BB8.description.7": "&l注意&r：加入小队会&c强制同步任务和研究为小队进度，丢失所有个人进度。",
 	"quest.twr.1CD9EB4A39925BB8.subtitle": "组队须知",
 	"quest.twr.1CD9EB4A39925BB8.title": "&6关于救援小队",
-	"quest.twr.1D7F2824DAF3BB7B.description.1": "我用几根木棍做成了简易的干燥架，将湿润的藤蔓挂在上面便可自动晾干成干草。",
+	"quest.twr.1D7F2824DAF3BB7B.description.1": "几根木棍摞在一起就是简易的干燥架，足以将湿润的藤蔓纤维晾为干草。",
 	"quest.twr.1D7F2824DAF3BB7B.subtitle": "干燥",
 	"quest.twr.1DE66DB6DF406019.2EBA1153448C9CF0.title": "线索",
 	"quest.twr.1DE66DB6DF406019.description.1": "完成线索可以按&b百分比&r提升研究进度，而且往往非常可观。",
@@ -494,7 +494,7 @@
 	"quest.twr.3B7B7A0BC0CF3CE0.2F936F09B49980F0.title": "任意起火金属",
 	"quest.twr.3B7B7A0BC0CF3CE0.53336C57835162A4.title": "任意木棍",
 	"quest.twr.3B7B7A0BC0CF3CE0.description.1": "现在我收集了足够的柴火，但想要点燃篝火，我得获取一些点火材料。",
-	"quest.twr.3B7B7A0BC0CF3CE0.description.2": "可以用燧石和其他金属相互摩擦（分别放在祝福收）生火，也可以使用两根木棍合成起火器，对准篝火长按右键即可。",
+	"quest.twr.3B7B7A0BC0CF3CE0.description.2": "可以用燧石和其他金属相互摩擦（分别放在双手）生火，也可以使用两根木棍合成起火器，对准篝火长按右键即可。",
 	"quest.twr.3B7B7A0BC0CF3CE0.subtitle": "两种起火的方法",
 	"quest.twr.3B7B7A0BC0CF3CE0.title": "生火",
 	"quest.twr.3BBB2213C574F333.description.1": "完成初等的研究论文需要使用炭笔和石板。",
@@ -682,7 +682,7 @@
 	"quest.twr.55BE6F159CF89342.title": "橡胶",
 	"quest.twr.55C39831FBBB94D8.subtitle": "尚未开放",
 	"quest.twr.55C39831FBBB94D8.title": "四级能量塔",
-	"quest.twr.56E5FD2809882B5F.description.1": "当下，活下去或许才是最重要的目标。我必须争分夺秒地建造庇护所，并点燃篝火以获取温暖。时间紧迫，暴风雪将在一天后袭来。天气预报帽或天气雷达可以提前预测未来几天的天气，在外出时携带它们，将大大提高我生存的可能性。事不宜迟，准备开始雪中生存吧。",
+	"quest.twr.56E5FD2809882B5F.description.1": "当下，活下去或许才是最重要的目标。我必须争分夺秒地建造庇护所，并点燃篝火以获取温暖。时间紧迫，暴风雪将在一天后袭来。事不宜迟，准备开始雪中生存吧。",
 	"quest.twr.56E5FD2809882B5F.subtitle": "必要的信息",
 	"quest.twr.56E5FD2809882B5F.title": "章节指引",
 	"quest.twr.573841FD8018D4B1.description.1": "能量塔是用于加热土壤的设备，如果要种植，就必须要有能量塔。",
@@ -1086,5 +1086,5 @@
 	"quest.twr.7F91A18F97F23E75.title": "奇怪的雪",
 	"reward_table.twr.0566391630E2A62E.title": "简易工具包",
 	"reward_table.twr.5B4F6405EAEE3731.title": "遗迹资源奖励包",
-	"chapter.twr.0F92A786237ACCA8.title": "再次让电流贯穿人类社会。"
+	"chapter.twr.0F92A786237ACCA8.title": "让人类，再次驾驭电流。"
 }
