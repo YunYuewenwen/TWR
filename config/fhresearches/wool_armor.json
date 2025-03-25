@@ -4,7 +4,7 @@
     "item": {
       "id": "frostedheart:wool_hat",
       "nbt": "{Damage:0}",
-	  "Count": 1
+      "Count": 1
     }
   },
   "category": "frostedheart:living",

@@ -228,7 +228,7 @@
 	#If grass bed can sleep
 	sleep = false
 	litTorche = false
-	#If Drying rack need daytime
-	needDaytime = false
 	makeFire = false
+	#If Drying rack need daytime
+	"need daytime" = true
 

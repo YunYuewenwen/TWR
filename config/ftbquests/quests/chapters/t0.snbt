@@ -56,7 +56,7 @@
 				title: "{quest.twr.1F615C38B1A015E5.0758A45D51C54F20.title}"
 				type: "checkmark"
 			}]
-			title: "Find Recipes"
+			title: "{quest.twr.1F615C38B1A015E5.title}"
 			x: -9.5d
 			y: 3.0d
 		}
@@ -172,7 +172,7 @@
 		}
 		{
 			dependencies: ["56E5FD2809882B5F"]
-			description: ["在这冰天雪地之下徒手是不可能砍倒树的。我必须尽快寻找一些可以用来制作简易工具的材料，比如燧石和生锈的金属，它们或许能派上用场。我可以去河边看看，那里的冰块下方应该藏着一些燧石。"]
+			description: ["{quest.twr.32E5D942F1FE8645.description.1}"]
 			icon: "minecraft:flint"
 			id: "32E5D942F1FE8645"
 			shape: "gear"
@@ -187,7 +187,7 @@
 						value: "frostedheart:garbage"
 					}
 				}
-				title: "Any #frostedheart:garbage"
+				title: "{quest.twr.32E5D942F1FE8645.49F29DEEA2F6563D.title}"
 				type: "item"
 			}]
 			title: "{quest.twr.32E5D942F1FE8645.title}"
@@ -196,7 +196,7 @@
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
-			description: ["碍于条件简陋，我只能使用这种原始的工作台来合成物品，先将一块燧石安装在木棍上合成一把简易的燧石加工刀，然后往工作台上右键按照合成表放置好材料，最后使用加工刀便可完成物品合成。"]
+			description: ["{quest.twr.3102993072F3C8B9.description.1}"]
 			hide_dependency_lines: false
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
@@ -208,7 +208,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "燧石加工刀在背包中直接合成。有时加工会用到非加工刀的其他工具，可在JEI中查询配方。"
+			subtitle: "{quest.twr.3102993072F3C8B9.subtitle}"
 			tasks: [
 				{
 					id: "5EAF6B48C8FA678E"
@@ -234,7 +234,7 @@
 		}
 		{
 			dependencies: ["32E5D942F1FE8645"]
-			description: ["我用两块燧石制作了一把简易的刀，虽然它的耐用性远不及预期，但有总比没有好。在这样的环境下，这已经是一种不错的工具了。"]
+			description: ["{quest.twr.14D7D98FC5264B03.description.1}"]
 			icon: {
 				Count: 1
 				id: "frostedheart:makeshift_knife"
@@ -244,7 +244,7 @@
 			}
 			id: "14D7D98FC5264B03"
 			shape: "gear"
-			subtitle: "切割树叶获得藤蔓"
+			subtitle: "{quest.twr.14D7D98FC5264B03.subtitle}"
 			tasks: [{
 				id: "2877C21663576225"
 				item: {
@@ -261,7 +261,7 @@
 		}
 		{
 			dependencies: ["14D7D98FC5264B03"]
-			description: ["用简易的小刀切割树叶可以收集到藤蔓和木棍。将藤蔓晾干后能制成干草，这种材料在早期生存中至关重要，无论是用来生火还是制作简易装备都能派上大用场。"]
+			description: ["{quest.twr.1233EF3CDF5E33F8.description.1}"]
 			id: "1233EF3CDF5E33F8"
 			shape: "gear"
 			subtitle: "{quest.twr.1233EF3CDF5E33F8.subtitle}"
@@ -279,13 +279,13 @@
 					type: "item"
 				}
 			]
-			title: "Firewood and Tinder"
+			title: "{quest.twr.1233EF3CDF5E33F8.title}"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["14D7D98FC5264B03"]
-			description: ["我用几根木棍做成了简易的干燥架，将湿润的藤蔓挂在上面便可自动晾干成干草。"]
+			description: ["{quest.twr.1D7F2824DAF3BB7B.description.1}"]
 			hide_until_deps_visible: false
 			id: "1D7F2824DAF3BB7B"
 			shape: "gear"
@@ -365,8 +365,8 @@
 		{
 			dependencies: ["4B6FFA5A9140019F"]
 			description: [
-				"现在我收集了足够的柴火，但想要点燃篝火，我得获取一些点火材料。"
-				"可以用燧石和其他金属相互摩擦（分别放在祝福收）生火，也可以使用两根木棍合成起火器，对准篝火长按右键即可。"
+				"{quest.twr.3B7B7A0BC0CF3CE0.description.1}"
+				"{quest.twr.3B7B7A0BC0CF3CE0.description.2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
@@ -383,7 +383,7 @@
 							value: "frostedheart:ignition_material"
 						}
 					}
-					title: "Any #frostedheart:ignition_material"
+					title: "{quest.twr.3B7B7A0BC0CF3CE0.11B07F272C2A0E9B.title}"
 					type: "item"
 				}
 				{
@@ -395,7 +395,7 @@
 							value: "frostedheart:ignition_metal"
 						}
 					}
-					title: "Any #frostedheart:ignition_metal"
+					title: "{quest.twr.3B7B7A0BC0CF3CE0.2F936F09B49980F0.title}"
 					type: "item"
 				}
 				{
@@ -407,7 +407,7 @@
 							value: "forge:rods/wooden"
 						}
 					}
-					title: "Any #forge:rods/wooden"
+					title: "{quest.twr.3B7B7A0BC0CF3CE0.53336C57835162A4.title}"
 					type: "item"
 				}
 			]
@@ -417,7 +417,7 @@
 		}
 		{
 			dependencies: ["4B6FFA5A9140019F"]
-			description: ["用简易锹挖掘雪可以获得雪球。"]
+			description: ["{quest.twr.5D803F0865A90DE0.description.1}"]
 			hide_until_deps_visible: false
 			id: "5D803F0865A90DE0"
 			rewards: [{
@@ -442,7 +442,7 @@
 		}
 		{
 			dependencies: ["4B6FFA5A9140019F"]
-			description: ["我得快点了，是时候去弄点木头了，没有木头什么都做不了。"]
+			description: ["{quest.twr.6B7D4F59C921C1FC.description.1}"]
 			hide_until_deps_visible: false
 			icon: {
 				Count: 1
@@ -476,7 +476,7 @@
 							value: "minecraft:logs"
 						}
 					}
-					title: "Any #minecraft:logs"
+					title: "{quest.twr.6B7D4F59C921C1FC.3AE9B9B7D82D2F72.title}"
 					type: "item"
 				}
 			]
@@ -486,8 +486,8 @@
 		{
 			dependencies: ["6B7D4F59C921C1FC"]
 			description: [
-				"将原木合成&e原木堆&r再将原木堆放在一个封闭的空间中，露出一个小口点火，点燃后立即使用其他方块将小口堵住把火灭掉，静待烧制完成后挖开窑中的木炭堆就可以得到木炭。"
-				"&4对原木堆或木炭长按w可进行思索查看搭建流程&r"
+				"{quest.twr.76B2B1A3EC6D92CD.description.1}"
+				"{quest.twr.76B2B1A3EC6D92CD.description.2}"
 			]
 			icon: "minecraft:charcoal"
 			id: "76B2B1A3EC6D92CD"
@@ -497,7 +497,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "堵上小口后若盖住原木堆的方块上冒出烟雾即正在烧制木炭，烟雾消失即烧制完成。"
+			subtitle: "{quest.twr.76B2B1A3EC6D92CD.subtitle}"
 			tasks: [
 				{
 					id: "34D72F00CF39E4B0"
@@ -540,7 +540,7 @@
 		}
 		{
 			dependencies: ["20E34B234337C28A"]
-			description: ["除了木炭外我还可以把干草捆起来然后烘干，也是一种简单方便的篝火燃料。"]
+			description: ["{quest.twr.7E68FC6215F4FADC.description.1}"]
 			hide_until_deps_visible: false
 			id: "7E68FC6215F4FADC"
 			optional: true
@@ -551,15 +551,15 @@
 				item: "kubejs:straw_briquette"
 				type: "item"
 			}]
-			title: "干草块"
+			title: "{quest.twr.7E68FC6215F4FADC.title}"
 			x: 17.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["20E34B234337C28A"]
 			description: [
-				"我用木头做了几个杯子，将水杯放在营火上烧开就可以杀菌，变成纯净水。"
-				"把纯净水再烧一次就可以获得热水，可以暖和我的身子。"
+				"{quest.twr.04DC32D417FA819E.description.1}"
+				"{quest.twr.04DC32D417FA819E.description.2}"
 			]
 			hide_until_deps_visible: false
 			id: "04DC32D417FA819E"
@@ -575,7 +575,7 @@
 		}
 		{
 			dependencies: ["4B6FFA5A9140019F"]
-			description: ["现在我有木头了，但是想要把原木变成木板，我需要一个坚固的基座来把它们劈开，得先去挖点石头。"]
+			description: ["{quest.twr.45E2EF843333B846.description.1}"]
 			hide_until_deps_visible: false
 			icon: {
 				Count: 1
@@ -603,7 +603,7 @@
 		}
 		{
 			dependencies: ["45E2EF843333B846"]
-			description: ["先挖点石头。"]
+			description: ["{quest.twr.1837531DB19C9023.description.1}"]
 			id: "1837531DB19C9023"
 			shape: "gear"
 			tasks: [{
@@ -618,7 +618,7 @@
 		}
 		{
 			dependencies: ["4E2B2FEBD5031A2C"]
-			description: ["当下，活下去或许才是最重要的目标。我必须争分夺秒地建造庇护所，并点燃篝火以获取温暖。时间紧迫，暴风雪将在一天后袭来。天气预报帽或天气雷达可以提前预测未来几天的天气，在外出时携带它们，将大大提高我生存的可能性。事不宜迟，准备开始雪中生存吧。"]
+			description: ["{quest.twr.56E5FD2809882B5F.description.1}"]
 			icon: "minecraft:book"
 			id: "56E5FD2809882B5F"
 			shape: "hexagon"
@@ -627,7 +627,7 @@
 				id: "44FC3B35AD9FD776"
 				type: "checkmark"
 			}]
-			title: "Chapter Guide"
+			title: "{quest.twr.56E5FD2809882B5F.title}"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -672,7 +672,7 @@
 		}
 		{
 			dependencies: ["5D803F0865A90DE0"]
-			description: ["我把挖到的雪球压制成实雪，这种材料不会轻易融化，我可以用它来搭建庇护所。我如果可以获取足够的干草，建一座茅草屋也是不错的选择。"]
+			description: ["{quest.twr.29C8077E15E6C418.description.1}"]
 			id: "29C8077E15E6C418"
 			rewards: [
 				{
@@ -707,9 +707,9 @@
 		{
 			dependencies: ["20E34B234337C28A"]
 			description: [
-				"虽然大部分河流都已被冰覆盖，但是冰下任然有着丰富的资源，我在河床上发现了大量&e黏土、砂砾以及铜矿砂砾&r，这些都是重要的资源。"
-				"但是显然在如此在如此寒冷的情况下下水显然是一件危险的事情。"
-				"为了避免失温，可以在岸边升起了一堆篝火，在下水前脱下所有衣物，下水后尽快完成资源的收集，时刻注意氧气。返回冰面后立即烤火直到&e潮湿效果解除再穿上衣服。&r"
+				"{quest.twr.28F313C8E1312A2B.description.1}"
+				"{quest.twr.28F313C8E1312A2B.description.2}"
+				"{quest.twr.28F313C8E1312A2B.description.3}"
 			]
 			hide_until_deps_visible: false
 			icon: {
@@ -740,7 +740,7 @@
 		}
 		{
 			dependencies: ["6B7D4F59C921C1FC"]
-			description: ["树木生长需要&e土壤解冻程度&r至少达到&e28%&r，但是速度会降低。只有在&e45%&r以上生长速度才会恢复正常。"]
+			description: ["{quest.twr.7EFFAF6A69D2EE66.description.1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			icon: "minecraft:oak_sapling"
@@ -776,7 +776,7 @@
 				title: "{quest.twr.660F95E6765CD77A.71D0A569C8AC4690.title}"
 				type: "checkmark"
 			}]
-			title: "Need Help?"
+			title: "{quest.twr.660F95E6765CD77A.title}"
 			x: -9.5d
 			y: 1.5d
 		}
@@ -828,17 +828,17 @@
 		}
 		{
 			dependencies: ["1D7F2824DAF3BB7B"]
-			description: ["如果想要制作一些更稳固的工具，我需要寻找合适的绑定材料。将干草搓捻成绳，不仅结实耐用，还可以用于固定工具部件，为工具的稳定性提供可靠保障。"]
+			description: ["{quest.twr.4B6FFA5A9140019F.description.1}"]
 			id: "4B6FFA5A9140019F"
 			shape: "gear"
-			subtitle: "干草可以直接在背包合成。简易工具也可以直接在背包合成。"
+			subtitle: "{quest.twr.4B6FFA5A9140019F.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "22A1B13A6277575D"
 				item: "stone_age:grass_lead"
 				type: "item"
 			}]
-			title: "草绳"
+			title: "{quest.twr.4B6FFA5A9140019F.title}"
 			x: 12.5d
 			y: 0.0d
 		}
@@ -848,8 +848,8 @@
 				"20E34B234337C28A"
 			]
 			description: [
-				"我在地上挖出一个小坑，蹲下后在里面放入最多8个岩石，然后再下蹲右键往上面盖上6个干草和3个原木，再点燃最上面的木头，等待火焰熄灭就可以得到石头。"
-				"&4对干草长按w进入思索查看搭建流程。&r"
+				"{quest.twr.4BD8236FEEBD7D3A.description.1}"
+				"{quest.twr.4BD8236FEEBD7D3A.description.2}"
 			]
 			icon: "minecraft:stone"
 			id: "4BD8236FEEBD7D3A"
@@ -860,7 +860,7 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "陶窑的底部和四周必须完全封闭。"
+			subtitle: "{quest.twr.4BD8236FEEBD7D3A.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -902,9 +902,9 @@
 		{
 			dependencies: ["4B6FFA5A9140019F"]
 			description: [
-				"我做了一把锄头试图开荒垦地，但是这鬼地方实在是太冷了，大部分作物种下去后都毫无生长的迹象。我得让土壤温度恢复正常才能种作物，显然营火不是个好的选择。"
-				"现在我只能靠其他方法获取食物了。"
-				"随着后续章节的科技发展可以解冻土壤。"
+				"{quest.twr.477565C132877FBA.description.1}"
+				"{quest.twr.477565C132877FBA.description.2}"
+				"{quest.twr.477565C132877FBA.description.3}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
@@ -1271,7 +1271,7 @@
 							}
 						}
 					}
-					title: "khjxiaogu - Dev / Design"
+					title: "{quest.twr.7AFE32B08BB6CE6C.6C93768358C876B3.title}"
 					type: "item"
 				}
 				{
@@ -1285,7 +1285,7 @@
 							}
 						}
 					}
-					title: "Lyuuke - Art / Design"
+					title: "{quest.twr.7AFE32B08BB6CE6C.379F6668AD28227C.title}"
 					type: "item"
 				}
 				{
@@ -1299,7 +1299,7 @@
 							}
 						}
 					}
-					title: "goumo_g - Art / Dev"
+					title: "{quest.twr.7AFE32B08BB6CE6C.64B16811EBD61A2C.title}"
 					type: "item"
 				}
 				{
@@ -1313,7 +1313,7 @@
 							}
 						}
 					}
-					title: "yuqijun - Dev"
+					title: "{quest.twr.7AFE32B08BB6CE6C.68D5B3335F347C1C.title}"
 					type: "item"
 				}
 				{
@@ -1327,7 +1327,7 @@
 							}
 						}
 					}
-					title: "Lanshan - Build / Write"
+					title: "{quest.twr.7AFE32B08BB6CE6C.5E38D9D26E1993F3.title}"
 					type: "item"
 				}
 				{
@@ -1341,7 +1341,7 @@
 							}
 						}
 					}
-					title: "Dsanilen - Art"
+					title: "{quest.twr.7AFE32B08BB6CE6C.42CF419236A27795.title}"
 					type: "item"
 				}
 			]
@@ -1351,7 +1351,7 @@
 		}
 		{
 			dependencies: ["4BD8236FEEBD7D3A"]
-			description: ["我用加工台合成一个树桩，一个结实耐用的底座，我可以处理更多资源了。"]
+			description: ["{quest.twr.7E3F0C805E2BBB9F.description.1}"]
 			hide_until_deps_visible: false
 			icon: "stone_age:tree_stump"
 			id: "7E3F0C805E2BBB9F"
@@ -1405,7 +1405,7 @@
 						value: "minecraft:planks"
 					}
 				}
-				title: "Any #minecraft:planks"
+				title: "{quest.twr.19603323EAAFF726.55C4F94C2DB76794.title}"
 				type: "item"
 			}]
 			title: "{quest.twr.19603323EAAFF726.title}"
@@ -1417,7 +1417,7 @@
 				"6B7D4F59C921C1FC"
 				"3B7B7A0BC0CF3CE0"
 			]
-			description: ["我点燃了营火，顿时感觉暖和不少，但是如果能有一个封闭的庇护所应该可以让我更暖和一些。"]
+			description: ["{quest.twr.20E34B234337C28A.description.1}"]
 			id: "20E34B234337C28A"
 			shape: "gear"
 			tasks: [{
@@ -1430,7 +1430,7 @@
 		}
 		{
 			dependencies: ["5D803F0865A90DE0"]
-			description: ["我在铲雪的时候还发现了一些彩色的雪球，里面似乎富含很多有用的金属。"]
+			description: ["{quest.twr.7F91A18F97F23E75.description.1}"]
 			id: "7F91A18F97F23E75"
 			tasks: [{
 				id: "48A72D8F12880013"
@@ -1441,31 +1441,31 @@
 						value: "frostedheart:condensed_balls"
 					}
 				}
-				title: "Any #frostedheart:condensed_balls"
+				title: "{quest.twr.7F91A18F97F23E75.48A72D8F12880013.title}"
 				type: "item"
 			}]
-			title: "Weird Snow"
+			title: "{quest.twr.7F91A18F97F23E75.title}"
 			x: 9.5d
 			y: 4.0d
 		}
 		{
 			description: [
-				"Under various scenarios, you may unlock quests with &bInsight Reward&r."
-				""
-				"&bInsight&r is an important resource, much like your Experience Bar, but it is team-based, and do not reset when you die. "
-				""
-				"&bInsight Level&r progresses as you accumulate your &bInsight Point&r, much like your experience Level. "
-				""
-				"Every new Research needs a new &bInsight Level&r to unlock."
-				""
-				"Keep the discovery spirit: You always earn Insight when you &bDiscover&r or &eCreate.&r"
+				"{quest.twr.7F486B43F356A348.description.1}"
+				"{quest.twr.7F486B43F356A348.description.2}"
+				"{quest.twr.7F486B43F356A348.description.3}"
+				"{quest.twr.7F486B43F356A348.description.4}"
+				"{quest.twr.7F486B43F356A348.description.5}"
+				"{quest.twr.7F486B43F356A348.description.6}"
+				"{quest.twr.7F486B43F356A348.description.7}"
+				"{quest.twr.7F486B43F356A348.description.8}"
+				"{quest.twr.7F486B43F356A348.description.9}"
 			]
 			icon: "supplementaries:globe_sepia"
 			id: "7F486B43F356A348"
 			shape: "hexagon"
 			tasks: [{
 				id: "5A41DB2E76C56FB9"
-				title: "Insight"
+				title: "{quest.twr.7F486B43F356A348.5A41DB2E76C56FB9.title}"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -1473,5 +1473,5 @@
 		}
 	]
 	subtitle: ["{chapter.twr.0C07C58470EE031C.subtitle.0}"]
-	title: "Survive The Blizzard, Or Not?"
+	title: "{chapter.twr.0C07C58470EE031C.title}"
 }

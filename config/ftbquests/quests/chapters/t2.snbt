@@ -501,7 +501,7 @@
 							value: "forge:gems/quartz"
 						}
 					}
-					title: "Any #forge:gems/quartz"
+					title: "{quest.twr.279DA3B6F5DE7753.23635250F74FF7CF.title}"
 					type: "item"
 				}
 				{
@@ -743,7 +743,7 @@
 				item: "minecraft:dandelion"
 				type: "item"
 			}]
-			title: "Rubber"
+			title: "{quest.twr.55BE6F159CF89342.title}"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -818,7 +818,7 @@
 						value: "forge:ingots/nickel"
 					}
 				}
-				title: "Any #forge:ingots/nickel"
+				title: "{quest.twr.3A91A02EB59A7919.1FAD969BEF7DF8B1.title}"
 				type: "item"
 			}]
 			title: "{quest.twr.3A91A02EB59A7919.title}"
@@ -956,6 +956,6 @@
 			y: -3.5d
 		}
 	]
-	subtitle: ["Amist the white fog you see hope."]
-	title: "Ignite The Boiler, Let It Roar"
+	subtitle: ["{chapter.twr.3A3B51CF7F606665.subtitle.0}"]
+	title: "{chapter.twr.3A3B51CF7F606665.title}"
 }

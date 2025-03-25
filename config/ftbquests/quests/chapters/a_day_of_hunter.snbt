@@ -464,5 +464,5 @@
 		}
 	]
 	subtitle: ["{chapter.twr.75A05D5EAF6602DE.subtitle}"]
-	title: "A Day of Arctic Hunter"
+	title: "{chapter.twr.75A05D5EAF6602DE.title}"
 }

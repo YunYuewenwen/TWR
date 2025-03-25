@@ -401,5 +401,5 @@
 		}
 	]
 	subtitle: ["{chapter.twr.0A016090E53DFA3B.subtitle.0}"]
-	title: "Regain The Knowledge, Once Lost"
+	title: "{chapter.twr.0A016090E53DFA3B.title}"
 }

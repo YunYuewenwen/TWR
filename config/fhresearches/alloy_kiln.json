@@ -8,10 +8,10 @@
       "id": "2bca44f6f387479f",
       "value": 0.5,
       "item": {
-		"base_ingredient": {
+        "base_ingredient": {
           "tag": "forge:plates/bronze"
         },
-		"count": 1
+        "count": 1
       }
     },
     {

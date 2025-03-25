@@ -43,7 +43,7 @@
 							value: "forge:ingots/aluminum"
 						}
 					}
-					title: "Any #forge:ingots/aluminum"
+					title: "{quest.twr.5D52744D5382A6CA.613864B99DFE937E.title}"
 					type: "item"
 				}
 			]
@@ -122,7 +122,7 @@
 						value: "forge:ingots/steel"
 					}
 				}
-				title: "Any #forge:ingots/steel"
+				title: "{quest.twr.0019852CD6EC0354.559338E975649466.title}"
 				type: "item"
 			}]
 			title: "{quest.twr.0019852CD6EC0354.title}"
@@ -364,5 +364,5 @@
 		}
 	]
 	subtitle: ["{chapter.twr.0F92A786237ACCA8.subtitle}"]
-	title: "Electrify Humanity, Again"
+	title: "再次让电流贯穿人类社会。"
 }

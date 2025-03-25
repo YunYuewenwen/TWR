@@ -10,11 +10,11 @@
 	quests: [
 		{
 			dependencies: ["417AC14073DD4249"]
-			description: ["Treat Frostbite"]
+			description: ["{quest.twr.38669A3326C98419.description.1}"]
 			id: "38669A3326C98419"
 			tasks: [{
 				id: "40BD2E906DB15CAF"
-				title: "The Hospital For The People"
+				title: "{quest.twr.38669A3326C98419.40BD2E906DB15CAF.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -36,7 +36,7 @@
 						value: "minecraft:beds"
 					}
 				}
-				title: "Any #minecraft:beds"
+				title: "{quest.twr.153299DC4DED93E7.7811251CF28F8FD2.title}"
 				type: "item"
 			}]
 			x: 0.0d
@@ -58,13 +58,13 @@
 						value: "comforts:sleeping_bags"
 					}
 				}
-				title: "Any #comforts:sleeping_bags"
+				title: "{quest.twr.05BEC339A8B4D726.3C5B742BAC3798EA.title}"
 				type: "item"
 			}]
 			x: 2.0d
 			y: 2.0d
 		}
 	]
-	subtitle: ["About Medical Care, Frostbite Treatment, Clothing, and More."]
-	title: "A Day of Polar Medic"
+	subtitle: ["{chapter.twr.5DB44602FFBB3C1A.subtitle.0}"]
+	title: "{chapter.twr.5DB44602FFBB3C1A.title}"
 }

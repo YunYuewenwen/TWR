@@ -16,9 +16,9 @@
 	quests: [
 		{
 			description: [
-				"Sparse ores generate throughout the world, with varying depth."
+				"{quest.twr.181378ABF5CCD166.description.1}"
 				"{quest.twr.181378ABF5CCD166.description.2}"
-				"Rarely, you find ore deposits as underground cave biomes, where you can find abundant ores of similar formation origin."
+				"{quest.twr.181378ABF5CCD166.description.3}"
 				"{quest.twr.181378ABF5CCD166.description.4}"
 				"{quest.twr.181378ABF5CCD166.description.5}"
 				"{quest.twr.181378ABF5CCD166.description.6}"
