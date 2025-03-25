@@ -3,7 +3,6 @@
 {"item":"minecraft:apple"}
 ],
 "conditions": [
-{"condition":"stone_age:match_tag","tag":"minecraft:leaves"},
 {"condition":"frostedheart:temperature","temp":10,"compare":"lt"}
 ]
 }

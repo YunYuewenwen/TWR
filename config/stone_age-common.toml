@@ -29,13 +29,6 @@
 	givePlayerManualOnFirstConnect = false
 
 [structures]
-	#Abandoned camp allowed biomes
-	abandonedCampAllowedBiomes = []
-	#Burial place allowed biomes
-	burialPlaceAllowedBiomes = []
-	#Burial place spawn chance
-	#Range: 4.9E-324 ~ 1.0
-	burialPlaceSpawnChance = 0.001
 	#Abandoned camp spawn chance
 	#Range: 4.9E-324 ~ 1.0
 	abandonedCampSpawnChance = 0.001
@@ -43,15 +36,11 @@
 ["mob spawning"]
 
 	["mob spawning".deer]
-		#If spawnDeerAllowedBiomes is blacklist
-		spawnDeerAllowedBiomesBlacklist = false
 		#Spawn max count of mob
 		#Range: 1 ~ 100
 		spawnDeerMaxCount = 8
 		#Enable spawning of mob
 		spawnDeerEnable = true
-		#Spawn deer in allowed biomes
-		spawnDeerAllowedBiomes = []
 		#Spawn weight of mob
 		#Range: 0 ~ 100
 		spawnDeerWeight = 8
@@ -73,10 +62,6 @@
 		#Spawn max count of mob
 		#Range: 1 ~ 100
 		spawnBoarMaxCount = 6
-		#Spawn boar in allowed biomes
-		spawnBoarAllowedBiomes = []
-		#If spawnBoarAllowedBiomes is blacklist
-		spawnBoarAllowedBiomesBlacklist = false
 
 	["mob spawning"."woolly rhino"]
 		#Spawn max count of mob
@@ -85,26 +70,18 @@
 		#Spawn min count of mob
 		#Range: 1 ~ 100
 		spawnWoollyRhinoMinCount = 2
-		#Spawn woolly rhino in allowed biomes
-		spawnWoollyRhinoAllowedBiomes = []
 		#Enable spawning of mob
 		spawnWoollyRhinoEnable = true
 		#Spawn weight of mob
 		#Range: 0 ~ 100
 		spawnWoollyRhinoWeight = 2
-		#If spawnWoollyRhinoAllowedBiomes is blacklist
-		spawnWoollyRhinoAllowedBiomesBlacklist = false
 
 	["mob spawning"."terror bird"]
 		#Enable spawning of mob
 		spawnTerrorBirdEnable = true
-		#If spawnTerrorBirdAllowedBiomes is blacklist
-		spawnTerrorBirdAllowedBiomesBlacklist = false
 		#Spawn weight of mob
 		#Range: 0 ~ 100
 		spawnTerrorBirdWeight = 5
-		#Spawn terror bird in allowed biomes
-		spawnTerrorBirdAllowedBiomes = []
 		#Spawn max count of mob
 		#Range: 1 ~ 100
 		spawnTerrorBirdMaxCount = 3
@@ -116,12 +93,8 @@
 		#Spawn weight of mob
 		#Range: 0 ~ 100
 		spawnCoelacanthWeight = 5
-		#If spawnCoelacanthAllowedBiomes is blacklist
-		spawnCoelacanthAllowedBiomesBlacklist = false
 		#Enable spawning of mob
 		spawnCoelacanthEnable = true
-		#Spawn coelacanth in allowed biomes
-		spawnCoelacanthAllowedBiomes = []
 		#Spawn max count of mob
 		#Range: 1 ~ 100
 		spawnCoelacanthMaxCount = 3
@@ -130,16 +103,12 @@
 		spawnCoelacanthMinCount = 1
 
 	["mob spawning".mouflon]
-		#If spawnMouflonAllowedBiomes is blacklist
-		spawnMouflonAllowedBiomesBlacklist = false
 		#Spawn weight of mob
 		#Range: 0 ~ 100
 		spawnMouflonWeight = 5
 		#Spawn min count of mob
 		#Range: 1 ~ 100
 		spawnMouflonMinCount = 4
-		#Spawn mouflon in allowed biomes
-		spawnMouflonAllowedBiomes = []
 		#Result of breeding after generations in captivity
 		mouflonBreedingResult = "minecraft:sheep"
 		#Enable spawning of mob
@@ -149,8 +118,6 @@
 		spawnMouflonMaxCount = 8
 
 	["mob spawning".auroch]
-		#Spawn auroch in allowed biomes
-		spawnAurochAllowedBiomes = []
 		#Spawn min count of mob
 		#Range: 1 ~ 100
 		spawnAurochMinCount = 4
@@ -159,8 +126,6 @@
 		#Spawn weight of mob
 		#Range: 0 ~ 100
 		spawnAurochWeight = 5
-		#If spawnAurochAllowedBiomes is blacklist
-		spawnAurochAllowedBiomesBlacklist = false
 		#Spawn max count of mob
 		#Range: 1 ~ 100
 		spawnAurochMaxCount = 8
@@ -176,19 +141,13 @@
 		#Spawn max count of mob
 		#Range: 1 ~ 100
 		spawnSaberToothTigerMaxCount = 2
-		#Spawn saber-tooth tiger in allowed biomes
-		spawnSaberToothTigerAllowedBiomes = []
 		#Spawn weight of mob
 		#Range: 0 ~ 100
 		spawnSaberToothTigerWeight = 2
-		#If spawnSaberToothTigerAllowedBiomes is blacklist
-		spawnSaberToothTigerAllowedBiomesBlacklist = false
 
 	["mob spawning".fowl]
 		#Enable spawning of mob
 		spawnFowlEnable = true
-		#If spawnFowlAllowedBiomes is blacklist
-		spawnFowlAllowedBiomesBlacklist = false
 		#Spawn weight of mob
 		#Range: 0 ~ 100
 		spawnFowlWeight = 5
@@ -197,15 +156,11 @@
 		spawnFowlMaxCount = 8
 		#Result of breeding after generations in captivity
 		fowlBreedingResult = "minecraft:chicken"
-		#Spawn fowl in allowed biomes
-		spawnFowlAllowedBiomes = []
 		#Spawn min count of mob
 		#Range: 1 ~ 100
 		spawnFowlMinCount = 6
 
 	["mob spawning".mammoth]
-		#If spawnMammothAllowedBiomes is blacklist
-		spawnMammothAllowedBiomesBlacklist = false
 		#Spawn max count of mob
 		#Range: 1 ~ 100
 		spawnMammothMaxCount = 4
@@ -214,8 +169,6 @@
 		spawnMammothWeight = 1
 		#Enable spawning of mob
 		spawnMammothEnable = true
-		#Spawn mammoth in allowed biomes
-		spawnMammothAllowedBiomes = []
 		#Spawn min count of mob
 		#Range: 1 ~ 100
 		spawnMammothMinCount = 2
@@ -227,8 +180,8 @@
 [Config]
 	#If grass bed can sleep
 	sleep = false
-	litTorche = false
-	makeFire = false
 	#If Drying rack need daytime
-	"need daytime" = true
+	needDaytime = false
+	makeFire = false
+	litTorche = false
 
