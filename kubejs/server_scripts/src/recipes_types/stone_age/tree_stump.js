@@ -21,6 +21,8 @@ ServerEvents.recipes((event) => {
 			Ingredient.of('#forge:hammers'), 3),*/
 		tree_stumpRecipe(Item.of('frostedheart:crushed_raw_bauxite'), Item.of('frostedheart:bauxite'),
 			Ingredient.of('#forge:hammers'), 3,2),
+		tree_stumpRecipe(Item.of('3x frostedheart:flux'), Item.of('minecraft:calcite'),
+			Ingredient.of('#forge:hammers'), 3,2),
 		tree_stumpRecipe(Item.of('3x frostedheart:kaolin'), Item.of('frostedheart:kaolin_block'),
 			Ingredient.of('#forge:hammers'), 3,2),
 		tree_stumpRecipe(Item.of("2x kubejs:wet_coal_briquette"), Item.of("kubejs:wet_coal_dust"),
