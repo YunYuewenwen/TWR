@@ -18,6 +18,18 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
+			"frostedheart:snowshoes",
+			[
+				"B  ",
+				"BBB",
+				"AAA"
+			],
+			{
+				A: "#minecraft:planks",
+				B: "stone_age:grass_mesh"
+			}
+		],
+		[
 			"frostedheart:ice_skates",
 			[
 				"A  ",

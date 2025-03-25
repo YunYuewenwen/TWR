@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
 				if (Item.exists(ingotId)) {
 					kubejs.shapeless(Item.of(ingotId, 9), [itemId])
 				} else {
-					console.warn(`Skipping: No ingot found for block: ${ itemId }`)
+					// console.warn(`Skipping: No ingot found for block: ${ itemId }`)
 				}
 			} else if (key === "ingots") {
 				// Metal ingot => 9 nuggets
@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
 					// 9 nuggets => Metal ingot
 					kubejs.shapeless(Item.of(itemId, 1), Array(9).fill(nuggetId))
 				} else {
-					console.warn(`Skipping: No nugget found for ingot: ${ itemId }`)
+					// console.warn(`Skipping: No nugget found for ingot: ${ itemId }`)
 				}
 
 				// 9 ingots => Metal block
@@ -42,7 +42,7 @@ ServerEvents.recipes((event) => {
 				if (Item.exists(blockId)) {
 					kubejs.shapeless(Item.of(blockId, 1), Array(9).fill(itemId))
 				} else {
-					console.warn(`Skipping: No block found for ingot: ${ itemId }`)
+					// console.warn(`Skipping: No block found for ingot: ${ itemId }`)
 				}
 			}
 		})
