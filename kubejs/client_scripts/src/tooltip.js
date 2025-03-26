@@ -1,6 +1,6 @@
 ItemEvents.tooltip((event) => {
-	function createItemTooltip (key) {
-		return Text.of(Component.translate(`tooltip.the_winter_rescue.${ key }`)).gray()
+	function createItemTooltip(key) {
+		return Text.of(Component.translate(`tooltip.the_winter_rescue.${key}`)).gray()
 	}
 
 	let addTooltip = [

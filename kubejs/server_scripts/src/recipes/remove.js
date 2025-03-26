@@ -1,4 +1,4 @@
-//priority = 800
+//priority = 0
 
 ServerEvents.recipes((event) => {
 	let flint_workbench = [
@@ -191,7 +191,8 @@ ServerEvents.recipes((event) => {
 		"stone_age:backpack",
 		"minecraft:white_wool_from_string",
 		"immersiveengineering:crafting/nugget_copper_to_copper_ingot",
-		"minecraft:campfire"
+		"minecraft:campfire",
+		"minecraft:copper_ingot_from_waxed_copper_block"
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })
@@ -210,18 +211,19 @@ ServerEvents.recipes((event) => {
 		"immersiveengineering:capacitor_mv",
 		"immersiveengineering:capacitor_hv",
 		"immersiveengineering:dust_hop_graphite",
-		"create:andesite_alloy_block"
+		"create:andesite_alloy_block",
 	]
 	removeOnly.forEach((removeItem) => {
 		event.remove({ output: removeItem })
 	})
 
 	let removeTagsRecipes = [
-		"#forge:ingots",
-		"#forge:storage_blocks",
-		"#forge:nuggets"
+		"#forge:ingots/metal",
+		"#forge:storage_blocks/metal",
+		"#forge:nuggets/metal"
 	]
 	removeTagsRecipes.forEach((tag) => {
-		event.remove({ input: tag })
+		event.remove({ input: tag, type: "minecraft:crafting_shaped" })
+		event.remove({ input: tag, type: "minecraft:crafting_shapeless" })
 	})
 })

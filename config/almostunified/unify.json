@@ -1,8 +1,8 @@
 {
 	"modPriorities": [
 		"minecraft",
-		"create",
 		"frostedheart",
+		"create",
 		"thermal",
 		"kubejs",
 		"crafttweaker",
@@ -34,6 +34,7 @@
 		"forge:crushed_raw_materials/{material}"
 	],
 	"materials": [
+		"cast_iron",
 		"wood",
 		"aeternium",
 		"aluminum",

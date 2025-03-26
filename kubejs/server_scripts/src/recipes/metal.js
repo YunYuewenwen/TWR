@@ -1,11 +1,12 @@
 ServerEvents.recipes((event) => {
-	let { create, kubejs } = event.recipes
+	let { kubejs } = event.recipes
 
 	// Define metal tags
 	let tags = {
-		ingots: "#forge:ingots",
-		blocks: "#forge:storage_blocks",
-		nuggets: "#forge:nuggets"
+		ingots: "#forge:ingots/metal",
+		blocks: "#forge:storage_blocks/metal",
+		nuggets: "#forge:nuggets/metal",
+		plates: "#forge:plates/metal"
 	}
 
 	// Iterate through the tags and generate recipes
@@ -13,11 +14,11 @@ ServerEvents.recipes((event) => {
 		let itemIds = Ingredient.of(tags[key]).getItemIds()
 
 		if (!itemIds || itemIds.length === 0) {
-			console.error(`No items found for tag: ${ tags[key] }`)
+			console.error(`No items found for tag: ${tags[key]}`)
 			return 0
 		}
 
-		itemIds.forEach((itemId, index) => {
+		itemIds.forEach((itemId) => {
 			if (key === "blocks") {
 				// Metal block => 9 ingots
 				let ingotId = itemId.replace("block", "ingot")
@@ -48,6 +49,13 @@ ServerEvents.recipes((event) => {
 		})
 	})
 
+	kubejs.shapeless("9x create:copper_nugget", [
+		"#forge:ingots/copper"
+	])
+	kubejs.shapeless("minecraft:copper_ingot", [
+		"9x #forge:nuggets/copper"
+	])
+
 	let metals = [
 		{ mod: "steampowered", metal: "bronze" },
 		{ mod: "frostedheart", metal: "lead" },
@@ -64,15 +72,15 @@ ServerEvents.recipes((event) => {
 		{ mod: "create", metal: "gold" }
 	]
 	metals.forEach((metal) => {
-		let sheet = `${ metal.mod }:${ metal.metal }_sheet`
-		let ingot = `#forge:ingots/${ metal.metal }`
-/*		console.log(sheet)
-		console.log(ingot)
-		create.compacting(sheet, ingot);*/
+		let sheet = `${metal.mod}:${metal.metal}_sheet`
+		let ingot = `#forge:ingots/${metal.metal}`
+		/*		console.log(sheet)
+				console.log(ingot)
+				create.compacting(sheet, ingot);*/
 		event.custom({
-        		type: "create:compacting",
-        		ingredients: Ingredient.of(ingot,3),
-        		results: Item.of(sheet,2)
-        })
+			type: "create:compacting",
+			ingredients: Ingredient.of(ingot, 3),
+			results: Item.of(sheet, 2)
+		})
 	})
 })

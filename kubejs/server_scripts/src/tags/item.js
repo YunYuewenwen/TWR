@@ -18,7 +18,7 @@ ServerEvents.tags("item", (event) => {
 		"red"
 	]
 	colors.forEach((clr) => {
-		event.add("minecraft:shulker_box", `minecraft:${ clr }_shulker_box`)
+		event.add("minecraft:shulker_box", `minecraft:${clr}_shulker_box`)
 	})
 	event.add("itemfilters:check_nbt", "tetra:modular_double")
 	event.add("forge:plates/bronze", "steampowered:bronze_sheet")
@@ -44,7 +44,6 @@ ServerEvents.tags("item", (event) => {
 	event.add("caupona:meats", "frostedheart:chocolate")
 	event.add("caupona:eggs", "crockpot:cooked_egg")
 	event.add("forge:string", "stone_age:grass_lead")
-	event.add("the_winter_rescue:flux_block", "minecraft:pointed_dripstone")
 
 	event.add("caupona:container", "#frostedheart:thermos")
 
@@ -169,4 +168,53 @@ ServerEvents.tags("item", (event) => {
 	// 如果你坚持要使用连锁挖矿，可以自行把对应的内容去除，但是出现任何问题后果自负。并且请不要向他人宣传连锁挖矿。
 	// 最终，我们是不推荐擅自修改整合包内容的，这样极大降低游戏体验。如果实在要爽，不如直接开创造。
 	event.add("ftbultimine:included_tools", "create:cogwheel")
+
+
+	let metalGroup = [
+		"netherite",
+		"gold",
+		"steel",
+		"titanium",
+		"iron",
+		"electrum",
+		"aluminum",
+		"agnesium",
+		"nickel",
+		"bronze",
+		"tin",
+		"copper",
+		"lead",
+		"sodium",
+		"silver",
+		"duralumin",
+		"uranium",
+		"constantan",
+		"invar",
+		"brass",
+		"zinc",
+		"tungsten",
+		"tungsten_steel",
+		"cast_iron"
+	]
+	metalGroup.forEach((material) => {
+		event.get(`forge:ingots/metal/${material}`)
+			.add(`#forge:ingots/${material}`)
+		event.get(`forge:ingots/metal`)
+			.add(`#forge:ingots/${material}`)
+
+		event.get(`forge:nuggets/metal/${material}`)
+			.add(`#forge:nuggets/${material}`)
+		event.get(`forge:nuggets/metal`)
+			.add(`#forge:nuggets/${material}`)
+
+		event.get(`forge:plates/metal/${material}`)
+			.add(`#forge:plates/${material}`)
+		event.get(`forge:plates/metal`)
+			.add(`#forge:plates/${material}`)
+
+		event.get(`forge:storage_blocks/metal/${material}`)
+			.add(`#forge:storage_blocks/${material}`)
+		event.get(`forge:storage_blocks/metal`)
+			.add(`#forge:storage_blocks/${material}`)
+	})
 })
