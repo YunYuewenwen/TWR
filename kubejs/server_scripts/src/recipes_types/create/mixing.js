@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: ["frostedheart:pulp"],
-            input: ["4x #forge:dusts/wood", "#forge:clay_balls", Fluid.of("minecraft:water", 1000)]
+            input: ["4x #forge:dusts/wood", "#forge:clay", Fluid.of("minecraft:water", 1000)]
         },
         {
             output: ["frostedheart:sodium_sulfide_dust"],
