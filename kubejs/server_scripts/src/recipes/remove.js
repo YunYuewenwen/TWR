@@ -91,6 +91,8 @@ ServerEvents.recipes((event) => {
 	]
 	smelting.forEach((Item) => {
 		event.remove({ type: "minecraft:blasting", output: Item })
+		event.remove({ output: Item, type: "create:splashing"})
+		event.remove({ output: Item, type: "minecraft:smelting"})
 	})
 
 	let blueprint = [
@@ -231,4 +233,6 @@ ServerEvents.recipes((event) => {
 		event.remove({ input: tag, type: "minecraft:crafting_shaped" })
 		event.remove({ input: tag, type: "minecraft:crafting_shapeless" })
 	})
+
+
 })

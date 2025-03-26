@@ -4,7 +4,7 @@
     "item": "frostedheart:sodium_hydroxide_dust"
   },
   "input": {
-    "tag": "forge:salt"
+    "tag": "forge:dusts/sodium_chloride"
   },
   "fluid": {
     "tag": "forge:water",

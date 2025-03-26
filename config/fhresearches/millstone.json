@@ -19,7 +19,10 @@
       "value": 0.25,
       "id": "c498cf4e9dbb4c7e",
       "item": {
-        "tag": "minecraft:coals"
+        "count": 1,
+        "base_ingredient": {
+          "item": "minecraft:coal"
+        }
       },
       "consume": true
     }

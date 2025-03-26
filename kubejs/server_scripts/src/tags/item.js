@@ -29,14 +29,9 @@ ServerEvents.tags("item", (event) => {
 	event.add("forge:ingots/battery_alloy", "frostedheart:lead_ingot")
 	event.add("forge:dusts/wood", "frostedheart:sawdust")
 	event.add("forge:rods/cast_iron", "frostedheart:cast_iron_rod")
-	event.add("the_winter_rescue:flux_block", "minecraft:calcite")
 	event.add("frostedheart:ash", "charcoal_pit:ash")
 	event.add("frostedheart:cow_feed", "charcoal_pit:straw")
 	event.add("kubejs:coal_dust", "kubejs:coal_dust")
-	// event.add("forge:ores/copper", "frostedheart:rusted_copper_ingot")
-	// event.add("forge:ores/tin", "frostedheart:gray_tin_ingot")
-	// event.add("forge:ores/iron", "frostedheart:rusted_iron_ingot")
-	// TODO: add their recipes separately, since they are not really ores.
 	event.add("forge:dusts/zinc", "frostedheart:zinc_dust")
 	event.add("kubejs:tetra_hammer", "tetra:modular_double")
 	event.add("minecraft:shulker_box", "minecraft:shulker_box")
@@ -44,13 +39,29 @@ ServerEvents.tags("item", (event) => {
 	event.add("caupona:meats", "frostedheart:chocolate")
 	event.add("caupona:eggs", "crockpot:cooked_egg")
 	event.add("forge:string", "stone_age:grass_lead")
-	event.add("the_winter_rescue:flux_block", "minecraft:pointed_dripstone")
+	event.add("forge:raw_materials/magnesium", "frostedheart:raw_magnesite")
 
 	event.add("caupona:container", "#frostedheart:thermos")
 
+	event.add("the_winter_rescue:bloom_nickel", [
+		"frostedheart:raw_nickel",
+		"charcoal_pit:bloom_nickel_cool",
+		"charcoal_pit:bloom_nickel_fail"
+	])
+	event.add("the_winter_rescue:bloom_iron", [
+		"minecraft:raw_iron",
+		"charcoal_pit:bloom_cool",
+		"frostedheart:raw_pyrite",
+		"charcoal_pit:bloom_fail",
+		"frostedheart:rusted_iron_ingot"
+	])
 	event.add("the_winter_rescue:flour", [
 		"stone_age:flour",
 		"frostedheart:rye_flour"
+	])
+	event.add("the_winter_rescue:flux_block", [
+		"minecraft:pointed_dripstone",
+		"minecraft:calcite"
 	])
 	event.add("the_winter_rescue:cogwheels", [
 		"steampowered:bronze_cogwheel",

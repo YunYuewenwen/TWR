@@ -3,7 +3,7 @@
     "inputs": [
         {
             "base_ingredient": {
-                "tag": "forge:salt"
+                "tag": "forge:dusts/sodium_chloride"
             },
             "count": 2
         }

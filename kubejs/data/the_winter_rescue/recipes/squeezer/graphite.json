@@ -1,12 +1,11 @@
 {
   "type":"immersiveengineering:squeezer",
   "result":{
-    "count":4,
+    "count":1,
     "item":"immersiveengineering:ingot_hop_graphite"
   },
   "input":{
-    
-	"tag":"forge:storage_blocks/graphite"
+	  "tag":"forge:dusts/hop_graphite"
   },
   "energy":19200
 }

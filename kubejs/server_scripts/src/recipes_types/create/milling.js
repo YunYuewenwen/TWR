@@ -2,10 +2,6 @@ ServerEvents.recipes((event) => {
     let {create} = event.recipes
     let recipes = [
         {
-            output: ["minecraft:quartz", Item.of("minecraft:quartz").withChance(0.5)],
-            input: "#forge:stones/quartzite"
-        },
-        {
             output: ["2x minecraft:stick", Item.of("8x frostedheart:sawdust").withChance(0.5), Item.of("frostedheart:biomass").withChance(0.2)],
             input: "#minecraft:logs"
         },
@@ -17,14 +13,6 @@ ServerEvents.recipes((event) => {
             output: ["frostedheart:kaolin_dust", Item.of("frostedheart:kaolin_dust").withChance(0.5)],
             input: "frostedheart:kaolin"
         },
-        /*{
-            output: ["frostedheart:cryolite_dust", Item.of("frostedheart:cryolite_dust").withChance(0.5)],
-            input: "frostedheart:crushed_raw_fluorite"
-        },*/
-        /*{
-            output: ["immersiveengineering:dust_sulfur", Item.of("immersiveengineering:dust_sulfur").withChance(0.5)],
-            input: "immersiveengineering:sulfur_dust"
-        },*/
         {
             output: [Item.of("minecraft:quartz").withChance(0.4), Item.of("minecraft:quartz").withChance(0.3)],
             input: "minecraft:smooth_sandstone"

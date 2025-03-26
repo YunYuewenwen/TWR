@@ -1522,6 +1522,18 @@ ServerEvents.recipes((event) => {
 			{
 				A: "#forge:ingots/cast_iron"
 			}
+		],
+		[
+			"minecraft:flint_and_steel",
+			[
+				"A  ",
+				" B ",
+				"   "
+			],
+			{
+				A: "#forge:rods/cast_iron",
+				B: "minecraft:flint"
+			}
 		]
 	]
 	addShapedRecipes.forEach((recipe, index) => {
