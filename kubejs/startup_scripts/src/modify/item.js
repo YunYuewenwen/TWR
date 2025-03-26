@@ -38,10 +38,10 @@ ItemEvents.modification((event) => {
 	})
 
 	event.modify("frostedheart:peat", (modify) => {
-		modify.burnTime = 20
+		modify.burnTime = 200
 	})
 
 	event.modify("frostedheart:peat_block", (modify) => {
-		modify.burnTime = 80
+		modify.burnTime = 800
 	})
 })
