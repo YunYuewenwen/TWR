@@ -1,4 +1,4 @@
-//priority = 0
+//priority = 800
 
 ServerEvents.recipes((event) => {
 	let flint_workbench = [

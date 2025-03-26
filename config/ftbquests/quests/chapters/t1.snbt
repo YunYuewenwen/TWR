@@ -260,11 +260,6 @@
 				"{quest.twr.3078BCEE3E402DED.description.2}"
 			]
 			id: "3078BCEE3E402DED"
-			rewards: [{
-				id: "1E0146DC7FFCD763"
-				item: "crockpot:watermelon_icle"
-				type: "item"
-			}]
 			shape: "gear"
 			subtitle: "{quest.twr.3078BCEE3E402DED.subtitle}"
 			tasks: [{
@@ -329,7 +324,14 @@
 				}
 				{
 					id: "74A169C144AF38E7"
-					item: "minecraft:calcite"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_winter_rescue:flux_block"
+						}
+					}
+					title: "Any #the_winter_rescue:flux_block"
 					type: "item"
 				}
 			]

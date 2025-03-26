@@ -983,7 +983,7 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"frostedheart:wooden_cup",
+			"frostedheart:wooden_cup", 4,
 			[
 				"A A",
 				"A A",
