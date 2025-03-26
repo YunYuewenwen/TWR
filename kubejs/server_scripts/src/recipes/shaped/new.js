@@ -935,18 +935,6 @@ ServerEvents.recipes((event) => {
 		// 	}
 		// ],
 		[
-			"charcoal_pit:sandy_collector",
-			[
-				"A A",
-				"ABA",
-				"AAA"
-			],
-			{
-				A: "charcoal_pit:sandy_brick_item",
-				B: "minecraft:bucket"
-			}
-		],
-		[
 			"frostedheart:generator_brick", 4,
 			[
 				"ABA",
@@ -1210,18 +1198,6 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"minecraft:stone_bricks",
-			[
-				"ABA",
-				"BAB",
-				"ABA"
-			],
-			{
-				A: "minecraft:stone",
-				B: "frostedheart:mortar"
-			}
-		],
-		[
 			"charcoal_pit:clay_pot",
 			[
 				"AAA",
@@ -1394,31 +1370,6 @@ ServerEvents.recipes((event) => {
 				A: "frostedheart:mortar",
 				B: "charcoal_pit:sandy_brick_item",
 				C: "#forge:plates/copper"
-			}
-		],
-		[
-			"charcoal_pit:bellows",
-			[
-				"ABA",
-				"CCC",
-				"ABA"
-			],
-			{
-				A: "immersiveengineering:treated_wood_horizontal",
-				B: "immersiveengineering:slab_treated_wood_horizontal",
-				C: "minecraft:leather"
-			}
-		],
-		[
-			"charcoal_pit:sandy_brick",
-			[
-				"BAB",
-				"ABA",
-				"BAB"
-			],
-			{
-				A: "frostedheart:mortar",
-				B: "charcoal_pit:sandy_brick_item"
 			}
 		],
 		[

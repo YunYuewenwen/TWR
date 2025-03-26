@@ -19,6 +19,55 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
+        	"charcoal_pit:bellows",
+        	[
+        		"ABA",
+        		"CCC",
+        		"ABA"
+        	],
+        	{
+        		A: "immersiveengineering:treated_wood_horizontal",
+        		B: "immersiveengineering:slab_treated_wood_horizontal",
+        		C: "minecraft:leather"
+        	}
+        ],
+        [
+			"minecraft:stone_bricks",
+			[
+				"ABA",
+				"BAB",
+				"ABA"
+			],
+			{
+				A: "minecraft:stone",
+				B: "frostedheart:mortar"
+			}
+		],
+		[
+			"charcoal_pit:sandy_collector",
+			[
+				"A A",
+				"ABA",
+				"AAA"
+			],
+			{
+				A: "charcoal_pit:sandy_brick_item",
+				B: "minecraft:bucket"
+			}
+		],
+		[
+			"charcoal_pit:sandy_brick",
+			[
+				"BAB",
+				"ABA",
+				"BAB"
+			],
+			{
+				A: "frostedheart:mortar",
+				B: "charcoal_pit:sandy_brick_item"
+			}
+		],
+		[
 			"create:brass_funnel", 2,
 			[
 				" A ",

@@ -61,7 +61,8 @@ ServerEvents.tags("item", (event) => {
 	])
 	event.add("the_winter_rescue:flux_block", [
 		"minecraft:pointed_dripstone",
-		"minecraft:calcite"
+		"minecraft:calcite",
+		"create:limestone"
 	])
 	event.add("the_winter_rescue:cogwheels", [
 		"steampowered:bronze_cogwheel",
