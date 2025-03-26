@@ -13,13 +13,16 @@ ServerEvents.recipes((event) => {
         campfireRecipe("#forge:ingots/tin", "frostedheart:gray_tin_ingot", 600),
         campfireRecipe("frostedheart:buried_mycelium", "frostedheart:mycelium_permafrost", 200),
         campfireRecipe("minecraft:coarse_dirt", "frostedheart:coarse_dirt_permafrost", 200),
+        campfireRecipe("minecraft:coarse_dirt", "frostedheart:dirt_permafrost", 200),
+        campfireRecipe("minecraft:coarse_dirt", "frostedheart:rooted_dirt_permafrost", 200),
         campfireRecipe("frostedheart:buried_podzol", "frostedheart:podzol_permafrost", 200),
         campfireRecipe("minecraft:gravel", "frostedheart:gravel_permafrost", 200),
         campfireRecipe("minecraft:sand", "frostedheart:sand_permafrost", 200),
         campfireRecipe("minecraft:red_sand", "frostedheart:red_sand_permafrost", 200),
         campfireRecipe("frostedheart:peat_block", "frostedheart:peat_permafrost", 200),
         campfireRecipe("minecraft:clay", "frostedheart:clay_permafrost", 200),
-        campfireRecipe("frostedheart:bauxite_block", "frostedheart:bauxite_permafrost", 200)
+        campfireRecipe("frostedheart:bauxite_block", "frostedheart:bauxite_permafrost", 200),
+        campfireRecipe("frostedheart:kaolin_block", "frostedheart:kaolin_permafrost", 200)
     ]
     recipes.forEach((recipe) => {
         minecraft.campfire_cooking(recipe.result, recipe.ingredients)

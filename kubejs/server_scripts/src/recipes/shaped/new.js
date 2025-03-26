@@ -922,6 +922,18 @@ ServerEvents.recipes((event) => {
 				C: "minecraft:gravel"
 			}
 		],
+		// [
+		// 	"charcoal_pit:sandy_collector",
+		// 	[
+		// 		"A A",
+		// 		"ABA",
+		// 		"AAA"
+		// 	],
+		// 	{
+		// 		A: "charcoal_pit:sandy_brick_item",
+		// 		B: "frostedheart:ceramic_bucket"
+		// 	}
+		// ],
 		[
 			"charcoal_pit:sandy_collector",
 			[
@@ -931,11 +943,11 @@ ServerEvents.recipes((event) => {
 			],
 			{
 				A: "charcoal_pit:sandy_brick_item",
-				B: "frostedheart:ceramic_bucket"
+				B: "minecraft:bucket"
 			}
 		],
 		[
-			"frostedheart:generator_brick",
+			"frostedheart:generator_brick", 4,
 			[
 				"ABA",
 				"BAB",
@@ -1324,7 +1336,7 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"immersiveengineering:alloybrick",
+			"immersiveengineering:alloybrick", 2,
 			[
 				"ABA",
 				"B B",
@@ -1410,7 +1422,7 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"charcoal_pit:unfired_sandy_brick",
+			"charcoal_pit:unfired_sandy_brick", 4,
 			[
 				"ABA",
 				"BAB",
@@ -1465,6 +1477,50 @@ ServerEvents.recipes((event) => {
 			],
 			{
 				A: "stone_age:leather_strip"
+			}
+		],
+		[
+			"minecraft:bucket",
+			[
+				"   ",
+				"A A",
+				" A "
+			],
+			{
+				A: "#forge:plates/bronze"
+			}
+		],
+		[
+			"minecraft:iron_door",
+			[
+				"AA ",
+				"AA ",
+				"AA "
+			],
+			{
+				A: "#forge:ingots/bronze"
+			}
+		],
+		[
+			"minecraft:iron_door",
+			[
+				"AA ",
+				"AA ",
+				"AA "
+			],
+			{
+				A: "#forge:ingots/steel"
+			}
+		],
+		[
+			"minecraft:iron_door",
+			[
+				"AA ",
+				"AA ",
+				"AA "
+			],
+			{
+				A: "#forge:ingots/cast_iron"
 			}
 		]
 	]

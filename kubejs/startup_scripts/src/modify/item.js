@@ -36,4 +36,12 @@ ItemEvents.modification((event) => {
 	event.modify("minecraft:snowball", (modify) => {
 		modify.maxStackSize = 32
 	})
+
+	event.modify("frostedheart:peat", (modify) => {
+		modify.burnTime = 20
+	})
+
+	event.modify("frostedheart:peat_block", (modify) => {
+		modify.burnTime = 80
+	})
 })

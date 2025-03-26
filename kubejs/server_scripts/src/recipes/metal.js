@@ -57,18 +57,18 @@ ServerEvents.recipes((event) => {
 	])
 
 	let metals = [
-		{ mod: "steampowered", metal: "bronze" },
+		{ mod: "frostedheart", metal: "bronze" },
 		{ mod: "frostedheart", metal: "lead" },
 		{ mod: "frostedheart", metal: "cast_iron" },
 		{ mod: "frostedheart", metal: "invar" },
 		{ mod: "frostedheart", metal: "steel" },
-		{ mod: "create", metal: "copper" },
-		{ mod: "create", metal: "brass" },
-		{ mod: "create", metal: "iron" },
 		{ mod: "frostedheart", metal: "aluminum" },
 		{ mod: "frostedheart", metal: "constantan" },
 		{ mod: "frostedheart", metal: "electrum" },
 		{ mod: "frostedheart", metal: "silver" },
+		{ mod: "create", metal: "copper" },
+		{ mod: "create", metal: "brass" },
+		{ mod: "create", metal: "iron" },
 		{ mod: "create", metal: "gold" }
 	]
 	metals.forEach((metal) => {

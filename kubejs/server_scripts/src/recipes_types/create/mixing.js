@@ -134,7 +134,11 @@ ServerEvents.recipes((event) => {
         },
         {
             output: ["2x frostedheart:high_refractory_brick"],
-            inpit: ["4x frostedheart:fire_clay_ball", "frostedheart:magnesia_dust", "#forge:dusts/quicklime"]
+            input: ["4x frostedheart:fire_clay_ball", "frostedheart:magnesia_dust", "#forge:dusts/quicklime"]
+        },
+        {
+            output: ["minecraft:dirt"],
+            input: ["frostedheart:dirt_permafrost", "frostedheart:biomass", "#forge:dusts/ash"]
         }
     ]
     recipes.forEach((recipe, index) => {

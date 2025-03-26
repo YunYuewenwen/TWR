@@ -1,8 +1,8 @@
-new Schema("stone_age:tree_stump")
-	.simpleKey("result", "outputItem")
-	.simpleKey("ingredient", "inputItem")
-	.simpleKey("tool", "inputItem")
-	.simpleKey("chopTimes", "doubleNumber")
+// new Schema("stone_age:tree_stump")
+// 	.simpleKey("result", "outputItem")
+// 	.simpleKey("ingredient", "inputItem")
+// 	.simpleKey("tool", "inputItem")
+// 	.simpleKey("chopTimes", "doubleNumber")
 /*
 {
 	"type": "stone_age:tree_stump",

@@ -192,7 +192,12 @@ ServerEvents.recipes((event) => {
 		"minecraft:white_wool_from_string",
 		"immersiveengineering:crafting/nugget_copper_to_copper_ingot",
 		"minecraft:campfire",
-		"minecraft:copper_ingot_from_waxed_copper_block"
+		"minecraft:copper_ingot_from_waxed_copper_block",
+		"charcoal_pit:sandy_bricks",
+		"charcoal_pit:sandy_brick",
+		"charcoal_pit:sandy_collector",
+		"minecraft:stone_bricks",
+		"charcoal_pit:bellows"
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

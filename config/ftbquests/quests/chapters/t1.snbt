@@ -271,28 +271,19 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["03A553EBD453466A"]
-			description: [
-				"{quest.twr.6CF9868197215C1D.description.1}"
-				"{quest.twr.6CF9868197215C1D.description.2}"
-			]
+			dependencies: ["4B6840707D77E2C0"]
 			hide_until_deps_visible: false
 			id: "6CF9868197215C1D"
 			optional: true
+			shape: "gear"
 			subtitle: "{quest.twr.6CF9868197215C1D.subtitle}"
 			tasks: [{
 				id: "2AAF72488E68976B"
-				item: {
-					Count: 1
-					id: "frostedheart:ceramic_bucket"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "minecraft:bucket"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3078BCEE3E402DED"]
@@ -636,11 +627,6 @@
 					type: "item"
 				}
 				{
-					id: "3FEAB9291763975A"
-					item: "frostedheart:wolfberries"
-					type: "item"
-				}
-				{
 					id: "3838D10F90DA4157"
 					item: {
 						Count: 1
@@ -673,11 +659,6 @@
 										Count: 1b
 										id: "minecraft:honey_bottle"
 										th_countf: 0.25f
-									}
-									{
-										Count: 1b
-										id: "frostedheart:wolfberries"
-										th_countf: 0.5f
 									}
 								]
 								sat: 0.7f
