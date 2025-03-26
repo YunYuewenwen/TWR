@@ -1,4 +1,5 @@
 {
+  "twr.tip.wheel_menu": "Press TAB to open up the Wheel Menu to select for Nutrition, Clothing, and customize on your own.",
   "twr.tip.undead_damage": "Is duck_egg a girl or a boy? ",
   "twr.tip.poison_immune": "Remember to use the quest book~ ",
   "twr.tip.witch_conversion": "YueSha believes modpack development should be centered on modding. ",
@@ -8,7 +9,6 @@
   "twr.tip.swamp_slime": "Credits to khjxiaogu for providing development support. ",
   "twr.tip.deflect_ghast_fireballs": "Credits to Fu_Yang and 03110 for building the map. ",
   "twr.tip.shulker_armor": "The Winter Rescue is far less grinding than Terra Firma Rescue. ",
-  "twr.tip.arthropods": "Ores generate with stone layers while stone layers generate with biomes. ",
   "twr.tip.fossils": "You came on a mission. ",
   "twr.tip.crouch_blocks": "The first Generator heats up the surrounding region within a radius of 8 blocks. You can upgrade its heating area. ",
   "twr.tip.smoke_bees": "The Generator is a multiblock structure. Use ponder to see how to build it. ",
