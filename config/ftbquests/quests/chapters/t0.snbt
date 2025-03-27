@@ -739,23 +739,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6B7D4F59C921C1FC"]
-			description: ["{quest.twr.7EFFAF6A69D2EE66.description.1}"]
-			hide_dependency_lines: true
-			hide_until_deps_visible: false
-			icon: "minecraft:oak_sapling"
-			id: "7EFFAF6A69D2EE66"
-			shape: "hexagon"
-			subtitle: "{quest.twr.7EFFAF6A69D2EE66.subtitle}"
-			tasks: [{
-				id: "483C18090B96035F"
-				type: "checkmark"
-			}]
-			title: "{quest.twr.7EFFAF6A69D2EE66.title}"
-			x: 12.5d
-			y: 2.0d
-		}
-		{
 			description: [
 				"{quest.twr.660F95E6765CD77A.description.1}"
 				"{quest.twr.660F95E6765CD77A.description.2}"
