@@ -58,6 +58,16 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
+			"charcoal_pit:unfired_sandy_brick", 4, [
+				"ABA",
+				"BAB",
+				"ABA"
+			], {
+				A: "minecraft:sand",
+				B: "minecraft:clay_ball"
+			}
+		],
+		[
 			"create:brass_funnel", 2, [
 				" A ",
 				"BCB",
@@ -110,6 +120,16 @@ ServerEvents.recipes((event) => {
 				A: "minecraft:ink_sac",
 				B: "#forge:plates/steel",
 				C: "minecraft:paper"
+			}
+		],
+		[
+			"immersiveengineering:alloybrick", 2, [
+				"ABA",
+				"B B",
+				"ABA"
+			], {
+				A: "minecraft:brick",
+				B: "#forge:plates/bronze"
 			}
 		],
 		/*

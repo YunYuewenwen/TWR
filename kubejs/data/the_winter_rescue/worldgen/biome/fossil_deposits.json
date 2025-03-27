@@ -71,6 +71,7 @@
             "minecraft:spring_lava"
         ],
         [
+            "the_winter_rescue:fh_fossil",
             "terralith:cave/generic/noise_reducer",
             "terralith:cave/generic/noise_reducer_small",
             "minecraft:glow_lichen"

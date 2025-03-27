@@ -1,66 +1,93 @@
 {
-  "icon": {
-    "type": "combined",
-    "base": "create:basin",
-    "small": "minecraft:campfire"
-  },
-  "category": "frostedheart:production",
-  "parents": [
-    "mechanical_crafter",
-    "mechanical_calculator"
-  ],
+  "showAltDesc": true,
+  "points": 4000,
+  "insight": 1,
   "clues": [
     {
       "type": "game",
-      "value": 0.75,
       "id": "dad9034ff1445e3",
       "required": true,
+      "value": 0.75,
       "level": 1
     },
     {
       "type": "game",
-      "value": 0.2,
       "id": "7a9c4e0b7c434689",
+      "value": 0.2,
       "level": 1
     },
     {
       "type": "item",
-      "value": 0.125,
       "id": "2865c93b47a84575",
+      "value": 0.125,
+      "consume": true,
       "item": {
-        "count": 30,
         "base_ingredient": {
-          "item": "immersiveengineering:plate_constantan"
-        }
-      },
-      "consume": true
+          "tag": "forge:plates/constantan"
+        },
+        "count": 30
+      }
     }
   ],
   "ingredients": [
     {
-      "item": "create:empty_blaze_burner"
+      "base_ingredient": {
+        "item": "create:empty_blaze_burner"
+      },
+      "count": 1
     },
     {
-      "tag": "forge:plates/constantan"
+      "base_ingredient": {
+        "tag": "forge:plates/constantan"
+      },
+      "count": 1
     },
     {
-      "item": "minecraft:lava_bucket"
+      "base_ingredient": {
+        "item": "minecraft:lava_bucket"
+      },
+      "count": 1
     }
   ],
   "effects": [
     {
       "type": "recipe",
-      "id": "687b592d2b5c41df",
-      "item": "create:blaze_burner"
+      "item": {
+        "item": "create:blaze_burner"
+      },
+      "id": "687b592d2b5c41df"
     },
     {
       "type": "item",
       "id": "d82f6ca75174f52",
       "rewards": [
-        "minecraft:bucket"
+        {
+          "id": "minecraft:bucket",
+          "Count": 1
+        }
       ]
     }
   ],
-  "points": 4000,
-  "showAltDesc": true
+  "icon": {
+    "type": "combined",
+    "base": {
+      "type": "item",
+      "item": {
+        "id": "create:basin",
+        "Count": 1
+      }
+    },
+    "small": {
+      "type": "item",
+      "item": {
+        "id": "minecraft:campfire",
+        "Count": 1
+      }
+    }
+  },
+  "category": "frostedresearch:production",
+  "parents": [
+    "mechanical_crafter",
+    "mechanical_calculator"
+  ]
 }

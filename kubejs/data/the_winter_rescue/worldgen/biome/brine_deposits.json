@@ -42,6 +42,7 @@
         [],
         [
             "the_winter_rescue:cave/brine_halitel_ore",
+            "the_winter_rescue:cave/brine_magnesite_ore",
             "minecraft:ore_coal_upper",
             "minecraft:ore_coal_lower",
             "minecraft:ore_iron_upper",

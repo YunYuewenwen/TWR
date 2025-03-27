@@ -194,12 +194,6 @@ ServerEvents.recipes((event) => {
 		"immersiveengineering:crafting/nugget_copper_to_copper_ingot",
 		"minecraft:campfire",
 		"minecraft:copper_ingot_from_waxed_copper_block",
-		"charcoal_pit:sandy_bricks",
-		"charcoal_pit:sandy_brick",
-		"charcoal_pit:sandy_collector",
-		"minecraft:stone_bricks",
-		"charcoal_pit:bellows",
-		"stone_age:backpack",
 		"immersiveengineering:blastfurnace/steel"
 	]
 	recipeID.forEach((Item) => {

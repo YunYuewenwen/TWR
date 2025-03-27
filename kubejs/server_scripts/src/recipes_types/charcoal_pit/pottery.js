@@ -14,6 +14,5 @@ ServerEvents.recipes((event) => {
     charcoal_pit.orekiln("frostedheart:tin_ingot", ["#forge:raw_materials/tin"])
     charcoal_pit.orekiln("frostedheart:tin_ingot", ["#forge:ingots/gray_tin"])
     charcoal_pit.orekiln("frostedheart:lead_ingot", ["#forge:raw_materials/lead"])
-    charcoal_pit.orekiln("frostedheart:magnesium_ingot", ["#forge:raw_materials/magnesium"])
     charcoal_pit.orekiln("minecraft:gold_ingot", ["#forge:raw_materials/gold"])
 })

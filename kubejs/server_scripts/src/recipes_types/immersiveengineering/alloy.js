@@ -15,8 +15,8 @@ ServerEvents.recipes((event) => {
         //     input2: Ingredient.of('#forge:ingots/copper', 3),
         //     output: Item.of('tconstruct:tinkers_bronze_ingot', 3)
         // }
-        {input1: '4x #forge:raw_materials/copper', input2: '#kubejs:kiln_dust', output: '4x minecraft:copper_ingot', time: 400},
-        {input1: '4x #forge:raw_materials/tin', input2: '#kubejs:kiln_dust', output: '4x frostedheart:tin_ingot', time: 400}
+        {input1: '2x #forge:raw_materials/copper', input2: '#kubejs:kiln_dust', output: '2x minecraft:copper_ingot', time: 240},
+        {input1: '2x #forge:raw_materials/tin', input2: '#kubejs:kiln_dust', output: '2x frostedheart:tin_ingot', time: 240}
     ]
     recipes.forEach((recipe) => {
         immersiveengineering.alloy(recipe.output, recipe.input1, recipe.input2, recipe.time);
