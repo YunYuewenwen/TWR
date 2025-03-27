@@ -7,8 +7,8 @@ LootJS.modifiers((event) => {
 		.randomChance(0.75)
 		.addLoot("minecraft:stick");
 	// ice chips
-	event.addBlockLootModifier("frostedheart:thin_ice").removeLoot("frostedheart:ice_chip");
 	event.addBlockLootModifier("frostedheart:thin_ice")
+		.removeLoot("frostedheart:ice_chip")
 		.randomChance(1.0)
 		.addLoot("frostedheart:ice_chip x1")
 		.randomChance(0.3)
