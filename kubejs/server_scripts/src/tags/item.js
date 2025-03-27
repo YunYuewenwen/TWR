@@ -44,7 +44,7 @@ ServerEvents.tags("item", (event) => {
 	event.add("caupona:container", "#frostedheart:thermos")
 
 	event.add("the_winter_rescue:bloom_nickel", [
-		"frostedheart:raw_nickel",
+		"immersiveengineering:raw_nickel",
 		"charcoal_pit:bloom_nickel_cool",
 		"charcoal_pit:bloom_nickel_fail"
 	])
