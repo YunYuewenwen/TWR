@@ -26,6 +26,7 @@ ServerEvents.recipes((event) => {
         { output: 'frostedheart:peat_block', input: 'frostedheart:peat_permafrost' },
         { output: 'frostedheart:bauxite_block', input: 'frostedheart:bauxite_permafrost' },
         { output: 'frostedheart:kaolin_block', input: 'frostedheart:kaolin_permafrost' },
+        { output: 'minecraft:paper', input: 'frostedheart:pulp' },
     ]
     recipes.forEach((recipe) => {
         minecraft.smelting(recipe.output, recipe.input)

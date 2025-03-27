@@ -5,7 +5,7 @@
   },
   "inputs": [
     {"item": "minecraft:iron_ingot"},
-    {"item": "kubejs:flux"}
+    {"item": "frostedheart:flux"}
   ],
   "time": 1200
 }

@@ -11,8 +11,8 @@ ServerEvents.recipes((event) => {
         },
         {
             output: [
-                Item.of("kubejs:flux", 2),
-                Item.of("kubejs:flux", 4).withChance(0.5)
+                Item.of("frostedheart:flux", 2),
+                Item.of("frostedheart:flux", 4).withChance(0.5)
             ],
             input: "#the_winter_rescue:flux_block"
         },
@@ -66,7 +66,7 @@ ServerEvents.recipes((event) => {
             output: [
                 Item.of("frostedheart:crushed_raw_pyrite"),
                 Item.of("frostedheart:crushed_raw_pyrite").withChance(0.25),
-                Item.of("immersiveengineering:sulfur_dust").withChance(0.2),
+                Item.of("immersiveengineering:dust_sulfur").withChance(0.25),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "frostedheart:raw_pyrite"

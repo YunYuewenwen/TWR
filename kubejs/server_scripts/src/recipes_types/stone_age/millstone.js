@@ -7,7 +7,8 @@ ServerEvents.recipes((event) => {
 		["frostedheart:rye_flour", "frostedheart:rye", "frostedheart:rye_flour", 0.2, 1],
 		["3x frostedheart:sawdust", "#minecraft:logs", "frostedheart:sawdust", 0.2, 1],
 		["kubejs:coal_dust", "minecraft:coal", "kubejs:coal_dust", 0.2, 1],
-		["kubejs:charcoal_dust", "minecraft:charcoal", "kubejs:charcoal_dust", 1, 1]
+		["kubejs:charcoal_dust", "minecraft:charcoal", "kubejs:charcoal_dust", 1, 1],
+		["frostedheart:crushed_raw_pyrite", "frostedheart:raw_pyrite", "immersiveengineering:dust_sulfur", 0.25, 1]
 	]
 	recipes.forEach(([output, input, secondR, secondC, activate]) => {
 		stone_age.millstone(output, input, secondR)
