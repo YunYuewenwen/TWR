@@ -28,9 +28,9 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"minecraft:stone_bricks", [
+			"minecraft:stone_bricks", 4, [
 				"ABA",
-				"BAB",
+				"B B",
 				"ABA"
 			], {
 				A: "minecraft:stone",

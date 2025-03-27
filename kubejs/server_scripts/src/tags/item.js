@@ -34,6 +34,10 @@ ServerEvents.tags("item", (event) => {
 	event.add("kubejs:coal_dust", "kubejs:coal_dust")
 	event.add("forge:dusts/zinc", "frostedheart:zinc_dust")
 	event.add("kubejs:tetra_hammer", "tetra:modular_double")
+	event.add("forge:hammers", "tetra:modular_double")
+	event.add("forge:swords", "tetra:modular_sword")
+	event.add("minecraft:swords", "tetra:modular_sword")
+
 	event.add("minecraft:shulker_box", "minecraft:shulker_box")
 	event.add("caupona:meats/meat", "frostedheart:military_rations")
 	event.add("caupona:meats", "frostedheart:chocolate")

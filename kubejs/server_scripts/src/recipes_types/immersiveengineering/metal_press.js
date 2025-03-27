@@ -45,22 +45,22 @@ ServerEvents.recipes((event) => {
             mold: 'immersiveengineering:mold_rod'
         },
         {
-            output: '3x immersiveengineering:wire_copper',
+            output: '3x frostedheart:copper_wire',
             input: '2x #forge:ingots/copper',
             mold: 'immersiveengineering:mold_wire'
         },
         {
-            output: '3x immersiveengineering:wire_electrum',
+            output: '3x frostedheart:electrum_wire',
             input: '2x #forge:ingots/electrum',
             mold: 'immersiveengineering:mold_wire'
         },
         {
-            output: '3x immersiveengineering:wire_copper',
+            output: '3x frostedheart:copper_wire',
             input: '2x #forge:plates/copper',
             mold: 'immersiveengineering:mold_wire'
         },
         {
-            output: '3x immersiveengineering:wire_electrum',
+            output: '3x frostedheart:electrum_wire',
             input: '2x #forge:plates/electrum',
             mold: 'immersiveengineering:mold_wire'
         },

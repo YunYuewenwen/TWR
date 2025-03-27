@@ -362,7 +362,7 @@ ServerEvents.recipes((event) => {
 			], {
 				A: "minecraft:leather",
 				B: "stone_age:leather_strip",
-				C: "immersiveengineering:wire_copper"
+				C: "#forge:wires/copper"
 			}
 		],
 		[
@@ -372,7 +372,7 @@ ServerEvents.recipes((event) => {
 			], {
 				A: "minecraft:dried_kelp",
 				B: "stone_age:leather_strip",
-				C: "immersiveengineering:wire_copper"
+				C: "#forge:wires/copper"
 			}
 		],
 		[
@@ -1251,6 +1251,66 @@ ServerEvents.recipes((event) => {
 				A: "#forge:rods/cast_iron",
 				B: "minecraft:flint"
 			}
+		],
+		[
+			"minecraft:anvil", [
+				"BBB",
+				" A ",
+				"AAA"
+			], {
+				A: "#forge:ingots/iron",
+				B: "#forge:storage_blocks/iron"
+			}
+		],
+		[
+			"minecraft:hopper", [
+			"A A",
+			"ABA",
+			" A "
+			], {
+				A: "#forge:ingots/iron",
+				B: "#forge:chests"
+			}
+		],
+		[
+			"storagedrawers:iron_storage_upgrade", [
+			"AAA",
+			"CBC",
+			"AAA"
+		], {
+			A: "#forge:rods/wooden",
+			B: "storagedrawers:upgrade_template",
+			C: "#forge:storage_blocks/iron"
+		}
+		],
+		[
+			"minecraft:cauldron", [
+			"A A",
+			"A A",
+			"AAA"
+		], {
+			A: "#forge:ingots/iron"
+		}
+		],
+		[
+			"minecraft:compass", [
+			" A ",
+			"ABA",
+			" A "
+		], {
+			A: "#forge:ingots/iron",
+			B: "minecraft:redstone"
+		}
+		],
+		[
+			"immersiveengineering:coil_lv", [
+			"AAA",
+			"ABA",
+			"AAA"
+		], {
+			A: "immersiveengineering:wirecoil_copper",
+			B: "#forge:rods/cast_iron"
+		}
 		]
 	]
 	addShapedRecipes.forEach((recipe, index) => {
