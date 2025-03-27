@@ -38,3 +38,7 @@
 	#Enables the scenario system. 
 	enableScenario = true
 
+[AutoUpdate]
+	#Enable update reminder if later snapshot was found, DONT TOUCH UNLESS INSTUCTED BY DEV TEAM.
+	enableAutoRestart = true
+
