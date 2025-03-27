@@ -39,6 +39,8 @@
 	enableScenario = true
 
 [AutoUpdate]
-	#Enable update reminder if later snapshot was found, DONT TOUCH UNLESS INSTUCTED BY DEV TEAM.
+	#Enable automatic restart if later snapshot was found, DONT TOUCH UNLESS INSTUCTED BY DEV TEAM.
 	enableAutoRestart = true
+	#Enable update reminder if later snapshot was found, DONT TOUCH UNLESS INSTUCTED BY DEV TEAM.
+	enableUpdateReminder = true
 

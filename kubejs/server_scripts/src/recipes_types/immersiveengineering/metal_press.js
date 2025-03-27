@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
         {output: 'frostedheart:cast_iron_sheet', input: 'frostedheart:cast_iron_ingot'},
         {output: 'frostedheart:lead_sheet', input: 'frostedheart:lead_ingot'},
         {output: 'frostedheart:invar_sheet', input: 'frostedheart:invar_ingot'},
-        {output: 'steampowered:bronze_sheet', input: '#forge:ingots/bronze'},
+        {output: 'frostedheart:bronze_sheet', input: '#forge:ingots/bronze'},
         {output: 'create:iron_sheet', input: 'minecraft:iron_ingot'},
         {output: 'create:brass_sheet', input: '#forge:ingots/brass'},
         {output: 'create:copper_sheet', input: '#forge:ingots/copper'},

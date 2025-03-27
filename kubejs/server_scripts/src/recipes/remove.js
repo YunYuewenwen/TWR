@@ -195,6 +195,12 @@ ServerEvents.recipes((event) => {
 		"minecraft:campfire",
 		"minecraft:copper_ingot_from_waxed_copper_block",
 		"charcoal_pit:sandy_bricks",
+		"charcoal_pit:sandy_brick",
+		"charcoal_pit:sandy_collector",
+		"minecraft:stone_bricks",
+		"charcoal_pit:bellows",
+		"stone_age:backpack",
+		"immersiveengineering:blastfurnace/steel"
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })
