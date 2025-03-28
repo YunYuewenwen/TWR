@@ -5,15 +5,6 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "the_winter_rescue:lighthouse/lighthouse_l",
-				"processors": "minecraft:empty",
-				"projection": "rigid",
-				"element_type": "minecraft:legacy_single_pool_element"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
 				"location": "the_winter_rescue:lighthouse/lighthouse_abd_l",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
