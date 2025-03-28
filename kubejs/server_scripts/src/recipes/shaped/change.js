@@ -121,6 +121,16 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
+            "immersiveindustry:burning_chamber", 2, [
+            "ABA",
+            "BAB",
+            "ABA"
+        ], {
+            A: "#forge:plates/iron",
+            B: "frostedheart:cast_iron_sheet"
+        }
+        ],
+        [
             "frostedheart:steel_rod", 4, [
             "  A",
             " A ",
@@ -641,7 +651,7 @@ ServerEvents.recipes((event) => {
             "A",
             "A"
         ], {
-            A: "#twr:plates/copper",
+            A: "#twr:plates/structural",
             B: "minecraft:amethyst_shard"
         }
         ],

@@ -1031,16 +1031,6 @@ ServerEvents.recipes((event) => {
 		}
 		],
 		[
-			"immersiveengineering:alloybrick", 2, [
-				"ABA",
-				"B B",
-				"ABA"
-			], {
-				A: "minecraft:brick",
-				B: "#twr:plates/structural"
-			}
-		],
-		[
 			"caupona:clay_cistern", [
 				"CCC",
 				"CSC",

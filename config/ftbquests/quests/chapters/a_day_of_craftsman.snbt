@@ -33,18 +33,12 @@
 					id: "4DF582149EB692A3"
 					item: {
 						Count: 1
-						id: "tetra:modular_double"
+						id: "itemfilters:tag"
 						tag: {
-							Damage: 0
-							"double/basic_hammer_left_material": "basic_hammer/stone"
-							"double/basic_hammer_right_material": "basic_hammer/stone"
-							"double/basic_handle_material": "basic_handle/stick"
-							"double/handle": "double/basic_handle"
-							"double/head_left": "double/basic_hammer_left"
-							"double/head_right": "double/basic_hammer_right"
-							id: "fd647bdd-5d12-43f3-af50-78bf3451bfeb"
+							value: "kubejs:tetra_hammer"
 						}
 					}
+					title: "Any #kubejs:tetra_hammer"
 					type: "item"
 				}
 				{
