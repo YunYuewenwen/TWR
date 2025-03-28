@@ -625,6 +625,77 @@ ServerEvents.recipes((event) => {
         ], {
             A: "minecraft:brick"
         }
+        ],
+        [
+            "minecraft:shears", [
+            "A ",
+            " A"
+        ], {
+            A: "#twr:plates/structural"
+        }
+        ],
+        [
+            "minecraft:spyglass", [
+            "B",
+            "A",
+            "A"
+        ], {
+            A: "#twr:plates/copper",
+            B: "minecraft:amethyst_shard"
+        }
+        ],
+        [
+            "minecraft:shield", [
+            "BAB",
+            "BAB",
+            "BAB"
+        ], {
+            A: "#twr:plates/structural",
+            B: "#minecraft:planks"
+        }
+        ],
+        [
+            "minecraft:bow", [
+            " BA",
+            "B A",
+            " BA"
+        ], {
+            A: "stone_age:leather_strip",
+            B: "#forge:rods/wooden"
+        }
+        ],
+        [
+            "minecraft:crossbow", [
+            "BCB",
+            "AAA",
+            " B "
+        ], {
+            A: "stone_age:leather_strip",
+            B: "#forge:rods/wooden",
+            C: "#twr:ingots/structural"
+        }
+        ],
+        [
+            "minecraft:iron_trapdoor", [
+            "AAA",
+            "AAA"
+        ], {
+            A: "#twr:plates/structural"
+        }
+        ],
+        [
+            "minecraft:heavy_weighted_pressure_plate", [
+            "AA"
+        ], {
+            A: "#twr:plates/structural"
+        }
+        ],
+        [
+            "minecraft:light_weighted_pressure_plate", [
+            "AA"
+        ], {
+            A: "#twr:plates/heavy"
+        }
         ]
     ]
     changeShapedRecipes.forEach((recipe, index) => {
