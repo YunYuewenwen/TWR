@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
 		],
 		["frostedresearch:quill_and_ink", 4, [["minecraft:feather", 3], "minecraft:glass_bottle", "frostedheart:generator_ash"]],
 		["frostedresearch:rubbing_tool", 4, [["frostedheart:generator_ash", 2], "minecraft:paper", "frostedresearch:rubbing_pad"]],
-		["stone_age:grass_lead", [["charcoal_pit:straw", 3]]],
+		["stone_age:grass_lead", 2, [["charcoal_pit:straw", 3]]],
 		["frostedheart:packed_snow", [["minecraft:snowball", 2], ["minecraft:snow_block", 2]]],
 		["stone_age:leather_strip", 4, ["minecraft:leather"]],
 		["frostedheart:peat", 4, ["frostedheart:peat_block"]]

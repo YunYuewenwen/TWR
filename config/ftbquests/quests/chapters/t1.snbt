@@ -438,15 +438,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"77A7511048D5767B"
-				"4B6840707D77E2C0"
-			]
+			dependencies: ["13AA30FB9CD620EB"]
 			description: [
 				"{quest.twr.66505076652885B8.description.1}"
 				"{quest.twr.66505076652885B8.description.2}"
 			]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "66505076652885B8"
 			optional: true
@@ -456,8 +452,8 @@
 				item: "minecraft:iron_door"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -6.5d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4625CA3FEAF6908B"]
@@ -1311,6 +1307,29 @@
 			]
 			x: -9.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["1C8171C8FD1D0CD5"]
+			id: "0542A3EE5E6C746D"
+			tasks: [{
+				id: "46FE0D515D0FE891"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Open: 0b
+							SelectedSlot: 0b
+							Size: 6
+						}
+					}
+					id: "supplementaries:lunch_basket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
 		}
 	]
 	subtitle: ["{chapter.twr.0F108F94F3A03203.subtitle}"]

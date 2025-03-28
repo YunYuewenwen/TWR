@@ -195,7 +195,7 @@ ServerEvents.tags("item", (event) => {
 		"iron",
 		"electrum",
 		"aluminum",
-		"agnesium",
+		"magnesium",
 		"nickel",
 		"bronze",
 		"tin",
@@ -213,6 +213,336 @@ ServerEvents.tags("item", (event) => {
 		"tungsten_steel",
 		"cast_iron"
 	]
+
+	const structuralMetals = [
+		"steel",
+		"titanium",
+		"iron",
+		"aluminum",
+		"duralumin",
+		"cast_iron",
+		"bronze",
+	];
+
+	const conductiveMetals = [
+		"gold",
+		"copper",
+		"silver",
+		"electrum",
+		"iron",
+		"steel"
+	];
+
+	const heatingMetals = [
+		"copper",
+		"constantan",
+		"nickel"
+	]
+
+	const corrosionResistantMetals = [
+		"titanium",
+		"aluminum",
+		"nickel",
+		"silver",
+		"invar"
+	];
+
+	const lightweightMetals = [
+		"aluminum",
+		"magnesium",
+		"titanium",
+		"duralumin"
+	];
+
+	const highTemperatureAlloys = [
+		"tungsten",
+		"tungsten_steel",
+		"invar",
+		"netherite",
+		"nickel"
+	];
+
+	const magneticMetals = [
+		"iron",
+		"nickel",
+		"steel"
+	];
+
+	structuralMetals.forEach((material) => {
+		event.add("twr:nuggets/structural", [
+			`#forge:nuggets/${material}`
+		])
+
+		event.add("twr:ingots/structural", [
+			`#forge:ingots/${material}`
+		])
+
+		event.add("twr:plates/structural", [
+			`#forge:plates/${material}`
+		])
+
+		event.add("twr:storage_blocks/structural", [
+			`#forge:storage_blocks/${material}`
+		])
+
+		event.add("twr:rods/structural", [
+			`#forge:rods/${material}`
+		])
+
+		event.add("twr:wires/structural", [
+			`#forge:wires/${material}`
+		])
+	})
+
+	conductiveMetals.forEach((material) => {
+		event.add("twr:nuggets/conductive", [
+			`#forge:nuggets/${material}`
+		])
+
+		event.add("twr:ingots/conductive", [
+			`#forge:ingots/${material}`
+		])
+
+		event.add("twr:plates/conductive", [
+			`#forge:plates/${material}`
+		])
+
+		event.add("twr:storage_blocks/conductive", [
+			`#forge:storage_blocks/${material}`
+		])
+
+		event.add("twr:rods/conductive", [
+			`#forge:rods/${material}`
+		])
+
+		event.add("twr:wires/conductive", [
+			`#forge:wires/${material}`
+		])
+	})
+
+	heatingMetals.forEach((material) => {
+		event.add("twr:nuggets/heating", [
+			`#forge:nuggets/${material}`
+		])
+
+		event.add("twr:ingots/heating", [
+			`#forge:ingots/${material}`
+		])
+
+		event.add("twr:plates/heating", [
+			`#forge:plates/${material}`
+		])
+
+		event.add("twr:storage_blocks/heating", [
+			`#forge:storage_blocks/${material}`
+		])
+
+		event.add("twr:rods/heating", [
+			`#forge:rods/${material}`
+		])
+
+		event.add("twr:wires/heating", [
+			`#forge:wires/${material}`
+		])
+	})
+
+	highTemperatureAlloys.forEach((material) => {
+		event.add("twr:nuggets/high_temp", [
+			`#forge:nuggets/${material}`
+		])
+
+		event.add("twr:ingots/high_temp", [
+			`#forge:ingots/${material}`
+		])
+
+		event.add("twr:plates/high_temp", [
+			`#forge:plates/${material}`
+		])
+
+		event.add("twr:storage_blocks/high_temp", [
+			`#forge:storage_blocks/${material}`
+		])
+
+		event.add("twr:rods/high_temp", [
+			`#forge:rods/${material}`
+		])
+
+		event.add("twr:wires/high_temp", [
+			`#forge:wires/${material}`
+		])
+	})
+
+	lightweightMetals.forEach((material) => {
+		event.add("twr:nuggets/light", [
+			`#forge:nuggets/${material}`
+		])
+
+		event.add("twr:ingots/light", [
+			`#forge:ingots/${material}`
+		])
+
+		event.add("twr:plates/light", [
+			`#forge:plates/${material}`
+		])
+
+		event.add("twr:storage_blocks/light", [
+			`#forge:storage_blocks/${material}`
+		])
+
+		event.add("twr:rods/light", [
+			`#forge:rods/${material}`
+		])
+
+		event.add("twr:wires/light", [
+			`#forge:wires/${material}`
+		])
+	})
+
+	corrosionResistantMetals.forEach((material) => {
+		event.add("twr:nuggets/resistant", [
+			`#forge:nuggets/${material}`
+		])
+
+		event.add("twr:ingots/resistant", [
+			`#forge:ingots/${material}`
+		])
+
+		event.add("twr:plates/resistant", [
+			`#forge:plates/${material}`
+		])
+
+		event.add("twr:storage_blocks/resistant", [
+			`#forge:storage_blocks/${material}`
+		])
+
+		event.add("twr:rods/resistant", [
+			`#forge:rods/${material}`
+		])
+
+		event.add("twr:wires/resistant", [
+			`#forge:wires/${material}`
+		])
+	})
+
+	magneticMetals.forEach((material) => {
+		event.add("twr:nuggets/magnetic", [
+			`#forge:nuggets/${material}`
+		])
+
+		event.add("twr:ingots/magnetic", [
+			`#forge:ingots/${material}`
+		])
+
+		event.add("twr:plates/magnetic", [
+			`#forge:plates/${material}`
+		])
+
+		event.add("twr:storage_blocks/magnetic", [
+			`#forge:storage_blocks/${material}`
+		])
+
+		event.add("twr:rods/magnetic", [
+			`#forge:rods/${material}`
+		])
+
+		event.add("twr:wires/magnetic", [
+			`#forge:wires/${material}`
+		])
+	})
+
+	const hardnessRankedMetals = [
+		"tungsten",        // ~7.5 (very hard, brittle)
+		"titanium",        // ~6 (strong, corrosion-resistant)
+		"steel",           // ~4–8 (depends on carbon and treatment; tool steel is very hard)
+		"cast_iron",       // ~5.5 (brittle but relatively hard)
+		"invar",           // ~5.5 (nickel-iron alloy)
+		"nickel",          // ~4
+		"iron",            // ~4
+		"bronze",          // ~3–4
+		"brass",           // ~3–4
+		"constantan",      // ~3–3.5
+		"duralumin",       // ~2.5–3 (aluminum alloy)
+		"aluminum",        // ~2.5–3
+		"electrum",        // ~2.5–3 (soft due to gold/silver)
+		"silver",          // ~2.5–3
+		"copper",          // ~2.5–3
+		"gold",            // ~2.5–3 (very soft in pure form)
+		"lead",            // ~1.5 (very soft)
+		"tin",             // ~1.5
+		"zinc",            // ~2.5
+		"magnesium",       // ~2.5
+		"sodium",          // ~0.5 (very soft, cuts with knife)
+	];
+
+	const hardMetals = [
+		"tungsten",        // ~7.5 (very hard, brittle)
+		"tungsten_steel",
+		"titanium",        // ~6 (strong, corrosion-resistant)
+		"steel",           // ~4–8 (depends on carbon and treatment; tool steel is very hard)
+		"cast_iron",       // ~5.5 (brittle but relatively hard)
+	];
+
+	hardMetals.forEach((material) => {
+		event.add("twr:nuggets/hard", [
+			`#forge:nuggets/${material}`
+		])
+
+		event.add("twr:ingots/hard", [
+			`#forge:ingots/${material}`
+		])
+
+		event.add("twr:plates/hard", [
+			`#forge:plates/${material}`
+		])
+
+		event.add("twr:storage_blocks/hard", [
+			`#forge:storage_blocks/${material}`
+		])
+
+		event.add("twr:rods/hard", [
+			`#forge:rods/${material}`
+		])
+
+		event.add("twr:wires/hard", [
+			`#forge:wires/${material}`
+		])
+	})
+
+	const heavyMetals = [
+		"tungsten",        // ~19.3 g/cm³
+		"tungsten_steel",
+		"uranium",         // ~18.9 g/cm³
+		"gold",            // ~19.3 g/cm³
+		"lead",            // ~11.3 g/cm³
+		"silver",          // ~10.5 g/cm³
+	];
+
+	heavyMetals.forEach((material) => {
+		event.add("twr:nuggets/heavy", [
+			`#forge:nuggets/${material}`
+		])
+
+		event.add("twr:ingots/heavy", [
+			`#forge:ingots/${material}`
+		])
+
+		event.add("twr:plates/heavy", [
+			`#forge:plates/${material}`
+		])
+
+		event.add("twr:storage_blocks/heavy", [
+			`#forge:storage_blocks/${material}`
+		])
+
+		event.add("twr:rods/heavy", [
+			`#forge:rods/${material}`
+		])
+
+		event.add("twr:wires/heavy", [
+			`#forge:wires/${material}`
+		])
+	})
+
 	metalGroup.forEach((material) => {
 		event.get(`forge:ingots/metal/${material}`)
 			.add(`#forge:ingots/${material}`)
