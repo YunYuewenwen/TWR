@@ -563,7 +563,7 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"create:gantry_shaft", [
+			"create:gantry_shaft", 2, [
 				"BAD",
 				"BCB",
 				"DAB"
