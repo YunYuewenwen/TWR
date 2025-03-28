@@ -97,10 +97,6 @@ ServerEvents.recipes((event) => {
     ]
     let heated = [
         {
-            output: ["2x frostedheart:high_refractory_brick"],
-                input: ["4x frostedheart:fire_clay_ball", "2x frostedheart:magnesium_dust", "2x frostedheart:quicklime"]
-        },
-        {
             output: [Fluid.of("frostedheart:sulfuric_acid", 500)],
             input: ["2x #forge:dusts/sulfur", Fluid.of("minecraft:water", 500)]
         },
@@ -134,7 +130,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: ["2x frostedheart:high_refractory_brick"],
-            input: ["4x frostedheart:fire_clay_ball", "frostedheart:magnesia_dust", "#forge:dusts/quicklime"]
+            input: ["4x frostedheart:fire_clay_ball", "#forge:dusts/magnesia", "#forge:dusts/quicklime"]
         },
         {
             output: ["minecraft:dirt"],

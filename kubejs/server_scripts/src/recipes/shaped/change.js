@@ -366,6 +366,7 @@ ServerEvents.recipes((event) => {
         [
             "create:fluid_pipe", 8, [
             "AAA",
+            "   ",
             "AAA"
         ], {
             A: "#forge:plates/bronze"
