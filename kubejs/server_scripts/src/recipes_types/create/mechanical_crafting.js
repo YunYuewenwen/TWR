@@ -113,7 +113,6 @@ ServerEvents.recipes((event) => {
             D: "minecraft:lava_bucket",
             E: "#forge:ingots/cast_iron"
         }),
-        /*
         shapedRecipe("immersiveindustry:electrolyzer", [
             "FFEFF",
             "ABCBA",
@@ -127,8 +126,7 @@ ServerEvents.recipes((event) => {
             D: "immersiveengineering:wirecoil_copper",
             E: "immersiveengineering:circuit_board",
             F: "#forge:ingots/steel"
-        }),
-        */
+        })
     ]
     recipes.forEach((recipe) => {
         event.remove({ output: recipe.result, type: "create:mechanical_crafting" });
