@@ -80,7 +80,7 @@
 	#The rate of nutrition consumption.
 	nutritionConsumptionRate = 1.0
 	#The rate of nutrition gain by eating food.
-	nutritionGainRate = 40.0
+	nutritionGainRate = 20.0
 
 [Worldgen]
 	#Enables snow accumulation during snow weather.
