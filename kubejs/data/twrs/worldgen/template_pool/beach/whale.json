@@ -1,11 +1,11 @@
 {
-	"name": "twrs:beach/whale",
+	"name": "the_winter_rescue:beach/whale",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:whale/whale_l",
+				"location": "the_winter_rescue:whale/whale_l",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -14,7 +14,7 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:whale/whale_m",
+				"location": "the_winter_rescue:whale/whale_m",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -23,7 +23,7 @@
         {
 			"weight": 1,
 			"element": {
-				"location": "twrs:whale/whale_xxl",
+				"location": "the_winter_rescue:whale/whale_xxl",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -32,7 +32,7 @@
         {
 			"weight": 1,
 			"element": {
-				"location": "twrs:whale/whalebone_l",
+				"location": "the_winter_rescue:whale/whalebone_l",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"

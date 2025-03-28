@@ -1,11 +1,11 @@
 {
-	"name": "twrs:stone/stone",
+	"name": "the_winter_rescue:stone/stone",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:stone/stone_abd_s_1",
+				"location": "the_winter_rescue:stone/stone_abd_s_1",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"

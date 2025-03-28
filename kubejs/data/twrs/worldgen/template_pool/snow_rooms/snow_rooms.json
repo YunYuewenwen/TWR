@@ -1,11 +1,11 @@
 {
-	"name": "twrs:snow_rooms/snow_rooms",
+	"name": "the_winter_rescue:snow_rooms/snow_rooms",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:snow_rooms/snow_room_1",
+				"location": "the_winter_rescue:snow_rooms/snow_room_1",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -14,7 +14,7 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:snow_rooms/snow_room_2",
+				"location": "the_winter_rescue:snow_rooms/snow_room_2",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -22,7 +22,7 @@
 		},		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:snow_rooms/snow_room_3",
+				"location": "the_winter_rescue:snow_rooms/snow_room_3",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"

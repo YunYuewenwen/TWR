@@ -1,11 +1,11 @@
 {
-	"name": "twrs:wood/wood",
+	"name": "the_winter_rescue:wood/wood",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:wood/wood_m_1",
+				"location": "the_winter_rescue:wood/wood_m_1",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -14,7 +14,7 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:wood/wood_m_2",
+				"location": "the_winter_rescue:wood/wood_m_2",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -23,7 +23,7 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:wood/wood_s_1",
+				"location": "the_winter_rescue:wood/wood_s_1",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -32,7 +32,7 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:wood/wood_s_2",
+				"location": "the_winter_rescue:wood/wood_s_2",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -41,7 +41,7 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:wood/wood_abd_s_1",
+				"location": "the_winter_rescue:wood/wood_abd_s_1",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -50,7 +50,7 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:wood/wood_abd_s_2",
+				"location": "the_winter_rescue:wood/wood_abd_s_2",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -59,7 +59,7 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:wood/wood_abd_s_3",
+				"location": "the_winter_rescue:wood/wood_abd_s_3",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -68,7 +68,7 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:wood/wood_abd_s_4",
+				"location": "the_winter_rescue:wood/wood_abd_s_4",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
@@ -77,7 +77,7 @@
 		{
 			"weight": 1,
 			"element": {
-				"location": "twrs:wood/wood_abd_s_5",
+				"location": "the_winter_rescue:wood/wood_abd_s_5",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"

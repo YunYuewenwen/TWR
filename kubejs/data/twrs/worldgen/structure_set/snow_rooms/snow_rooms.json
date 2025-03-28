@@ -1,7 +1,7 @@
 {
     "structures": [
       {
-        "structure": "twrs:snow_rooms/snow_rooms",
+        "structure": "the_winter_rescue:snow_rooms/snow_rooms",
         "weight": 1
       }
     ],
