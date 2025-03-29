@@ -1,11 +1,12 @@
 {
   "type": "immersiveindustry:crucible",
   "result": {
-    "item": "immersiveengineering:ingot_steel"
+    "item": "frostedheart:steel_ingot"
   },
   "inputs": [
     {"item": "minecraft:iron_ingot"},
     {"item": "frostedheart:flux"}
   ],
-  "time": 1200
+  "time": 1200,
+  "temperature": 1500
 }

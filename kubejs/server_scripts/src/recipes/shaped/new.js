@@ -569,18 +569,6 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"stone_age:millstone", [
-				"ABA",
-				"ACA",
-				"DDD"
-			], {
-				A: "#forge:rods/wooden",
-				B: "minecraft:andesite",
-				C: "minecraft:granite",
-				D: "minecraft:smooth_stone_slab"
-			}
-		],
-		[
 			"frostedheart:incubator", [
 				"AAA",
 				"A B",
