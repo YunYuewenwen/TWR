@@ -1,6 +1,6 @@
 {
-	"replace": false,
-	"values": [
-		"terralith:alpine_grove"
-	]
+  "replace": false,
+  "values": [
+    "terralith:alpine_grove"
+  ]
 }

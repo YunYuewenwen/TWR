@@ -13,37 +13,29 @@
   "the_winter_rescue.ponder.bloomery.assembly.text_2": "请务必注意风箱口必须对准锻铁炉口",
   "the_winter_rescue.ponder.bloomery.assembly.text_6": "如果想要一次冶炼更多，可以再加一层，但是只能额外加一层。",
   "the_winter_rescue.ponder.bloomery.assembly.header": "搭建锻铁炉",
-
   "the_winter_rescue.ponder.tag.generator": "能量塔",
   "the_winter_rescue.ponder.tag.generator.description": "搭建能量塔",
-
   "the_winter_rescue.ponder.generator_construction_t1.basic_usage.header": "搭建T1能量塔",
   "the_winter_rescue.ponder.generator_construction_t2.basic_usage.header": "搭建T2能量塔",
-
   "the_winter_rescue.ponder.tag.crucible.description": "搭建炼钢坩埚",
   "the_winter_rescue.ponder.tag.crucible": "炼钢坩埚",
-
   "the_winter_rescue.ponder.tag.steam_turbine.description": "搭建蒸汽涡轮机",
   "the_winter_rescue.ponder.tag.steam_turbine": "蒸汽涡轮机",
   "the_winter_rescue.ponder.steam_turbine.basic_usage.text_1": "使用工程师锤右键完成组装",
   "the_winter_rescue.ponder.steam_turbine.basic_usage.text_2": "在这里输入蒸汽",
-
   "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.header": "蜂窝炉",
   "the_winter_rescue.ponder.tag.beehive_oven_pit.description": "搭建蜂窝炉",
   "the_winter_rescue.ponder.tag.beehive_oven_pit": "蜂窝炉",
   "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_3": "冶炼需要一段时间，完成之后就会变成生石灰",
   "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_2": "放置完要冶炼的方块后，用打火石右键中心方块启动，需要露天",
   "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_1": "把要冶炼的方块（比如大理石）放在蜂窝炉上方，不要堵住中心方块",
-
   "the_winter_rescue.ponder.tag.charcoal_pit.description": "木炭坑",
   "the_winter_rescue.ponder.tag.charcoal_pit": "木炭坑",
-
   "the_winter_rescue.ponder.generator_construction_t1.basic_usage.text_1": "使用工程师锤右键完成组装",
   "the_winter_rescue.ponder.generator_construction_t2.basic_usage.text_1": "使用工程师锤右键完成组装",
   "the_winter_rescue.ponder.steam_turbine.basic_usage.header": "",
   "the_winter_rescue.ponder.steel_mill.basic_usage.header": "坩埚用法",
   "the_winter_rescue.ponder.steel_mill.basic_usage.text_1": "在这里安装高炉鼓风机",
-
   "the_winter_rescue.ponder.steel_mill.basic_usage.text_2": "你必须在这给鼓风机供能",
   "the_winter_rescue.ponder.steel_mill.assembly.text_1": "右键完成组装",
   "the_winter_rescue.ponder.steel_mill.assembly.text_2": "在这里安装高炉鼓风机",

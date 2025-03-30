@@ -1,10 +1,10 @@
 {
-	"replace": false,
-	"values": [
-		"minecraft:gravel",
-		"minecraft:blackstone",
-		"minecraft:basalt",
-		"minecraft:smooth_basalt",
-		"#base_stone_overworld"
-	]
+  "replace": false,
+  "values": [
+    "minecraft:gravel",
+    "minecraft:blackstone",
+    "minecraft:basalt",
+    "minecraft:smooth_basalt",
+    "#base_stone_overworld"
+  ]
 }

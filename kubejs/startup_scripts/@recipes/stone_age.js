@@ -19,11 +19,11 @@
 }
  */
 new Schema("stone_age:millstone")
-	.simpleKey("result", "outputItem")
-	.simpleKey("ingredient", "inputItem")
-	.simpleKey("secondResult", "outputItem")
-	.simpleKey("secondChance", "doubleNumber", 0.1)
-	.simpleKey("activateCount", "doubleNumber", 1)
+    .simpleKey("result", "outputItem")
+    .simpleKey("ingredient", "inputItem")
+    .simpleKey("secondResult", "outputItem")
+    .simpleKey("secondChance", "doubleNumber", 0.1)
+    .simpleKey("activateCount", "doubleNumber", 1)
 /*
 {
 	"type": "stone_age:millstone",
@@ -42,9 +42,9 @@ new Schema("stone_age:millstone")
 }
 */
 new Schema("stone_age:drying_rack")
-	.simpleKey("result", "outputItem")
-	.simpleKey("ingredient", "inputItem")
-	.simpleKey("dryingTime", "doubleNumber", 100)
+    .simpleKey("result", "outputItem")
+    .simpleKey("ingredient", "inputItem")
+    .simpleKey("dryingTime", "doubleNumber", 100)
 /*
 {
 	"type": "stone_age:drying_rack",

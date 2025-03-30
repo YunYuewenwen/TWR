@@ -1,7 +1,7 @@
 {
-	"replace": false,
-	"values": [
-		"minecraft:tuff",
-		"minecraft:basalt"
-	]
+  "replace": false,
+  "values": [
+    "minecraft:tuff",
+    "minecraft:basalt"
+  ]
 }

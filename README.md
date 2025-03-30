@@ -67,7 +67,7 @@ Join the [Official Discord Chat](https://discord.gg/BWn6E94) and request the rol
 
 ### Code Style
 
-- Indent Style: Spaces instead of Tabs
+- Indent Style: Spaces instead of Tabs.
 - Tab Width: 4 for JavaScript and Python, 2 for JSON.
 - Use `.editorconfig`!
 

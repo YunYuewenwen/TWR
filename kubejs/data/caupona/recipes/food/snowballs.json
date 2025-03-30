@@ -1,9 +1,9 @@
 {
-	"type": "caupona:aspic_melt",
-	"amount": 250,
-	"aspic": {
-		"item": "minecraft:snowball"
-	},
-	"fluid": "minecraft:water",
-	"time": 20
+  "type": "caupona:aspic_melt",
+  "amount": 250,
+  "aspic": {
+    "item": "minecraft:snowball"
+  },
+  "fluid": "minecraft:water",
+  "time": 20
 }

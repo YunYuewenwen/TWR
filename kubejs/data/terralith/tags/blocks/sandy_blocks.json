@@ -1,7 +1,7 @@
 {
-	"replace": false,
-	"values": [
-		"#terralith:sandstones",
-		"#minecraft:sand"
-	]
+  "replace": false,
+  "values": [
+    "#terralith:sandstones",
+    "#minecraft:sand"
+  ]
 }

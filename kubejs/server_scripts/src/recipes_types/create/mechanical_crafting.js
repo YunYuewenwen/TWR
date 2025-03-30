@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let { create } = event.recipes
+    let {create} = event.recipes
 
     let recipes = [
         shapedRecipe("steampowered:alternator", [
@@ -129,7 +129,7 @@ ServerEvents.recipes((event) => {
         })
     ]
     recipes.forEach((recipe) => {
-        event.remove({ output: recipe.result, type: "create:mechanical_crafting" });
+        event.remove({output: recipe.result, type: "create:mechanical_crafting"});
         create.mechanical_crafting(recipe)
     })
 
@@ -147,7 +147,7 @@ ServerEvents.recipes((event) => {
         })
     ]
     workbench_recipes.forEach((recipe) => {
-        event.remove({ output: recipe.result, type: "minecraft:crafting_shaped" });
+        event.remove({output: recipe.result, type: "minecraft:crafting_shaped"});
         create.mechanical_crafting(recipe)
     })
 })

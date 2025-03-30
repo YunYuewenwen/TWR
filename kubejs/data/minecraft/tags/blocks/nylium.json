@@ -1,8 +1,8 @@
 {
-	"replace": false,
-	"values": [
-		"minecraft:grass_block",
-		"minecraft:mycelium",
-		"moss_block"
-	]
+  "replace": false,
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:mycelium",
+    "moss_block"
+  ]
 }

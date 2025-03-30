@@ -1,6 +1,6 @@
 {
-	"values": [
-		"#minecraft:base_stone_overworld",
-		"minecraft:mud"
-	]
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "minecraft:mud"
+  ]
 }

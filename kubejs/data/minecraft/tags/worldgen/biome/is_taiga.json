@@ -1,7 +1,7 @@
 {
-	"replace": false,
-	"values": [
-		"terralith:yellowstone",
-		"terralith:wintry_forest"
-	]
+  "replace": false,
+  "values": [
+    "terralith:yellowstone",
+    "terralith:wintry_forest"
+  ]
 }

@@ -1,7 +1,7 @@
 {
-	"replace": true,
-	"values": [
-		"minecraft:bricks",
-		"frostedheart:refractory_bricks"
-	]
+  "replace": true,
+  "values": [
+    "minecraft:bricks",
+    "frostedheart:refractory_bricks"
+  ]
 }

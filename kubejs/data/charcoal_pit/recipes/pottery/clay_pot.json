@@ -1,8 +1,8 @@
 {
-	"type": "charcoal_pit:pottery",
-	"ingredient": {
-		"item": "caupona:clay_cistern"
-	},
-	"result": "caupona:stew_pot",
-	"experience": 0.3
+  "type": "charcoal_pit:pottery",
+  "ingredient": {
+    "item": "caupona:clay_cistern"
+  },
+  "result": "caupona:stew_pot",
+  "experience": 0.3
 }

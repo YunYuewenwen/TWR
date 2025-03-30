@@ -1,7 +1,7 @@
 {
-	"reset": false,
-	"values": [
-		"terralith:cold_shrubland",
-		"terralith:rocky_shrubland"
-	]
+  "reset": false,
+  "values": [
+    "terralith:cold_shrubland",
+    "terralith:rocky_shrubland"
+  ]
 }
