@@ -443,6 +443,16 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
+            "frostedheart:steel_pro_pick", [
+            "ABA",
+            " B ",
+            " B "
+        ], {
+            A: "#forge:ingots/steel",
+            B: "immersiveengineering:stick_treated"
+        }
+        ],
+        [
             "frostedheart:iron_core_spade", [
             "A",
             "B",
