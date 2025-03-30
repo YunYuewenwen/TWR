@@ -74,14 +74,14 @@ Support us to let us create more! And find your name on our website and also a s
 
 (In the order of first joining, not contribution size. 按加入时间，而非贡献大小排序。)
 
-Development Team 开发团队 (www.teammoeg.com):
-- Progamming 编程: YueSha, khjxiaogu, duck_egg, dashuaibia, goumo_g, yuqijun, Qi-Month
-- Art 美术: Lyuuke, gomou_g, Dsanilin
-- Building 建筑: Fu_Yang, OEIIO, Lanshan
-- Design 设计: YueSha, duck_egg, dashuaibia, khjxiaogu, Lyuuke, alphaGem, JackyWangMislantiaJnirvana
-- Writing 写作: YueSha, Lanshan
-- Quality Assurance 质量保证: asdfghjkl, shidi
-- Operation 运营: Evan, YueSha, khjxiaogu
+Core Team (www.teammoeg.com):
+- Progamming: YueSha, khjxiaogu, duck_egg, dashuaibia, goumo_g, yuqijun
+- Art: Lyuuke, gomou_g, Dsanilin
+- Building: Fu_Yang, OEIIO
+- Design: YueSha, duck_egg, dashuaibia, khjxiaogu, Lyuuke, alphaGem, JackyWangMislantiaJnirvana
+- Writing: YueSha
+- Quality Assurance: asdfghjkl, shidi
+- Operation: Evan, YueSha, khjxiaogu
 
 Localization 本地化:
 - Chinese: TeamMoeg
@@ -89,10 +89,12 @@ Localization 本地化:
 - Russian: Whitealbum0, EvilToasterDBU
 
 Contributors 贡献者:
-- Programming 编程: LetterN, Huaji_Qinmi, ceary741, Gugusb, Winged-Hussars, ewoudje, IBlessus, KilaBash
-- Art 美术: Heitao
-- Building 建筑: nekocrane, GuardianWorld, Keisari
-- Writing 写作: ZXCZST, xxy
+- Programming: LetterN, Huaji_Qinmi, ceary741, Gugusb, Winged-Hussars, ewoudje, IBlessus, Qi-Month,  KilaBash
+- Art: Heitao
+- Building: nekocrane, GuardianWorld, Keisari, Lanshan
+- Design: Lanshan
+- Writing: ZXCZST, xxy, Lanshan
+- Quality Assurance: Lethium, AiseyFox, Do_zi
 
 Special Thanks 特别感谢:
 - alcatraz (github.com/alcatrazEscapee) for Primal Winter inspiration.
@@ -104,4 +106,4 @@ Special Thanks 特别感谢:
 - The Mojang Team for the game itself.
 
 Supporters 赞助者:
-See our official website.
+See our official website: www.teammoeg.com
