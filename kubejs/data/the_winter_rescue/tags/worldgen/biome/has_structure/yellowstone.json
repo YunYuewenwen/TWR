@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "values": [
-      "terralith:yellowstone"
-    ]
+	"replace": false,
+	"values": [
+		"terralith:yellowstone"
+	]
 }

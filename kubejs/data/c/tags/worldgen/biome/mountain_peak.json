@@ -1,8 +1,8 @@
 {
-  "replace": false,
-  "values": [
-    "terralith:frozen_cliffs",
-    "terralith:volcanic_crater",
-    "terralith:volcanic_peaks"
-  ]
+	"replace": false,
+	"values": [
+		"terralith:frozen_cliffs",
+		"terralith:volcanic_crater",
+		"terralith:volcanic_peaks"
+	]
 }

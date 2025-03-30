@@ -19,8 +19,8 @@
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
 			}
-		},	
-        {
+		},
+		{
 			"weight": 1,
 			"element": {
 				"location": "the_winter_rescue:whale/whale_xxl",
@@ -28,8 +28,8 @@
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
 			}
-		},	
-        {
+		},
+		{
 			"weight": 1,
 			"element": {
 				"location": "the_winter_rescue:whale/whalebone_l",

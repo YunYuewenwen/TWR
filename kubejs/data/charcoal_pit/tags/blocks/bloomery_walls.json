@@ -1,8 +1,8 @@
 {
-  "replace": true,
-  "values": [
-    "#charcoal_pit:tuyere_blocks",
-	"charcoal_pit:main_bloomery",
-    "charcoal_pit:sandy_brick"
-  ]
+	"replace": true,
+	"values": [
+		"#charcoal_pit:tuyere_blocks",
+		"charcoal_pit:main_bloomery",
+		"charcoal_pit:sandy_brick"
+	]
 }

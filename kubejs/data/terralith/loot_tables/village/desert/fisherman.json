@@ -1,13 +1,13 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "terralith:village/fortified/fisherman"
-                }
-            ]
-        }
-    ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/fisherman"
+				}
+			]
+		}
+	]
 }

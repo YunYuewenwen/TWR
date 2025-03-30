@@ -1,7 +1,7 @@
 {
-  "replace": false,
-  "values": [
-    "terralith:ice_marsh",
-    "minecraft:swamp"
-  ]
+	"replace": false,
+	"values": [
+		"terralith:ice_marsh",
+		"minecraft:swamp"
+	]
 }

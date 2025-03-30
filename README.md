@@ -65,6 +65,12 @@ Update: We now have a [Crowdin](https://crowdin.com/project/the-winter-rescue) p
 ## Wanna Contribute to Development?
 Join the [Official Discord Chat](https://discord.gg/BWn6E94) and request the role directly! We are very inclusive to any type of support. Whether you are an 2D/3D artist, coder, writer, tester, or numerics ethusiat, we welcome you. Once you did your first PR, you would be in the Credits List in game. But finally, you would become part of a group of enthusiats who dream to create new worlds. 
 
+### Code Style
+
+- Indent Style: Spaces instead of Tabs
+- Tab Width: 4 for JavaScript and Python, 2 for JSON.
+- Use `.editorconfig`!
+
 ## Like Our Modpack?
 
 TeamMoeg has developed and will maintain this Modpack for Free, but maintaining the servers cost money. Consider Sponsoring us at [Patreon](https://www.patreon.com/TeamMoeg) or [Aifadian (China)](https://afdian.com/a/teammoeg)

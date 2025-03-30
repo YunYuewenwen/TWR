@@ -1,8 +1,8 @@
 {
-  "replace": false,
-  "values": [
-    "terralith:siberian_taiga",
-    "terralith:cold_shrubland",
-    "terralith:rocky_shrubland"
-  ]
+	"replace": false,
+	"values": [
+		"terralith:siberian_taiga",
+		"terralith:cold_shrubland",
+		"terralith:rocky_shrubland"
+	]
 }

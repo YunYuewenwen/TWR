@@ -1,7 +1,7 @@
 {
-  "replace": false,
-  "values": [
-    "#minecraft:dirt",
-    "#minecraft:base_stone_overworld"
-  ]
+	"replace": false,
+	"values": [
+		"#minecraft:dirt",
+		"#minecraft:base_stone_overworld"
+	]
 }

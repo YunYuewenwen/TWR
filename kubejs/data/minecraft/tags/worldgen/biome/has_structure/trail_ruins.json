@@ -1,8 +1,8 @@
 {
-  "replace": false,
-  "values": [
-    "terralith:siberian_taiga",
-    "terralith:snowy_maple_forest",
-    "terralith:snowy_shield"
-  ]
+	"replace": false,
+	"values": [
+		"terralith:siberian_taiga",
+		"terralith:snowy_maple_forest",
+		"terralith:snowy_shield"
+	]
 }

@@ -1,6 +1,6 @@
 {
-  "replace": false,
-  "values": [
-    "terralith:cave/frostfire_caves"
-  ]
+	"replace": false,
+	"values": [
+		"terralith:cave/frostfire_caves"
+	]
 }
