@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
     ], "immersiveengineering:treated_wood_horizontal", [
         create.deploying("kubejs:pcb_base", ["kubejs:pcb_base", "immersiveengineering:wirecoil_copper"]),
         create.deploying("kubejs:pcb_base", ["kubejs:pcb_base", "minecraft:green_dye"]),
-        create.filling("kubejs:pcb_base", ["kubejs:pcb_base", Fluid.of("frostedheart:resin", 500)]),
+        create.filling("kubejs:pcb_base", ["kubejs:pcb_base", Fluid.of("frostedheart:latex", 500)]),
         create.deploying("kubejs:pcb_base", ["kubejs:pcb_base", "minecraft:gold_nugget"]),
         create.pressing("kubejs:pcb_base", ["kubejs:pcb_base"]),
         create.deploying("kubejs:pcb_base", ["kubejs:pcb_base", "create:electron_tube"]),
@@ -47,6 +47,6 @@ ServerEvents.recipes((event) => {
     ], "immersiveengineering:circuit_board", [
         create.deploying("immersiveengineering:circuit_board", ["immersiveengineering:circuit_board", "kubejs:motor"]),
         create.deploying("immersiveengineering:circuit_board", ["immersiveengineering:circuit_board", "immersiveengineering:wirecoil_copper"]),
-        event.recipes.createFilling("immersiveengineering:circuit_board", ["immersiveengineering:circuit_board", Fluid.of("frostedheart:resin", 100)]),
+        event.recipes.createFilling("immersiveengineering:circuit_board", ["immersiveengineering:circuit_board", Fluid.of("frostedheart:latex", 100)]),
     ]).transitionalItem("immersiveengineering:circuit_board").loops(4)
 })

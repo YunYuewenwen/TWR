@@ -297,7 +297,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#forge:plates/iron",
             B: "minecraft:redstone_torch",
-            C: "immersiveengineering:wire_copper"
+            C: "#forge:wires/copper"
         }
         ],
         [
@@ -374,7 +374,7 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "create:fluid_pipe", 8, [
+            "create:fluid_pipe", 6, [
             "AAA",
             "   ",
             "AAA"
@@ -481,6 +481,16 @@ ServerEvents.recipes((event) => {
         ], {
             A: "create:fluid_pipe",
             B: "#forge:plates/cast_iron"
+        }
+        ],
+        [
+            "steampowered:cast_iron_boiler", [
+            "B B",
+            "BAB",
+            "BBB"
+        ], {
+            A: "create:fluid_pipe",
+            B: "#forge:plates/steel"
         }
         ],
         [
@@ -835,6 +845,13 @@ ServerEvents.recipes((event) => {
         ], {
             A: "minecraft:sand",
             B: "minecraft:clay_ball"
+        }
+        ],
+        [
+            "handcrafted:wood_plate", 2, [
+            "AA"
+        ], {
+            A: "#minecraft:wooden_slabs"
         }
         ],
     ]

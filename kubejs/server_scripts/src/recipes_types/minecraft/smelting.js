@@ -1,5 +1,8 @@
 ServerEvents.recipes((event) => {
     let {minecraft} = event.recipes
+
+    minecraft.smelting("minecraft:terracotta", "minecraft:clay")
+
     let recipes = [
         {output: 'frostedheart:alumina_dust', input: 'frostedheart:aluminium_hydroxide_dust'},
         {output: 'minecraft:black_dye', input: '#kubejs:coal_dust'},

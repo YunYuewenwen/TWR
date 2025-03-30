@@ -55,12 +55,25 @@ ServerEvents.recipes((event) => {
                 "item": "frostedheart:straw_briquette_brown_mushroom", "nbt": {"Damage": 4800}
             }, ["kubejs:wet_straw_briquette", "minecraft:brown_mushroom"]
         ],
-        ["frostedresearch:quill_and_ink", 4, [["minecraft:feather", 3], "minecraft:glass_bottle", "frostedheart:generator_ash"]],
+        ["frostedresearch:quill_and_ink", 3, [["minecraft:feather", 3], "minecraft:glass_bottle", "frostedheart:generator_ash"]],
         ["frostedresearch:rubbing_tool", 4, [["frostedheart:generator_ash", 2], "minecraft:paper", "frostedresearch:rubbing_pad"]],
         ["stone_age:grass_lead", 2, [["charcoal_pit:straw", 3]]],
         ["frostedheart:packed_snow", [["minecraft:snowball", 2], ["minecraft:snow_block", 2]]],
         ["stone_age:leather_strip", 4, ["minecraft:leather"]],
-        ["frostedheart:peat", 4, ["frostedheart:peat_block"]]
+        ["frostedheart:peat", 4, ["frostedheart:peat_block"]],
+        ["frostedheart:constantan_wire", ["#forge:ingots/constantan", "immersiveengineering:wirecutter"]],
+        [
+            "frostedheart:charcoal_stick",
+            [
+                "kubejs:charcoal_briquette"
+            ]
+        ],
+        [
+            "frostedheart:coal_stick",
+            [
+                "kubejs:coal_briquette"
+            ]
+        ],
     ]
     addShapelessRecipes.forEach((recipe, index) => {
         let [

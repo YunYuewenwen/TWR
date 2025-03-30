@@ -10,12 +10,12 @@ ServerEvents.recipes((event) => {
             input: ["2x frostedheart:cryolite_dust", "frostedheart:aluminium_hydroxide_dust", Fluid.of("frostedheart:sulfuric_acid", 500)]
         },
         {
-            output: ["3x frostedheart:vulcanized_rubber"],
-            input: ["immersiveengineering:dust_sulfur", Fluid.of("frostedheart:latex", 500)]
+            output: ["9x frostedheart:vulcanized_rubber"],
+            input: ["immersiveengineering:dust_sulfur", Fluid.of("frostedheart:latex", 1000)]
         },
         {
-            output: ["3x frostedheart:vulcanized_rubber"],
-            input: [Fluid.of("frostedheart:sulfur_dioxide", 125), Fluid.of("frostedheart:latex", 500)]
+            output: ["9x frostedheart:vulcanized_rubber"],
+            input: [Fluid.of("frostedheart:sulfur_dioxide", 300), Fluid.of("frostedheart:latex", 1000)]
         },
         {
             output: [Fluid.of("frostedheart:lime_water", 1000)],
@@ -97,8 +97,8 @@ ServerEvents.recipes((event) => {
     ]
     let heated = [
         {
-            output: [Fluid.of("frostedheart:sulfuric_acid", 500)],
-            input: ["2x #forge:dusts/sulfur", Fluid.of("minecraft:water", 500)]
+            output: [Fluid.of("frostedheart:sulfuric_acid", 1000)],
+            input: ["#forge:dusts/sulfur", Fluid.of("minecraft:water", 1000)]
         },
         {
             output: [Fluid.of("frostedheart:sulfuric_acid", 500)],
@@ -125,7 +125,7 @@ ServerEvents.recipes((event) => {
             input: ["3x frostedheart:fire_clay_ball", "5x frostedheart:alumina_dust", "immersiveengineering:dust_hop_graphite"]
         },
         {
-            output: [Fluid.of("frostedheart:latex", 10)],
+            output: [Fluid.of("frostedheart:latex", 100)],
             input: ["minecraft:dandelion"]
         },
         {

@@ -10,17 +10,22 @@ ServerEvents.recipes((event) => {
         {output: 'create:iron_sheet', input: 'minecraft:iron_ingot'},
         {output: 'create:brass_sheet', input: '#forge:ingots/brass'},
         {output: 'create:copper_sheet', input: '#forge:ingots/copper'},
-        {output: 'immersiveengineering:plate_steel', input: '#forge:ingots/steel'},
-        {output: 'immersiveengineering:plate_aluminum', input: '#forge:ingots/aluminum'},
-        {output: 'immersiveengineering:plate_lead', input: '#forge:ingots/lead'},
-        {output: 'immersiveengineering:plate_constantan', input: '#forge:ingots/constantan'},
-        {output: 'immersiveengineering:plate_silver', input: '#forge:ingots/silver'},
-        {output: 'immersiveengineering:plate_electrum', input: '#forge:ingots/electrum'},
-        {output: 'immersiveengineering:plate_gold', input: '#forge:ingots/gold'}
+        {output: 'frostedheart:steel_sheet', input: '#forge:ingots/steel'},
+        {output: 'frostedheart:aluminum_sheet', input: '#forge:ingots/aluminum'},
+        {output: 'frostedheart:lead_sheet', input: '#forge:ingots/lead'},
+        {output: 'frostedheart:constantan_sheet', input: '#forge:ingots/constantan'},
+        {output: 'frostedheart:silver_sheet', input: '#forge:ingots/silver'},
+        {output: 'frostedheart:electrum_sheet', input: '#forge:ingots/electrum'},
+        {output: 'create:golden_sheet', input: '#forge:ingots/gold'}
     ]
     let recipes = [
         {
-            output: '3x immersiveengineering:stick_iron',
+            output: '3x frostedheart:copper_rod',
+            input: '2x minecraft:copper_ingot',
+            mold: 'immersiveengineering:mold_rod'
+        },
+        {
+            output: '3x frostedheart:iron_rod',
             input: '2x minecraft:iron_ingot',
             mold: 'immersiveengineering:mold_rod'
         },
@@ -30,18 +35,28 @@ ServerEvents.recipes((event) => {
             mold: 'immersiveengineering:mold_rod'
         },
         {
-            output: '3x immersiveengineering:stick_steel',
+            output: '3x frostedheart:steel_rod',
             input: '2x #forge:ingots/steel',
             mold: 'immersiveengineering:mold_rod'
         },
         {
-            output: '3x immersiveengineering:stick_aluminum',
+            output: '3x frostedheart:aluminum_rod',
             input: '2x #forge:ingots/aluminum',
             mold: 'immersiveengineering:mold_rod'
         },
         {
             output: '3x frostedheart:cast_iron_rod',
             input: '2x frostedheart:cast_iron_ingot',
+            mold: 'immersiveengineering:mold_rod'
+        },
+        {
+            output: '3x frostedheart:electrum_rod',
+            input: '2x frostedheart:electrum_ingot',
+            mold: 'immersiveengineering:mold_rod'
+        },
+        {
+            output: '3x frostedheart:constantan_rod',
+            input: '2x frostedheart:constantan_ingot',
             mold: 'immersiveengineering:mold_rod'
         },
         {
@@ -62,6 +77,21 @@ ServerEvents.recipes((event) => {
         {
             output: '3x frostedheart:electrum_wire',
             input: '2x #forge:plates/electrum',
+            mold: 'immersiveengineering:mold_wire'
+        },
+        {
+            output: '3x frostedheart:aluminum_wire',
+            input: '2x #forge:plates/aluminum',
+            mold: 'immersiveengineering:mold_wire'
+        },
+        {
+            output: '3x frostedheart:steel_wire',
+            input: '2x #forge:plates/steel',
+            mold: 'immersiveengineering:mold_wire'
+        },
+        {
+            output: '3x frostedheart:constantan_wire',
+            input: '2x #forge:plates/constantan',
             mold: 'immersiveengineering:mold_wire'
         },
         {output: 'kubejs:constantan_coil', input: '4x #forge:ingots/constantan', mold: 'immersiveengineering:mold_wire'}

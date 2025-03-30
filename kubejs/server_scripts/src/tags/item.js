@@ -36,6 +36,7 @@ ServerEvents.tags("item", (event) => {
     event.add("kubejs:tetra_hammer", "tetra:modular_double")
     event.add("forge:hammers", "tetra:modular_double")
     event.add("forge:swords", "tetra:modular_sword")
+    event.add("minecraft:axes", "tetra:modular_axe")
     event.add("minecraft:swords", "tetra:modular_sword")
 
     event.add("minecraft:shulker_box", "minecraft:shulker_box")
@@ -64,6 +65,7 @@ ServerEvents.tags("item", (event) => {
         "frostedheart:rye_flour"
     ])
     event.add("the_winter_rescue:flux_block", [
+        "minecraft:dripstone_block",
         "minecraft:pointed_dripstone",
         "minecraft:calcite",
         "create:limestone"

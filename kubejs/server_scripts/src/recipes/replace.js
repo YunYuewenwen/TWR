@@ -7,5 +7,7 @@ ServerEvents.recipes((event) => {
     event.replaceInput({output: "immersiveengineering:turret_gun"}, "immersiveengineering:circuit_board", "kubejs:servo_core")
     event.replaceInput({output: "immersiveengineering:turret_chem"}, "immersiveengineering:circuit_board", "kubejs:servo_core")
     event.replaceInput({mod: "create"}, "minecraft:dried_kelp", "#the_winter_rescue:leather")
+
+    event.replaceOutput({}, "immersiveengineering:plate_steel", "frostedheart:steel_sheet")
     // event.replaceInput({},"#forge:mushrooms","#forge:edible_mushrooms")
 })

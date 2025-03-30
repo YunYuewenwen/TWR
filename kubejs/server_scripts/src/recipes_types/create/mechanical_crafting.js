@@ -120,7 +120,7 @@ ServerEvents.recipes((event) => {
             "ACBCA",
             "FFDFF"
         ], {
-            A: "immersiveengineering:plate_steel",
+            A: "#forge:plates/steel",
             B: "#forge:ingots/silver",
             C: "#forge:ingots/gold",
             D: "immersiveengineering:wirecoil_copper",

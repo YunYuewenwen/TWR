@@ -194,7 +194,12 @@ ServerEvents.recipes((event) => {
 		"immersiveengineering:crafting/nugget_copper_to_copper_ingot",
 		"minecraft:campfire",
 		"minecraft:copper_ingot_from_waxed_copper_block",
-		"immersiveengineering:blastfurnace/steel"
+		"immersiveengineering:blastfurnace/steel",
+        "immersiveindustry:crafting/refractory_kiln_brick",
+        "minecraft:bone_meal",
+        "create:milling/calcite",
+        "create:milling/dripstone_block",
+        "immersiveindustry:crafting/electrolyzer",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

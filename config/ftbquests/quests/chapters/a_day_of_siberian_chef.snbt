@@ -480,8 +480,9 @@
 			id: "027E793362A7ECBE"
 			subtitle: "{quest.twr.027E793362A7ECBE.subtitle}"
 			tasks: [{
-				id: "5C70667695F8ECB2"
-				type: "checkmark"
+				id: "5362C596638D62E7"
+				item: "frostedheart:incubator"
+				type: "item"
 			}]
 			title: "{quest.twr.027E793362A7ECBE.title}"
 			x: -1.5d

@@ -1294,25 +1294,18 @@
 			id: "5493DF2D38C0B27C"
 			optional: true
 			subtitle: "{quest.twr.5493DF2D38C0B27C.subtitle}"
-			tasks: [
-				{
-					id: "5F17CC1F2740F2B0"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:tetra_hammer"
-						}
+			tasks: [{
+				id: "5F17CC1F2740F2B0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:tetra_hammer"
 					}
-					title: "Any #kubejs:tetra_hammer"
-					type: "item"
 				}
-				{
-					id: "05E9EE36BACD944D"
-					item: "tetra:basic_workbench"
-					type: "item"
-				}
-			]
+				title: "Any #kubejs:tetra_hammer"
+				type: "item"
+			}]
 			title: "工匠大师"
 			x: -9.0d
 			y: 0.5d

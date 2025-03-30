@@ -5,7 +5,7 @@
     "item": "immersiveengineering:ingot_hop_graphite"
   },
   "input": {
-    "tag": "forge:dusts/hop_graphite"
+    "tag": "forge:storage_blocks/coal_coke"
   },
   "energy": 19200
 }

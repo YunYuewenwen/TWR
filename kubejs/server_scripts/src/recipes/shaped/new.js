@@ -543,32 +543,6 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "frostedheart:hay_hat", [
-            "AAA",
-            "A A",
-        ], {
-            A: "charcoal_pit:straw"
-        }
-        ],
-        [
-            "frostedheart:hay_jacket", [
-            "A A",
-            "AAA",
-            "AAA"
-        ], {
-            A: "charcoal_pit:straw"
-        }
-        ],
-        [
-            "frostedheart:hay_pants", [
-            "AAA",
-            "A A",
-            "A A"
-        ], {
-            A: "charcoal_pit:straw"
-        }
-        ],
-        [
             "frostedheart:incubator", [
             "AAA",
             "A B",
@@ -752,6 +726,17 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
+            "frostedheart:hide_pants", [
+            "ABA",
+            "ACA",
+            "A A"
+        ], {
+            A: "stone_age:raw_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
             "frostedheart:hide_boots", [
             "ABA",
             "ACA"
@@ -883,22 +868,6 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "charcoal_pit:clay_pot", [
-            "AAA",
-            "A A",
-            "AAA"
-        ], {
-            A: "minecraft:clay_ball"
-        }
-        ],
-        [
-            "frostedheart:charcoal_stick", [
-            "A"
-        ], {
-            A: "kubejs:charcoal_briquette"
-        }
-        ],
-        [
             "frostedheart:bronze_hammer", [
             "AAC",
             " BA",
@@ -966,16 +935,6 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#forge:ingots/bronze",
             B: "#forge:rods/wooden"
-        }
-        ],
-        [
-            "caupona:clay_cistern", [
-            "CCC",
-            "CSC",
-            "CCC"
-        ], {
-            C: "#forge:clay",
-            S: "#forge:rods/wooden"
         }
         ],
         [

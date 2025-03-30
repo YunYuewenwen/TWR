@@ -56,6 +56,13 @@ ServerEvents.recipes((event) => {
         {
             output: [Item.of("4x minecraft:red_dye")],
             input: "create:crushed_raw_iron"
+        },
+        {
+            input: "#the_winter_rescue:flux_block",
+            output: [
+                Item.of("frostedheart:flux", 2),
+                Item.of("frostedheart:flux", 4).withChance(0.5)
+            ],
         }
     ]
     recipes.forEach((recipe) => {

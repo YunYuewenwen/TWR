@@ -11,19 +11,6 @@ ServerEvents.recipes((event) => {
         },
         {
             output: [
-                Item.of("frostedheart:flux", 2),
-                Item.of("frostedheart:flux", 4).withChance(0.5)
-            ],
-            input: "#the_winter_rescue:flux_block"
-        },
-        {
-            output: [
-                Item.of("frostedheart:crushed_raw_halite").withChance(0.25)
-            ],
-            input: "frostedheart:raw_halite"
-        },
-        {
-            output: [
                 Item.of("frostedheart:sodium_chloride_dust", 2),
                 Item.of("frostedheart:sodium_chloride_dust", 2).withChance(0.5)
             ],

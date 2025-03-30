@@ -129,8 +129,13 @@ LootJS.modifiers((event) => {
 
     // Change IE ore drops: They do appear sometimes...just to avoid issues
     event.addBlockLootModifier('immersiveengineering:ore_aluminum')
-        .replaceLoot('immersiveengineering:raw_aluminum', 'frostedheart:bauxite');
+        .replaceLoot('immersiveengineering:raw_aluminum', 'frostedheart:bauxite')
+
     event.addBlockLootModifier('immersiveengineering:deepslate_ore_aluminum')
-        .replaceLoot('immersiveengineering:raw_aluminum', 'frostedheart:bauxite');
+        .replaceLoot('immersiveengineering:raw_aluminum', 'frostedheart:bauxite')
+
+    // prevent easy dirt
+    event.addBlockLootModifier('minecraft:dirt_path')
+        .replaceLoot('minecraft:dirt', 'minecraft:coarse_dirt')
 
 });
