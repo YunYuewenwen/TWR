@@ -978,7 +978,7 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "frostedheart:packed_snow_slab", [
+            "frostedheart:packed_snow_slab", 6, [
             "AAA"
         ], {
             A: "frostedheart:packed_snow"
