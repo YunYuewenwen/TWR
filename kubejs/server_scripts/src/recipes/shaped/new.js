@@ -969,56 +969,6 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"minecraft:iron_pickaxe", [
-			"AAA",
-			" B ",
-			" B "
-		], {
-			A: "#forge:ingots/iron",
-			B: "#forge:rods/wooden"
-		}
-		],
-		[
-			"minecraft:iron_axe", [
-			"AA",
-			"AB",
-			" B"
-		], {
-			A: "#forge:ingots/iron",
-			B: "#forge:rods/wooden"
-		}
-		],
-		[
-			"minecraft:iron_hoe", [
-			"AA",
-			" B",
-			" B"
-		], {
-			A: "#forge:ingots/iron",
-			B: "#forge:rods/wooden"
-		}
-		],
-		[
-			"minecraft:iron_sword", [
-			"A",
-			"A",
-			"B"
-		], {
-			A: "#forge:ingots/iron",
-			B: "#forge:rods/wooden"
-		}
-		],
-		[
-			"minecraft:iron_shovel", [
-			"A",
-			"B",
-			"B"
-		], {
-			A: "#forge:ingots/iron",
-			B: "#forge:rods/wooden"
-		}
-		],
-		[
 			"caupona:clay_cistern", [
 				"CCC",
 				"CSC",
@@ -1037,36 +987,6 @@ ServerEvents.recipes((event) => {
 				A: "frostedheart:mortar",
 				B: "#forge:plates/bronze",
 				C: "charcoal_pit:sandy_brick"
-			}
-		],
-		[
-			"charcoal_pit:sandy_tuyere", [
-				"BAB",
-				"ACA",
-				"BAB"
-			], {
-				A: "frostedheart:mortar",
-				B: "charcoal_pit:sandy_brick_item",
-				C: "#forge:plates/bronze"
-			}
-		],
-		[
-			"charcoal_pit:unfired_sandy_brick", 4, [
-				"ABA",
-				"BAB",
-				"ABA"
-			], {
-				A: "minecraft:sand",
-				B: "minecraft:clay_ball"
-			}
-		],
-		[
-			"charcoal_pit:barrel", [
-				"AAA",
-				"A A",
-				"AAA"
-			], {
-				A: "#minecraft:wooden_slabs"
 			}
 		],
 		[
@@ -1089,114 +1009,6 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"minecraft:bucket", [
-				"A A",
-				" A "
-			], {
-				A: "#twr:plates/structural"
-			}
-		],
-		[
-			"minecraft:iron_door", [
-				"AA ",
-				"AA ",
-				"AA "
-			], {
-				A: "#twr:plates/structural"
-			}
-		],
-		[
-			"minecraft:flint_and_steel", [
-				"A ",
-				" B",
-			], {
-				A: "#forge:rods/cast_iron",
-				B: "minecraft:flint"
-			}
-		],
-		[
-			"minecraft:flint_and_steel", [
-			"A ",
-			" B",
-		], {
-			A: "#forge:rods/steel",
-			B: "minecraft:flint"
-		}
-		],
-		[
-			"minecraft:anvil", [
-				"BBB",
-				" A ",
-				"AAA"
-			], {
-				A: "#twr:ingots/hard",
-				B: "#twr:storage_blocks/hard"
-			}
-		],
-		[
-			"minecraft:hopper", [
-			"A A",
-			"ABA",
-			" A "
-			], {
-				A: "#twr:ingots/structural",
-				B: "#forge:chests"
-			}
-		],
-		[
-			"storagedrawers:iron_storage_upgrade", [
-			"AAA",
-			"CBC",
-			"AAA"
-		], {
-			A: "#forge:rods/wooden",
-			B: "storagedrawers:upgrade_template",
-			C: "#forge:storage_blocks/iron"
-		}
-		],
-		[
-			"minecraft:cauldron", [
-			"A A",
-			"A A",
-			"AAA"
-		], {
-			A: "#twr:ingots/structural"
-		}
-		],
-		[
-			"minecraft:compass", [
-			" A ",
-			"ABA",
-			" C "
-		], {
-			A: "#twr:ingots/structural",
-			B: "minecraft:redstone",
-			C: "#twr:rods/magnetic"
-		}
-		],
-		[
-			"immersiveengineering:coil_lv", [
-			"AAA",
-			"ABA",
-			"AAA"
-		], {
-			A: "immersiveengineering:wirecoil_copper",
-			B: "#forge:rods/cast_iron"
-		}
-		],
-		[
-			"create:mechanical_press", [
-			" A ",
-			"BPB",
-			"CCC"
-		], {
-			A: "create:andesite_casing",
-			B: "create:shaft",
-			C: "#twr:storage_blocks/hard",
-			P: "minecraft:piston"
-		}
-		],
-		[
 			"supplementaries:lunch_basket", [
 			"B B",
 			"AAA",
@@ -1204,6 +1016,13 @@ ServerEvents.recipes((event) => {
 		], {
 			A: "stone_age:grass_mesh",
 			B: "#forge:rods/treated_wood"
+		}
+		],
+		[
+			"frostedheart:packed_snow_slab", [
+			"AAA"
+		], {
+			A: "frostedheart:packed_snow"
 		}
 		],
 	]

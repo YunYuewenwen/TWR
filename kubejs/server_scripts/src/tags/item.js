@@ -241,9 +241,9 @@ ServerEvents.tags("item", (event) => {
 
 	const corrosionResistantMetals = [
 		"titanium",
-		"aluminum",
 		"nickel",
 		"silver",
+		"gold",
 		"invar"
 	];
 

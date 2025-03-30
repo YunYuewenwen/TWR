@@ -110,4 +110,11 @@ LootJS.modifiers((event) => {
 		.addLoot('frostedheart:iron_truss_remains')
 		.randomChance(0.5)
 		.addLoot('frostedheart:insulator')
+
+	// Change IE ore drops: They do appear sometimes...just to avoid issues
+	event.addBlockLootModifier('immersiveengineering:ore_aluminum')
+		.replaceLoot('immersiveengineering:raw_aluminum', 'frostedheart:bauxite');
+	event.addBlockLootModifier('immersiveengineering:deepslate_ore_aluminum')
+		.replaceLoot('immersiveengineering:raw_aluminum', 'frostedheart:bauxite');
+
 });
