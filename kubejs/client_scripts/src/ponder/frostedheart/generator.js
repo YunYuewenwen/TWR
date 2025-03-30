@@ -4,7 +4,7 @@ Ponder.registry((event) => {
         .tag("frostedheart:ponder")
         .scene("basic_usage", "", "kubejs:generator_t1", (scene) => {
             scene.showBasePlate()
-            scene.idle(10)
+            scene.idle(20)
 
             // Generic build
             let block1 = [
