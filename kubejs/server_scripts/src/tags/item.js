@@ -187,7 +187,7 @@ ServerEvents.tags("item", (event) => {
 	event.add("ftbultimine:included_tools", "create:cogwheel")
 
 
-	let metalGroup = [
+/*	let metalGroup = [
 		"netherite",
 		"gold",
 		"steel",
@@ -212,7 +212,7 @@ ServerEvents.tags("item", (event) => {
 		"tungsten",
 		"tungsten_steel",
 		"cast_iron"
-	]
+	]*/
 
 	const structuralMetals = [
 		"steel",
@@ -543,7 +543,7 @@ ServerEvents.tags("item", (event) => {
 		])
 	})
 
-	metalGroup.forEach((material) => {
+	/*metalGroup.forEach((material) => {
 		event.get(`forge:ingots/metal/${material}`)
 			.add(`#forge:ingots/${material}`)
 		event.get(`forge:ingots/metal`)
@@ -563,5 +563,5 @@ ServerEvents.tags("item", (event) => {
 			.add(`#forge:storage_blocks/${material}`)
 		event.get(`forge:storage_blocks/metal`)
 			.add(`#forge:storage_blocks/${material}`)
-	})
+	})*/
 })

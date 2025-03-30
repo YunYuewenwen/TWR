@@ -1,16 +1,34 @@
 ServerEvents.recipes((event) => {
 	let { kubejs } = event.recipes
 
+	let metalGroup = [
+		"titanium",
+		"magnesium",
+		"bronze",
+		"tin",
+		"duralumin",
+		"invar",
+		"zinc",
+		"tungsten",
+		"cast_iron"
+	]
 	// Define metal tags
-	let tags = {
+	/*let tags = {
 		ingots: "#forge:ingots/metal",
 		blocks: "#forge:storage_blocks/metal",
 		nuggets: "#forge:nuggets/metal",
 		plates: "#forge:plates/metal"
-	}
+	}*/
 
-	// Iterate through the tags and generate recipes
-	Object.keys(tags).forEach((key) => {
+
+	metalGroup.forEach((material) => {
+	kubejs.shapeless(Item.of(`#forge:nuggets/${material}`, 9), Item.of(`#forge:ingots/${material}`, 9))
+	kubejs.shapeless(Item.of(`#forge:ingots/${material}`), Item.of(`#forge:nuggets/${material}`, 9))
+	kubejs.shapeless(Item.of(`#forge:storage_blocks/${material}`), Item.of(`#forge:ingots/${material}`, 9))
+	})
+
+// Iterate through the tags and generate recipes
+	/*Object.keys(tags).forEach((key) => {
 		let itemIds = Ingredient.of(tags[key]).getItemIds()
 
 		if (!itemIds || itemIds.length === 0) {
@@ -25,7 +43,7 @@ ServerEvents.recipes((event) => {
 				if (Item.exists(ingotId)) {
 					kubejs.shapeless(Item.of(ingotId, 9), [itemId])
 				} else {
-					// console.warn(`Skipping: No ingot found for block: ${ itemId }`)
+					 console.warn(`Skipping: No ingot found for block: ${ itemId }`)
 				}
 			} else if (key === "ingots") {
 				// Metal ingot => 9 nuggets
@@ -35,7 +53,7 @@ ServerEvents.recipes((event) => {
 					// 9 nuggets => Metal ingot
 					kubejs.shapeless(Item.of(itemId, 1), Array(9).fill(nuggetId))
 				} else {
-					// console.warn(`Skipping: No nugget found for ingot: ${ itemId }`)
+					 console.warn(`Skipping: No nugget found for ingot: ${ itemId }`)
 				}
 
 				// 9 ingots => Metal block
@@ -43,11 +61,11 @@ ServerEvents.recipes((event) => {
 				if (Item.exists(blockId)) {
 					kubejs.shapeless(Item.of(blockId, 1), Array(9).fill(itemId))
 				} else {
-					// console.warn(`Skipping: No block found for ingot: ${ itemId }`)
+					 console.warn(`Skipping: No block found for ingot: ${ itemId }`)
 				}
 			}
 		})
-	})
+	})*/
 
 	kubejs.shapeless("9x create:copper_nugget", [
 		"#forge:ingots/copper"
