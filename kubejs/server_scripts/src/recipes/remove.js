@@ -84,7 +84,7 @@ ServerEvents.recipes((event) => {
 	shapeless.forEach((Item) => {
 		event.remove({ type: "minecraft:crafting_shapeless", output: Item })
 	})
-/*	let smelting = [
+	let smelting = [
 		"minecraft:iron_ingot",
 		"minecraft:iron_nugget",
 		"minecraft:air"
@@ -93,7 +93,7 @@ ServerEvents.recipes((event) => {
 		event.remove({ type: "minecraft:blasting", output: Item })
 		event.remove({ output: Item, type: "create:splashing"})
 		event.remove({ output: Item, type: "minecraft:smelting"})
-	})*/
+	})
 
 	let blueprint = [
 		"immersiveengineering:circuit_board",

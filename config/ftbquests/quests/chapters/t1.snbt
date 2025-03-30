@@ -1277,6 +1277,20 @@
 				"{quest.twr.5493DF2D38C0B27C.description.1}"
 				"{quest.twr.5493DF2D38C0B27C.description.2}"
 			]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "44b48aff-9624-4092-b992-452538148a25"
+				}
+			}
 			id: "5493DF2D38C0B27C"
 			optional: true
 			subtitle: "{quest.twr.5493DF2D38C0B27C.subtitle}"
@@ -1285,18 +1299,12 @@
 					id: "5F17CC1F2740F2B0"
 					item: {
 						Count: 1
-						id: "tetra:modular_double"
+						id: "itemfilters:tag"
 						tag: {
-							Damage: 0
-							"double/basic_hammer_left_material": "basic_hammer/oak"
-							"double/basic_hammer_right_material": "basic_hammer/oak"
-							"double/basic_handle_material": "basic_handle/stick"
-							"double/handle": "double/basic_handle"
-							"double/head_left": "double/basic_hammer_left"
-							"double/head_right": "double/basic_hammer_right"
-							id: "39ac50ca-4bec-49d3-a2a1-2ed487b5fb83"
+							value: "kubejs:tetra_hammer"
 						}
 					}
+					title: "Any #kubejs:tetra_hammer"
 					type: "item"
 				}
 				{
@@ -1305,6 +1313,7 @@
 					type: "item"
 				}
 			]
+			title: "工匠大师"
 			x: -9.0d
 			y: 0.5d
 		}

@@ -28,28 +28,14 @@
 			id: "11DD149796E14E81"
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					id: "4DF582149EB692A3"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:tetra_hammer"
-						}
-					}
-					title: "Any #kubejs:tetra_hammer"
-					type: "item"
-				}
-				{
-					icon: "tetra:basic_workbench"
-					id: "4079B1DB88CB40EC"
-					observe_type: 0
-					timer: 0L
-					to_observe: "tetra:basic_workbench"
-					type: "observation"
-				}
-			]
+			tasks: [{
+				icon: "tetra:basic_workbench"
+				id: "4079B1DB88CB40EC"
+				observe_type: 0
+				timer: 0L
+				to_observe: "tetra:basic_workbench"
+				type: "observation"
+			}]
 			title: "{quest.twr.11DD149796E14E81.title}"
 			x: 0.0d
 			y: 0.0d
