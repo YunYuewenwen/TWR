@@ -91,3 +91,7 @@
 	#Disabled selections
 	disabledSelections = []
 
+[other]
+	#Enable item tooltips
+	enableTooltips = true
+

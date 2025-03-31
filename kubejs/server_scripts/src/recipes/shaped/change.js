@@ -484,7 +484,7 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "steampowered:cast_iron_boiler", [
+            "steampowered:steel_boiler", [
             "B B",
             "BAB",
             "BBB"

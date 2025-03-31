@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#c:caves",
+  "features": "the_winter_rescue:magnesite_ore",
+  "step": "underground_ores"
+}
