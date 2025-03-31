@@ -93,5 +93,11 @@
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition1": "When Wearing It In The Curios Slot.",
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour1": "Uses your body temperature to promote mushroom growth.",
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition2": "When Your Temperature Is Low.",
-  "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour2": "It Will Fall Into Sleep."
+  "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour2": "It Will Fall Into Sleep.",
+  "item.frostedheart.cooled_magma_block.tooltip.summary": "A _Cooled_ Magma Block.",
+  "item.frostedheart.cooled_magma_block.tooltip.condition1": "When Soaked In Lava Long Enough",
+  "item.frostedheart.cooled_magma_block.tooltip.behaviour1": "Reheats Itself.",
+  "item.minecraft.magma_block.tooltip.summary": "A _Heated_ Magma Block.",
+  "item.minecraft.magma_block.tooltip.condition1": "When Not Soaked In Lava",
+  "item.minecraft.magma_block.tooltip.behaviour1": "Cools Itself."
 }
