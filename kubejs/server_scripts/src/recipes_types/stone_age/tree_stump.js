@@ -38,11 +38,11 @@ ServerEvents.recipes((event) => {
         tree_stumpRecipe(Item.of("2x kubejs:wet_coal_briquette"), Item.of("kubejs:wet_coal_dust"),
             Ingredient.of('#forge:hammers'), 2, 1),
         tree_stumpRecipe(Item.of('immersiveengineering:slab_treated_wood_horizontal', 2), Item.of('immersiveengineering:treated_wood_horizontal'),
-            Ingredient.of('#forge:axes'), 2, 1),
+            Ingredient.of('#minecraft:axes'), 2, 1),
         tree_stumpRecipe(Item.of('immersiveengineering:slab_treated_wood_vertical', 2), Item.of('immersiveengineering:treated_wood_vertical'),
-            Ingredient.of('#forge:axes'), 2, 1),
+            Ingredient.of('#minecraft:axes'), 2, 1),
         tree_stumpRecipe(Item.of('immersiveengineering:slab_treated_wood_packaged', 2), Item.of('immersiveengineering:treated_wood_packaged'),
-            Ingredient.of('#forge:axes'), 2, 1),
+            Ingredient.of('#minecraft:axes'), 2, 1),
         tree_stumpRecipe(Item.of('kubejs:creosoted_sawdust_briquette'), Item.of('kubejs:creosoted_sawdust'),
             Ingredient.of('#forge:hammers'), 2, 1)
     ]
