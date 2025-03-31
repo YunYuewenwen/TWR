@@ -698,6 +698,23 @@
 			x: -11.5d
 			y: 13.0d
 		}
+		{
+			id: "05D1A52195707FA9"
+			tasks: [
+				{
+					id: "4C33A210320D17B7"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					id: "4DDCB4647631754E"
+					item: "frostedheart:cooled_magma_block"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 2.5d
+		}
 	]
 	subtitle: ["{chapter.twr.683664CACFD52C99.subtitle.0}"]
 	title: "{chapter.twr.683664CACFD52C99.title}"
