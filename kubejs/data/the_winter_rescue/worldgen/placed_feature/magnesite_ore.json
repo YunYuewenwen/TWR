@@ -7,7 +7,7 @@
       "targets": [
         {
           "state": {
-            "Name": "frostedheart:kaolin_block"
+            "Name": "frostedheart:magnesite_ore"
           },
           "target": {
             "predicate_type": "minecraft:tag_match",
@@ -16,7 +16,7 @@
         },
         {
           "state": {
-            "Name": "frostedheart:kaolin_block"
+            "Name": "frostedheart:deepslate_magnesite_ore"
           },
           "target": {
             "predicate_type": "minecraft:tag_match",
