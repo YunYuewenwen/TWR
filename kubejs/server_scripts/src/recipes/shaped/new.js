@@ -994,6 +994,17 @@ ServerEvents.recipes((event) => {
             A: "frostedheart:packed_snow"
         }
         ],
+        [
+            "minecraft:bell", 1, [
+            "BBB",
+            "ACA",
+            "ACA"
+        ], {
+            A: "minecraft:iron_ingot",
+            B: "#forge:rods/wooden",
+            C: "minecraft:gold_block"
+        }
+        ],
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [
