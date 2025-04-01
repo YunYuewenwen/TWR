@@ -7,7 +7,7 @@
       "targets": [
         {
           "state": {
-            "Name": "frostedheart:magnesite_ore"
+            "Name": "frostedheart:halite_ore"
           },
           "target": {
             "predicate_type": "minecraft:tag_match",
