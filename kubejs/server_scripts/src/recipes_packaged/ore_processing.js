@@ -72,7 +72,7 @@ ServerEvents.recipes((event) => {
         ["minecraft:copper_ingot", "frostedheart:copper_oxide_dust", 90],
         ["frostedheart:lead_ingot", "frostedheart:lead_oxide_dust", 80],
         ["create:zinc_ingot", "create:crushed_raw_zinc", 150],
-        ["create:zinc_ingot", "create:crushed_raw_copper", 150]
+        ["minecraft:copper_ingot", "create:crushed_raw_copper", 150]
     ]
     blastFurnaceRecipes.forEach(([output, input, time]) => {
         immersiveengineering.blast_furnace(output, input, "immersiveengineering:slag")
