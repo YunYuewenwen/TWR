@@ -47,6 +47,11 @@ ServerEvents.tags("item", (event) => {
     event.add("forge:raw_materials/magnesium", "frostedheart:raw_magnesite")
 
     event.add("caupona:container", "#frostedheart:thermos")
+	event.add("caupona:container", "frostedheart:leather_water_bag")
+	event.add("caupona:container", "frostedheart:wooden_cup")
+	event.add("caupona:container", "frostedheart:wooden_cup_drink")
+	event.add("caupona:container", "frostedheart:iron_bottle")
+	event.add("caupona:container", "frostedheart:fluid_bottle")
 
     event.add("the_winter_rescue:bloom_nickel", [
         "immersiveengineering:raw_nickel",
