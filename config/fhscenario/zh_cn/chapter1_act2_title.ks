@@ -2,7 +2,7 @@
 @act a=act2 c=chapter1
 
 # Starting
-@showTitle t="µÚÒ»ÕÂ µÚ¶ş½Ú" st="Ñ©ÖĞÇóÉú"
+@showTitle t="ç¬¬ä¸€ç«  ç¬¬äºŒèŠ‚" st="é›ªä¸­æ±‚ç”Ÿ"
 *started
 @delay t=60
 @jump s=chapter1_act2
