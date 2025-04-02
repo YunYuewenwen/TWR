@@ -32,9 +32,9 @@ LootJS.modifiers((event) => {
         .addLoot("frostedheart:ice_chip x2")
 
     event.addBlockLootModifier("frostedheart:besnowed_debris")
-        .randomChance(1.0)
+        .randomChance(0.7)
         .addLoot("minecraft:flint")
-        .randomChance(0.2)
+        .randomChance(0.3)
         .addLoot("minecraft:flint")
         .randomChance(0.03)
         .addLoot("frostedheart:frozen_seeds")
