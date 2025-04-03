@@ -1,6 +1,20 @@
 ServerEvents.recipes((event) => {
     let {create} = event.recipes
-
+	let ores = [
+        "frostedheart:raw_pyrite",
+        "frostedheart:raw_nickel",
+        "frostedheart:raw_lead",
+        "frostedheart:bauxite",
+        "frostedheart:kaolin",
+        "frostedheart:raw_magnesite",
+        "frostedheart:raw_sylvite",
+        "frostedheart:raw_halite",
+        "frostedheart:raw_silver",
+        "minecraft:raw_gold",
+        "minecraft:raw_iron",
+        "create:raw_zinc",
+        "minecraft:raw_copper"
+    ]
     let recipes = [
         {
             output: [
@@ -16,22 +30,8 @@ ServerEvents.recipes((event) => {
             ],
             input: "frostedheart:crushed_raw_halite"
         },
+        
         /*
-        let ores = [
-        "frostedheart:raw_pyrite",
-        "frostedheart:raw_nickel",
-        "frostedheart:raw_lead",
-        "frostedheart:bauxite",
-        "frostedheart:kaolin",
-        "frostedheart:raw_magnesite",
-        "frostedheart:raw_sylvite",
-        "frostedheart:raw_halite",
-        "frostedheart:raw_silver",
-        "minecraft:raw_gold",
-        "minecraft:raw_iron",
-        "create:raw_zinc",
-        "minecraft:raw_copper"
-    ]
     let ore_name = [
         "pyrite",
         "nickel",
@@ -61,8 +61,8 @@ ServerEvents.recipes((event) => {
         // nickel
         {
             output: [
-                Item.of("frostedheart:crushed_raw_nickel"),
-                Item.of("frostedheart:crushed_raw_nickel").withChance(0.25),
+                Item.of("create:crushed_raw_nickel"),
+                Item.of("create:crushed_raw_nickel").withChance(0.25),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "immersiveengineering:raw_nickel"
@@ -70,8 +70,8 @@ ServerEvents.recipes((event) => {
         // lead
         {
             output: [
-                Item.of("frostedheart:crushed_raw_lead"),
-                Item.of("frostedheart:crushed_raw_lead").withChance(0.25),
+                Item.of("create:crushed_raw_lead"),
+                Item.of("create:crushed_raw_lead").withChance(0.25),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "immersiveengineering:raw_lead"
@@ -122,8 +122,8 @@ ServerEvents.recipes((event) => {
         // silver
         {
             output: [
-                Item.of("frostedheart:crushed_raw_silver"),
-                Item.of("frostedheart:crushed_raw_silver").withChance(0.25),
+                Item.of("create:crushed_raw_silver"),
+                Item.of("create:crushed_raw_silver").withChance(0.25),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "immersiveengineering:raw_silver"
@@ -170,7 +170,9 @@ ServerEvents.recipes((event) => {
         create.crushing(recipe.output, recipe.input)
             .id(`the_winter_rescue:create/crushing/${index}`)
     })
-
+	event.remove({type: "create:crushing"})
+	event.remove({id: "create:crushing/raw_nickel"})
+	event.remove({id: "create:crushing/raw_lead"})
     event.remove({id: "create:crushing/raw_copper"})
     event.remove({id: "create:crushing/raw_gold"})
     event.remove({id: "create:crushing/raw_iron"})

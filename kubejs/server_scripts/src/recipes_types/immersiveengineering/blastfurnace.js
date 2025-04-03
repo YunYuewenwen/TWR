@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
     let {immersiveengineering} = event.recipes
 
     let blastFurnaceRecipes = [
-        ["frostedheart:aluminum_ingot", "immersiveengineering:dust_aluminum", 800],
+        ["frostedheart:aluminum_ingot", "#forge:dusts/aluminum", 800],
         ["frostedheart:cast_iron_ingot", "minecraft:iron_ingot", 900],
         ["minecraft:copper_ingot", "#forge:raw_materials/copper", 200],
         ["frostedheart:tin_ingot", "#forge:raw_materials/tin", 150],

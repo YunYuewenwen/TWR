@@ -7,16 +7,21 @@
       "id": "99efa4d4fdb8437a",
       "required": true,
       "value": 1.0,
-      "name": "@",
       "level": 0
     }
   ],
   "ingredients": [
     {
-      "item": "minecraft:iron_ingot"
+      "base_ingredient": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 1
     },
     {
-      "item": "immersiveengineering:stick_treated"
+      "base_ingredient": {
+        "item": "immersiveengineering:stick_treated"
+      },
+      "count": 1
     }
   ],
   "effects": [
@@ -63,10 +68,18 @@
       "id": "9bc96ef91aef4a3c"
     }
   ],
-  "icon": "frostedheart:steel_geologists_hammer",
-  "category": "frostedheart:exploration",
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:steel_geologists_hammer",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      }
+    }
+  },
+  "category": "frostedresearch:exploration",
   "parents": [
-    "advanced_geological_tools",
-    "workbench"
+    "advanced_geological_tools"
   ]
 }

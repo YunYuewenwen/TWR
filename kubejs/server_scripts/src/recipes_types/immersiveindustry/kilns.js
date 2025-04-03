@@ -14,17 +14,19 @@ ServerEvents.recipes((event) => {
         carkilnRecipe(["3x frostedheart:fire_clay_ball", "5x frostedheart:alumina_dust", "immersiveengineering:dust_hop_graphite"], ["3x immersiveindustry:refractory_kiln_brick"], 600, 32),
         rotarykilnRecipe("frostedheart:aluminium_hydroxide_dust", "frostedheart:alumina_dust", 600, 32),
         rotarykilnRecipe("frostedheart:crushed_raw_magnesite", "frostedheart:magnesia_dust", 600, 32),
-        carkilnReplace("kubejs:clay_bucket", "frostedheart:ceramic_bucket"),
-        carkilnReplace("charcoal_pit:clay_pot", "charcoal_pit:ceramic_pot"),
+        rotarykilnRecipe("frostedheart:flux", "frostedheart:quicklime", 600, 32),
+		carkilnReplace("kubejs:clay_bucket", "frostedheart:ceramic_bucket"),
+        carkilnReplace("charcoal_pit:unfired_brick", "minecraft:brick"),
+		carkilnReplace("charcoal_pit:clay_pot", "charcoal_pit:ceramic_pot"),
         carkilnReplace("charcoal_pit:unfired_sandy_brick", "charcoal_pit:sandy_brick_item"),
         carkilnReplace("minecraft:netherrack", "minecraft:nether_brick"),
-        carkilnReplace("#forge:stone", "minecraft:stone"),
+        carkilnReplace("#forge:cobblestone", "minecraft:stone"),
         carkilnReplace("caupona:clay_cistern", "caupona:stew_pot"),
         carkilnReplace("minecraft:clay", "minecraft:terracotta"),
         carkilnReplace("#minecraft:sand", "minecraft:glass"),
         carkilnReplace("frostedheart:fire_clay_ball", "frostedheart:refractory_brick")
     ]
-
+	
     let simpleCarkiln = [
         {input: "#kubejs:coal_dust", output: "minecraft:black_dye"},
         {input: "kubejs:charcoal_dust", output: "minecraft:black_dye"},

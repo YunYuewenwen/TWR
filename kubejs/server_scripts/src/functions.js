@@ -104,38 +104,28 @@ function carkilnRecipe(inputs, output, time, energy) {
 }
 
 function rotarykilnRecipe(input, output, time, energy) {
-    return {
-        "type": "immersiveindustry:rotary_kiln",
-        "input": IEIngredient(input),
-        "result": Item.of(output),
-        "time": time,
-        "tickEnergy": energy
-    }
+    return rotarykilnRecipe2(input,output,time,energy)
 }
 
 function rotarykilnRecipe2(input, output, time, energy, byproduct, chance) {
-    return {
-        "type": "immersiveindustry:rotary_kiln",
-        "input": IEIngredient(input),
-        "byproduct": IEIngredient(byproduct),
-        "chance": chance,
-        "result": Item.of(output),
-        "time": time,
-        "tickEnergy": energy
-    }
+    return rotarykilnRecipe3(input,output,null,time,energy,byproduct,chance)
 }
 
 function rotarykilnRecipe3(input, output, output_fluid, time, energy, byproduct, chance) {
-    return {
+	
+    var ret= {
         "type": "immersiveindustry:rotary_kiln",
         "input": IEIngredient(input),
-        "byproduct": Item.of(byproduct),
-        "result_fluid": output_fluid,
-        "chance": chance,
-        "result": Item.of(output),
         "time": time,
         "tickEnergy": energy
     }
+	if(byproduct!=null)
+		ret.byproduct={"output":Item.of(byproduct),"chance":chance};
+	if(output!=null)
+		ret.result= Item.of(output);
+	if(output_fluid!=null)
+		ret.result_fluid=output_fluid;
+	return ret;
 }
 
 function unificationBlacklistEntry(material, type) {

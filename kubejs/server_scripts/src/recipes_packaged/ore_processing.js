@@ -79,7 +79,7 @@ ServerEvents.recipes((event) => {
             .time(time)
     })
 
-    /*
+    
     function rotarySulfate(input, output, energy, sulfur, chance) {
         if (chance == 0)
             return rotarykilnRecipe3(input, output, Fluid.of("frostedheart:sulfur_dioxide", sulfur).toJson(), 200, energy)
@@ -87,7 +87,7 @@ ServerEvents.recipes((event) => {
     }
     let kilnRecipes = [
         rotarykilnRecipe2("create:crushed_raw_copper", "frostedheart:copper_oxide_dust", 200, 32),
-        rotarySulfate("#forge:dusts/sulfur", "minecraft:air", 32, 125, 0),
+        rotarySulfate("#forge:dusts/sulfur", null, 32, 125, 0),
         rotarySulfate("frostedheart:crushed_raw_pyrite", "create:crushed_raw_iron", 64, 250, 0),
         rotarySulfate("frostedheart:crushed_raw_lead", "frostedheart:lead_oxide_dust", 32, 250, 0.25),
         rotarySulfate("create:crushed_raw_zinc", "frostedheart:zinc_oxide_dust", 32, 250, 0),
@@ -97,5 +97,5 @@ ServerEvents.recipes((event) => {
     kilnRecipes.forEach((recipe) => {
         event.custom(recipe); console.info(recipe)
     })
-    */
+    
 })

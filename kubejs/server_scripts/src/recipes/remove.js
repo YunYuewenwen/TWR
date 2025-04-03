@@ -94,6 +94,7 @@ ServerEvents.recipes((event) => {
 		event.remove({ output: Item, type: "create:splashing"})
 		event.remove({ output: Item, type: "minecraft:smelting"})
 	})
+	event.remove({"id":"minecraft:brick"})
 
 	let blueprint = [
 		"immersiveengineering:circuit_board",
