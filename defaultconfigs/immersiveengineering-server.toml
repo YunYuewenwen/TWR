@@ -130,18 +130,12 @@
 		#A modifier to apply to the cloches total growing speed
 		#Range: 0.001 ~ 1000.0
 		growth_modifier = 1.0
-		#A base-modifier for all solid fertilizers in the cloche
-		#Range: 0.001 ~ 1000.0
-		solid_fertilizer_mod = 1.0
 		#The Flux per tick the cloche consumes to grow plants
 		#Range: > 1
 		consumption = 8
 		#The amount of fluid the cloche uses per dose of fertilizer
 		#Range: > 1
 		fluid = 250
-		#A base-modifier for all fluid fertilizers in the cloche
-		#Range: 0.001 ~ 1000.0
-		fluid_fertilizer_mod = 1.0
 		#The amount of ticks one dose of fertilizer lasts in the cloche
 		#Range: > 1
 		fertilizer = 6000
@@ -153,8 +147,6 @@
 		#The maximum amount of yield one can get out of a chunk with the excavator. Set a number smaller than zero to make it infinite
 		#Range: > -1
 		yield = 38400
-		#List of dimensions that can't contain minerals. Default: The End.
-		dimBlacklist = ["minecraft:the_end"]
 		#The Flux per tick the Excavator will consume to dig
 		#Range: > 1
 		consumption = 4096
@@ -202,8 +194,6 @@
 		#The Flux the Fluid Pump will consume pressurize and accelerate fluids, increasing the transferrate
 		#Range: > 1
 		consumption_accelerate = 5
-		#Set this to false to disable the fluid pump being able to draw infinite water from sources
-		infiniteWater = true
 		#If this is set to true (default) the pump will replace fluids it picks up with cobblestone in order to reduce lag caused by flowing fluids.
 		placeCobble = true
 
@@ -355,9 +345,6 @@
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 12
-		#The average number of veins per chunk
-		#Range: > 0
-		avg_veins_per_chunk = 4
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 6
@@ -366,32 +353,21 @@
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = -64
-
-	#Ore generation config - copper
-	[ores.copper]
-		#The maximum Y coordinate this ore can spawn at
-		#Range: > -2147483648
-		max_y = 72
-		#The average number of veins per chunk
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "UNIFORM"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The number of veins attempted to be generated per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 0
-		#The maximum size of a vein. Set to 0 to disable generation
-		#Range: > 0
-		vein_size = 0
-		#Set this to true to allow retro-generation of copper Ore.
-		retrogen_enable = false
-		#The minimum Y coordinate this ore can spawn at
-		#Range: > -2147483648
-		min_y = 40
+		attempts_per_chunk = 7
 
 	#Ore generation config - bauxite
 	[ores.bauxite]
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 85
-		#The average number of veins per chunk
-		#Range: > 0
-		avg_veins_per_chunk = 0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
@@ -400,15 +376,21 @@
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = 40
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 16
 
 	#Ore generation config - silver
 	[ores.silver]
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 12
-		#The average number of veins per chunk
-		#Range: > 0
-		avg_veins_per_chunk = 4
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 6
@@ -417,15 +399,21 @@
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = -64
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.25
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 10
 
 	#Ore generation config - uranium
 	[ores.uranium]
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 24
-		#The average number of veins per chunk
-		#Range: > 0
-		avg_veins_per_chunk = 0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
@@ -434,15 +422,21 @@
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = 8
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.5
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 9
 
 	#Ore generation config - lead
 	[ores.lead]
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 36
-		#The average number of veins per chunk
-		#Range: > 0
-		avg_veins_per_chunk = 0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
@@ -451,6 +445,38 @@
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = 8
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 12
+
+	#Ore generation config - deep_nickel
+	[ores.deep_nickel]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 6
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = -120
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = -8
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 11
+		#Set this to true to allow retro-generation of deep_nickel Ore.
+		retrogen_enable = false
 
 [tools]
 	#The maximum durability of the Wirecutter. Used up when cutting plates into wire.
@@ -460,12 +486,6 @@
 	#Range: > 1
 	hammer_durability = 100
 
-	[tools.powerpack]
-		#A blacklist of armor pieces to allow attaching the capacitor backpack, formatting: [mod id]:[item name]. Whitelist has priority over this
-		blacklist = ["embers:ashen_cloak_chest", "ic2:batpack", "ic2:cf_pack", "ic2:energy_pack", "ic2:jetpack", "ic2:jetpack_electric", "ic2:lappack"]
-		#A whitelist of armor pieces to allow attaching the capacitor backpack, formatting: [mod id]:[item name]
-		whitelist = []
-
 	[tools.railgun]
 		#The base amount of Flux consumed per shot by the Railgun
 		#Range: > 1
@@ -473,14 +493,6 @@
 		#A modifier for the damage of all projectiles fired by the Railgun
 		#Range: 0.0 ~ 1.7976931348623157E308
 		damage_modifier = 1.0
-
-	[tools.toolbox]
-		#A whitelist of foods allowed in the toolbox, formatting: [mod id]:[item name]
-		foods = []
-		#A whitelist of tools allowed in the toolbox, formatting: [mod id]:[item name]
-		tools = []
-		#A whitelist of wire-related allowed in the toolbox, formatting: [mod id]:[item name]
-		wiring = []
 
 	[tools.bullet_damage]
 		#The amount of base damage a single part of buckshot inflicts

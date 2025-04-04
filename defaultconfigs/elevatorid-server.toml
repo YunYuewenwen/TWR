@@ -9,7 +9,7 @@
 	#Should elevators have the same color in order to teleport ?
 	sameColor = false
 	#Elevator range
-	#Range: 3 ~ 256
+	#Range: 3 ~ 4064
 	range = 256
 	#Realign players to the center of elevator ?
 	precisionTarget = true
