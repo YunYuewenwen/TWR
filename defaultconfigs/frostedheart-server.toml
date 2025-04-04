@@ -62,11 +62,11 @@
 	#to reach the mildest hypothermia (36C body temperature)
 	#when exposed to an effective environment temperature of heatExchangeTempConstant below 37C.
 	#Range: > 0
-	heatExchangeTimeConstant = 500
+	heatExchangeTimeConstant = 1000
 	#The heat exchange temperature constant between player and environment.
 	#Check the comment on heatExchangeTimeConstant for what is this.
 	#Range: 0.0 ~ 2.147483647E9
-	heatExchangeTempConstant = 5.0
+	heatExchangeTempConstant = 10.0
 
 ["Water & Nutrition"]
 	#finalReducingValue = basicValue * waterReducingRate.(DoubleValue)
@@ -78,8 +78,10 @@
 	#It decides if players' water level would reset in death.
 	resetWaterLevelInDeath = true
 	#The rate of nutrition consumption.
+	#Range: 0.0 ~ 10.0
 	nutritionConsumptionRate = 1.0
 	#The rate of nutrition gain by eating food.
+	#Range: 0.0 ~ 100.0
 	nutritionGainRate = 20.0
 
 [Worldgen]
@@ -108,9 +110,6 @@
 	#The initial speed of the particles in the simulation.
 	#Range: 0.009999999776482582 ~ 1.0
 	simulationParticleInitialSpeed = 0.4000000059604645
-	#The life ticks of the particles in the simulation.
-	#Range: 1 ~ 100
-	simulationParticleLife = 20
 
 [Miscellaneous]
 	#Always keep inventory on death on every dimension and world
