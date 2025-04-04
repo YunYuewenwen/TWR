@@ -13,12 +13,19 @@
 			description: ["{quest.twr.5D52744D5382A6CA.description.1}"]
 			icon: "immersiveengineering:ingot_aluminum"
 			id: "5D52744D5382A6CA"
-			rewards: [{
-				count: 4
-				id: "602B98FFFFC76CD9"
-				item: "frostedheart:bauxite"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "602B98FFFFC76CD9"
+					item: "frostedheart:bauxite"
+					type: "item"
+				}
+				{
+					id: "734B6487D71ECF6B"
+					insight: 5
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			subtitle: "{quest.twr.5D52744D5382A6CA.subtitle}"
 			tasks: [
@@ -60,12 +67,19 @@
 				"{quest.twr.4138E3A9915F811C.description.4}"
 			]
 			id: "4138E3A9915F811C"
-			rewards: [{
-				count: 4
-				id: "2924187E6BB3656F"
-				item: "frostedheart:packed_nuts"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "2924187E6BB3656F"
+					item: "frostedheart:packed_nuts"
+					type: "item"
+				}
+				{
+					id: "7B91F662C3E0B82B"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			subtitle: "{quest.twr.4138E3A9915F811C.subtitle}"
 			tasks: [{
@@ -82,6 +96,11 @@
 			description: ["{quest.twr.5808CFED17AE91D4.description.1}"]
 			hide_until_deps_visible: false
 			id: "5808CFED17AE91D4"
+			rewards: [{
+				id: "50FE6ED0AC4F31E2"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.5808CFED17AE91D4.subtitle}"
 			tasks: [{
@@ -105,12 +124,19 @@
 			hide_until_deps_visible: false
 			icon: "immersiveengineering:ingot_steel"
 			id: "0019852CD6EC0354"
-			rewards: [{
-				count: 4
-				id: "39C53B6E5D60BA64"
-				item: "immersiveengineering:coal_coke"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "39C53B6E5D60BA64"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+				{
+					id: "16FFDE142F761FEB"
+					insight: 3
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			subtitle: "{quest.twr.0019852CD6EC0354.subtitle}"
 			tasks: [{
@@ -133,6 +159,11 @@
 			dependencies: ["0019852CD6EC0354"]
 			hide_until_deps_visible: false
 			id: "6927FCD3D4A96E1C"
+			rewards: [{
+				id: "25D6499D162C279C"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "6CA2FEDEA9354124"
 				item: "steampowered:steel_cogwheel"
@@ -145,6 +176,11 @@
 			dependencies: ["0019852CD6EC0354"]
 			hide_until_deps_visible: false
 			id: "07D09F067CE6B708"
+			rewards: [{
+				id: "25D155419EAEFF3C"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "61371EAC59D39D34"
 				item: "steampowered:steel_steam_engine"
@@ -157,6 +193,11 @@
 			dependencies: ["0019852CD6EC0354"]
 			hide_until_deps_visible: false
 			id: "4DE01CED0E30AD08"
+			rewards: [{
+				id: "056B9C63B15A8365"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "0A23FB35CA0CBF1D"
 				item: "steampowered:steel_flywheel"
@@ -169,6 +210,11 @@
 			dependencies: ["0019852CD6EC0354"]
 			hide_until_deps_visible: false
 			id: "2516E94BD07F34E5"
+			rewards: [{
+				id: "7C6109BDB07A3BBB"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [
 				{
 					id: "3F721C781353F092"
@@ -217,6 +263,11 @@
 			]
 			hide_until_deps_visible: false
 			id: "4785733C81711840"
+			rewards: [{
+				id: "083F6C525185D452"
+				insight: 3
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.4785733C81711840.subtitle}"
 			tasks: [{
@@ -232,6 +283,11 @@
 			hide_until_deps_visible: false
 			icon: "immersiveengineering:advanced_blast_furnace"
 			id: "104E63CD1BF438BC"
+			rewards: [{
+				id: "2ABC1B44B3FBB02D"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "6396EC0E24BC0195"
 				item: "immersiveengineering:blastbrick_reinforced"

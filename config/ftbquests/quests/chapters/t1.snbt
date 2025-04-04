@@ -15,6 +15,11 @@
 				"{quest.twr.689BB00EC2454F1F.description.2}"
 			]
 			id: "689BB00EC2454F1F"
+			rewards: [{
+				id: "71526EF727656848"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.689BB00EC2454F1F.subtitle}"
 			tasks: [{
@@ -31,6 +36,11 @@
 			hide_until_deps_visible: false
 			id: "417AC14073DD4249"
 			optional: true
+			rewards: [{
+				id: "5F352B891FDD801A"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.417AC14073DD4249.subtitle}"
 			tasks: [{
 				id: "0D8922D35F106559"
@@ -49,6 +59,11 @@
 				"{quest.twr.0A9A5166127945AB.description.5}"
 			]
 			id: "0A9A5166127945AB"
+			rewards: [{
+				id: "586E2E112FF73A27"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.0A9A5166127945AB.subtitle}"
 			tasks: [{
@@ -79,13 +94,7 @@
 			subtitle: "{quest.twr.586D66C71A378A82.subtitle}"
 			tasks: [{
 				id: "6B7F88BC9CA233E8"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:plates/copper"
-					}
-				}
+				item: "create:copper_sheet"
 				title: "{quest.twr.586D66C71A378A82.6B7F88BC9CA233E8.title}"
 				type: "item"
 			}]
@@ -104,19 +113,11 @@
 			hide_until_deps_visible: false
 			icon: "immersiveengineering:alloy_smelter"
 			id: "162264AE4B9EE1A9"
-			rewards: [
-				{
-					id: "515DCCBB1AE627C0"
-					item: "immersiveengineering:manual"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "18F9DE4EC8D12561"
-					item: "crockpot:cooked_egg"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "515DCCBB1AE627C0"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.162264AE4B9EE1A9.subtitle}"
 			tasks: [
@@ -148,6 +149,11 @@
 			]
 			description: ["{quest.twr.4B6840707D77E2C0.description.1}"]
 			id: "4B6840707D77E2C0"
+			rewards: [{
+				id: "33364F6FB2420E89"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.4B6840707D77E2C0.subtitle}"
 			tasks: [{
@@ -174,6 +180,11 @@
 			]
 			hide_until_deps_visible: false
 			id: "3C4CEEBFF8DCF448"
+			rewards: [{
+				id: "19D0EE82A3F89322"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
 			tasks: [{
@@ -209,11 +220,18 @@
 			]
 			icon: "charcoal_pit:main_bloomery"
 			id: "13D9DE54DF8117C2"
-			rewards: [{
-				id: "505EEA48D297FB96"
-				table_id: 6579587557190678321L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					id: "505EEA48D297FB96"
+					table_id: 6579587557190678321L
+					type: "choice"
+				}
+				{
+					id: "59DA028ED559A946"
+					insight: 3
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			subtitle: "{quest.twr.13D9DE54DF8117C2.subtitle}"
 			tasks: [
@@ -260,6 +278,11 @@
 				"{quest.twr.3078BCEE3E402DED.description.2}"
 			]
 			id: "3078BCEE3E402DED"
+			rewards: [{
+				id: "00FD73F0DBA7DC75"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.3078BCEE3E402DED.subtitle}"
 			tasks: [{
@@ -295,6 +318,11 @@
 				"{quest.twr.4543F3B5F937E6B0.description.4}"
 			]
 			id: "4543F3B5F937E6B0"
+			rewards: [{
+				id: "64B29791A8A272F9"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.4543F3B5F937E6B0.subtitle}"
 			tasks: [
@@ -366,6 +394,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2113556522D9F9A4"
+					insight: 1
+					type: "frostedheart:insight"
+				}
 			]
 			subtitle: "{quest.twr.77A7511048D5767B.subtitle}"
 			tasks: [
@@ -421,12 +454,19 @@
 				"{quest.twr.47F458D8E94E5367.description.3}"
 			]
 			id: "47F458D8E94E5367"
-			rewards: [{
-				count: 4
-				id: "729B324554A6AFD5"
-				item: "stone_age:leather_strip"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "729B324554A6AFD5"
+					item: "stone_age:leather_strip"
+					type: "item"
+				}
+				{
+					id: "0B6E59CC5B5AED6C"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			subtitle: "{quest.twr.47F458D8E94E5367.subtitle}"
 			tasks: [{
@@ -465,6 +505,11 @@
 			]
 			icon: "charcoal_pit:sandy_collector"
 			id: "13AA30FB9CD620EB"
+			rewards: [{
+				id: "27C903A5BABF87DD"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.13AA30FB9CD620EB.subtitle}"
 			tasks: [{
@@ -480,11 +525,6 @@
 			description: ["{quest.twr.4625CA3FEAF6908B.description.1}"]
 			hide_until_deps_visible: false
 			id: "4625CA3FEAF6908B"
-			rewards: [{
-				id: "68427BE729DBF2DC"
-				item: "crockpot:surf_n_turf"
-				type: "item"
-			}]
 			shape: "gear"
 			subtitle: "{quest.twr.4625CA3FEAF6908B.subtitle}"
 			tasks: [
@@ -566,12 +606,19 @@
 			disable_toast: true
 			id: "062E137E7ECB4C99"
 			optional: true
-			rewards: [{
-				count: 4
-				id: "1021A9466C81E356"
-				item: "minecraft:stripped_oak_log"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "1021A9466C81E356"
+					item: "minecraft:stripped_oak_log"
+					type: "item"
+				}
+				{
+					id: "4D9B54B178F64873"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			subtitle: "{quest.twr.062E137E7ECB4C99.subtitle}"
 			tasks: [{
 				id: "461347FD0245EACA"
@@ -715,6 +762,11 @@
 			hide_until_deps_visible: false
 			id: "7175C1158EE9178A"
 			optional: true
+			rewards: [{
+				id: "11BC5D108ADB90B6"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.7175C1158EE9178A.subtitle}"
 			tasks: [{
 				id: "405CDF6B2D5C5DC7"
@@ -773,11 +825,9 @@
 		}
 		{
 			dependencies: ["4B6840707D77E2C0"]
-			description: ["{quest.twr.190859211258D56B.description.1}"]
 			hide_until_deps_visible: false
 			id: "190859211258D56B"
 			optional: true
-			subtitle: "{quest.twr.190859211258D56B.subtitle}"
 			tasks: [{
 				id: "7279CB115270D37C"
 				item: {
@@ -885,11 +935,6 @@
 			icon: "minecraft:netherrack"
 			id: "3B306015B7675BD1"
 			optional: true
-			rewards: [{
-				id: "79D06247FDD06DB9"
-				item: "crockpot:cooked_hoglin_nose"
-				type: "item"
-			}]
 			shape: "hexagon"
 			subtitle: "{quest.twr.3B306015B7675BD1.subtitle}"
 			tasks: [{
@@ -932,6 +977,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "71BFE999C4469811"
+					insight: 1
+					type: "frostedheart:insight"
 				}
 			]
 			subtitle: "{quest.twr.11A33F924E78C874.subtitle}"
@@ -1118,20 +1168,27 @@
 			icon: "immersiveengineering:coke_oven"
 			id: "5287CFB7B7D5285E"
 			optional: true
-			rewards: [{
-				id: "4FFC380D662A7F3D"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:efficiency"
-							lvl: 3s
-						}]
+			rewards: [
+				{
+					id: "4FFC380D662A7F3D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 3s
+							}]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "41AA54BB0BC81232"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			subtitle: "{quest.twr.5287CFB7B7D5285E.subtitle}"
 			tasks: [{
 				count: 27L
@@ -1166,17 +1223,24 @@
 			hide_until_deps_visible: false
 			id: "47F9EC8C18040D6D"
 			optional: true
-			rewards: [{
-				id: "5B42F42BD6530C6C"
-				item: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:swiftness"
+			rewards: [
+				{
+					id: "5B42F42BD6530C6C"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "68EECC09C8BC518C"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			subtitle: "{quest.twr.47F9EC8C18040D6D.subtitle}"
 			tasks: [{
 				id: "0AF2FDBE1D3E93EC"
@@ -1197,6 +1261,11 @@
 			description: ["{quest.twr.03A553EBD453466A.description.1}"]
 			hide_until_deps_visible: false
 			id: "03A553EBD453466A"
+			rewards: [{
+				id: "3C53B2E15D777036"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "02C4E98D09FB6EC0"
@@ -1229,13 +1298,20 @@
 			]
 			hide_until_deps_visible: false
 			id: "75154C5A6E2F3257"
-			rewards: [{
-				command: "/ftbchunks admin extra_claim_chunks @p set 16"
-				icon: "minecraft:map"
-				id: "7DA41F7E33AE3E8D"
-				title: "{quest.twr.75154C5A6E2F3257.7DA41F7E33AE3E8D.title}"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/ftbchunks admin extra_claim_chunks @p set 16"
+					icon: "minecraft:map"
+					id: "7DA41F7E33AE3E8D"
+					title: "{quest.twr.75154C5A6E2F3257.7DA41F7E33AE3E8D.title}"
+					type: "command"
+				}
+				{
+					id: "018E90693056A4FC"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "{quest.twr.75154C5A6E2F3257.subtitle}"
@@ -1293,6 +1369,11 @@
 			}
 			id: "5493DF2D38C0B27C"
 			optional: true
+			rewards: [{
+				id: "53FFAD8FD44731DF"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.5493DF2D38C0B27C.subtitle}"
 			tasks: [{
 				id: "5F17CC1F2740F2B0"

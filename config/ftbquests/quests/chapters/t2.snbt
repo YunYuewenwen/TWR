@@ -75,6 +75,11 @@
 				"{quest.twr.4CC5E16EFDE1368C.description.3}"
 			]
 			id: "4CC5E16EFDE1368C"
+			rewards: [{
+				id: "0F2E893E42913D68"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.4CC5E16EFDE1368C.subtitle}"
 			tasks: [{
@@ -93,6 +98,11 @@
 				"{quest.twr.3E8F565DE61309B2.description.3}"
 			]
 			id: "3E8F565DE61309B2"
+			rewards: [{
+				id: "2848183EEBECFF6A"
+				insight: 3
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.3E8F565DE61309B2.subtitle}"
 			tasks: [{
@@ -110,6 +120,11 @@
 				"{quest.twr.404CFF89CCFE9D6B.description.2}"
 			]
 			id: "404CFF89CCFE9D6B"
+			rewards: [{
+				id: "5A91EEC1C2495446"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "5A7562201B27BBF3"
@@ -128,6 +143,11 @@
 			]
 			icon: "steampowered:bronze_steam_engine"
 			id: "32A497C69C641D2B"
+			rewards: [{
+				id: "069A2C72D7070E4A"
+				insight: 3
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.32A497C69C641D2B.subtitle}"
 			tasks: [
@@ -152,6 +172,11 @@
 			icon: "steampowered:cast_iron_steam_engine"
 			id: "0FEC22A5C56936DC"
 			optional: true
+			rewards: [{
+				id: "6AF7319310EF3EC2"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.0FEC22A5C56936DC.subtitle}"
 			tasks: [
 				{
@@ -176,6 +201,11 @@
 			]
 			hide_until_deps_visible: false
 			id: "1F2BD4A72596B287"
+			rewards: [{
+				id: "7BF9704FAB366185"
+				insight: 5
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.1F2BD4A72596B287.subtitle}"
 			tasks: [
@@ -207,12 +237,19 @@
 			]
 			hide_until_deps_visible: false
 			id: "29DCBBB54EE90E51"
-			rewards: [{
-				count: 3
-				id: "45E9FE5EEEEA947B"
-				item: "frostedheart:cast_iron_rod"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "45E9FE5EEEEA947B"
+					item: "frostedheart:cast_iron_rod"
+					type: "item"
+				}
+				{
+					id: "0207DA3DAC26455F"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"
 			tasks: [{
 				id: "5388D141B1BE4837"
@@ -228,6 +265,11 @@
 			hide_until_deps_visible: false
 			id: "7EDDAD2D1E2B0613"
 			optional: true
+			rewards: [{
+				id: "09A6A8C0D3E66B5F"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
 			tasks: [{
 				id: "14A8C9A9E802E04B"
@@ -242,6 +284,11 @@
 			description: ["{quest.twr.4600CF7553C26ED0.description.1}"]
 			hide_until_deps_visible: false
 			id: "4600CF7553C26ED0"
+			rewards: [{
+				id: "623F289950F6B1E6"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.4600CF7553C26ED0.subtitle}"
 			tasks: [{
@@ -258,12 +305,19 @@
 			description: ["{quest.twr.064ECF25B9B8962B.description.1}"]
 			hide_until_deps_visible: false
 			id: "064ECF25B9B8962B"
-			rewards: [{
-				count: 8
-				id: "2F3B2C1303C26E42"
-				item: "minecraft:raw_iron"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "2F3B2C1303C26E42"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "3231ED0392DE32BD"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			subtitle: "{quest.twr.064ECF25B9B8962B.subtitle}"
 			tasks: [{
@@ -279,6 +333,11 @@
 			description: ["{quest.twr.5845439CF721309F.description.1}"]
 			hide_text_until_complete: true
 			id: "5845439CF721309F"
+			rewards: [{
+				id: "5312911893D9DC07"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.5845439CF721309F.subtitle}"
 			tasks: [{
@@ -294,6 +353,11 @@
 			description: ["{quest.twr.3549A50510878505.description.1}"]
 			hide_until_deps_visible: false
 			id: "3549A50510878505"
+			rewards: [{
+				id: "66C2BDC7F8BCF8AD"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.3549A50510878505.subtitle}"
 			tasks: [
@@ -319,12 +383,19 @@
 			]
 			hide_until_deps_visible: false
 			id: "4548F432A872DA92"
-			rewards: [{
-				count: 8
-				id: "52DC6F6C0CA5945B"
-				item: "minecraft:coal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "52DC6F6C0CA5945B"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "54D9F70A885412BD"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			subtitle: "{quest.twr.4548F432A872DA92.subtitle}"
 			tasks: [{
@@ -341,6 +412,11 @@
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "15B365E3F3EAFE79"
+			rewards: [{
+				id: "097F264F817D2E56"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
 			tasks: [{
 				id: "49FB5CCF0097B1A4"
@@ -386,6 +462,11 @@
 			hide_until_deps_visible: false
 			icon: "steampowered:bronze_boiler"
 			id: "7612A96FFEFC5635"
+			rewards: [{
+				id: "1B1603F6637020E5"
+				insight: 3
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.7612A96FFEFC5635.subtitle}"
 			tasks: [
@@ -412,6 +493,11 @@
 			]
 			hide_until_deps_visible: false
 			id: "17C359DCF058E698"
+			rewards: [{
+				id: "46B19E5B7D092D75"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.17C359DCF058E698.subtitle}"
 			tasks: [{
@@ -432,6 +518,11 @@
 			]
 			hide_until_deps_visible: false
 			id: "197308226CAE52C4"
+			rewards: [{
+				id: "262DD8D67354C3B8"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.197308226CAE52C4.subtitle}"
 			tasks: [{
@@ -463,12 +554,19 @@
 			description: ["{quest.twr.17F033FB5ACAACFB.description.1}"]
 			hide_until_deps_visible: false
 			id: "17F033FB5ACAACFB"
-			rewards: [{
-				count: 4
-				id: "3939EE772046A5C0"
-				item: "frostedheart:packed_nuts"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "3939EE772046A5C0"
+					item: "frostedheart:packed_nuts"
+					type: "item"
+				}
+				{
+					id: "1515E3E452EFFAC3"
+					insight: 3
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{quest.twr.17F033FB5ACAACFB.subtitle}"
@@ -523,6 +621,11 @@
 		{
 			dependencies: ["279DA3B6F5DE7753"]
 			id: "1F94471C5310ECFA"
+			rewards: [{
+				id: "48D32802764ED057"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.1F94471C5310ECFA.subtitle}"
 			tasks: [{
@@ -567,12 +670,19 @@
 			hide_until_deps_visible: false
 			icon: "immersiveindustry:crucible"
 			id: "19038BB5A9E42055"
-			rewards: [{
-				count: 8
-				id: "427466A9E819DCC4"
-				item: "minecraft:raw_iron"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "427466A9E819DCC4"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "544BCC5B8892906C"
+					insight: 5
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "{quest.twr.19038BB5A9E42055.subtitle}"
@@ -614,6 +724,11 @@
 			hide_until_deps_visible: false
 			id: "4B46838E7C65D4C4"
 			optional: true
+			rewards: [{
+				id: "046F0CA3AF687F31"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "2BADA53AE3BE71DA"
 				item: "create:belt_connector"
@@ -628,6 +743,11 @@
 			hide_until_deps_visible: false
 			id: "688C57B7BC46E723"
 			optional: true
+			rewards: [{
+				id: "589B5D227CB85894"
+				insight: 2
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.688C57B7BC46E723.subtitle}"
 			tasks: [{
 				id: "1C0663BDDF3D6C78"
@@ -642,6 +762,11 @@
 			description: ["{quest.twr.4845A9B7B7B2B4A5.description.1}"]
 			hide_until_deps_visible: false
 			id: "4845A9B7B7B2B4A5"
+			rewards: [{
+				id: "1EC9B6068828FF6C"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.4845A9B7B7B2B4A5.subtitle}"
 			tasks: [{
@@ -662,11 +787,18 @@
 				"{quest.twr.7F84766122DC4753.description.2}"
 			]
 			id: "7F84766122DC4753"
-			rewards: [{
-				id: "6CBD3661862351E1"
-				item: "frostedheart:packed_nuts"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6CBD3661862351E1"
+					item: "frostedheart:packed_nuts"
+					type: "item"
+				}
+				{
+					id: "68564D4E5815CA5D"
+					insight: 5
+					type: "frostedheart:insight"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "{quest.twr.7F84766122DC4753.subtitle}"
@@ -701,12 +833,19 @@
 			]
 			hide_until_deps_visible: false
 			id: "41D8E04627E55A86"
-			rewards: [{
-				count: 8
-				id: "51310F30B7BB348B"
-				item: "minecraft:stripped_oak_log"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "51310F30B7BB348B"
+					item: "minecraft:stripped_oak_log"
+					type: "item"
+				}
+				{
+					id: "0081992A0DA470C5"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+			]
 			tasks: [{
 				id: "48F77C1ACADE71D8"
 				item: "create:mechanical_saw"
@@ -768,6 +907,11 @@
 			description: ["{quest.twr.0C424AAC550ACF02.description.1}"]
 			id: "0C424AAC550ACF02"
 			optional: true
+			rewards: [{
+				id: "2D9EB13C1F17A8E1"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "29D00E6F6721FFC3"
 				item: "create:stressometer"
@@ -782,6 +926,11 @@
 			hide_until_deps_visible: false
 			id: "39C5B2690D8A6DEC"
 			optional: true
+			rewards: [{
+				id: "3863C0591F73AFE0"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.39C5B2690D8A6DEC.subtitle}"
 			tasks: [
 				{
@@ -807,6 +956,11 @@
 			]
 			icon: "immersiveengineering:ingot_nickel"
 			id: "3A91A02EB59A7919"
+			rewards: [{
+				id: "19C51AE9850AC71C"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.3A91A02EB59A7919.subtitle}"
 			tasks: [{
@@ -831,6 +985,11 @@
 			hide_until_deps_visible: false
 			id: "2EBC4AB3DDFC6BA0"
 			optional: true
+			rewards: [{
+				id: "6509006A00063118"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.2EBC4AB3DDFC6BA0.subtitle}"
 			tasks: [{
 				id: "6B348B23D95928B3"
@@ -849,6 +1008,11 @@
 			hide_until_deps_visible: false
 			id: "2659A48FDF01B1B7"
 			optional: true
+			rewards: [{
+				id: "000654560D8B0363"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.2659A48FDF01B1B7.subtitle}"
 			tasks: [{
 				id: "772A426B374D8919"
@@ -865,6 +1029,11 @@
 			hide_until_deps_visible: false
 			id: "739B9AF9D9C2EC05"
 			optional: true
+			rewards: [{
+				id: "002230D4FB5E8859"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.739B9AF9D9C2EC05.subtitle}"
 			tasks: [{
 				id: "2ED97FB90AF6FE84"
@@ -886,6 +1055,11 @@
 			hide_until_deps_visible: false
 			id: "2F9F42B32CEDA8B6"
 			optional: true
+			rewards: [{
+				id: "79D2E8AA08DAB26D"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "642066C8A0E1D945"
 				item: "create:rotation_speed_controller"

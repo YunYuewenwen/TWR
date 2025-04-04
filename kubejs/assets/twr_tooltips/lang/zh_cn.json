@@ -6,6 +6,8 @@
   "item.frostedheart.hand_stove.tooltip.behaviour2": "温暖_躯干_",
   "item.frostedheart.hand_stove.tooltip.condition3": "当与煤棒或木炭棒合成时",
   "item.frostedheart.hand_stove.tooltip.behaviour3": "为炉子补充_燃料_。",
+  "item.frostedheart.hand_stove.tooltip.condition4": "当燃烧结束时",
+  "item.frostedheart.hand_stove.tooltip.behaviour4": "右击地面倒出_灰烬_。",
 
   "item.frostedheart.thermos.tooltip.summary": "一个用来存放_热液体_的_容器_。",
   "item.frostedheart.thermos.tooltip.condition1": "右键点击液体容器时",

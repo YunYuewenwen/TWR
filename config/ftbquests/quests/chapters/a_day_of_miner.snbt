@@ -274,6 +274,11 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: false
 			id: "707E5C06843421A7"
+			rewards: [{
+				id: "1B5A3EAC2BF83187"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "05D317EDBEE17EA2"
 				item: "frostedheart:copper_gravel"
@@ -700,6 +705,11 @@
 		}
 		{
 			id: "05D1A52195707FA9"
+			rewards: [{
+				id: "0CE41C595C99E220"
+				insight: 2
+				type: "frostedheart:insight"
+			}]
 			tasks: [
 				{
 					id: "4C33A210320D17B7"

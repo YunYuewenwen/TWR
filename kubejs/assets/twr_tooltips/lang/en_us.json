@@ -6,6 +6,8 @@
   "item.frostedheart.hand_stove.tooltip.behaviour2": "Warms the _Torso_",
   "item.frostedheart.hand_stove.tooltip.condition3": "When Crafted with Coal Stick or Charcoal Stick",
   "item.frostedheart.hand_stove.tooltip.behaviour3": "Refills the stove with _Fuel_.",
+  "item.frostedheart.hand_stove.tooltip.condition4": "When Finished Burning",
+  "item.frostedheart.hand_stove.tooltip.behaviour4": "Right-click the ground to empty ashes.",
 
   "item.frostedheart.thermos.tooltip.summary": "A _Container_ to store _Hot Fluid_.",
   "item.frostedheart.thermos.tooltip.condition1": "When R-Clicked On Liquid Container",

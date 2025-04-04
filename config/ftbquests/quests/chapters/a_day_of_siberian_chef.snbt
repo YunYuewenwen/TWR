@@ -140,6 +140,11 @@
 			description: ["{quest.twr.20F1DD1209093059.description.1}"]
 			hide_until_deps_visible: false
 			id: "20F1DD1209093059"
+			rewards: [{
+				id: "1347ECD6ADF8BC58"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.20F1DD1209093059.subtitle}"
 			tasks: [{
 				id: "0A913ECAD3E5B736"
@@ -198,6 +203,11 @@
 			description: ["{quest.twr.32DB7CCD0A73D98F.description.1}"]
 			hide_until_deps_visible: false
 			id: "32DB7CCD0A73D98F"
+			rewards: [{
+				id: "3A5F819809C24406"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.32DB7CCD0A73D98F.subtitle}"
 			tasks: [{
 				id: "5E578602513E85BA"
@@ -458,6 +468,11 @@
 				"{quest.twr.42D8CA1487A024B8.description.2}"
 			]
 			id: "42D8CA1487A024B8"
+			rewards: [{
+				id: "5E437A614332D23F"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.42D8CA1487A024B8.subtitle}"
 			tasks: [{
 				id: "75525042F72AA878"
@@ -471,6 +486,11 @@
 		}
 		{
 			id: "0C1E48645515E20B"
+			rewards: [{
+				id: "347971196DBEC621"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "57FD7750AFB4687A"
 				item: "caupona:redstone_ladle"
@@ -481,6 +501,11 @@
 		}
 		{
 			id: "61799B65137B2BE1"
+			rewards: [{
+				id: "5BADB56AC93FF719"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "72E321EC0F471FB9"
 				item: "caupona:portable_brazier"
@@ -491,6 +516,11 @@
 		}
 		{
 			id: "4C0F3C30AEC6208B"
+			rewards: [{
+				id: "1D43C20D38C4CB2B"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "4A80A09741FC4E08"
 				item: "caupona:copper_frying_pan"
@@ -521,6 +551,11 @@
 		}
 		{
 			id: "3BB231C26533D4C1"
+			rewards: [{
+				id: "0262953106849BE8"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "41368BA138990A17"
 				item: "caupona:lead_stew_pot"
@@ -531,6 +566,11 @@
 		}
 		{
 			id: "608D5EAAC3814275"
+			rewards: [{
+				id: "391B1EDEA71C752F"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "6934AB6E3B5DDA4B"
 				item: "caupona:situla"
@@ -541,6 +581,11 @@
 		}
 		{
 			id: "7D976C4229099FE3"
+			rewards: [{
+				id: "23BEA3514FFE70A6"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "2A3BA5F51C4E9AA3"
 				item: "caupona:mud_counter_with_dolium"
@@ -572,6 +617,11 @@
 		{
 			dependencies: ["529E18F00974DC2D"]
 			id: "2D14006D8BDA6B3C"
+			rewards: [{
+				id: "5D76D1D8DEA511B8"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "2406B457866554B1"
 				item: {
@@ -588,6 +638,11 @@
 		}
 		{
 			id: "504C87A39C8FF591"
+			rewards: [{
+				id: "214994EABB548D70"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "4DFDA21AA8B579C0"
 				item: "caupona:stone_griddle"
@@ -598,6 +653,11 @@
 		}
 		{
 			id: "5A5D277E44CDA1AB"
+			rewards: [{
+				id: "060BF9C657F02F95"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "5C2116926CADB0DA"
 				item: {
