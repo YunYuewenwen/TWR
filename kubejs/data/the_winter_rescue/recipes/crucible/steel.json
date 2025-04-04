@@ -1,7 +1,7 @@
 {
   "type": "immersiveindustry:crucible",
   "result": {
-    "item": "immersiveengineering:steel_ingot"
+    "item": "frostedheart:steel_ingot"
   },
   "inputs": [
     {

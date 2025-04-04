@@ -145,6 +145,12 @@ ServerEvents.recipes((event) => {
 	event.remove({ type: "minecraft:blasting", output: "immersiveengineering:ingot_hop_graphite" })
 	event.remove({ type: "minecraft:smelting", output: "immersiveengineering:ingot_hop_graphite" })
 	//event.remove({type: "minecraft:blasting"})
+    event.remove({ type: "minecraft:smelting", input: "#forge:ores/aluminum" })
+    event.remove({ type: "minecraft:blasting", input: "#forge:ores/aluminum" })
+    event.remove({ type: "minecraft:smelting", input: "immersiveengineering:raw_aluminum" })
+    event.remove({ type: "minecraft:blasting", input: "immersiveengineering:raw_aluminum" })
+    event.remove({ type: "minecraft:smelting", input: "create:crushed_raw_aluminum" })
+    event.remove({ type: "minecraft:blasting", input: "create:crushed_raw_aluminum" })
 
 	let disabledItems = [
 		// stone age
@@ -201,6 +207,9 @@ ServerEvents.recipes((event) => {
         "create:milling/calcite",
         "create:milling/dripstone_block",
         "immersiveindustry:crafting/electrolyzer",
+        "immersiveengineering:arcfurnace/raw_ore_aluminum",
+        "immersiveengineering:arcfurnace/raw_block_aluminum",
+        "immersiveindustry:crucible/steel",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

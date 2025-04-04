@@ -94,14 +94,19 @@
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour1": "依靠你的体温保证蘑菇的生长.",
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition2": "当你体温偏低时.",
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour2": "它将会进入休眠，停止生长.",
-  "item.frostedheart.drawing_desk.tooltip.summary": "用于进行科学研究的设备，包含从_研究论文_到材料试验的一切基础必需品.",
-  "item.frostedheart.drawing_desk.tooltip.condition1": "当你将其放置于温暖环境时",
-  "item.frostedheart.drawing_desk.tooltip.condition2": "在体感温暖右键打开并消耗灵感进行研究.",
-  "item.frostedheart.drawing_desk.tooltip.behaviour2": "记得多出去走走同时保护好自己保持灵感.",
+  "item.frostedheart.drawing_desk.tooltip.summary": "一张舒适的木桌，适合书写、绘图，也可趴着打盹。",
+  "item.frostedheart.drawing_desk.tooltip.condition1": "在双手温暖的时候右击时",
+  "item.frostedheart.drawing_desk.tooltip.behavior1": "打开_科学研究_界面。",
   "item.frostedheart.steam_core.tooltip.summary": "一个通入高压蒸汽以提供应力的小型蒸汽机.",
   "item.frostedheart.steam_core.tooltip.condition1": "当通入高压蒸汽时.",
   "item.frostedheart.steam_core.tooltip.behaviour1": "提供一定应力.",
   "item.frostedheart.steam_core.tooltip.condition2": "当你气压不足时.",
-  "item.frostedheart.steam_core.tooltip.behaviour2": "将会停机."
+  "item.frostedheart.steam_core.tooltip.behaviour2": "将会停机.",
+  "item.frostedheart.cooled_magma_block.tooltip.summary": "A _Cooled_ Magma Block.",
+  "item.frostedheart.cooled_magma_block.tooltip.condition1": "When Soaked In Lava Long Enough",
+  "item.frostedheart.cooled_magma_block.tooltip.behaviour1": "Reheats Itself.",
+  "item.minecraft.magma_block.tooltip.summary": "A _Heated_ Magma Block.",
+  "item.minecraft.magma_block.tooltip.condition1": "When Not Soaked In Lava",
+  "item.minecraft.magma_block.tooltip.behaviour1": "Cools Itself."
 }
   

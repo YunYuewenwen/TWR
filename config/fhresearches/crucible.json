@@ -1,5 +1,5 @@
 {
-  "icon": "immersiveengineering:ingot_steel",
+  "icon": "frostedheart:steel_ingot",
   "category": "frostedheart:production",
   "parents": [
     "heating_basin",

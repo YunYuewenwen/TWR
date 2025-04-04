@@ -103,6 +103,20 @@ function carkilnRecipe(inputs, output, time, energy) {
     }
 }
 
+function crucibleRecipe(inputs, output, time, temperature) {
+    let ings = []
+    inputs.forEach((key) => {
+        ings.push(IEIngredient(key))
+    })
+    return {
+        "type": "immersiveindustry:crucible",
+        "inputs": ings,
+        "result": IEIngredient(output),
+        "time": time,
+        "temperature": temperature
+    }
+}
+
 function rotarykilnRecipe(input, output, time, energy) {
     return rotarykilnRecipe2(input,output,time,energy)
 }
