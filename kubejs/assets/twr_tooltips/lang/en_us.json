@@ -161,5 +161,21 @@
 
   "block.frostedheart.thin_ice.tooltip.summary": "A fragile layer of frozen water.",
   "block.frostedheart.thin_ice.tooltip.condition1": "When Not Soaked In Lava",
-  "block.frostedheart.thin_ice.tooltip.behaviour1": "Cools Itself."
+  "block.frostedheart.thin_ice.tooltip.behaviour1": "Cools Itself.",
+
+  "item.frostedheart.makeshift_knife.tooltip.summary": "A simple knife, effective for cutting fibers, leaves, and grass.",
+
+  "block.minecraft.vine.tooltip.summary": "Strong natural fibers — but damp.",
+
+  "block.stone_age.tanning_rack.tooltip.summary": "A simple rack made of sticks for leather processing.",
+  "block.stone_age.tanning_rack.tooltip.condition1": "When right-clicked with an item to be tanned.",
+  "block.stone_age.tanning_rack.tooltip.behaviour1": "Right-click with a _Flint Processing Knife_ to begin tanning.",
+
+  "item.kubejs.activated_carbon.tooltip.summary": "Created by using charcoal on a Steam Charger.",
+
+  "block.minecraft.campfire.tooltip.summary": "A basic fireplace for warmth and cooking.",
+  "block.minecraft.campfire.tooltip.condition1": "When fuel is thrown onto it.",
+  "block.minecraft.campfire.tooltip.behaviour1": "Stores the fuel inside the campfire.",
+  "block.minecraft.campfire.tooltip.condition2": "When ignited.",
+  "block.minecraft.campfire.tooltip.behaviour2": "Maintains a gentle flame for cooking and resting."
 }
