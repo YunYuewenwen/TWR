@@ -672,7 +672,7 @@
 					Count: 1
 					id: "frostedheart:thermos"
 					tag: {
-						Damage: 0
+						Damage: 1500
 					}
 				}
 				type: "item"

@@ -8,10 +8,14 @@
   "item.frostedheart.hand_stove.tooltip.behaviour3": "为炉子补充_燃料_。",
 
   "item.frostedheart.thermos.tooltip.summary": "一个用来存放_热液体_的_容器_。",
-  "item.frostedheart.thermos.tooltip.condition1": "当饮用含有热液体时",
-  "item.frostedheart.thermos.tooltip.behaviour1": "为玩家恢复_热量_。",
-  "item.frostedheart.thermos.tooltip.condition2": "当携带液体时",
-  "item.frostedheart.thermos.tooltip.behaviour2": "为液体提供隔热保温，保持其_温热_。",
+  "item.frostedheart.thermos.tooltip.condition1": "右键点击液体容器时",
+  "item.frostedheart.thermos.tooltip.behaviour1": "将容器中的液体装入保温瓶。",
+  "item.frostedheart.thermos.tooltip.condition2": "右键点击水方块时",
+  "item.frostedheart.thermos.tooltip.behaviour2": "装入 _未净化的水_。",
+  "item.frostedheart.thermos.tooltip.condition3": "当饮用含有热液体时",
+  "item.frostedheart.thermos.tooltip.behaviour3": "为玩家恢复_热量_。",
+  "item.frostedheart.thermos.tooltip.condition4": "当携带液体时",
+  "item.frostedheart.thermos.tooltip.behaviour4": "为液体提供隔热保温，保持其_温热_。",
 
   "item.frostedheart.rusted_metal.tooltip.summary": "氧化后的金属，回归其自然状态。",
   "item.frostedheart.rusted_metal.tooltip.condition1": "当被熔炼时",
@@ -106,7 +110,16 @@
   "item.frostedheart.mercury_body_thermometer.tooltip.behaviour1": "显示_核心体温_。",
 
   "item.frostedheart.leather_water_bag.tooltip.summary": "一个由防水皮革制成的液体容器。",
+  "item.frostedheart.leather_water_bag.tooltip.condition1": "右键点击液体容器时",
+  "item.frostedheart.leather_water_bag.tooltip.behaviour1": "将容器中的液体装入保温瓶。",
+  "item.frostedheart.leather_water_bag.tooltip.condition2": "右键点击水方块时",
+  "item.frostedheart.leather_water_bag.tooltip.behaviour2": "装入 _未净化的水_。",
+
   "item.frostedheart.iron_bottle.tooltip.summary": "一个由坚硬金属制成的液体容器。",
+  "item.frostedheart.iron_bottle.tooltip.condition1": "右键点击液体容器时",
+  "item.frostedheart.iron_bottle.tooltip.behaviour1": "将容器中的液体装入保温瓶。",
+  "item.frostedheart.iron_bottle.tooltip.condition2": "右键点击水方块时",
+  "item.frostedheart.iron_bottle.tooltip.behaviour2": "装入 _未净化的水_。",
 
   "item.frostedheart.coal_stick.tooltip.summary": "一根燃烧温和的煤棒。",
   "item.frostedheart.coal_stick.tooltip.condition1": "当与手炉合成时",
@@ -158,8 +171,6 @@
   "block.minecraft.magma_block.tooltip.behaviour1": "会逐渐冷却。",
 
   "block.frostedheart.thin_ice.tooltip.summary": "一层脆弱的冰面。",
-  "block.frostedheart.thin_ice.tooltip.condition1": "当未浸泡在熔岩中时",
-  "block.frostedheart.thin_ice.tooltip.behaviour1": "会逐渐冷却。",
 
   "item.frostedheart.makeshift_knife.tooltip.summary": "一把简单的刀，适合切割纤维、树叶和草。",
 

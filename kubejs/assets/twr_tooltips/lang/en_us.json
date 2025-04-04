@@ -8,10 +8,14 @@
   "item.frostedheart.hand_stove.tooltip.behaviour3": "Refills the stove with _Fuel_.",
 
   "item.frostedheart.thermos.tooltip.summary": "A _Container_ to store _Hot Fluid_.",
-  "item.frostedheart.thermos.tooltip.condition1": "When Drank With Hot Fluid",
-  "item.frostedheart.thermos.tooltip.behaviour1": "Restores _Heat_ to the player.",
-  "item.frostedheart.thermos.tooltip.condition2": "When Carrying Fluids",
-  "item.frostedheart.thermos.tooltip.behaviour2": "Insulates the fluid to keep it _Hot_.",
+  "item.frostedheart.thermos.tooltip.condition1": "When R-Clicked On Liquid Container",
+  "item.frostedheart.thermos.tooltip.behaviour1": "Fills itself with stored liquid.",
+  "item.frostedheart.thermos.tooltip.condition2": "When R-Clicked On Water Block",
+  "item.frostedheart.thermos.tooltip.behaviour2": "Fills itself with _Unpurified Water_.",
+  "item.frostedheart.thermos.tooltip.condition3": "When Drank With Hot Fluid",
+  "item.frostedheart.thermos.tooltip.behaviour3": "Restores _Heat_ to the player.",
+  "item.frostedheart.thermos.tooltip.condition4": "When Carrying Fluids",
+  "item.frostedheart.thermos.tooltip.behaviour4": "Insulates the fluid to keep it _Hot_.",
 
   "item.frostedheart.rusted_metal.tooltip.summary": "Metal oxidized into its natural state.",
   "item.frostedheart.rusted_metal.tooltip.condition1": "When Smelted",
@@ -106,8 +110,16 @@
   "item.frostedheart.mercury_body_thermometer.tooltip.behaviour1": "Displays _Core Body Temperature_.",
 
   "item.frostedheart.leather_water_bag.tooltip.summary": "A liquid container made from waterproof leather.",
+  "item.frostedheart.leather_water_bag.tooltip.condition1": "When R-Clicked On Liquid Container",
+  "item.frostedheart.leather_water_bag.tooltip.behaviour1": "Fills itself with stored liquid.",
+  "item.frostedheart.leather_water_bag.tooltip.condition2": "When R-Clicked On Water Block",
+  "item.frostedheart.leather_water_bag.tooltip.behaviour2": "Fills itself with _Unpurified Water_.",
 
   "item.frostedheart.iron_bottle.tooltip.summary": "A liquid container made from hard metal.",
+  "item.frostedheart.iron_bottle.tooltip.condition1": "When R-Clicked On Liquid Container",
+  "item.frostedheart.iron_bottle.tooltip.behaviour1": "Fills itself with stored liquid.",
+  "item.frostedheart.iron_bottle.tooltip.condition2": "When R-Clicked On Water Block",
+  "item.frostedheart.iron_bottle.tooltip.behaviour2": "Fills itself with _Unpurified Water_.",
 
   "item.frostedheart.coal_stick.tooltip.summary": "A stick of coal that burns gently.",
   "item.frostedheart.coal_stick.tooltip.condition1": "When Crafted With Hand Stove.",
@@ -160,8 +172,6 @@
   "block.minecraft.magma_block.tooltip.behaviour1": "Cools Itself.",
 
   "block.frostedheart.thin_ice.tooltip.summary": "A fragile layer of frozen water.",
-  "block.frostedheart.thin_ice.tooltip.condition1": "When Not Soaked In Lava",
-  "block.frostedheart.thin_ice.tooltip.behaviour1": "Cools Itself.",
 
   "item.frostedheart.makeshift_knife.tooltip.summary": "A simple knife, effective for cutting fibers, leaves, and grass.",
 

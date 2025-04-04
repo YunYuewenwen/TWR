@@ -16,8 +16,8 @@
 				item: "frostedheart:rye_flour"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["68CF06AA926D32E6"]
@@ -33,7 +33,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["68CF06AA926D32E6"]
@@ -49,7 +49,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["68CF06AA926D32E6"]
@@ -65,8 +65,8 @@
 				item: "frostedheart:rye_sawdust_porridge"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["68CF06AA926D32E6"]
@@ -78,57 +78,8 @@
 				item: "frostedheart:rye_bread"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["7AA152F9B5AF6677"]
-			description: ["{quest.twr.0732C5BB3471FFA7.description.1}"]
-			id: "0732C5BB3471FFA7"
-			subtitle: "{quest.twr.0732C5BB3471FFA7.subtitle}"
-			tasks: [{
-				id: "34A38C43B43919AF"
-				item: "minecraft:snowball"
-				type: "item"
-			}]
-			title: "{quest.twr.0732C5BB3471FFA7.title}"
-			x: 1.5d
-			y: -2.5d
-		}
-		{
-			description: [
-				"{quest.twr.7AA152F9B5AF6677.description.1}"
-				"{quest.twr.7AA152F9B5AF6677.description.2}"
-			]
-			hide_until_deps_visible: false
-			id: "7AA152F9B5AF6677"
-			rewards: [
-				{
-					id: "5F864E78576B3F95"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "crockpot:book"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "10FFFC40E146E2E1"
-					insight: 1
-					type: "frostedheart:insight"
-				}
-			]
-			shape: "rsquare"
-			subtitle: "{quest.twr.7AA152F9B5AF6677.subtitle}"
-			tasks: [{
-				id: "52F890F133BBE3C5"
-				item: "crockpot:crock_pot"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -4.0d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["69D939596ED4C0AF"]
@@ -147,8 +98,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.6D01046E549A087E.title}"
-			x: 1.5d
-			y: -0.5d
+			x: -7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6D01046E549A087E"]
@@ -164,8 +115,8 @@
 				item: "frostedheart:vegetable_soup"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6D01046E549A087E"]
@@ -181,14 +132,11 @@
 				item: "frostedheart:vegetable_sawdust_soup"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: -6.0d
+			y: 0.5d
 		}
 		{
-			dependencies: [
-				"7887EB905BAA7BEF"
-				"516392D8FE0C7E91"
-			]
+			dependencies: ["7887EB905BAA7BEF"]
 			description: ["{quest.twr.20F1DD1209093059.description.1}"]
 			hide_until_deps_visible: false
 			id: "20F1DD1209093059"
@@ -200,8 +148,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.20F1DD1209093059.title}"
-			x: -6.0d
-			y: -2.5d
+			x: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["69D939596ED4C0AF"]
@@ -219,8 +167,8 @@
 				item: "frostedheart:rye"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: -7.5d
+			y: -1.0d
 		}
 		{
 			hide_until_deps_visible: false
@@ -243,8 +191,8 @@
 				item: "caupona:meat_soup_aspic"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.5d
+			x: -10.5d
+			y: 0.5d
 		}
 		{
 			description: ["{quest.twr.32DB7CCD0A73D98F.description.1}"]
@@ -257,7 +205,7 @@
 				type: "item"
 			}]
 			title: "{quest.twr.32DB7CCD0A73D98F.title}"
-			x: -3.5d
+			x: -7.5d
 			y: -4.0d
 		}
 		{
@@ -288,14 +236,11 @@
 				type: "item"
 			}]
 			title: "{quest.twr.0CA87739C86BB0C6.title}"
-			x: -3.5d
-			y: -2.5d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"0CA87739C86BB0C6"
-				"516392D8FE0C7E91"
-			]
+			dependencies: ["0CA87739C86BB0C6"]
 			description: [
 				"{quest.twr.73ADDB2F9A4F7C5D.description.1}"
 				"{quest.twr.73ADDB2F9A4F7C5D.description.2}"
@@ -327,45 +272,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["7AA152F9B5AF6677"]
-			description: ["{quest.twr.50428AA91D1E1EFF.description.1}"]
-			hide_until_deps_visible: false
-			id: "50428AA91D1E1EFF"
-			subtitle: "{quest.twr.50428AA91D1E1EFF.subtitle}"
-			tasks: [{
-				id: "25F4750A79862407"
-				item: "minecraft:rotten_flesh"
-				type: "item"
-			}]
-			title: "{quest.twr.50428AA91D1E1EFF.title}"
-			x: 3.0d
+			x: -4.5d
 			y: -4.0d
-		}
-		{
-			dependencies: [
-				"50428AA91D1E1EFF"
-				"7AA152F9B5AF6677"
-			]
-			description: ["{quest.twr.0B7A7EF07D539FC5.description.1}"]
-			hide_until_deps_visible: false
-			id: "0B7A7EF07D539FC5"
-			rewards: [{
-				id: "5158E6736651F732"
-				insight: 1
-				type: "frostedheart:insight"
-			}]
-			subtitle: "{quest.twr.0B7A7EF07D539FC5.subtitle}"
-			tasks: [{
-				id: "7240809FBC34F830"
-				item: "crockpot:meat_balls"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -2.5d
 		}
 		{
 			description: [
@@ -385,8 +293,8 @@
 				item: "minecraft:apple"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -0.5d
+			x: -7.5d
+			y: -7.0d
 		}
 		{
 			description: ["{quest.twr.529E18F00974DC2D.description.1}"]
@@ -403,8 +311,8 @@
 				item: "caupona:walnut"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -7.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["11A33F924E78C874"]
@@ -435,11 +343,14 @@
 				type: "item"
 			}]
 			title: "{quest.twr.516392D8FE0C7E91.title}"
-			x: -6.0d
-			y: -4.0d
+			x: -9.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["5845439CF721309F"]
+			dependencies: [
+				"5845439CF721309F"
+				"68CF06AA926D32E6"
+			]
 			description: ["{quest.twr.7E9108130096673E.description.1}"]
 			id: "7E9108130096673E"
 			rewards: [
@@ -460,13 +371,14 @@
 				item: "frostedheart:compressed_biscuits"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"7A992B9F9DB079E6"
 				"047F11A29F16A270"
+				"42D8CA1487A024B8"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -485,40 +397,34 @@
 				type: "item"
 			}]
 			title: "{quest.twr.027E793362A7ECBE.title}"
-			x: -1.5d
-			y: -4.0d
+			x: -6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["027E793362A7ECBE"]
 			description: ["{quest.twr.2292AB368EF121C2.description.1}"]
-			icon: "minecraft:brown_mushroom"
+			icon: "minecraft:mushroom_stem"
 			id: "2292AB368EF121C2"
 			rewards: [{
 				id: "69AB5F1F4765E636"
 				insight: 1
 				type: "frostedheart:insight"
 			}]
-			tasks: [
-				{
-					count: 8L
-					id: "5656D07546CDEC9C"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:mushrooms"
-						}
+			tasks: [{
+				count: 8L
+				id: "5656D07546CDEC9C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:mushrooms"
 					}
-					title: "{quest.twr.2292AB368EF121C2.5656D07546CDEC9C.title}"
-					type: "item"
 				}
-				{
-					id: "1C4A593BD5882B95"
-					type: "checkmark"
-				}
-			]
+				title: "{quest.twr.2292AB368EF121C2.5656D07546CDEC9C.title}"
+				type: "item"
+			}]
 			title: "{quest.twr.2292AB368EF121C2.title}"
-			x: -2.0d
+			x: -4.5d
 			y: -2.5d
 		}
 		{
@@ -543,11 +449,10 @@
 				item: "frostedheart:chocolate"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["516392D8FE0C7E91"]
 			description: [
 				"{quest.twr.42D8CA1487A024B8.description.1}"
 				"{quest.twr.42D8CA1487A024B8.description.2}"
@@ -561,8 +466,151 @@
 				type: "item"
 			}]
 			title: "{quest.twr.42D8CA1487A024B8.title}"
-			x: -7.0d
+			x: -7.5d
 			y: -2.5d
+		}
+		{
+			id: "0C1E48645515E20B"
+			tasks: [{
+				id: "57FD7750AFB4687A"
+				item: "caupona:redstone_ladle"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			id: "61799B65137B2BE1"
+			tasks: [{
+				id: "72E321EC0F471FB9"
+				item: "caupona:portable_brazier"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			id: "4C0F3C30AEC6208B"
+			tasks: [{
+				id: "4A80A09741FC4E08"
+				item: "caupona:copper_frying_pan"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			id: "388ACA1406EE3413"
+			tasks: [{
+				id: "14CBF2CFFF2EFAA9"
+				item: "caupona:iron_frying_pan"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			id: "56963E242860E06F"
+			tasks: [{
+				id: "6C0C16FB1B25A6EE"
+				item: "caupona:lead_frying_pan"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			id: "3BB231C26533D4C1"
+			tasks: [{
+				id: "41368BA138990A17"
+				item: "caupona:lead_stew_pot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			id: "608D5EAAC3814275"
+			tasks: [{
+				id: "6934AB6E3B5DDA4B"
+				item: "caupona:situla"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			id: "7D976C4229099FE3"
+			tasks: [{
+				id: "2A3BA5F51C4E9AA3"
+				item: "caupona:mud_counter_with_dolium"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			id: "19A1AA8AD7A9BE0D"
+			tasks: [{
+				id: "3C7F3A4B49D7D2AB"
+				item: "caupona:tessellation_workbench"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			id: "121CC99EBE8CC8B7"
+			tasks: [{
+				id: "2D85DF9B715EFA77"
+				item: "caupona:wolf_statue"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["529E18F00974DC2D"]
+			id: "2D14006D8BDA6B3C"
+			tasks: [{
+				id: "2406B457866554B1"
+				item: {
+					Count: 1
+					id: "caupona:gravy_boat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			id: "504C87A39C8FF591"
+			tasks: [{
+				id: "4DFDA21AA8B579C0"
+				item: "caupona:stone_griddle"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			id: "5A5D277E44CDA1AB"
+			tasks: [{
+				id: "5C2116926CADB0DA"
+				item: {
+					Count: 1
+					id: "caupona:iron_skimmer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["{chapter.twr.715FF1EB059BCACF.subtitle}"]

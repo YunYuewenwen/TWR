@@ -155,11 +155,6 @@
 			hide_until_deps_visible: false
 			icon: "crockpot:turkey_dinner"
 			id: "24E7D1E02BE55A8E"
-			rewards: [{
-				id: "1BCCE95CAC67C16F"
-				item: "minecraft:apple"
-				type: "item"
-			}]
 			shape: "hexagon"
 			subtitle: "{quest.twr.24E7D1E02BE55A8E.subtitle}"
 			tasks: [{
