@@ -135,15 +135,15 @@
 
   "block.frostedresearch.drawing_desk.tooltip.summary": "A comfortable wooden desk suitable for writing, drawing, or even taking a nap on.",
   "block.frostedresearch.drawing_desk.tooltip.condition1": "When right-clicked with warm hands",
-  "block.frostedresearch.drawing_desk.tooltip.behavior1": "Opens the _Scientific Research_ interface.",
+  "block.frostedresearch.drawing_desk.tooltip.behaviour1": "Opens the _Scientific Research_ interface.",
 
   "block.frostedresearch.mechanical_calculator.tooltip.summary": "An elegant _Computer_ powered by rotational power.",
   "block.frostedresearch.mechanical_calculator.tooltip.condition1": "When Connected With 64 RPM Rotational Power",
-  "block.frostedresearch.mechanical_calculator.tooltip.behavior1": "Generates _Research Points_.",
+  "block.frostedresearch.mechanical_calculator.tooltip.behaviour1": "Generates _Research Points_.",
   "block.frostedresearch.mechanical_calculator.tooltip.condition2": "When R-Clicked While Working",
-  "block.frostedresearch.mechanical_calculator.tooltip.behavior2": "Collects _Research Points_ for _Current Research_.",
+  "block.frostedresearch.mechanical_calculator.tooltip.behaviour2": "Collects _Research Points_ for _Current Research_.",
   "block.frostedresearch.mechanical_calculator.tooltip.condition3": "When Inspected With Goggles",
-  "block.frostedresearch.mechanical_calculator.tooltip.behavior3": "Shows _Working Status_ and _Stored Research Points_.",
+  "block.frostedresearch.mechanical_calculator.tooltip.behaviour3": "Shows _Working Status_ and _Stored Research Points_.",
 
   "block.frostedheart.steam_core.tooltip.summary": "A small steam engine that uses high-pressure steam to provide mechanical stress.",
   "block.frostedheart.steam_core.tooltip.condition1": "When Connected to High Pressure Steam",

@@ -133,15 +133,15 @@
 
   "block.frostedresearch.drawing_desk.tooltip.summary": "一张舒适的木桌，适合书写、绘图，也可趴着打盹。",
   "block.frostedresearch.drawing_desk.tooltip.condition1": "在双手温暖的时候右击时",
-  "block.frostedresearch.drawing_desk.tooltip.behavior1": "打开_科学研究_界面。",
+  "block.frostedresearch.drawing_desk.tooltip.behaviour1": "打开_科学研究_界面。",
 
   "block.frostedresearch.mechanical_calculator.tooltip.summary": "由旋转动力驱动的优雅_计算机_。",
   "block.frostedresearch.mechanical_calculator.tooltip.condition1": "当连接64 RPM旋转动力时",
-  "block.frostedresearch.mechanical_calculator.tooltip.behavior1": "生成_研究点数_。",
+  "block.frostedresearch.mechanical_calculator.tooltip.behaviour1": "生成_研究点数_。",
   "block.frostedresearch.mechanical_calculator.tooltip.condition2": "当运作时右键点击",
-  "block.frostedresearch.mechanical_calculator.tooltip.behavior2": "为_当前研究_收集_研究点数_。",
+  "block.frostedresearch.mechanical_calculator.tooltip.behaviour2": "为_当前研究_收集_研究点数_。",
   "block.frostedresearch.mechanical_calculator.tooltip.condition3": "当佩戴护目镜检查时",
-  "block.frostedresearch.mechanical_calculator.tooltip.behavior3": "显示_工作状态_和_储存的研究点数_。",
+  "block.frostedresearch.mechanical_calculator.tooltip.behaviour3": "显示_工作状态_和_储存的研究点数_。",
 
   "block.frostedheart.steam_core.tooltip.summary": "利用高压蒸汽提供机械应力的小型蒸汽引擎。",
   "block.frostedheart.steam_core.tooltip.condition1": "当连接高压蒸汽时",
