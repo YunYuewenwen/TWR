@@ -383,13 +383,8 @@
 				"{image:twr_quests:textures/quest/research_game.png width:243 height:170 align:1 fit:true}"
 			]
 			hide_dependency_lines: true
-			icon: "crockpot:salmon_sushi"
+			icon: "supplementaries:sign_post_spruce"
 			id: "4D3FCF56475C0CD7"
-			rewards: [{
-				id: "6B501B88DE8C0101"
-				item: "crockpot:california_roll"
-				type: "item"
-			}]
 			subtitle: "{quest.twr.4D3FCF56475C0CD7.subtitle}"
 			tasks: [{
 				id: "74EA581650245E6D"

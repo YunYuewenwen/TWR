@@ -257,20 +257,12 @@
 			]
 			hide_until_deps_visible: false
 			id: "73ADDB2F9A4F7C5D"
-			rewards: [
-				{
-					id: "154FB20C62811903"
-					item: "crockpot:mushy_cake"
-					only_one: true
-					type: "item"
-				}
-				{
-					id: "0960372C79133868"
-					item: "kubejs:wet_straw_briquette"
-					only_one: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0960372C79133868"
+				item: "kubejs:wet_straw_briquette"
+				only_one: true
+				type: "item"
+			}]
 			subtitle: "{quest.twr.73ADDB2F9A4F7C5D.subtitle}"
 			tasks: [{
 				consume_items: false

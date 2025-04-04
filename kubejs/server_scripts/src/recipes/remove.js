@@ -36,8 +36,6 @@ ServerEvents.recipes((event) => {
 		"supplementaries:wind_vane",
 		"supplementaries:faucet",
 		"supplementaries:bomb",
-		"crockpot:crock_pot_advanced",
-		"crockpot:crock_pot_ultimate",
 		"minecraft:green_dye",
 	]
 	workbench.forEach((Item) => {

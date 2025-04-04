@@ -153,7 +153,7 @@
 				"{quest.twr.24E7D1E02BE55A8E.description.8}"
 			]
 			hide_until_deps_visible: false
-			icon: "crockpot:turkey_dinner"
+			icon: "caupona:plump_snail"
 			id: "24E7D1E02BE55A8E"
 			shape: "hexagon"
 			subtitle: "{quest.twr.24E7D1E02BE55A8E.subtitle}"
