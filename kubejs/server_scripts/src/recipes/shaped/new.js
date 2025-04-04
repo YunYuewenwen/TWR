@@ -574,6 +574,17 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
+            "minecraft:arrow", 4, [
+            "A",
+            "B",
+            "C"
+        ], {
+            A: "#twr:nuggets/structural",
+            B: "#forge:rods/wooden",
+            C: "#forge:feathers"
+        }
+        ],
+        [
             "frostedheart:hand_stove", [
             " B ",
             "BAB",

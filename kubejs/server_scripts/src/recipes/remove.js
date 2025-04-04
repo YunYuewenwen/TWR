@@ -37,6 +37,7 @@ ServerEvents.recipes((event) => {
 		"supplementaries:faucet",
 		"supplementaries:bomb",
 		"minecraft:green_dye",
+        "minecraft:bread"
 	]
 	workbench.forEach((Item) => {
 		event.remove({ type: "minecraft:crafting_shaped", output: Item })
