@@ -29,63 +29,63 @@
 
   "item.kubejs.damaged_gpu.tooltip.summary": "一个曾用于非法挖币工厂的、现在已经损坏的显卡",
   "item.kubejs.damaged_gpu.tooltip.condition1": "当用于绘图台",
-  "item.kubejs.damaged_gpu.tooltip.behaviour1": "获得_灵感_.",
+  "item.kubejs.damaged_gpu.tooltip.behaviour1": "获得_见闻_.",
 
   "item.frostedheart.energy_core.tooltip.summary": "一个会发光的核心。",
   "item.frostedheart.energy_core.tooltip.condition1": "当用于研究时",
   "item.frostedheart.energy_core.tooltip.behaviour1": "了解_能量塔_的建造方法。",
 
   "item.frostedheart.copper_pro_pick.tooltip.summary": "一把用于勘探地质和发现_矿石_的特制工具",
-  "item.frostedheart.copper_pro_pick.tooltip.condition1": "当主手手持并对地右键时.",
+  "item.frostedheart.copper_pro_pick.tooltip.condition1": "主手持有时右击地面.",
   "item.frostedheart.copper_pro_pick.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
 
   "item.frostedheart.iron_pro_pick.tooltip.summary": "一把用于勘探地质和发现_矿石_的特制工具",
-  "item.frostedheart.iron_pro_pick.tooltip.condition1": "当主手手持并对地右键时.",
+  "item.frostedheart.iron_pro_pick.tooltip.condition1": "主手持有时右击地面.",
   "item.frostedheart.iron_pro_pick.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
 
   "item.frostedheart.steel_pro_pick.tooltip.summary": "一把用于勘探地质和发现_矿石_的特制工具",
-  "item.frostedheart.steel_pro_pick.tooltip.condition1": "当主手手持并对地右键时.",
+  "item.frostedheart.steel_pro_pick.tooltip.condition1": "主手持有时右击地面.",
   "item.frostedheart.steel_pro_pick.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
 
   "item.frostedheart.copper_core_spade.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制工具",
-  "item.frostedheart.copper_core_spade.tooltip.condition1": "当主手手持并对地右键时.",
+  "item.frostedheart.copper_core_spade.tooltip.condition1": "主手持有时右击地面.",
   "item.frostedheart.copper_core_spade.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
 
   "item.frostedheart.iron_core_spade.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制工具",
-  "item.frostedheart.iron_core_spade.tooltip.condition1": "当主手手持并对地右键时.",
+  "item.frostedheart.iron_core_spade.tooltip.condition1": "主手持有时右击地面.",
   "item.frostedheart.iron_core_spade.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
 
   "item.frostedheart.steel_core_spade.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制工具",
-  "item.frostedheart.steel_core_spade.tooltip.condition1": "当主手手持并对地右键时.",
+  "item.frostedheart.steel_core_spade.tooltip.condition1": "主手持有时右击地面.",
   "item.frostedheart.steel_core_spade.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
 
   "item.frostedheart.copper_geologists_hammer.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制锤",
-  "item.frostedheart.copper_geologists_hammer.tooltip.condition1": "当主手手持并对地右键时.",
+  "item.frostedheart.copper_geologists_hammer.tooltip.condition1": "主手持有时右击地面.",
   "item.frostedheart.copper_geologists_hammer.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
 
   "item.frostedheart.iron_geologists_hammer.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制锤",
-  "item.frostedheart.iron_geologists_hammer.tooltip.condition1": "当主手手持并对地右键时.",
+  "item.frostedheart.iron_geologists_hammer.tooltip.condition1": "主手持有时右击地面.",
   "item.frostedheart.iron_geologists_hammer.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
 
   "item.frostedheart.steel_geologists_hammer.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制锤",
-  "item.frostedheart.steel_geologists_hammer.tooltip.condition1": "当主手手持并对地右键时.",
+  "item.frostedheart.steel_geologists_hammer.tooltip.condition1": "主手持有时右击地面.",
   "item.frostedheart.steel_geologists_hammer.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
 
   "item.kubejs.damaged_electric_motor.tooltip.summary": "一个损坏的伺服电机.",
   "item.kubejs.damaged_electric_motor.tooltip.condition1": "当在绘图台中使用时",
-  "item.kubejs.damaged_electric_motor.tooltip.behaviour1": "获得_灵感_.",
+  "item.kubejs.damaged_electric_motor.tooltip.behaviour1": "获得_见闻_.",
 
   "item.kubejs.damaged_circuit_board.tooltip.summary": "一块损坏的电路板.",
   "item.kubejs.damaged_circuit_board.tooltip.condition1": "当在绘图台中使用时",
-  "item.kubejs.damaged_circuit_board.tooltip.behaviour1": "获得_灵感_.",
+  "item.kubejs.damaged_circuit_board.tooltip.behaviour1": "获得_见闻_.",
 
   "item.kubejs.damaged_camera.tooltip.summary": "一个破损的记者相机.",
   "item.kubejs.damaged_camera.tooltip.condition1": "当在绘图台中使用时",
-  "item.kubejs.damaged_camera.tooltip.behaviour1": "获得_灵感_.",
+  "item.kubejs.damaged_camera.tooltip.behaviour1": "获得_见闻_.",
 
   "item.frostedheart.temperature_probe.tooltip.summary": "一个用于了解方块温度的便携工具。",
   "item.frostedheart.temperature_probe.tooltip.condition1": "当持于任意手中时",
-  "item.frostedheart.temperature_probe.tooltip.behaviour1": "显示_目标方块_的_温度修正值_。",
+  "item.frostedheart.temperature_probe.tooltip.behaviour1": "显示_目标方块_的_温度调节值_。",
 
   "item.frostedheart.soil_thermometer.tooltip.summary": "农民测量土壤温度的必备工具。",
   "item.frostedheart.soil_thermometer.tooltip.condition1": "当用于一个方块时",
