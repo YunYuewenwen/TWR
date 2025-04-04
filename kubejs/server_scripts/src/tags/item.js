@@ -44,6 +44,7 @@ ServerEvents.tags("item", (event) => {
     event.add("caupona:meats", "frostedheart:chocolate")
     event.add("caupona:eggs", "crockpot:cooked_egg")
     event.add("forge:string", "stone_age:grass_lead")
+    event.add("forge:string", "stone_age:leather_strip")
     event.add("forge:raw_materials/magnesium", "frostedheart:raw_magnesite")
 
     event.add("caupona:container", "#frostedheart:thermos")

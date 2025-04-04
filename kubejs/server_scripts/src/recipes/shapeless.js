@@ -74,6 +74,57 @@ ServerEvents.recipes((event) => {
                 "kubejs:coal_briquette"
             ]
         ],
+        [
+            "stone_age:raw_hide",
+            [
+                "minecraft:rabbit_hide",
+                "minecraft:rabbit_hide",
+                "minecraft:rabbit_hide",
+                "minecraft:rabbit_hide",
+            ]
+        ],
+        [
+            "frostedheart:magnesite_block",
+            [
+                "frostedheart:raw_magnesite",
+                "frostedheart:raw_magnesite",
+                "frostedheart:raw_magnesite",
+                "frostedheart:raw_magnesite",
+                "frostedheart:raw_magnesite",
+                "frostedheart:raw_magnesite",
+                "frostedheart:raw_magnesite",
+                "frostedheart:raw_magnesite",
+                "frostedheart:raw_magnesite"
+            ]
+        ],
+        [
+            "frostedheart:quicklime_block",
+            [
+                "frostedheart:quicklime",
+                "frostedheart:quicklime",
+                "frostedheart:quicklime",
+                "frostedheart:quicklime",
+                "frostedheart:quicklime",
+                "frostedheart:quicklime",
+                "frostedheart:quicklime",
+                "frostedheart:quicklime",
+                "frostedheart:quicklime",
+            ]
+        ],
+        [
+            "frostedheart:magnesia_block",
+            [
+                "frostedheart:magnesia_dust",
+                "frostedheart:magnesia_dust",
+                "frostedheart:magnesia_dust",
+                "frostedheart:magnesia_dust",
+                "frostedheart:magnesia_dust",
+                "frostedheart:magnesia_dust",
+                "frostedheart:magnesia_dust",
+                "frostedheart:magnesia_dust",
+                "frostedheart:magnesia_dust",
+            ]
+        ],
     ]
     addShapelessRecipes.forEach((recipe, index) => {
         let [

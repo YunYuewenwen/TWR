@@ -150,6 +150,7 @@ ServerEvents.recipes((event) => {
     event.remove({ type: "minecraft:blasting", input: "immersiveengineering:raw_aluminum" })
     event.remove({ type: "minecraft:smelting", input: "create:crushed_raw_aluminum" })
     event.remove({ type: "minecraft:blasting", input: "create:crushed_raw_aluminum" })
+    event.remove({ input: "immersiveengineering:raw_aluminum" })
 
 	let disabledItems = [
 		// stone age

@@ -53,29 +53,29 @@
   "item.frostedheart.steel_pro_pick.tooltip.condition1": "主手持有时右击地面.",
   "item.frostedheart.steel_pro_pick.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
 
-  "item.frostedheart.copper_core_spade.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制工具",
+  "item.frostedheart.copper_core_spade.tooltip.summary": "一把用于勘探岩层和发现_矿石_的特制工具",
   "item.frostedheart.copper_core_spade.tooltip.condition1": "主手持有时右击地面.",
-  "item.frostedheart.copper_core_spade.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+  "item.frostedheart.copper_core_spade.tooltip.behaviour1": "勘探下方一定深度的岩层和矿物信息.",
 
-  "item.frostedheart.iron_core_spade.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制工具",
+  "item.frostedheart.iron_core_spade.tooltip.summary": "一把用于勘探岩层和发现_矿石_的特制工具",
   "item.frostedheart.iron_core_spade.tooltip.condition1": "主手持有时右击地面.",
-  "item.frostedheart.iron_core_spade.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+  "item.frostedheart.iron_core_spade.tooltip.behaviour1": "勘探下方一定深度的岩层和矿物信息.",
 
-  "item.frostedheart.steel_core_spade.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制工具",
+  "item.frostedheart.steel_core_spade.tooltip.summary": "一把用于勘探岩层和发现_矿石_的特制工具",
   "item.frostedheart.steel_core_spade.tooltip.condition1": "主手持有时右击地面.",
-  "item.frostedheart.steel_core_spade.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+  "item.frostedheart.steel_core_spade.tooltip.behaviour1": "勘探下方一定深度的岩层和矿物信息.",
 
   "item.frostedheart.copper_geologists_hammer.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制锤",
   "item.frostedheart.copper_geologists_hammer.tooltip.condition1": "主手持有时右击地面.",
-  "item.frostedheart.copper_geologists_hammer.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+  "item.frostedheart.copper_geologists_hammer.tooltip.behaviour1": "勘探小范围内的精确矿石分布.",
 
   "item.frostedheart.iron_geologists_hammer.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制锤",
   "item.frostedheart.iron_geologists_hammer.tooltip.condition1": "主手持有时右击地面.",
-  "item.frostedheart.iron_geologists_hammer.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+  "item.frostedheart.iron_geologists_hammer.tooltip.behaviour1": "勘探小范围内的精确矿石分布.",
 
   "item.frostedheart.steel_geologists_hammer.tooltip.summary": "一把用于勘探土质和发现_矿石_的特制锤",
   "item.frostedheart.steel_geologists_hammer.tooltip.condition1": "主手持有时右击地面.",
-  "item.frostedheart.steel_geologists_hammer.tooltip.behaviour1": "勘探一定区域内的大致矿石分布.",
+  "item.frostedheart.steel_geologists_hammer.tooltip.behaviour1": "勘探小范围内的精确矿石分布.",
 
   "item.kubejs.damaged_electric_motor.tooltip.summary": "一个损坏的伺服电机.",
   "item.kubejs.damaged_electric_motor.tooltip.condition1": "当在绘图台中使用时",

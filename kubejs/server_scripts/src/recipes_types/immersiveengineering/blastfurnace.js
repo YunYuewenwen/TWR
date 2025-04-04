@@ -15,7 +15,9 @@ ServerEvents.recipes((event) => {
         ["frostedheart:silver_ingot", "#forge:raw_materials/silver", 200],
         ["frostedheart:sodium_chloride_dust", "#forge:raw_materials/salt", 200],
         ["create:zinc_ingot", "#forge:raw_materials/zinc", 200],
-        ["frostedheart:magnesia_dust", "frostedheart:crushed_raw_magnesite", 200]
+        ["frostedheart:magnesia_dust", "frostedheart:crushed_raw_magnesite", 200],
+        ["frostedheart:magnesium_ingot", "frostedheart:magnesium_dust", 200],
+        ['kubejs:rough_graphite_electrode', 'kubejs:shaped_bounded_graphite', 2000]
     ]
     blastFurnaceRecipes.forEach(([output, input, time], index) => {
         immersiveengineering.blast_furnace(output, input, "immersiveengineering:slag")

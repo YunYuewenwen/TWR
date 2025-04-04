@@ -14,6 +14,10 @@ ServerEvents.recipes((event) => {
             input: "frostedheart:kaolin"
         },
         {
+            output: ["frostedheart:kaolin_dust", Item.of("frostedheart:kaolin_dust").withChance(0.5)],
+            input: "frostedheart:crushed_raw_kaolin"
+        },
+        {
             output: [Item.of("minecraft:quartz").withChance(0.4), Item.of("minecraft:quartz").withChance(0.3)],
             input: "minecraft:smooth_sandstone"
         },
@@ -63,7 +67,11 @@ ServerEvents.recipes((event) => {
                 Item.of("frostedheart:flux", 2),
                 Item.of("frostedheart:flux", 4).withChance(0.5)
             ],
-        }
+        },
+        {
+            output: ["4x minecraft:green_dye"],
+            input: "create:crushed_raw_nickel"
+        },
     ]
     recipes.forEach((recipe) => {
         create.milling(recipe.output, recipe.input);

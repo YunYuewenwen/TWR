@@ -48,11 +48,20 @@ ServerEvents.recipes((event) => {
         "copper"
     ]
         */
+        // tin
+        {
+            output: [
+                Item.of("frostedheart:crushed_raw_tin"),
+                Item.of("frostedheart:crushed_raw_tin").withChance(0.5),
+                Item.of("create:experience_nugget").withChance(0.75)
+            ],
+            input: "frostedheart:raw_tin"
+        },
         // pyrite
         {
             output: [
                 Item.of("frostedheart:crushed_raw_pyrite"),
-                Item.of("frostedheart:crushed_raw_pyrite").withChance(0.25),
+                Item.of("frostedheart:crushed_raw_pyrite").withChance(0.5),
                 Item.of("immersiveengineering:dust_sulfur").withChance(0.25),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
@@ -62,7 +71,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("create:crushed_raw_nickel"),
-                Item.of("create:crushed_raw_nickel").withChance(0.25),
+                Item.of("create:crushed_raw_nickel").withChance(0.5),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "immersiveengineering:raw_nickel"
@@ -71,7 +80,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("create:crushed_raw_lead"),
-                Item.of("create:crushed_raw_lead").withChance(0.25),
+                Item.of("create:crushed_raw_lead").withChance(0.5),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "immersiveengineering:raw_lead"
@@ -80,7 +89,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("frostedheart:crushed_raw_bauxite"),
-                Item.of("frostedheart:crushed_raw_bauxite").withChance(0.25),
+                Item.of("frostedheart:crushed_raw_bauxite").withChance(0.5),
                 Item.of("frostedheart:cryolite_dust").withChance(0.2)
             ],
             input: "frostedheart:bauxite"
@@ -89,7 +98,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("frostedheart:crushed_raw_kaolin"),
-                Item.of("frostedheart:crushed_raw_kaolin").withChance(0.25)
+                Item.of("frostedheart:crushed_raw_kaolin").withChance(0.5)
             ],
             input: "frostedheart:kaolin"
         },
@@ -97,7 +106,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("frostedheart:crushed_raw_magnesite"),
-                Item.of("frostedheart:crushed_raw_magnesite").withChance(0.25),
+                Item.of("frostedheart:crushed_raw_magnesite").withChance(0.5),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "frostedheart:raw_magnesite"
@@ -106,7 +115,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("frostedheart:crushed_raw_sylvite"),
-                Item.of("frostedheart:crushed_raw_sylvite").withChance(0.25),
+                Item.of("frostedheart:crushed_raw_sylvite").withChance(0.5),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "frostedheart:raw_sylvite"
@@ -115,7 +124,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("frostedheart:crushed_raw_halite"),
-                Item.of("frostedheart:crushed_raw_halite").withChance(0.25)
+                Item.of("frostedheart:crushed_raw_halite").withChance(0.5)
             ],
             input: "frostedheart:raw_halite"
         },
@@ -123,7 +132,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("create:crushed_raw_silver"),
-                Item.of("create:crushed_raw_silver").withChance(0.25),
+                Item.of("create:crushed_raw_silver").withChance(0.5),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "immersiveengineering:raw_silver"
@@ -132,7 +141,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("create:crushed_raw_gold"),
-                Item.of("create:crushed_raw_gold").withChance(0.25),
+                Item.of("create:crushed_raw_gold").withChance(0.5),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "minecraft:raw_gold"
@@ -141,7 +150,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("create:crushed_raw_iron"),
-                Item.of("create:crushed_raw_iron").withChance(0.25),
+                Item.of("create:crushed_raw_iron").withChance(0.5),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "minecraft:raw_iron"
@@ -150,7 +159,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("create:crushed_raw_zinc"),
-                Item.of("create:crushed_raw_zinc").withChance(0.25),
+                Item.of("create:crushed_raw_zinc").withChance(0.5),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "create:raw_zinc"
@@ -159,7 +168,7 @@ ServerEvents.recipes((event) => {
         {
             output: [
                 Item.of("create:crushed_raw_copper"),
-                Item.of("create:crushed_raw_copper").withChance(0.25),
+                Item.of("create:crushed_raw_copper").withChance(0.5),
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "minecraft:raw_copper"

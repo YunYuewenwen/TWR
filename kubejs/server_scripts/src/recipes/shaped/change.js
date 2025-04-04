@@ -194,17 +194,7 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "immersiveengineering:conveyor_basic", 3, [
-            "ACA",
-            "ABA"
-        ], {
-            A: "#forge:plates/steel",
-            B: "minecraft:redstone",
-            C: "create:belt_connector"
-        }
-        ],
-        [
-            "immersiveengineering:conveyor_basic", 3, [
+            "immersiveengineering:conveyor_basic", 6, [
             "ACA",
             "ABA"
         ], {

@@ -9,6 +9,7 @@ ServerEvents.recipes((event) => {
         {output: '#forge:ingots/tin', input: 'frostedheart:gray_tin_ingot'},
         {output: '4x minecraft:red_dye', input: 'frostedheart:lead_oxide_dust'},
         {output: 'create:zinc_ingot', input: '#forge:dusts/zinc'},
+        {output: 'create:zinc_ingot', input: '#forge:crushed_raw_materials/zinc'},
         // Note: Dirt needs special biomass processing, otherwise becomes coarse_dirt
         {output: 'minecraft:coarse_dirt', input: 'frostedheart:dirt_permafrost'},
         {output: 'minecraft:coarse_dirt', input: 'frostedheart:rooted_dirt_permafrost'},

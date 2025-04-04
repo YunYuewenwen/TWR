@@ -985,7 +985,7 @@ ServerEvents.recipes((event) => {
             "A A",
             " AA"
         ], {
-            A: "stone_age:leather_strip"
+            A: "#forge:string"
         }
         ],
         [
@@ -1016,6 +1016,35 @@ ServerEvents.recipes((event) => {
             C: "minecraft:gold_block"
         }
         ],
+        [
+            "frostedheart:leather_water_bag", 1, [
+            " B ",
+            "ABA",
+            " A "
+        ], {
+            A: "minecraft:leather",
+            B: "#forge:string"
+        }
+        ],
+        [
+            "frostedheart:iron_bottle", 1, [
+            "ABA",
+            "A A",
+            "AAA"
+        ], {
+            A: "#forge:plates/iron",
+            B: "#forge:ingots/iron"
+        }
+        ],
+        [
+            "frostedheart:duralumin_sheetmetal", 4, [
+            " A",
+            "A A",
+            " A "
+        ], {
+            A: "#forge:plates/duralumin"
+        }
+        ]
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [
