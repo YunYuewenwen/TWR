@@ -1,9 +1,9 @@
 {
-  "feature": "the_winter_rescue:bare_tree",
+  "feature": "the_winter_rescue:fh_fossil",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 9
+      "count": 1
     },
     {
       "type": "minecraft:in_square"
@@ -14,22 +14,19 @@
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "OCEAN_FLOOR"
+      "heightmap": "WORLD_SURFACE_WG"
     },
     {
       "type": "minecraft:biome"
     },
     {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:would_survive",
-        "state": {
-          "Name": "minecraft:oak_sapling",
-          "Properties": {
-            "stage": "0"
-          }
-        }
-      }
+      "type": "minecraft:rarity_filter",
+      "chance": 4
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": 0,
+      "y_spread": -1
     }
   ]
 }
